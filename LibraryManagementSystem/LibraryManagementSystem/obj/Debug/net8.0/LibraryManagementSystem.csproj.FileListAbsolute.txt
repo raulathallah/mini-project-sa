@@ -1,0 +1,15 @@
+C:\Users\user\source\repos\NET-Solecode-Academy\LibraryManagementSystem\LibraryManagementSystem\bin\Debug\net8.0\LibraryManagementSystem.exe
+C:\Users\user\source\repos\NET-Solecode-Academy\LibraryManagementSystem\LibraryManagementSystem\bin\Debug\net8.0\LibraryManagementSystem.deps.json
+C:\Users\user\source\repos\NET-Solecode-Academy\LibraryManagementSystem\LibraryManagementSystem\bin\Debug\net8.0\LibraryManagementSystem.runtimeconfig.json
+C:\Users\user\source\repos\NET-Solecode-Academy\LibraryManagementSystem\LibraryManagementSystem\bin\Debug\net8.0\LibraryManagementSystem.dll
+C:\Users\user\source\repos\NET-Solecode-Academy\LibraryManagementSystem\LibraryManagementSystem\bin\Debug\net8.0\LibraryManagementSystem.pdb
+C:\Users\user\source\repos\NET-Solecode-Academy\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\net8.0\LibraryManagementSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\NET-Solecode-Academy\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\net8.0\LibraryManagementSystem.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\NET-Solecode-Academy\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\net8.0\LibraryManagementSystem.AssemblyInfo.cs
+C:\Users\user\source\repos\NET-Solecode-Academy\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\net8.0\LibraryManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\NET-Solecode-Academy\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\net8.0\LibraryManagementSystem.sourcelink.json
+C:\Users\user\source\repos\NET-Solecode-Academy\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\net8.0\LibraryManagementSystem.dll
+C:\Users\user\source\repos\NET-Solecode-Academy\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\net8.0\refint\LibraryManagementSystem.dll
+C:\Users\user\source\repos\NET-Solecode-Academy\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\net8.0\LibraryManagementSystem.pdb
+C:\Users\user\source\repos\NET-Solecode-Academy\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\net8.0\LibraryManagementSystem.genruntimeconfig.cache
+C:\Users\user\source\repos\NET-Solecode-Academy\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\net8.0\ref\LibraryManagementSystem.dll
