@@ -1,0 +1,158 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\FoodOrderingSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FC696D72-15C9-42A2-BE2C-BD6B42F5B7C2}|FoodOrderingSystem\\FoodOrderingSystem.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\foodorderingsystem\\foodorderingsystem\\onlinefoodorderingsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC696D72-15C9-42A2-BE2C-BD6B42F5B7C2}|FoodOrderingSystem\\FoodOrderingSystem.csproj|solutionrelative:foodorderingsystem\\onlinefoodorderingsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC696D72-15C9-42A2-BE2C-BD6B42F5B7C2}|FoodOrderingSystem\\FoodOrderingSystem.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\foodorderingsystem\\foodorderingsystem\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC696D72-15C9-42A2-BE2C-BD6B42F5B7C2}|FoodOrderingSystem\\FoodOrderingSystem.csproj|solutionrelative:foodorderingsystem\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC696D72-15C9-42A2-BE2C-BD6B42F5B7C2}|FoodOrderingSystem\\FoodOrderingSystem.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\foodorderingsystem\\foodorderingsystem\\restaurant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC696D72-15C9-42A2-BE2C-BD6B42F5B7C2}|FoodOrderingSystem\\FoodOrderingSystem.csproj|solutionrelative:foodorderingsystem\\restaurant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC696D72-15C9-42A2-BE2C-BD6B42F5B7C2}|FoodOrderingSystem\\FoodOrderingSystem.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\foodorderingsystem\\foodorderingsystem\\dessert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC696D72-15C9-42A2-BE2C-BD6B42F5B7C2}|FoodOrderingSystem\\FoodOrderingSystem.csproj|solutionrelative:foodorderingsystem\\dessert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC696D72-15C9-42A2-BE2C-BD6B42F5B7C2}|FoodOrderingSystem\\FoodOrderingSystem.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\foodorderingsystem\\foodorderingsystem\\beverage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC696D72-15C9-42A2-BE2C-BD6B42F5B7C2}|FoodOrderingSystem\\FoodOrderingSystem.csproj|solutionrelative:foodorderingsystem\\beverage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC696D72-15C9-42A2-BE2C-BD6B42F5B7C2}|FoodOrderingSystem\\FoodOrderingSystem.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\foodorderingsystem\\foodorderingsystem\\food.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC696D72-15C9-42A2-BE2C-BD6B42F5B7C2}|FoodOrderingSystem\\FoodOrderingSystem.csproj|solutionrelative:foodorderingsystem\\food.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC696D72-15C9-42A2-BE2C-BD6B42F5B7C2}|FoodOrderingSystem\\FoodOrderingSystem.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\foodorderingsystem\\foodorderingsystem\\menuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC696D72-15C9-42A2-BE2C-BD6B42F5B7C2}|FoodOrderingSystem\\FoodOrderingSystem.csproj|solutionrelative:foodorderingsystem\\menuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC696D72-15C9-42A2-BE2C-BD6B42F5B7C2}|FoodOrderingSystem\\FoodOrderingSystem.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\foodorderingsystem\\foodorderingsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC696D72-15C9-42A2-BE2C-BD6B42F5B7C2}|FoodOrderingSystem\\FoodOrderingSystem.csproj|solutionrelative:foodorderingsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OnlineFoodOrderingSystem.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\FoodOrderingSystem\\FoodOrderingSystem\\OnlineFoodOrderingSystem.cs",
+              "RelativeDocumentMoniker": "FoodOrderingSystem\\OnlineFoodOrderingSystem.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\FoodOrderingSystem\\FoodOrderingSystem\\OnlineFoodOrderingSystem.cs",
+              "RelativeToolTip": "FoodOrderingSystem\\OnlineFoodOrderingSystem.cs",
+              "ViewState": "AQIAAHUAAAAAAAAAAAAAAIcAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T03:14:32.18Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\FoodOrderingSystem\\FoodOrderingSystem\\Order.cs",
+              "RelativeDocumentMoniker": "FoodOrderingSystem\\Order.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\FoodOrderingSystem\\FoodOrderingSystem\\Order.cs",
+              "RelativeToolTip": "FoodOrderingSystem\\Order.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAAAsAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T02:34:00.597Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Beverage.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\FoodOrderingSystem\\FoodOrderingSystem\\Beverage.cs",
+              "RelativeDocumentMoniker": "FoodOrderingSystem\\Beverage.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\FoodOrderingSystem\\FoodOrderingSystem\\Beverage.cs",
+              "RelativeToolTip": "FoodOrderingSystem\\Beverage.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAUwB0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T03:23:17.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Dessert.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\FoodOrderingSystem\\FoodOrderingSystem\\Dessert.cs",
+              "RelativeDocumentMoniker": "FoodOrderingSystem\\Dessert.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\FoodOrderingSystem\\FoodOrderingSystem\\Dessert.cs",
+              "RelativeToolTip": "FoodOrderingSystem\\Dessert.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T03:23:04.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Food.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\FoodOrderingSystem\\FoodOrderingSystem\\Food.cs",
+              "RelativeDocumentMoniker": "FoodOrderingSystem\\Food.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\FoodOrderingSystem\\FoodOrderingSystem\\Food.cs",
+              "RelativeToolTip": "FoodOrderingSystem\\Food.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAUwBwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T02:25:19.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MenuItem.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\FoodOrderingSystem\\FoodOrderingSystem\\MenuItem.cs",
+              "RelativeDocumentMoniker": "FoodOrderingSystem\\MenuItem.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\FoodOrderingSystem\\FoodOrderingSystem\\MenuItem.cs",
+              "RelativeToolTip": "FoodOrderingSystem\\MenuItem.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACUAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T02:25:06.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Restaurant.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\FoodOrderingSystem\\FoodOrderingSystem\\Restaurant.cs",
+              "RelativeDocumentMoniker": "FoodOrderingSystem\\Restaurant.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\FoodOrderingSystem\\FoodOrderingSystem\\Restaurant.cs",
+              "RelativeToolTip": "FoodOrderingSystem\\Restaurant.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAAADcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T01:51:46.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\FoodOrderingSystem\\FoodOrderingSystem\\Program.cs",
+              "RelativeDocumentMoniker": "FoodOrderingSystem\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\FoodOrderingSystem\\FoodOrderingSystem\\Program.cs",
+              "RelativeToolTip": "FoodOrderingSystem\\Program.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAC8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T02:20:16.992Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
