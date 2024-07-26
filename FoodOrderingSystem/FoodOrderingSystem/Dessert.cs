@@ -18,9 +18,6 @@ namespace FoodOrderingSystem
         public Dessert(string sugarLevel, string name, int price, string description ): base(name, price, description)
         {
             this.sugarLevel = sugarLevel;
-            this.name = name;
-            this.price = price;
-            this.description = description;
         }
         public override int CalculatePrice()
         {

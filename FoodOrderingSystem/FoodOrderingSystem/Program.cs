@@ -1,5 +1,6 @@
 ﻿
 using FoodOrderingSystem;
+using System;
 
 Console.Clear();
 OnlineFoodOrderingSystem ofos = new OnlineFoodOrderingSystem();
@@ -23,8 +24,15 @@ List<MenuItem> list1 = new List<MenuItem>();
 list1.Add(resto1.Menus[0]);
 list1.Add(resto1.Menus[2]);
 
-//membuat order ke restoran 1
+//membuat order 1 ke restoran 1
 ofos.PlaceOrder(resto1.Name, list1);
+
+list1.Clear();
+
+//membuat order 2 ke restoran 1
+list1.Add(resto1.Menus[0]);
+ofos.PlaceOrder(resto1.Name, list1);
+
 
 //membuat restoran
 Restaurant resto2 = new Restaurant("Resto Baru");
@@ -50,28 +58,42 @@ ofos.PlaceOrder(resto2.Name, list2);
 foreach(Restaurant r in ofos.Restaurants)
 {
     Console.WriteLine("-- {0} revenue is {1}", r.Name, r.CalculateRevenue());
-
 }
 
 string temp;
 int orderNumber = 0;
-while (true) 
+int action = 0;
+while (action != 4)
 {
-    Console.WriteLine("===================================");
-    //meminta order number 
+
+    Console.WriteLine("!--- Food Ordering System ---!");
+    Console.WriteLine("1. Display Order");
+    Console.WriteLine("2. Cancel Order");
+    Console.WriteLine("3. Check Order Status");
+    Console.WriteLine("4. Exit");
+    Console.WriteLine("!----------------------------!");
+    Console.Write("Action number: ");
+    action = int.Parse(Console.ReadLine());
     Console.Write("Input order number: ");
     temp = Console.ReadLine();
     orderNumber = int.Parse(temp);
-    
-    if (orderNumber != null)
+    Console.WriteLine("\n\n\n");
+    switch (action)
     {
-        //menampilkan order
-        ofos.DisplayOrderDetails(orderNumber);
-        //melakukan cancel order
-        ofos.CancelOrder(orderNumber);
-        //mengecek status order
-        ofos.GetOrderStatus(orderNumber);
+        case 1:
+            //menampilkan order
+            ofos.DisplayOrderDetails(orderNumber);
+            break;
+        case 2:
+            //melakukan cancel order
+            ofos.CancelOrder(orderNumber);
+            break;
+        case 3:
+            //mengecek status order
+            ofos.GetOrderStatus(orderNumber);
+            break;
     }
+    Console.WriteLine("\n\n\n");
 }
 
 

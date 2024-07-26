@@ -23,20 +23,30 @@ namespace FoodOrderingSystem
 
         public void PlaceOrder(string restaurantName, List<MenuItem> menu)
         {
-            //generate order number
-            int orderNumber = GenerateOrderNumber();
-            orderNumbers.Add(orderNumber);
-            OnlineFoodOrderingSystem ofos = new OnlineFoodOrderingSystem();
-            Order order = new Order(menu, orderNumber);
 
+
+            int idx_restaurant = 0;
             foreach (Restaurant r in this.restaurants)
             {
                 if (r.Name == restaurantName)
                 {
-                    r.RecieveOrders(order);
+                    //generate order number
+                    int orderNumber = GenerateOrderNumber(idx_restaurant, r.Orders);
+                    if (orderNumber != 0)
+                    {
+                        Order order = new Order(menu, orderNumber);
+                        r.RecieveOrders(order);
+                        Console.WriteLine("...Order to {0} success! your order number is {1}", r.Name,orderNumber);
+                        break;
+                    }
+                    else
+                    {
+                        Console.WriteLine("...Order full! try again later.");
+                    }
                 }
+                idx_restaurant++;
             }
-            Console.WriteLine("...Order success! your order number is {0}", orderNumber);
+           
         }
 
         public void DisplayOrderDetails(int orderNumber)
@@ -98,11 +108,11 @@ namespace FoodOrderingSystem
                         isThere = true;
                         if (order.Status)
                         {
-                            Console.WriteLine("Status: On Process!");
+                            Console.WriteLine("Status: On Process");
                         }
                         else
                         {
-                            Console.WriteLine("Status: Cancelled!");
+                            Console.WriteLine("Status: Cancelled");
                         }
                     }
                 }
@@ -114,18 +124,16 @@ namespace FoodOrderingSystem
         }
 
 
-        int GenerateOrderNumber()
+        int GenerateOrderNumber(int index, List<Order> orders)
         {
-            int temp = rnd.Next(1000);
-            if (orderNumbers.Contains(temp))
-            {
-                GenerateOrderNumber();
-            }
-            else
-            {
-                return temp;
-            }
-            return temp;
+            //bentuk order number -> <index resto> + 00 + <increment number>
+            //contoh: 1001 -> order pertama pada restoran pertama
+            //contoh: 2003 -> order ketiga pada restoran kedua
+
+            int idx = index + 1;
+            int count = orders.Count + 1;
+;           string orderNumber = idx.ToString()+"00"+ count.ToString();
+            return int.Parse(orderNumber);
         }
 
         void Display(string restaurantName, int orderNumber, List<MenuItem> list, Order order)
@@ -141,6 +149,16 @@ namespace FoodOrderingSystem
                 item.InfoMenu();
                 count++;
             }
+
+            if (order.Status)
+            {
+                Console.WriteLine("Status: On Process");
+            }
+            else
+            {
+                Console.WriteLine("Status: Cancelled");
+            }
+            
             Console.WriteLine("Total Cost: {0}", order.CalculateTotal());
         }
     }

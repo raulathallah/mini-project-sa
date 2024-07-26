@@ -19,9 +19,6 @@ namespace FoodOrderingSystem
         public Beverage(string size, string name, int price, string description) : base(name, price, description)
         {
             this.size = size;
-            this.name = name;
-            this.price = price;
-            this.description = description;
         }
         public override int CalculatePrice()
         {
