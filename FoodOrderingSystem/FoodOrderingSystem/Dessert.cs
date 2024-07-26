@@ -9,7 +9,7 @@ namespace FoodOrderingSystem
 
     /*
      * Class Dessert inherit dari class abstrak MenuItem
-     * dan override (polymorphism) fungsi CalculatePrice() untuk mengembalikan nilai price class Dessert
+     * dan override (polymorphism) fungsi CalculatePrice() dan InfoMenu() untuk mengembalikan nilai price dan menampilkan data
      */
     public class Dessert : MenuItem
     {
@@ -26,6 +26,7 @@ namespace FoodOrderingSystem
         {
             return this.price;
         }
+
         public override void InfoMenu()
         {
             Console.WriteLine("     Name: {0}", this.name);

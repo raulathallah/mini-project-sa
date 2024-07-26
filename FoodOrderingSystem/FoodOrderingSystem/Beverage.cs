@@ -7,9 +7,10 @@ using System.Threading.Tasks;
 namespace FoodOrderingSystem
 {
 
+
     /*
-     * Class Beverage inherit dari class abstrak MenuItem
-     * dan override (polymorphism) fungsi CalculatePrice() untuk mengembalikan nilai price class Beverage
+     * Class Dessert inherit dari class abstrak MenuItem
+     * dan override (polymorphism) fungsi CalculatePrice() dan InfoMenu() untuk mengembalikan nilai price dan menampilkan data
      */
     public class Beverage : MenuItem
     {

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\FoodOrderingSystem\\FoodOrderingSystem\\FoodOrderingSystem.csproj": {}
+    "C:\\Users\\user\\source\\repos\\mini-project-sa\\FoodOrderingSystem\\FoodOrderingSystem\\FoodOrderingSystem.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\FoodOrderingSystem\\FoodOrderingSystem\\FoodOrderingSystem.csproj": {
+    "C:\\Users\\user\\source\\repos\\mini-project-sa\\FoodOrderingSystem\\FoodOrderingSystem\\FoodOrderingSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\FoodOrderingSystem\\FoodOrderingSystem\\FoodOrderingSystem.csproj",
+        "projectUniqueName": "C:\\Users\\user\\source\\repos\\mini-project-sa\\FoodOrderingSystem\\FoodOrderingSystem\\FoodOrderingSystem.csproj",
         "projectName": "FoodOrderingSystem",
-        "projectPath": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\FoodOrderingSystem\\FoodOrderingSystem\\FoodOrderingSystem.csproj",
+        "projectPath": "C:\\Users\\user\\source\\repos\\mini-project-sa\\FoodOrderingSystem\\FoodOrderingSystem\\FoodOrderingSystem.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\FoodOrderingSystem\\FoodOrderingSystem\\obj\\",
+        "outputPath": "C:\\Users\\user\\source\\repos\\mini-project-sa\\FoodOrderingSystem\\FoodOrderingSystem\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

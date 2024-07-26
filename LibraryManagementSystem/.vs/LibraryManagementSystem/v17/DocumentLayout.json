@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\LibraryManagementSystem\\",
+  "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LibraryManagementSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{09C52D59-AC5E-46BA-9E5F-903AA59DD77C}|LibraryManagementSystem\\LibraryManagementSystem.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\librarymanagementsystem\\librarymanagementsystem\\library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09C52D59-AC5E-46BA-9E5F-903AA59DD77C}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09C52D59-AC5E-46BA-9E5F-903AA59DD77C}|LibraryManagementSystem\\LibraryManagementSystem.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\librarymanagementsystem\\librarymanagementsystem\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{09C52D59-AC5E-46BA-9E5F-903AA59DD77C}|LibraryManagementSystem\\LibraryManagementSystem.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\librarymanagementsystem\\librarymanagementsystem\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{09C52D59-AC5E-46BA-9E5F-903AA59DD77C}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{09C52D59-AC5E-46BA-9E5F-903AA59DD77C}|LibraryManagementSystem\\LibraryManagementSystem.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\librarymanagementsystem\\librarymanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{09C52D59-AC5E-46BA-9E5F-903AA59DD77C}|LibraryManagementSystem\\LibraryManagementSystem.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\librarymanagementsystem\\librarymanagementsystem\\library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09C52D59-AC5E-46BA-9E5F-903AA59DD77C}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09C52D59-AC5E-46BA-9E5F-903AA59DD77C}|LibraryManagementSystem\\LibraryManagementSystem.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\librarymanagementsystem\\librarymanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{09C52D59-AC5E-46BA-9E5F-903AA59DD77C}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,30 +22,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Library.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\LibraryManagementSystem\\LibraryManagementSystem\\Library.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LibraryManagementSystem\\LibraryManagementSystem\\Library.cs",
               "RelativeDocumentMoniker": "LibraryManagementSystem\\Library.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\LibraryManagementSystem\\LibraryManagementSystem\\Library.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LibraryManagementSystem\\LibraryManagementSystem\\Library.cs",
               "RelativeToolTip": "LibraryManagementSystem\\Library.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAAADIAAAAAAAAA",
+              "ViewState": "AQIAADEAAAAAAAAAAAAAADIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-25T00:52:45.006Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Book.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\LibraryManagementSystem\\LibraryManagementSystem\\Book.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LibraryManagementSystem\\LibraryManagementSystem\\Book.cs",
               "RelativeDocumentMoniker": "LibraryManagementSystem\\Book.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\LibraryManagementSystem\\LibraryManagementSystem\\Book.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LibraryManagementSystem\\LibraryManagementSystem\\Book.cs",
               "RelativeToolTip": "LibraryManagementSystem\\Book.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAZAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAABdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-25T00:52:26.134Z",
               "EditorCaption": ""
@@ -54,9 +54,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\LibraryManagementSystem\\LibraryManagementSystem\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LibraryManagementSystem\\LibraryManagementSystem\\Program.cs",
               "RelativeDocumentMoniker": "LibraryManagementSystem\\Program.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\LibraryManagementSystem\\LibraryManagementSystem\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LibraryManagementSystem\\LibraryManagementSystem\\Program.cs",
               "RelativeToolTip": "LibraryManagementSystem\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

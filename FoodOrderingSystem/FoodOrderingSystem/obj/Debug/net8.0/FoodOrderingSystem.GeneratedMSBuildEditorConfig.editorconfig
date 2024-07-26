@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = FoodOrderingSystem
-build_property.ProjectDir = C:\Users\user\source\repos\NET-Solecode-Academy\FoodOrderingSystem\FoodOrderingSystem\
+build_property.ProjectDir = C:\Users\user\source\repos\mini-project-sa\FoodOrderingSystem\FoodOrderingSystem\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
