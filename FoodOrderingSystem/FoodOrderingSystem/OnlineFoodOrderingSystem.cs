@@ -79,9 +79,9 @@ namespace FoodOrderingSystem
                     if (order.Number == orderNumber)
                     {
                         isThere = true;
-                        if (order.Status)
+                        if (order.Status == EStatus.Process)
                         {
-                            order.Status = false;
+                            order.Status = EStatus.Cancel;
                             Console.WriteLine("Order {0} successfully cancelled.", orderNumber);
                         }
                         else
@@ -106,14 +106,7 @@ namespace FoodOrderingSystem
                     if (order.Number == orderNumber)
                     {
                         isThere = true;
-                        if (order.Status)
-                        {
-                            Console.WriteLine("Status: On Process");
-                        }
-                        else
-                        {
-                            Console.WriteLine("Status: Cancelled");
-                        }
+                        Console.WriteLine("Status: {0}", order.Status);
                     }
                 }
             }
@@ -149,16 +142,7 @@ namespace FoodOrderingSystem
                 item.InfoMenu();
                 count++;
             }
-
-            if (order.Status)
-            {
-                Console.WriteLine("Status: On Process");
-            }
-            else
-            {
-                Console.WriteLine("Status: Cancelled");
-            }
-            
+            Console.WriteLine("Status: {0}", order.Status);
             Console.WriteLine("Total Cost: {0}", order.CalculateTotal());
         }
     }
