@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\LibraryManagementSystemAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7DD038A2-1C42-46DD-9AF4-1B0C3CDAA73A}|LibraryManagementSystemAPI\\LibraryManagementSystemAPI.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\librarymanagementsystemapi\\librarymanagementsystemapi\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DD038A2-1C42-46DD-9AF4-1B0C3CDAA73A}|LibraryManagementSystemAPI\\LibraryManagementSystemAPI.csproj|solutionrelative:librarymanagementsystemapi\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DD038A2-1C42-46DD-9AF4-1B0C3CDAA73A}|LibraryManagementSystemAPI\\LibraryManagementSystemAPI.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\librarymanagementsystemapi\\librarymanagementsystemapi\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DD038A2-1C42-46DD-9AF4-1B0C3CDAA73A}|LibraryManagementSystemAPI\\LibraryManagementSystemAPI.csproj|solutionrelative:librarymanagementsystemapi\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DD038A2-1C42-46DD-9AF4-1B0C3CDAA73A}|LibraryManagementSystemAPI\\LibraryManagementSystemAPI.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\librarymanagementsystemapi\\librarymanagementsystemapi\\interface\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DD038A2-1C42-46DD-9AF4-1B0C3CDAA73A}|LibraryManagementSystemAPI\\LibraryManagementSystemAPI.csproj|solutionrelative:librarymanagementsystemapi\\interface\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DD038A2-1C42-46DD-9AF4-1B0C3CDAA73A}|LibraryManagementSystemAPI\\LibraryManagementSystemAPI.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\librarymanagementsystemapi\\librarymanagementsystemapi\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DD038A2-1C42-46DD-9AF4-1B0C3CDAA73A}|LibraryManagementSystemAPI\\LibraryManagementSystemAPI.csproj|solutionrelative:librarymanagementsystemapi\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IBookService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\LibraryManagementSystemAPI\\LibraryManagementSystemAPI\\Interface\\IBookService.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystemAPI\\Interface\\IBookService.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\LibraryManagementSystemAPI\\LibraryManagementSystemAPI\\Interface\\IBookService.cs",
+              "RelativeToolTip": "LibraryManagementSystemAPI\\Interface\\IBookService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T17:02:34.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\LibraryManagementSystemAPI\\LibraryManagementSystemAPI\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystemAPI\\Models\\Book.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\LibraryManagementSystemAPI\\LibraryManagementSystemAPI\\Models\\Book.cs",
+              "RelativeToolTip": "LibraryManagementSystemAPI\\Models\\Book.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T17:01:37.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\LibraryManagementSystemAPI\\LibraryManagementSystemAPI\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystemAPI\\Controllers\\BookController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\LibraryManagementSystemAPI\\LibraryManagementSystemAPI\\Controllers\\BookController.cs",
+              "RelativeToolTip": "LibraryManagementSystemAPI\\Controllers\\BookController.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T17:01:35.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BookService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\LibraryManagementSystemAPI\\LibraryManagementSystemAPI\\Services\\BookService.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystemAPI\\Services\\BookService.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\LibraryManagementSystemAPI\\LibraryManagementSystemAPI\\Services\\BookService.cs",
+              "RelativeToolTip": "LibraryManagementSystemAPI\\Services\\BookService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T13:56:30.98Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
