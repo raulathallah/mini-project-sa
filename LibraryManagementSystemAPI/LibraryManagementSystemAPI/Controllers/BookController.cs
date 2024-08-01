@@ -68,6 +68,10 @@ namespace LibraryManagementSystemAPI.Controllers
         [ProducesResponseType(typeof(BookDetailDto), StatusCodes.Status400BadRequest)]
         public IActionResult GetBookById(int id)
         {
+            if(id < 0)
+            {
+                return BadRequest();
+            }
             BookDetailDto res = _bookService.GetBookById(id);
             if(!res.Status)
             {
@@ -113,6 +117,10 @@ namespace LibraryManagementSystemAPI.Controllers
         [ProducesResponseType(typeof(BookDetailDto), StatusCodes.Status400BadRequest)]
         public IActionResult AddNewBook([FromBody] BookAddDto value)
         {
+            if (value == null)
+            {
+                return BadRequest();
+            }
             BookResponseDto res = _bookService.AddNewBook(value);
             if (!res.Status)
             {
@@ -150,6 +158,10 @@ namespace LibraryManagementSystemAPI.Controllers
         [HttpPut("{id}")]
         public IActionResult UpdateBook(int id, [FromBody] BookAddDto value)
         {
+            if (value == null || id < 0)
+            {
+                return BadRequest();
+            }
             BookResponseDto res = _bookService.UpdateBook(id, value);
             if(!res.Status)
             {
@@ -182,6 +194,10 @@ namespace LibraryManagementSystemAPI.Controllers
         [HttpDelete("{id}")]
         public IActionResult DeleteBook(int id)
         {
+            if (id < 0)
+            {
+                return BadRequest();
+            }
             BookResponseDto res = _bookService.DeleteBook(id);
             if (!res.Status)
             {
