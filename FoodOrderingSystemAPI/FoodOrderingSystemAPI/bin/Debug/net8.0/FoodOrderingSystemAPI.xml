@@ -1,0 +1,305 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FoodOrderingSystemAPI</name>
+    </assembly>
+    <members>
+        <member name="M:FoodOrderingSystemAPI.Controllers.CustomerController.GetAllCustomer">
+            <summary>
+            Mendapatkan semua data customer
+            </summary>
+            <remarks>
+            
+            * METHOD : GET
+            * URL : api/customer
+             
+            </remarks>
+            <param name="request"></param>
+            <returns> return data menu sesuai dengan parameter ID </returns>
+        </member>
+        <member name="M:FoodOrderingSystemAPI.Controllers.CustomerController.GetCustomerById(System.Int32)">
+            <summary>
+            Mendapatkan data customer berdasarkan ID
+            </summary>
+            <remarks>
+            
+            * METHOD : GET
+            * URL : api/customer/{ id }
+             
+            </remarks>
+            <param name="request"></param>
+            <returns> return status request, message request, dan data customer sesuai dengan parameter ID </returns>
+        </member>
+        <member name="M:FoodOrderingSystemAPI.Controllers.CustomerController.AddCustomer(FoodOrderingSystemAPI.Dto.CustomerDto.CustomerAddDto)">
+            <summary>
+            Menambahkan data customer
+            </summary>
+             <remarks>
+             
+             * METHOD : POST
+             * URL : api/customer
+              
+             Sample Request:
+            
+                 POST api/customer
+                 {
+                     "name": "Arif Burhan",
+                     "email": "arif@gmail.com",
+                     "phoneNumber": "081295949392",
+                     "address": "Jl. Gatot Soebroto No. 62, Mamasa, SG 39292"
+                 }
+             </remarks>
+             <param name="request"></param>
+             <returns> return status request, message request, dan data customer yang baru saja dibuat </returns>
+        </member>
+        <member name="M:FoodOrderingSystemAPI.Controllers.CustomerController.UpdateCustomer(System.Int32,FoodOrderingSystemAPI.Dto.CustomerDto.CustomerAddDto)">
+            <summary>
+            Update data berdasarkan ID
+            </summary>
+             <remarks>
+             
+             * METHOD : PUT
+             * URL : api/customer/{ id }
+              
+             Sample Request:
+            
+                 PUT api/customer/1
+                 {
+                     "name": "Arif Burhan",
+                     "email": "arif@gmail.com",
+                     "phoneNumber": "081295949392",
+                     "address": "Jl. Gatot Soebroto No. 62, Mamasa, SG 39292"
+                 }
+             </remarks>
+             <param name="request"></param>
+             <returns> return status request, message request, dan data customer yang baru saja di-update </returns>
+        </member>
+        <member name="M:FoodOrderingSystemAPI.Controllers.CustomerController.DeleteCustomer(System.Int32)">
+            <summary>
+            Delete data customer berdasarkan ID
+            </summary>
+            <remarks>
+            
+            * METHOD : DELETE
+            * URL : api/customer/{ id }
+             
+            </remarks>
+            <param name="request"></param>
+            <returns> return status request, message request, dan data customer yang baru saja di-delete </returns>
+        </member>
+        <member name="M:FoodOrderingSystemAPI.Controllers.MenuController.GetAllMenu">
+            <summary>
+            Mendapatkan semua data menu
+            </summary>
+            <remarks>
+            
+            * METHOD : GET
+            * URL : api/menu
+             
+            </remarks>
+            <param name="request"></param>
+            <returns> return semua data menu </returns>
+        </member>
+        <member name="M:FoodOrderingSystemAPI.Controllers.MenuController.GetMenuById(System.Int32)">
+            <summary>
+            Mendapatkan semua data menu berdasarkan ID
+            </summary>
+            <remarks>
+            
+            * METHOD : GET
+            * URL : api/menu/{ id }
+             
+            </remarks>
+            <param name="request"></param>
+            <returns> return data menu sesuai dengan parameter ID </returns>
+        </member>
+        <member name="M:FoodOrderingSystemAPI.Controllers.MenuController.CreateMenu(FoodOrderingSystemAPI.Dto.MenuDto.MenuAddDto)">
+            <summary>
+            Membuat data menu
+            </summary>
+            <remarks>
+            
+            * METHOD : POST
+            * URL : api/menu
+            
+            Sample Request:
+            
+                POST api/menu
+                {
+                    "name": "Water",
+                    "price": 3000,
+                    "category": "Beverage"
+                }
+                
+                POST api/menu
+                {
+                    "name": "Indomie",
+                    "price": 5500,
+                    "category": "Food"
+                }
+             
+            </remarks>
+            <param name="request"></param>
+            <returns> return status request, message request, data menu yang baru saja dibuat </returns>
+        </member>
+        <member name="M:FoodOrderingSystemAPI.Controllers.MenuController.UpdateMenu(System.Int32,FoodOrderingSystemAPI.Dto.MenuDto.MenuUpdateDto)">
+            <summary>
+            Update data menu berdasarkan ID
+            </summary>
+            <remarks>
+            
+            * METHOD : PUT
+            * URL : api/menu/{ id }
+            
+            Sample Request:
+            
+                PUT api/menu/1
+                {
+                    "name": "Kopi Torabika",
+                    "price": 3500,
+                    "category": "Beverage"
+                }
+                
+            </remarks>
+            <param name="request"></param>
+            <returns> return status request, message request, data menu yang baru saja di-update </returns>
+        </member>
+        <member name="M:FoodOrderingSystemAPI.Controllers.MenuController.DeleteMenu(System.Int32)">
+            <summary>
+            Delete data menu berdasarkan ID
+            </summary>
+            <remarks>
+            
+            * METHOD : DELETE
+            * URL : api/menu/{ id }
+            
+            </remarks>
+            <param name="request"></param>
+            <returns> return status request, message request, data menu yang baru saja di-delete </returns>
+        </member>
+        <member name="M:FoodOrderingSystemAPI.Controllers.MenuController.AddRating(System.Int32,System.Double)">
+            <summary>
+            Menambahkan rating terhadap menu berdasarkan ID
+            </summary>
+            <remarks>
+            
+            Masukan parameter id dan rating ke dalam query route
+            
+            * METHOD : PUT
+            * URL : api/menu/rating?id={ id }rating={ rating }
+            
+            Sample Request:
+            
+                POST api/menu/rating?id=1rating=4
+               
+            </remarks>
+            <param name="request"></param>
+            <returns> return status request, message request, data menu yang baru saja diberikan rating </returns>
+        </member>
+        <member name="M:FoodOrderingSystemAPI.Controllers.OrderController.PlaceOrder(FoodOrderingSystemAPI.Dto.OrderDto.OrderAddDto)">
+            <summary>
+            Melakukan order untuk memesan menu
+            </summary>
+             <remarks>
+             
+             * METHOD : POST
+             * URL : api/order
+             
+             Sample Request:
+            
+                 POST api/order
+                 {
+                     "customerId": 1,
+                     "note": "air dingin",
+                     "menuList": [
+                         {
+                             "id": 1,
+                             "name": "Kopi",
+                             "price": 4500,
+                             "category": "Beverage",
+                             "rating": 0,
+                             "createdDate": "2024-08-01T19:20:27.3461497+07:00",
+                             "isAvailable": false
+                         },
+                         {
+                             "id": 2,
+                             "name": "Water",
+                             "price": 3000,
+                             "category": "Beverage",           
+                             "rating": 0,
+                             "createdDate": "2024-08-01T19:20:43.1717881+07:00",
+                             "isAvailable": true
+                         }
+                     ]
+                  }
+                  
+             </remarks>
+             <param name="request"></param>
+             <returns> return status, message, dan data order yang baru saja dibuat </returns>
+        </member>
+        <member name="M:FoodOrderingSystemAPI.Controllers.OrderController.DisplayOrderDetails(System.String)">
+            <summary>
+            Menampilkan data order berdasarkan order number
+            </summary>
+            
+            Masukan parameter query dalam route
+            
+            <remarks>
+            
+            * METHOD : GET
+            * URL : api/order?orderNumber=OR1
+            
+            </remarks>
+            <param name="request"></param>
+            <returns> return status, message, dan data order </returns>
+        </member>
+        <member name="M:FoodOrderingSystemAPI.Controllers.OrderController.CancelOrder(System.String)">
+            <summary>
+            Melakukan cancel order berdasarkan order number
+            </summary>
+            
+            Masukan parameter query dalam route
+            
+            <remarks>
+            
+            * METHOD : PUT
+            * URL : api/order/statusCancel?orderNumber=OR1
+            
+            </remarks>
+            <param name="request"></param>
+            <returns> return status, message, dan data order </returns>
+        </member>
+        <member name="M:FoodOrderingSystemAPI.Controllers.OrderController.UpdateOrderStatus(System.String)">
+            <summary>
+            Melakukan update status order berdasarkan order number
+            </summary>
+            
+            Masukan parameter query dalam route
+            
+            <remarks>
+            
+            * METHOD : PUT
+            * URL : api/order/statusUpdate?orderNumber=OR1
+            
+            </remarks>
+            <param name="request"></param>
+            <returns> return status, message, dan data order </returns>
+        </member>
+        <member name="M:FoodOrderingSystemAPI.Controllers.OrderController.GetOrderStatus(System.String)">
+            <summary>
+            Mendapatkan informasi status order berdasarkan order number
+            </summary>
+            
+            Masukan parameter query dalam route
+            
+            <remarks>
+            
+            * METHOD : GET
+            * URL : api/order/status?orderNumber=OR1
+            
+            </remarks>
+            <param name="request"></param>
+            <returns> return status order </returns>
+        </member>
+    </members>
+</doc>
