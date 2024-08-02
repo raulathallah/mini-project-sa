@@ -2,7 +2,7 @@
 
 namespace FoodOrderingSystemAPI.Dto.CustomerDto
 {
-    public class CustomerListDto : CustomerResponseDto
+    public class CustomerListDto : ResponseDto
     {
         public List<Customer> Data { get; set; }
     }

@@ -7,7 +7,7 @@ namespace FoodOrderingSystemAPI.Services
 {
     public class CustomerService : ICustomerService
     {
-        List<Customer> listCustomer = new List<Customer>();
+        private static List<Customer> listCustomer = new List<Customer>();
         public CustomerDetailDto AddCustomer(CustomerAddDto customerData)
         {
 
@@ -33,14 +33,14 @@ namespace FoodOrderingSystemAPI.Services
 
         public CustomerDetailDto DeleteCustomer(int id)
         {
-            var menu = SearchCustomer(id);
-            if (menu == null)
+            var customer = SearchCustomer(id);
+            if (customer == null)
             {
                 return ResponseDetail(false, null, "No customer available!");
             }
-            listCustomer.Remove(menu);
+            listCustomer.Remove(customer);
 
-            return ResponseDetail(true, menu, "Delete customer success!");
+            return ResponseDetail(true, customer, "Delete customer success!");
         }
 
         public CustomerListDto GetAllCustomer()

@@ -1,4 +1,5 @@
-﻿using FoodOrderingSystemAPI.Dto.CustomerDto;
+﻿using FoodOrderingSystemAPI.Dto;
+using FoodOrderingSystemAPI.Dto.CustomerDto;
 using FoodOrderingSystemAPI.Interfaces;
 using FoodOrderingSystemAPI.Models;
 using FoodOrderingSystemAPI.Services;
@@ -59,7 +60,7 @@ namespace FoodOrderingSystemAPI.Controllers
         {
             if(id < 1)
             {
-                return BadRequest(new CustomerResponseDto() { Message = "Invalid customer id"});
+                return BadRequest(new ResponseDto() { Message = "Invalid customer id"});
             }
             var response = _customerService.GetCustomerById(id);
             if (response == null)
@@ -128,7 +129,7 @@ namespace FoodOrderingSystemAPI.Controllers
         {
             if (id < 1)
             {
-                return BadRequest(new CustomerResponseDto() { Message = "Invalid customer id" });
+                return BadRequest(new ResponseDto() { Message = "Invalid customer id" });
             }
             var response = _customerService.UpdateCustomer(id, customer);
             if (response == null)
@@ -155,7 +156,7 @@ namespace FoodOrderingSystemAPI.Controllers
         {
             if (id < 1)
             {
-                return BadRequest(new CustomerResponseDto() { Message = "Invalid customer id" });
+                return BadRequest(new ResponseDto() { Message = "Invalid customer id" });
             }
             var response = _customerService.DeleteCustomer(id);
             if (response == null)

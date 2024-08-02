@@ -1,6 +1,6 @@
-﻿namespace FoodOrderingSystemAPI.Dto.OrderDto
+﻿namespace FoodOrderingSystemAPI.Dto
 {
-    public class OrderResponseDto
+    public class ResponseDto
     {
         public string Message { get; set; }
         public bool Status { get; set; }

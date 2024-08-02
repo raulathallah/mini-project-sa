@@ -2,7 +2,7 @@
 
 namespace FoodOrderingSystemAPI.Dto.MenuDto
 {
-    public class MenuDetailDto : MenuResponseDto
+    public class MenuDetailDto : ResponseDto
     {
         public Menu Data { get; set; }
     }

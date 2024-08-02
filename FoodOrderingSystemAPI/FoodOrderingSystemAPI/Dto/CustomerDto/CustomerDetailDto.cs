@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace FoodOrderingSystemAPI.Dto.CustomerDto
 {
-    public class CustomerDetailDto : CustomerResponseDto
+    public class CustomerDetailDto : ResponseDto
     {
         public Customer Data { get; set; }
     }

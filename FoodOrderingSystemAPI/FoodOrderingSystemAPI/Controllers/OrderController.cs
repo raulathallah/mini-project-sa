@@ -1,4 +1,5 @@
-﻿using FoodOrderingSystemAPI.Dto.OrderDto;
+﻿using FoodOrderingSystemAPI.Dto;
+using FoodOrderingSystemAPI.Dto.OrderDto;
 using FoodOrderingSystemAPI.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
@@ -88,7 +89,7 @@ namespace FoodOrderingSystemAPI.Controllers
         {
             if (orderNumber == null || !orderNumber.Contains("OR"))
             {
-                return BadRequest(new OrderResponseDto() { Message = "Invalid order number"});
+                return BadRequest(new ResponseDto() { Message = "Invalid order number"});
             }
             var response = _orderService.DisplayOrderDetails(orderNumber);
             if(response == null)
@@ -117,7 +118,7 @@ namespace FoodOrderingSystemAPI.Controllers
         {
             if (orderNumber == null || !orderNumber.Contains("OR"))
             {
-                return BadRequest(new OrderResponseDto() { Message = "Invalid order number" });
+                return BadRequest(new ResponseDto() { Message = "Invalid order number" });
             }
             var response = _orderService.CancelOrder(orderNumber);
             if (response == null)
@@ -146,7 +147,7 @@ namespace FoodOrderingSystemAPI.Controllers
         {
             if (orderNumber == null || !orderNumber.Contains("OR"))
             {
-                return BadRequest(new OrderResponseDto() { Message = "Invalid order number" });
+                return BadRequest(new ResponseDto() { Message = "Invalid order number" });
             }
             var response = _orderService.UpdateOrderStatus(orderNumber);
             if (response == null)
@@ -176,7 +177,7 @@ namespace FoodOrderingSystemAPI.Controllers
         {
             if (orderNumber == null || !orderNumber.Contains("OR"))
             {
-                return BadRequest(new OrderResponseDto() { Message = "Invalid order number" });
+                return BadRequest(new ResponseDto() { Message = "Invalid order number" });
             }
             var response = _orderService.GetOrderStatus(orderNumber);
             if (response == null)

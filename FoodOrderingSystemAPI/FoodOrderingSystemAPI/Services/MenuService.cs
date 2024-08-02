@@ -63,7 +63,7 @@ namespace FoodOrderingSystemAPI.Services
             }
             listMenu.Remove(menu);
 
-            return ResponseDetail(true,menu, "Delete menu success!");
+            return ResponseDetail(true, menu, "Delete menu success!");
         }
 
         public MenuListDto GetAllMenu()

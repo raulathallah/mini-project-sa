@@ -103,7 +103,10 @@ namespace FoodOrderingSystemAPI.Services
             {
                 return ResponseDetail(false, null, $"No order with number {orderNumber}");
             }
-
+            if (response.OrderStatus == "Cancel")
+            {
+                return ResponseDetail(false, null, "Order is cancelled");
+            }
             response.OrderStatus = "Delivered";
             return ResponseDetail(true, response, $"Order with ID {orderNumber} delivered!");
         }
