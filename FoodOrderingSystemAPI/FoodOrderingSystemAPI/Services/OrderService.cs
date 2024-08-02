@@ -26,6 +26,10 @@ namespace FoodOrderingSystemAPI.Services
                 return ResponseDetail(false, null, $"No order with number {orderNumber}");
             }
 
+            if (response.OrderStatus == "Delivered")
+            {
+                return ResponseDetail(false, null, "Order already delivered");
+            }
             response.OrderStatus = "Cancel";
             return ResponseDetail(true, response, $"Cancel order with ID {orderNumber} success!");
         }
@@ -45,13 +49,14 @@ namespace FoodOrderingSystemAPI.Services
             var response = listOrder.Find(lo => lo.OrderNumber == orderNumber);
             if (response == null)
             {
-                return response.OrderStatus;
+                return $"Invalid order number";
             }
             return response.OrderStatus;
         }
 
         public OrderDetailDto PlaceOrder(OrderAddDto orderData)
         {
+            List<Menu> menuTemp = new List<Menu>();
             var customer = _customerService.GetCustomerById(orderData.CustomerId);
             if(customer.Data == null)
             {
@@ -59,21 +64,21 @@ namespace FoodOrderingSystemAPI.Services
             }
 
             bool isThere = false;
-            string menuName = "";
+            int menuId = 0;
             foreach (var item in orderData.MenuList)
             {
-                var menu = _menuService.GetMenuById(item.Id);
+                var menu = _menuService.GetMenuById(item);
                 if (menu.Data == null || menu.Data.IsAvailable == false)
                 {
-
-                    menuName = item.Name;
+                    menuId = item;
                     isThere = true;
                     break;
                 }
+                menuTemp.Add(menu.Data);
             }
             if (isThere)
             {
-                return ResponseDetail(false, null, $"Order Failed! {menuName} is not available.");
+                return ResponseDetail(false, null, $"Order Failed! menu with ID {menuId} is not available.");
             }
 
             var order = new Order()
@@ -84,7 +89,7 @@ namespace FoodOrderingSystemAPI.Services
                 OrderDate = DateTime.Now,
                 OrderStatus = "Processed",
                 Note = orderData.Note,
-                MenuList = orderData.MenuList,
+                MenuList = menuTemp,
             };
             order.CalculatedTotalOrder();
             listOrder.Add(order);
@@ -97,11 +102,6 @@ namespace FoodOrderingSystemAPI.Services
             if (response == null)
             {
                 return ResponseDetail(false, null, $"No order with number {orderNumber}");
-            }
-
-            if(response.OrderStatus == "Cancel")
-            {
-                return ResponseDetail(false, null, "Order is cancelled");
             }
 
             response.OrderStatus = "Delivered";

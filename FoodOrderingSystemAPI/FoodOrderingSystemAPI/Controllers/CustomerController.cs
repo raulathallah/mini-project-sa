@@ -57,9 +57,9 @@ namespace FoodOrderingSystemAPI.Controllers
         [HttpGet("{id}")]
         public IActionResult GetCustomerById(int id)
         {
-            if(id == null || id < 0)
+            if(id < 1)
             {
-                return BadRequest();
+                return BadRequest(new CustomerResponseDto() { Message = "Invalid customer id"});
             }
             var response = _customerService.GetCustomerById(id);
             if (response == null)
@@ -93,6 +93,7 @@ namespace FoodOrderingSystemAPI.Controllers
         [HttpPost]
         public IActionResult AddCustomer([FromBody]CustomerAddDto customer)
         {
+
             var response = _customerService.AddCustomer(customer);
             if (response == null)
             {
@@ -125,6 +126,10 @@ namespace FoodOrderingSystemAPI.Controllers
         [HttpPut("{id}")]
         public IActionResult UpdateCustomer(int id, [FromBody]CustomerAddDto customer)
         {
+            if (id < 1)
+            {
+                return BadRequest(new CustomerResponseDto() { Message = "Invalid customer id" });
+            }
             var response = _customerService.UpdateCustomer(id, customer);
             if (response == null)
             {
@@ -148,6 +153,10 @@ namespace FoodOrderingSystemAPI.Controllers
         [HttpDelete("{id}")]
         public IActionResult DeleteCustomer(int id)
         {
+            if (id < 1)
+            {
+                return BadRequest(new CustomerResponseDto() { Message = "Invalid customer id" });
+            }
             var response = _customerService.DeleteCustomer(id);
             if (response == null)
             {

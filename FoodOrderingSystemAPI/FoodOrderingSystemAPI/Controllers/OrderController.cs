@@ -66,10 +66,6 @@ namespace FoodOrderingSystemAPI.Controllers
                 return BadRequest();
             }
             var response = _orderService.PlaceOrder(orderData);
-            if (orderData == null)
-            {
-                return BadRequest();
-            }
             return Ok(response);
         }
 
@@ -92,7 +88,7 @@ namespace FoodOrderingSystemAPI.Controllers
         {
             if (orderNumber == null || !orderNumber.Contains("OR"))
             {
-                return BadRequest();
+                return BadRequest(new OrderResponseDto() { Message = "Invalid order number"});
             }
             var response = _orderService.DisplayOrderDetails(orderNumber);
             if(response == null)
@@ -119,9 +115,9 @@ namespace FoodOrderingSystemAPI.Controllers
         [HttpPut("statusCancel")]
         public IActionResult CancelOrder([FromQuery] string orderNumber)
         {
-            if(orderNumber == null || !orderNumber.Contains("OR"))
+            if (orderNumber == null || !orderNumber.Contains("OR"))
             {
-                return BadRequest();
+                return BadRequest(new OrderResponseDto() { Message = "Invalid order number" });
             }
             var response = _orderService.CancelOrder(orderNumber);
             if (response == null)
@@ -150,7 +146,7 @@ namespace FoodOrderingSystemAPI.Controllers
         {
             if (orderNumber == null || !orderNumber.Contains("OR"))
             {
-                return BadRequest();
+                return BadRequest(new OrderResponseDto() { Message = "Invalid order number" });
             }
             var response = _orderService.UpdateOrderStatus(orderNumber);
             if (response == null)
@@ -180,7 +176,7 @@ namespace FoodOrderingSystemAPI.Controllers
         {
             if (orderNumber == null || !orderNumber.Contains("OR"))
             {
-                return BadRequest();
+                return BadRequest(new OrderResponseDto() { Message = "Invalid order number" });
             }
             var response = _orderService.GetOrderStatus(orderNumber);
             if (response == null)

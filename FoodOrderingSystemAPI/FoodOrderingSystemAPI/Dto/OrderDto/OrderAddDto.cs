@@ -7,6 +7,6 @@ namespace FoodOrderingSystemAPI.Dto.OrderDto
     {
         public int CustomerId { get; set; }
         public string Note { get; set; }
-        public List<Menu> MenuList { get; set; }
+        public List<int> MenuList { get; set; }
     }
 }

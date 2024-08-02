@@ -7,6 +7,18 @@
       "RelativeMoniker": "D:0:0:{7DD038A2-1C42-46DD-9AF4-1B0C3CDAA73A}|LibraryManagementSystemAPI\\LibraryManagementSystemAPI.csproj|solutionrelative:librarymanagementsystemapi\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{7DD038A2-1C42-46DD-9AF4-1B0C3CDAA73A}|LibraryManagementSystemAPI\\LibraryManagementSystemAPI.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\librarymanagementsystemapi\\librarymanagementsystemapi\\interface\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DD038A2-1C42-46DD-9AF4-1B0C3CDAA73A}|LibraryManagementSystemAPI\\LibraryManagementSystemAPI.csproj|solutionrelative:librarymanagementsystemapi\\interface\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DD038A2-1C42-46DD-9AF4-1B0C3CDAA73A}|LibraryManagementSystemAPI\\LibraryManagementSystemAPI.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\librarymanagementsystemapi\\librarymanagementsystemapi\\dto\\bookresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DD038A2-1C42-46DD-9AF4-1B0C3CDAA73A}|LibraryManagementSystemAPI\\LibraryManagementSystemAPI.csproj|solutionrelative:librarymanagementsystemapi\\dto\\bookresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DD038A2-1C42-46DD-9AF4-1B0C3CDAA73A}|LibraryManagementSystemAPI\\LibraryManagementSystemAPI.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\librarymanagementsystemapi\\librarymanagementsystemapi\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DD038A2-1C42-46DD-9AF4-1B0C3CDAA73A}|LibraryManagementSystemAPI\\LibraryManagementSystemAPI.csproj|solutionrelative:librarymanagementsystemapi\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7DD038A2-1C42-46DD-9AF4-1B0C3CDAA73A}|LibraryManagementSystemAPI\\LibraryManagementSystemAPI.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\librarymanagementsystemapi\\librarymanagementsystemapi\\dto\\bookadddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7DD038A2-1C42-46DD-9AF4-1B0C3CDAA73A}|LibraryManagementSystemAPI\\LibraryManagementSystemAPI.csproj|solutionrelative:librarymanagementsystemapi\\dto\\bookadddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,24 +27,12 @@
       "RelativeMoniker": "D:0:0:{7DD038A2-1C42-46DD-9AF4-1B0C3CDAA73A}|LibraryManagementSystemAPI\\LibraryManagementSystemAPI.csproj|solutionrelative:librarymanagementsystemapi\\dto\\bookdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7DD038A2-1C42-46DD-9AF4-1B0C3CDAA73A}|LibraryManagementSystemAPI\\LibraryManagementSystemAPI.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\librarymanagementsystemapi\\librarymanagementsystemapi\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7DD038A2-1C42-46DD-9AF4-1B0C3CDAA73A}|LibraryManagementSystemAPI\\LibraryManagementSystemAPI.csproj|solutionrelative:librarymanagementsystemapi\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7DD038A2-1C42-46DD-9AF4-1B0C3CDAA73A}|LibraryManagementSystemAPI\\LibraryManagementSystemAPI.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\librarymanagementsystemapi\\librarymanagementsystemapi\\dto\\bookresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7DD038A2-1C42-46DD-9AF4-1B0C3CDAA73A}|LibraryManagementSystemAPI\\LibraryManagementSystemAPI.csproj|solutionrelative:librarymanagementsystemapi\\dto\\bookresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7DD038A2-1C42-46DD-9AF4-1B0C3CDAA73A}|LibraryManagementSystemAPI\\LibraryManagementSystemAPI.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\librarymanagementsystemapi\\librarymanagementsystemapi\\dto\\booklistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7DD038A2-1C42-46DD-9AF4-1B0C3CDAA73A}|LibraryManagementSystemAPI\\LibraryManagementSystemAPI.csproj|solutionrelative:librarymanagementsystemapi\\dto\\booklistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7DD038A2-1C42-46DD-9AF4-1B0C3CDAA73A}|LibraryManagementSystemAPI\\LibraryManagementSystemAPI.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\librarymanagementsystemapi\\librarymanagementsystemapi\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7DD038A2-1C42-46DD-9AF4-1B0C3CDAA73A}|LibraryManagementSystemAPI\\LibraryManagementSystemAPI.csproj|solutionrelative:librarymanagementsystemapi\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7DD038A2-1C42-46DD-9AF4-1B0C3CDAA73A}|LibraryManagementSystemAPI\\LibraryManagementSystemAPI.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\librarymanagementsystemapi\\librarymanagementsystemapi\\interface\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7DD038A2-1C42-46DD-9AF4-1B0C3CDAA73A}|LibraryManagementSystemAPI\\LibraryManagementSystemAPI.csproj|solutionrelative:librarymanagementsystemapi\\interface\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +46,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "BookResponseDto.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LibraryManagementSystemAPI\\LibraryManagementSystemAPI\\Dto\\BookResponseDto.cs",
               "RelativeDocumentMoniker": "LibraryManagementSystemAPI\\Dto\\BookResponseDto.cs",
@@ -59,7 +59,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "BookListDto.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LibraryManagementSystemAPI\\LibraryManagementSystemAPI\\Dto\\BookListDto.cs",
               "RelativeDocumentMoniker": "LibraryManagementSystemAPI\\Dto\\BookListDto.cs",
@@ -67,12 +67,11 @@
               "RelativeToolTip": "LibraryManagementSystemAPI\\Dto\\BookListDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T18:46:04.847Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-01T18:46:04.847Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "BookDetailDto.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LibraryManagementSystemAPI\\LibraryManagementSystemAPI\\Dto\\BookDetailDto.cs",
               "RelativeDocumentMoniker": "LibraryManagementSystemAPI\\Dto\\BookDetailDto.cs",
@@ -80,12 +79,11 @@
               "RelativeToolTip": "LibraryManagementSystemAPI\\Dto\\BookDetailDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T18:46:03.7Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-01T18:46:03.7Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "BookAddDto.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LibraryManagementSystemAPI\\LibraryManagementSystemAPI\\Dto\\BookAddDto.cs",
               "RelativeDocumentMoniker": "LibraryManagementSystemAPI\\Dto\\BookAddDto.cs",
@@ -98,7 +96,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "IBookService.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LibraryManagementSystemAPI\\LibraryManagementSystemAPI\\Interface\\IBookService.cs",
               "RelativeDocumentMoniker": "LibraryManagementSystemAPI\\Interface\\IBookService.cs",
@@ -124,7 +122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "BookController.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LibraryManagementSystemAPI\\LibraryManagementSystemAPI\\Controllers\\BookController.cs",
               "RelativeDocumentMoniker": "LibraryManagementSystemAPI\\Controllers\\BookController.cs",
@@ -132,8 +130,7 @@
               "RelativeToolTip": "LibraryManagementSystemAPI\\Controllers\\BookController.cs",
               "ViewState": "AQIAALUAAAAAAAAAAAAAAL8AAABUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-30T17:01:35.904Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-30T17:01:35.904Z"
             },
             {
               "$type": "Document",
@@ -143,7 +140,7 @@
               "RelativeDocumentMoniker": "LibraryManagementSystemAPI\\Services\\BookService.cs",
               "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LibraryManagementSystemAPI\\LibraryManagementSystemAPI\\Services\\BookService.cs",
               "RelativeToolTip": "LibraryManagementSystemAPI\\Services\\BookService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAcAAAA",
+              "ViewState": "AQIAADQAAAAAAAAAAAAAAEYAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-30T13:56:30.98Z",
               "EditorCaption": ""

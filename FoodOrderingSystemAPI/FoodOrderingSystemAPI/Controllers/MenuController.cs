@@ -1,6 +1,7 @@
 ﻿using FoodOrderingSystemAPI.Dto.MenuDto;
 using FoodOrderingSystemAPI.Interfaces;
 using FoodOrderingSystemAPI.Models;
+using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using System.Xml.Linq;
 
@@ -32,6 +33,8 @@ namespace FoodOrderingSystemAPI.Controllers
         /// <param name="request"></param>
         /// <returns> return semua data menu </returns>
         [HttpGet]
+        [ProducesResponseType(typeof(MenuListDto), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(MenuListDto), StatusCodes.Status404NotFound)]
         public IActionResult GetAllMenu()
         {
             var response = _menuServices.GetAllMenu();
@@ -55,11 +58,14 @@ namespace FoodOrderingSystemAPI.Controllers
         /// <param name="request"></param>
         /// <returns> return data menu sesuai dengan parameter ID </returns>
         [HttpGet("{id}")]
+        [ProducesResponseType(typeof(MenuDetailDto), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(MenuResponseDto), StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(typeof(MenuDetailDto), StatusCodes.Status404NotFound)]
         public IActionResult GetMenuById(int id)
         {
-            if (id == null || id < 0)
+            if (id < 1)
             {
-                return BadRequest();
+                return BadRequest(new MenuResponseDto() { Message = "Invalid menu id" });
             }
             var response = _menuServices.GetMenuById(id);
             if(response == null)
@@ -99,12 +105,10 @@ namespace FoodOrderingSystemAPI.Controllers
         /// <param name="request"></param>
         /// <returns> return status request, message request, data menu yang baru saja dibuat </returns>
         [HttpPost]
+        [ProducesResponseType(typeof(MenuDetailDto), StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public IActionResult CreateMenu([FromBody] MenuAddDto menuDto)
         {
-            if(menuDto == null)
-            {
-                return BadRequest();
-            }
             var response = _menuServices.AddMenu(menuDto);
             return Ok(response);
         }
@@ -131,11 +135,14 @@ namespace FoodOrderingSystemAPI.Controllers
         /// <param name="request"></param>
         /// <returns> return status request, message request, data menu yang baru saja di-update </returns>
         [HttpPut("{id}")]
+        [ProducesResponseType(typeof(MenuDetailDto), StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(typeof(MenuResponseDto), StatusCodes.Status404NotFound)]
         public IActionResult UpdateMenu(int id, [FromBody] MenuUpdateDto menu)
         {
-            if (id == null || menu == null)
+            if (id < 1)
             {
-                return BadRequest();
+                return BadRequest(new MenuResponseDto() { Message = "Invalid menu id" });
             }
             var response = _menuServices.UpdateMenu(id, menu);
             if (response == null)
@@ -158,11 +165,14 @@ namespace FoodOrderingSystemAPI.Controllers
         /// <param name="request"></param>
         /// <returns> return status request, message request, data menu yang baru saja di-delete </returns>
         [HttpDelete("{id}")]
+        [ProducesResponseType(typeof(MenuDetailDto), StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(typeof(MenuResponseDto), StatusCodes.Status404NotFound)]
         public IActionResult DeleteMenu(int id)
         {
-            if (id == null)
+            if (id < 1)
             {
-                return BadRequest();
+                return BadRequest(new MenuResponseDto() { Message = "Invalid menu id" });
             }
             var response = _menuServices.DeleteMenu(id);
             if (response == null)
@@ -190,16 +200,19 @@ namespace FoodOrderingSystemAPI.Controllers
         /// </remarks>
         /// <param name="request"></param>
         /// <returns> return status request, message request, data menu yang baru saja diberikan rating </returns>
+        [ProducesResponseType(typeof(MenuDetailDto), StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(typeof(MenuResponseDto), StatusCodes.Status404NotFound)]
         [HttpPost("rating")]
         public IActionResult AddRating([FromQuery]int id, double rating)
         {
-            if (id == null || rating == null)
+            if (id < 1)
             {
-                return BadRequest();
+                return BadRequest(new MenuResponseDto() { Message = "Invalid menu id" });
             }
-            if (rating < 0 || rating > 5)
+            if (rating < 1 || rating > 5)
             {
-                return BadRequest(new MenuResponseDto() { Message = "Invalid range input! range 0 - 5" });
+                return BadRequest(new MenuResponseDto() { Message = "Invalid range input! range 1 - 5" });
             }
             var response = _menuServices.AddRating(id, rating);
             if (response == null)

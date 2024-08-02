@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using FoodOrderingSystemAPI.Services;
+using System.ComponentModel.DataAnnotations;
 
 namespace FoodOrderingSystemAPI.Models
 {
@@ -14,8 +15,6 @@ namespace FoodOrderingSystemAPI.Models
         public string OrderStatus { get; set; }
         public string Note { get; set; }
         public List<Menu> MenuList { get; set; }
-
-
 
         public void CalculatedTotalOrder()
         {

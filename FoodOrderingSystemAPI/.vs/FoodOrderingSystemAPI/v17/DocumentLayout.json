@@ -7,44 +7,40 @@
       "RelativeMoniker": "D:0:0:{763574D2-E8E0-46A6-8407-818C99B70FAD}|FoodOrderingSystemAPI\\FoodOrderingSystemAPI.csproj|solutionrelative:foodorderingsystemapi\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{763574D2-E8E0-46A6-8407-818C99B70FAD}|FoodOrderingSystemAPI\\FoodOrderingSystemAPI.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\foodorderingsystemapi\\foodorderingsystemapi\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{763574D2-E8E0-46A6-8407-818C99B70FAD}|FoodOrderingSystemAPI\\FoodOrderingSystemAPI.csproj|solutionrelative:foodorderingsystemapi\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{763574D2-E8E0-46A6-8407-818C99B70FAD}|FoodOrderingSystemAPI\\FoodOrderingSystemAPI.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\foodorderingsystemapi\\foodorderingsystemapi\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{763574D2-E8E0-46A6-8407-818C99B70FAD}|FoodOrderingSystemAPI\\FoodOrderingSystemAPI.csproj|solutionrelative:foodorderingsystemapi\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{763574D2-E8E0-46A6-8407-818C99B70FAD}|FoodOrderingSystemAPI\\FoodOrderingSystemAPI.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\foodorderingsystemapi\\foodorderingsystemapi\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{763574D2-E8E0-46A6-8407-818C99B70FAD}|FoodOrderingSystemAPI\\FoodOrderingSystemAPI.csproj|solutionrelative:foodorderingsystemapi\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{763574D2-E8E0-46A6-8407-818C99B70FAD}|FoodOrderingSystemAPI\\FoodOrderingSystemAPI.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\foodorderingsystemapi\\foodorderingsystemapi\\interfaces\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{763574D2-E8E0-46A6-8407-818C99B70FAD}|FoodOrderingSystemAPI\\FoodOrderingSystemAPI.csproj|solutionrelative:foodorderingsystemapi\\interfaces\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{763574D2-E8E0-46A6-8407-818C99B70FAD}|FoodOrderingSystemAPI\\FoodOrderingSystemAPI.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\foodorderingsystemapi\\foodorderingsystemapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{763574D2-E8E0-46A6-8407-818C99B70FAD}|FoodOrderingSystemAPI\\FoodOrderingSystemAPI.csproj|solutionrelative:foodorderingsystemapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{763574D2-E8E0-46A6-8407-818C99B70FAD}|FoodOrderingSystemAPI\\FoodOrderingSystemAPI.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\foodorderingsystemapi\\foodorderingsystemapi\\services\\menuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{763574D2-E8E0-46A6-8407-818C99B70FAD}|FoodOrderingSystemAPI\\FoodOrderingSystemAPI.csproj|solutionrelative:foodorderingsystemapi\\services\\menuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{763574D2-E8E0-46A6-8407-818C99B70FAD}|FoodOrderingSystemAPI\\FoodOrderingSystemAPI.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\foodorderingsystemapi\\foodorderingsystemapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{763574D2-E8E0-46A6-8407-818C99B70FAD}|FoodOrderingSystemAPI\\FoodOrderingSystemAPI.csproj|solutionrelative:foodorderingsystemapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{763574D2-E8E0-46A6-8407-818C99B70FAD}|FoodOrderingSystemAPI\\FoodOrderingSystemAPI.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\foodorderingsystemapi\\foodorderingsystemapi\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{763574D2-E8E0-46A6-8407-818C99B70FAD}|FoodOrderingSystemAPI\\FoodOrderingSystemAPI.csproj|solutionrelative:foodorderingsystemapi\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{763574D2-E8E0-46A6-8407-818C99B70FAD}|FoodOrderingSystemAPI\\FoodOrderingSystemAPI.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\foodorderingsystemapi\\foodorderingsystemapi\\foodorderingsystemapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{763574D2-E8E0-46A6-8407-818C99B70FAD}|FoodOrderingSystemAPI\\FoodOrderingSystemAPI.csproj|solutionrelative:foodorderingsystemapi\\foodorderingsystemapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{763574D2-E8E0-46A6-8407-818C99B70FAD}|FoodOrderingSystemAPI\\FoodOrderingSystemAPI.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\foodorderingsystemapi\\foodorderingsystemapi\\models\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{763574D2-E8E0-46A6-8407-818C99B70FAD}|FoodOrderingSystemAPI\\FoodOrderingSystemAPI.csproj|solutionrelative:foodorderingsystemapi\\models\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{763574D2-E8E0-46A6-8407-818C99B70FAD}|FoodOrderingSystemAPI\\FoodOrderingSystemAPI.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\foodorderingsystemapi\\foodorderingsystemapi\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{763574D2-E8E0-46A6-8407-818C99B70FAD}|FoodOrderingSystemAPI\\FoodOrderingSystemAPI.csproj|solutionrelative:foodorderingsystemapi\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{763574D2-E8E0-46A6-8407-818C99B70FAD}|FoodOrderingSystemAPI\\FoodOrderingSystemAPI.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\foodorderingsystemapi\\foodorderingsystemapi\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{763574D2-E8E0-46A6-8407-818C99B70FAD}|FoodOrderingSystemAPI\\FoodOrderingSystemAPI.csproj|solutionrelative:foodorderingsystemapi\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{763574D2-E8E0-46A6-8407-818C99B70FAD}|FoodOrderingSystemAPI\\FoodOrderingSystemAPI.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\foodorderingsystemapi\\foodorderingsystemapi\\interfaces\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{763574D2-E8E0-46A6-8407-818C99B70FAD}|FoodOrderingSystemAPI\\FoodOrderingSystemAPI.csproj|solutionrelative:foodorderingsystemapi\\interfaces\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{763574D2-E8E0-46A6-8407-818C99B70FAD}|FoodOrderingSystemAPI\\FoodOrderingSystemAPI.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\foodorderingsystemapi\\foodorderingsystemapi\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{763574D2-E8E0-46A6-8407-818C99B70FAD}|FoodOrderingSystemAPI\\FoodOrderingSystemAPI.csproj|solutionrelative:foodorderingsystemapi\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{763574D2-E8E0-46A6-8407-818C99B70FAD}|FoodOrderingSystemAPI\\FoodOrderingSystemAPI.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\foodorderingsystemapi\\foodorderingsystemapi\\models\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{763574D2-E8E0-46A6-8407-818C99B70FAD}|FoodOrderingSystemAPI\\FoodOrderingSystemAPI.csproj|solutionrelative:foodorderingsystemapi\\models\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{763574D2-E8E0-46A6-8407-818C99B70FAD}|FoodOrderingSystemAPI\\FoodOrderingSystemAPI.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\foodorderingsystemapi\\foodorderingsystemapi\\dto\\orderdto\\orderresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{763574D2-E8E0-46A6-8407-818C99B70FAD}|FoodOrderingSystemAPI\\FoodOrderingSystemAPI.csproj|solutionrelative:foodorderingsystemapi\\dto\\orderdto\\orderresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{763574D2-E8E0-46A6-8407-818C99B70FAD}|FoodOrderingSystemAPI\\FoodOrderingSystemAPI.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\foodorderingsystemapi\\foodorderingsystemapi\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -55,8 +51,20 @@
       "RelativeMoniker": "D:0:0:{763574D2-E8E0-46A6-8407-818C99B70FAD}|FoodOrderingSystemAPI\\FoodOrderingSystemAPI.csproj|solutionrelative:foodorderingsystemapi\\dto\\orderdto\\orderdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{763574D2-E8E0-46A6-8407-818C99B70FAD}|FoodOrderingSystemAPI\\FoodOrderingSystemAPI.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\foodorderingsystemapi\\foodorderingsystemapi\\dto\\orderdto\\orderresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{763574D2-E8E0-46A6-8407-818C99B70FAD}|FoodOrderingSystemAPI\\FoodOrderingSystemAPI.csproj|solutionrelative:foodorderingsystemapi\\dto\\orderdto\\orderresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{763574D2-E8E0-46A6-8407-818C99B70FAD}|FoodOrderingSystemAPI\\FoodOrderingSystemAPI.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\foodorderingsystemapi\\foodorderingsystemapi\\dto\\orderdto\\orderadddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{763574D2-E8E0-46A6-8407-818C99B70FAD}|FoodOrderingSystemAPI\\FoodOrderingSystemAPI.csproj|solutionrelative:foodorderingsystemapi\\dto\\orderdto\\orderadddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{763574D2-E8E0-46A6-8407-818C99B70FAD}|FoodOrderingSystemAPI\\FoodOrderingSystemAPI.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\foodorderingsystemapi\\foodorderingsystemapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{763574D2-E8E0-46A6-8407-818C99B70FAD}|FoodOrderingSystemAPI\\FoodOrderingSystemAPI.csproj|solutionrelative:foodorderingsystemapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{763574D2-E8E0-46A6-8407-818C99B70FAD}|FoodOrderingSystemAPI\\FoodOrderingSystemAPI.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\foodorderingsystemapi\\foodorderingsystemapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{763574D2-E8E0-46A6-8407-818C99B70FAD}|FoodOrderingSystemAPI\\FoodOrderingSystemAPI.csproj|solutionrelative:foodorderingsystemapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{763574D2-E8E0-46A6-8407-818C99B70FAD}|FoodOrderingSystemAPI\\FoodOrderingSystemAPI.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\foodorderingsystemapi\\foodorderingsystemapi\\foodorderingsystemapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{763574D2-E8E0-46A6-8407-818C99B70FAD}|FoodOrderingSystemAPI\\FoodOrderingSystemAPI.csproj|solutionrelative:foodorderingsystemapi\\foodorderingsystemapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{763574D2-E8E0-46A6-8407-818C99B70FAD}|FoodOrderingSystemAPI\\FoodOrderingSystemAPI.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\foodorderingsystemapi\\foodorderingsystemapi\\dto\\customerdto\\customerresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -86,21 +94,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "OrderService.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\FoodOrderingSystemAPI\\FoodOrderingSystemAPI\\Services\\OrderService.cs",
-              "RelativeDocumentMoniker": "FoodOrderingSystemAPI\\Services\\OrderService.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\FoodOrderingSystemAPI\\FoodOrderingSystemAPI\\Services\\OrderService.cs",
-              "RelativeToolTip": "FoodOrderingSystemAPI\\Services\\OrderService.cs",
-              "ViewState": "AQIAADMAAAAAAAAAAAAAAFkAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T09:16:26.132Z",
-              "IsPinned": true
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -109,7 +104,7 @@
               "RelativeDocumentMoniker": "FoodOrderingSystemAPI\\Controllers\\OrderController.cs",
               "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\FoodOrderingSystemAPI\\FoodOrderingSystemAPI\\Controllers\\OrderController.cs",
               "RelativeToolTip": "FoodOrderingSystemAPI\\Controllers\\OrderController.cs",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAAALAAAAApAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-01T09:54:34.488Z",
               "IsPinned": true,
@@ -117,32 +112,151 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "IOrderService.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\FoodOrderingSystemAPI\\FoodOrderingSystemAPI\\Interfaces\\IOrderService.cs",
               "RelativeDocumentMoniker": "FoodOrderingSystemAPI\\Interfaces\\IOrderService.cs",
               "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\FoodOrderingSystemAPI\\FoodOrderingSystemAPI\\Interfaces\\IOrderService.cs",
               "RelativeToolTip": "FoodOrderingSystemAPI\\Interfaces\\IOrderService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAAlAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-01T11:12:46.266Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\FoodOrderingSystemAPI\\FoodOrderingSystemAPI\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "FoodOrderingSystemAPI\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\FoodOrderingSystemAPI\\FoodOrderingSystemAPI\\Properties\\launchSettings.json",
-              "RelativeToolTip": "FoodOrderingSystemAPI\\Properties\\launchSettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-01T14:04:10.16Z"
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\FoodOrderingSystemAPI\\FoodOrderingSystemAPI\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "FoodOrderingSystemAPI\\Services\\OrderService.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\FoodOrderingSystemAPI\\FoodOrderingSystemAPI\\Services\\OrderService.cs",
+              "RelativeToolTip": "FoodOrderingSystemAPI\\Services\\OrderService.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAADMAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T09:16:26.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\FoodOrderingSystemAPI\\FoodOrderingSystemAPI\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "FoodOrderingSystemAPI\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\FoodOrderingSystemAPI\\FoodOrderingSystemAPI\\Models\\Order.cs",
+              "RelativeToolTip": "FoodOrderingSystemAPI\\Models\\Order.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T02:16:20.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MenuService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\FoodOrderingSystemAPI\\FoodOrderingSystemAPI\\Services\\MenuService.cs",
+              "RelativeDocumentMoniker": "FoodOrderingSystemAPI\\Services\\MenuService.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\FoodOrderingSystemAPI\\FoodOrderingSystemAPI\\Services\\MenuService.cs",
+              "RelativeToolTip": "FoodOrderingSystemAPI\\Services\\MenuService.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAADQAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T11:32:27.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OrderResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\FoodOrderingSystemAPI\\FoodOrderingSystemAPI\\Dto\\OrderDto\\OrderResponseDto.cs",
+              "RelativeDocumentMoniker": "FoodOrderingSystemAPI\\Dto\\OrderDto\\OrderResponseDto.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\FoodOrderingSystemAPI\\FoodOrderingSystemAPI\\Dto\\OrderDto\\OrderResponseDto.cs",
+              "RelativeToolTip": "FoodOrderingSystemAPI\\Dto\\OrderDto\\OrderResponseDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAIAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T09:30:48.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MenuController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\FoodOrderingSystemAPI\\FoodOrderingSystemAPI\\Controllers\\MenuController.cs",
+              "RelativeDocumentMoniker": "FoodOrderingSystemAPI\\Controllers\\MenuController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\FoodOrderingSystemAPI\\FoodOrderingSystemAPI\\Controllers\\MenuController.cs",
+              "RelativeToolTip": "FoodOrderingSystemAPI\\Controllers\\MenuController.cs",
+              "ViewState": "AQIAAL8AAAAAAAAAAAAAAMwAAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T11:40:19.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\FoodOrderingSystemAPI\\FoodOrderingSystemAPI\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "FoodOrderingSystemAPI\\Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\FoodOrderingSystemAPI\\FoodOrderingSystemAPI\\Models\\Customer.cs",
+              "RelativeToolTip": "FoodOrderingSystemAPI\\Models\\Customer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T09:53:22.152Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "CustomerService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\FoodOrderingSystemAPI\\FoodOrderingSystemAPI\\Services\\CustomerService.cs",
+              "RelativeDocumentMoniker": "FoodOrderingSystemAPI\\Services\\CustomerService.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\FoodOrderingSystemAPI\\FoodOrderingSystemAPI\\Services\\CustomerService.cs",
+              "RelativeToolTip": "FoodOrderingSystemAPI\\Services\\CustomerService.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T09:35:58.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\FoodOrderingSystemAPI\\FoodOrderingSystemAPI\\Models\\Menu.cs",
+              "RelativeDocumentMoniker": "FoodOrderingSystemAPI\\Models\\Menu.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\FoodOrderingSystemAPI\\FoodOrderingSystemAPI\\Models\\Menu.cs",
+              "RelativeToolTip": "FoodOrderingSystemAPI\\Models\\Menu.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T09:21:57.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\FoodOrderingSystemAPI\\FoodOrderingSystemAPI\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "FoodOrderingSystemAPI\\Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\FoodOrderingSystemAPI\\FoodOrderingSystemAPI\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "FoodOrderingSystemAPI\\Controllers\\CustomerController.cs",
+              "ViewState": "AQIAAI4AAAAAAAAAAAAAAJoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T10:35:44.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "OrderDetailDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\FoodOrderingSystemAPI\\FoodOrderingSystemAPI\\Dto\\OrderDto\\OrderDetailDto.cs",
+              "RelativeDocumentMoniker": "FoodOrderingSystemAPI\\Dto\\OrderDto\\OrderDetailDto.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\FoodOrderingSystemAPI\\FoodOrderingSystemAPI\\Dto\\OrderDto\\OrderDetailDto.cs",
+              "RelativeToolTip": "FoodOrderingSystemAPI\\Dto\\OrderDto\\OrderDetailDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T09:32:33.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "FoodOrderingSystemAPI.csproj",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\FoodOrderingSystemAPI\\FoodOrderingSystemAPI\\FoodOrderingSystemAPI.csproj",
               "RelativeDocumentMoniker": "FoodOrderingSystemAPI\\FoodOrderingSystemAPI.csproj",
@@ -154,55 +268,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MenuController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\FoodOrderingSystemAPI\\FoodOrderingSystemAPI\\Controllers\\MenuController.cs",
-              "RelativeDocumentMoniker": "FoodOrderingSystemAPI\\Controllers\\MenuController.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\FoodOrderingSystemAPI\\FoodOrderingSystemAPI\\Controllers\\MenuController.cs",
-              "RelativeToolTip": "FoodOrderingSystemAPI\\Controllers\\MenuController.cs",
-              "ViewState": "AQIAAKwAAAAAAAAAAAAAALoAAAAMAAAA",
+              "DocumentIndex": 12,
+              "Title": "OrderAddDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\FoodOrderingSystemAPI\\FoodOrderingSystemAPI\\Dto\\OrderDto\\OrderAddDto.cs",
+              "RelativeDocumentMoniker": "FoodOrderingSystemAPI\\Dto\\OrderDto\\OrderAddDto.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\FoodOrderingSystemAPI\\FoodOrderingSystemAPI\\Dto\\OrderDto\\OrderAddDto.cs",
+              "RelativeToolTip": "FoodOrderingSystemAPI\\Dto\\OrderDto\\OrderAddDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T11:40:19.343Z"
+              "WhenOpened": "2024-08-02T02:15:16.631Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MenuService.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\FoodOrderingSystemAPI\\FoodOrderingSystemAPI\\Services\\MenuService.cs",
-              "RelativeDocumentMoniker": "FoodOrderingSystemAPI\\Services\\MenuService.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\FoodOrderingSystemAPI\\FoodOrderingSystemAPI\\Services\\MenuService.cs",
-              "RelativeToolTip": "FoodOrderingSystemAPI\\Services\\MenuService.cs",
-              "ViewState": "AQIAAEwAAAAAAAAAAAAAAGUAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T11:32:27.762Z"
+              "DocumentIndex": 13,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\FoodOrderingSystemAPI\\FoodOrderingSystemAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "FoodOrderingSystemAPI\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\FoodOrderingSystemAPI\\FoodOrderingSystemAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "FoodOrderingSystemAPI\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-01T14:04:10.16Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\FoodOrderingSystemAPI\\FoodOrderingSystemAPI\\Models\\Customer.cs",
-              "RelativeDocumentMoniker": "FoodOrderingSystemAPI\\Models\\Customer.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\FoodOrderingSystemAPI\\FoodOrderingSystemAPI\\Models\\Customer.cs",
-              "RelativeToolTip": "FoodOrderingSystemAPI\\Models\\Customer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T09:53:22.152Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CustomerController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\FoodOrderingSystemAPI\\FoodOrderingSystemAPI\\Controllers\\CustomerController.cs",
-              "RelativeDocumentMoniker": "FoodOrderingSystemAPI\\Controllers\\CustomerController.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\FoodOrderingSystemAPI\\FoodOrderingSystemAPI\\Controllers\\CustomerController.cs",
-              "RelativeToolTip": "FoodOrderingSystemAPI\\Controllers\\CustomerController.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAABUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T10:35:44.078Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 14,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\FoodOrderingSystemAPI\\FoodOrderingSystemAPI\\Program.cs",
               "RelativeDocumentMoniker": "FoodOrderingSystemAPI\\Program.cs",
@@ -214,55 +304,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "OrderDetailDto.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\FoodOrderingSystemAPI\\FoodOrderingSystemAPI\\Dto\\OrderDto\\OrderDetailDto.cs",
-              "RelativeDocumentMoniker": "FoodOrderingSystemAPI\\Dto\\OrderDto\\OrderDetailDto.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\FoodOrderingSystemAPI\\FoodOrderingSystemAPI\\Dto\\OrderDto\\OrderDetailDto.cs",
-              "RelativeToolTip": "FoodOrderingSystemAPI\\Dto\\OrderDto\\OrderDetailDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T09:32:33.88Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CustomerService.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\FoodOrderingSystemAPI\\FoodOrderingSystemAPI\\Services\\CustomerService.cs",
-              "RelativeDocumentMoniker": "FoodOrderingSystemAPI\\Services\\CustomerService.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\FoodOrderingSystemAPI\\FoodOrderingSystemAPI\\Services\\CustomerService.cs",
-              "RelativeToolTip": "FoodOrderingSystemAPI\\Services\\CustomerService.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAAABEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T09:35:58.404Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Menu.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\FoodOrderingSystemAPI\\FoodOrderingSystemAPI\\Models\\Menu.cs",
-              "RelativeDocumentMoniker": "FoodOrderingSystemAPI\\Models\\Menu.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\FoodOrderingSystemAPI\\FoodOrderingSystemAPI\\Models\\Menu.cs",
-              "RelativeToolTip": "FoodOrderingSystemAPI\\Models\\Menu.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T09:21:57.856Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "OrderResponseDto.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\FoodOrderingSystemAPI\\FoodOrderingSystemAPI\\Dto\\OrderDto\\OrderResponseDto.cs",
-              "RelativeDocumentMoniker": "FoodOrderingSystemAPI\\Dto\\OrderDto\\OrderResponseDto.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\FoodOrderingSystemAPI\\FoodOrderingSystemAPI\\Dto\\OrderDto\\OrderResponseDto.cs",
-              "RelativeToolTip": "FoodOrderingSystemAPI\\Dto\\OrderDto\\OrderResponseDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAIAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T09:30:48.114Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "CustomerResponseDto.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\FoodOrderingSystemAPI\\FoodOrderingSystemAPI\\Dto\\CustomerDto\\CustomerResponseDto.cs",
               "RelativeDocumentMoniker": "FoodOrderingSystemAPI\\Dto\\CustomerDto\\CustomerResponseDto.cs",
@@ -274,7 +316,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "MenuListDto.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\FoodOrderingSystemAPI\\FoodOrderingSystemAPI\\Dto\\MenuDto\\MenuListDto.cs",
               "RelativeDocumentMoniker": "FoodOrderingSystemAPI\\Dto\\MenuDto\\MenuListDto.cs",
@@ -286,7 +328,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "MenuResponseDto.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\FoodOrderingSystemAPI\\FoodOrderingSystemAPI\\Dto\\MenuDto\\MenuResponseDto.cs",
               "RelativeDocumentMoniker": "FoodOrderingSystemAPI\\Dto\\MenuDto\\MenuResponseDto.cs",
@@ -298,7 +340,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "MenuUpdateDto.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\FoodOrderingSystemAPI\\FoodOrderingSystemAPI\\Dto\\MenuDto\\MenuUpdateDto.cs",
               "RelativeDocumentMoniker": "FoodOrderingSystemAPI\\Dto\\MenuDto\\MenuUpdateDto.cs",
@@ -310,7 +352,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "MenuDetailDto.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\FoodOrderingSystemAPI\\FoodOrderingSystemAPI\\Dto\\MenuDto\\MenuDetailDto.cs",
               "RelativeDocumentMoniker": "FoodOrderingSystemAPI\\Dto\\MenuDto\\MenuDetailDto.cs",

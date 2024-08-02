@@ -40,7 +40,6 @@ namespace FoodOrderingSystemAPI.Services
             {
                 return ResponseDetail(false, null, "No menu available!");
             }
-            double totalRate = 0;
             if (!listRating.ContainsKey(id))
             {
                 List<double> tempNoKey = new List<double>();
@@ -50,10 +49,6 @@ namespace FoodOrderingSystemAPI.Services
                 return ResponseDetail(true,menu, "Add rating success!");
             }
             listRating[id].Add(rating);
-            foreach (var item in listRating[id])
-            {
-                totalRate = totalRate + item;
-            }
             double avg = Math.Round(listRating[id].Average(), 1);
             menu.Rating = avg;
             return ResponseDetail(true, menu, "Add rating success!");
@@ -106,7 +101,6 @@ namespace FoodOrderingSystemAPI.Services
 
             return ResponseDetail(true, menu, "Update menu success!");
         }
-
         Menu SearchMenu(int id)
         {
             var menu = listMenu.FirstOrDefault(lm => lm.Id == id);
