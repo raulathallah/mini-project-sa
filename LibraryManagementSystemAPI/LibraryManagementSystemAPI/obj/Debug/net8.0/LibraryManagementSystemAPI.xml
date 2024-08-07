@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LibraryManagementSystemAPI</name>
+    </assembly>
+    <members>
+        <member name="M:LibraryManagementSystemAPI.Controllers.BookController.GetAllBook">
+            <summary>
+            Mendapatkan semua data buku dalam list
+            </summary>
+            <remarks>
+            No parameters.
+             
+            Sample request:
+            
+                GET /book
+            </remarks>
+            <param name="request"></param>
+            <returns> Mengembalikan status request, message request, dan data buku dalam list </returns>
+        </member>
+        <member name="M:LibraryManagementSystemAPI.Controllers.BookController.GetBookById(System.Int32)">
+            <summary>
+            Mendapatkan data buku seusai ID yang diinginkan
+            </summary>
+            <remarks>
+            Memiliki 1 parameter dalam route
+                
+            Method : GET
+            
+            URL : /book/{id}
+             
+            Sample request:
+            
+                GET /book/1
+            </remarks>
+            <param name="request"></param>
+            <returns> Mengembalikan status request, message request dan data buku sesuai ID parameter</returns>
+        </member>
+        <member name="M:LibraryManagementSystemAPI.Controllers.BookController.AddNewBook(LibraryManagementSystemAPI.Dto.BookAddDto)">
+            <summary>
+            Melakukan tambah data buku kedalam list 
+            </summary>
+            <remarks>
+            Memiliki body request
+                
+            Method : POST
+            
+            URL : /book
+             
+            Sample request:
+            
+                POST /book
+                {
+                    "title": "Buku Volume 1",
+                    "author": "Arif Burhan",
+                    "publicationYear": 2020,
+                    "isbn": "9781234567897"
+                }
+                
+                POST /book
+                {
+                    "title": "Buku Volume 2: The Adventure",
+                    "author": "Arif Burhan",
+                    "publicationYear": 2021,
+                    "isbn": "9781234567898"
+                }
+            </remarks>
+            <param name="request"></param>
+            <returns> Mengembalikan status request, message request, dan data buku yang baru saja di tambahkan</returns>
+        </member>
+        <member name="M:LibraryManagementSystemAPI.Controllers.BookController.UpdateBook(System.Int32,LibraryManagementSystemAPI.Dto.BookAddDto)">
+            <summary>
+            Melakukan update data Book yang sudah ada dalam list
+            </summary>
+            <remarks>
+            Memiliki body request dan parameter ID pada route
+                
+            Method : PUT
+            
+            URL : /book/{id}
+             
+            Sample request:
+            
+                PUT /book/1
+                {
+                    "title": "Buku Volume 1: Prelude",
+                    "author": "Arif Burhan",
+                    "publicationYear": 2020,
+                    "isbn": "9781234567897"
+                }
+            </remarks>
+            <param name="request"></param>
+            <returns> Mengembalikan status request, message request, dan data buku yang baru saja diperbarui </returns>
+        </member>
+        <member name="M:LibraryManagementSystemAPI.Controllers.BookController.DeleteBook(System.Int32)">
+            <summary>
+            Melakukan delete data Book yang sudah ada dalam list
+            </summary>
+            <remarks>
+            Memiliki parameter ID dalam route
+                
+            Method : DELETE
+            
+            URL : /book/{id}
+             
+            Sample request:
+            
+                DELETE /book/1
+            </remarks>
+            <param name="request"></param>
+            <returns> Mengembalikan status request, message request, dan data buku yang baru saja di delete </returns>
+        </member>
+        <member name="T:LibraryManagementSystemAPI.Migrations.AddTableBook">
+            <inheritdoc />
+        </member>
+        <member name="M:LibraryManagementSystemAPI.Migrations.AddTableBook.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:LibraryManagementSystemAPI.Migrations.AddTableBook.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:LibraryManagementSystemAPI.Migrations.AddTableBook.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
