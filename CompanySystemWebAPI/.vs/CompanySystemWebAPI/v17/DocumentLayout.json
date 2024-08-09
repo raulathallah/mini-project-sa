@@ -1,0 +1,487 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\mini-project-sa\\CompanySystemWebAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8997508B-C1F2-4F67-9B6F-BD9765905798}|CompanySystemWebAPI\\CompanySystemWebAPI.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\companysystemwebapi\\companysystemwebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8997508B-C1F2-4F67-9B6F-BD9765905798}|CompanySystemWebAPI\\CompanySystemWebAPI.csproj|solutionrelative:companysystemwebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8997508B-C1F2-4F67-9B6F-BD9765905798}|CompanySystemWebAPI\\CompanySystemWebAPI.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\companysystemwebapi\\companysystemwebapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8997508B-C1F2-4F67-9B6F-BD9765905798}|CompanySystemWebAPI\\CompanySystemWebAPI.csproj|solutionrelative:companysystemwebapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8997508B-C1F2-4F67-9B6F-BD9765905798}|CompanySystemWebAPI\\CompanySystemWebAPI.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\companysystemwebapi\\companysystemwebapi\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8997508B-C1F2-4F67-9B6F-BD9765905798}|CompanySystemWebAPI\\CompanySystemWebAPI.csproj|solutionrelative:companysystemwebapi\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8997508B-C1F2-4F67-9B6F-BD9765905798}|CompanySystemWebAPI\\CompanySystemWebAPI.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\companysystemwebapi\\companysystemwebapi\\controllers\\departementscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8997508B-C1F2-4F67-9B6F-BD9765905798}|CompanySystemWebAPI\\CompanySystemWebAPI.csproj|solutionrelative:companysystemwebapi\\controllers\\departementscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8997508B-C1F2-4F67-9B6F-BD9765905798}|CompanySystemWebAPI\\CompanySystemWebAPI.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\companysystemwebapi\\companysystemwebapi\\controllers\\worksonscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8997508B-C1F2-4F67-9B6F-BD9765905798}|CompanySystemWebAPI\\CompanySystemWebAPI.csproj|solutionrelative:companysystemwebapi\\controllers\\worksonscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8997508B-C1F2-4F67-9B6F-BD9765905798}|CompanySystemWebAPI\\CompanySystemWebAPI.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\companysystemwebapi\\companysystemwebapi\\controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8997508B-C1F2-4F67-9B6F-BD9765905798}|CompanySystemWebAPI\\CompanySystemWebAPI.csproj|solutionrelative:companysystemwebapi\\controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8997508B-C1F2-4F67-9B6F-BD9765905798}|CompanySystemWebAPI\\CompanySystemWebAPI.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\companysystemwebapi\\companysystemwebapi\\interfaces\\iworksonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8997508B-C1F2-4F67-9B6F-BD9765905798}|CompanySystemWebAPI\\CompanySystemWebAPI.csproj|solutionrelative:companysystemwebapi\\interfaces\\iworksonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8997508B-C1F2-4F67-9B6F-BD9765905798}|CompanySystemWebAPI\\CompanySystemWebAPI.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\companysystemwebapi\\companysystemwebapi\\services\\worksonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8997508B-C1F2-4F67-9B6F-BD9765905798}|CompanySystemWebAPI\\CompanySystemWebAPI.csproj|solutionrelative:companysystemwebapi\\services\\worksonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8997508B-C1F2-4F67-9B6F-BD9765905798}|CompanySystemWebAPI\\CompanySystemWebAPI.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\companysystemwebapi\\companysystemwebapi\\dtos\\worksondto\\worksonupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8997508B-C1F2-4F67-9B6F-BD9765905798}|CompanySystemWebAPI\\CompanySystemWebAPI.csproj|solutionrelative:companysystemwebapi\\dtos\\worksondto\\worksonupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8997508B-C1F2-4F67-9B6F-BD9765905798}|CompanySystemWebAPI\\CompanySystemWebAPI.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\companysystemwebapi\\companysystemwebapi\\interfaces\\iprojectsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8997508B-C1F2-4F67-9B6F-BD9765905798}|CompanySystemWebAPI\\CompanySystemWebAPI.csproj|solutionrelative:companysystemwebapi\\interfaces\\iprojectsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8997508B-C1F2-4F67-9B6F-BD9765905798}|CompanySystemWebAPI\\CompanySystemWebAPI.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\companysystemwebapi\\companysystemwebapi\\models\\workson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8997508B-C1F2-4F67-9B6F-BD9765905798}|CompanySystemWebAPI\\CompanySystemWebAPI.csproj|solutionrelative:companysystemwebapi\\models\\workson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8997508B-C1F2-4F67-9B6F-BD9765905798}|CompanySystemWebAPI\\CompanySystemWebAPI.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\companysystemwebapi\\companysystemwebapi\\interfaces\\iemployeesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8997508B-C1F2-4F67-9B6F-BD9765905798}|CompanySystemWebAPI\\CompanySystemWebAPI.csproj|solutionrelative:companysystemwebapi\\interfaces\\iemployeesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8997508B-C1F2-4F67-9B6F-BD9765905798}|CompanySystemWebAPI\\CompanySystemWebAPI.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\companysystemwebapi\\companysystemwebapi\\services\\departementsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8997508B-C1F2-4F67-9B6F-BD9765905798}|CompanySystemWebAPI\\CompanySystemWebAPI.csproj|solutionrelative:companysystemwebapi\\services\\departementsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8997508B-C1F2-4F67-9B6F-BD9765905798}|CompanySystemWebAPI\\CompanySystemWebAPI.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\companysystemwebapi\\companysystemwebapi\\interfaces\\idepartementsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8997508B-C1F2-4F67-9B6F-BD9765905798}|CompanySystemWebAPI\\CompanySystemWebAPI.csproj|solutionrelative:companysystemwebapi\\interfaces\\idepartementsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8997508B-C1F2-4F67-9B6F-BD9765905798}|CompanySystemWebAPI\\CompanySystemWebAPI.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\companysystemwebapi\\companysystemwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8997508B-C1F2-4F67-9B6F-BD9765905798}|CompanySystemWebAPI\\CompanySystemWebAPI.csproj|solutionrelative:companysystemwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8997508B-C1F2-4F67-9B6F-BD9765905798}|CompanySystemWebAPI\\CompanySystemWebAPI.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\companysystemwebapi\\companysystemwebapi\\services\\projectsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8997508B-C1F2-4F67-9B6F-BD9765905798}|CompanySystemWebAPI\\CompanySystemWebAPI.csproj|solutionrelative:companysystemwebapi\\services\\projectsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8997508B-C1F2-4F67-9B6F-BD9765905798}|CompanySystemWebAPI\\CompanySystemWebAPI.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\companysystemwebapi\\companysystemwebapi\\companysystemwebapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{8997508B-C1F2-4F67-9B6F-BD9765905798}|CompanySystemWebAPI\\CompanySystemWebAPI.csproj|solutionrelative:companysystemwebapi\\companysystemwebapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8997508B-C1F2-4F67-9B6F-BD9765905798}|CompanySystemWebAPI\\CompanySystemWebAPI.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\companysystemwebapi\\companysystemwebapi\\companysystemwebapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8997508B-C1F2-4F67-9B6F-BD9765905798}|CompanySystemWebAPI\\CompanySystemWebAPI.csproj|solutionrelative:companysystemwebapi\\companysystemwebapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8997508B-C1F2-4F67-9B6F-BD9765905798}|CompanySystemWebAPI\\CompanySystemWebAPI.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\companysystemwebapi\\companysystemwebapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8997508B-C1F2-4F67-9B6F-BD9765905798}|CompanySystemWebAPI\\CompanySystemWebAPI.csproj|solutionrelative:companysystemwebapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8997508B-C1F2-4F67-9B6F-BD9765905798}|CompanySystemWebAPI\\CompanySystemWebAPI.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\companysystemwebapi\\companysystemwebapi\\services\\employeesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8997508B-C1F2-4F67-9B6F-BD9765905798}|CompanySystemWebAPI\\CompanySystemWebAPI.csproj|solutionrelative:companysystemwebapi\\services\\employeesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8997508B-C1F2-4F67-9B6F-BD9765905798}|CompanySystemWebAPI\\CompanySystemWebAPI.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\companysystemwebapi\\companysystemwebapi\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8997508B-C1F2-4F67-9B6F-BD9765905798}|CompanySystemWebAPI\\CompanySystemWebAPI.csproj|solutionrelative:companysystemwebapi\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8997508B-C1F2-4F67-9B6F-BD9765905798}|CompanySystemWebAPI\\CompanySystemWebAPI.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\companysystemwebapi\\companysystemwebapi\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8997508B-C1F2-4F67-9B6F-BD9765905798}|CompanySystemWebAPI\\CompanySystemWebAPI.csproj|solutionrelative:companysystemwebapi\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8997508B-C1F2-4F67-9B6F-BD9765905798}|CompanySystemWebAPI\\CompanySystemWebAPI.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\companysystemwebapi\\companysystemwebapi\\models\\departement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8997508B-C1F2-4F67-9B6F-BD9765905798}|CompanySystemWebAPI\\CompanySystemWebAPI.csproj|solutionrelative:companysystemwebapi\\models\\departement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\AppData\\Local\\SourceServer\\39d6f55c4082cd2a92ddc434cb3ea6c08ca989030cabf0c5901b8c111def7840\\CompanySystemWebAPI\\CompanySystemWebAPI\\Services\\WorksOnService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8997508B-C1F2-4F67-9B6F-BD9765905798}|CompanySystemWebAPI\\CompanySystemWebAPI.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\companysystemwebapi\\companysystemwebapi\\dtos\\departementsdto\\departementsadddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8997508B-C1F2-4F67-9B6F-BD9765905798}|CompanySystemWebAPI\\CompanySystemWebAPI.csproj|solutionrelative:companysystemwebapi\\dtos\\departementsdto\\departementsadddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8997508B-C1F2-4F67-9B6F-BD9765905798}|CompanySystemWebAPI\\CompanySystemWebAPI.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\companysystemwebapi\\companysystemwebapi\\dtos\\employeesdto\\employeesadddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8997508B-C1F2-4F67-9B6F-BD9765905798}|CompanySystemWebAPI\\CompanySystemWebAPI.csproj|solutionrelative:companysystemwebapi\\dtos\\employeesdto\\employeesadddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8997508B-C1F2-4F67-9B6F-BD9765905798}|CompanySystemWebAPI\\CompanySystemWebAPI.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\companysystemwebapi\\companysystemwebapi\\models\\companycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8997508B-C1F2-4F67-9B6F-BD9765905798}|CompanySystemWebAPI\\CompanySystemWebAPI.csproj|solutionrelative:companysystemwebapi\\models\\companycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8997508B-C1F2-4F67-9B6F-BD9765905798}|CompanySystemWebAPI\\CompanySystemWebAPI.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\companysystemwebapi\\companysystemwebapi\\dtos\\worksondto\\worksonadddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8997508B-C1F2-4F67-9B6F-BD9765905798}|CompanySystemWebAPI\\CompanySystemWebAPI.csproj|solutionrelative:companysystemwebapi\\dtos\\worksondto\\worksonadddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8997508B-C1F2-4F67-9B6F-BD9765905798}|CompanySystemWebAPI\\CompanySystemWebAPI.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\companysystemwebapi\\companysystemwebapi\\dtos\\projectsdto\\projectsadddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8997508B-C1F2-4F67-9B6F-BD9765905798}|CompanySystemWebAPI\\CompanySystemWebAPI.csproj|solutionrelative:companysystemwebapi\\dtos\\projectsdto\\projectsadddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\CompanySystemWebAPI\\CompanySystemWebAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "CompanySystemWebAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\CompanySystemWebAPI\\CompanySystemWebAPI\\appsettings.json",
+              "RelativeToolTip": "CompanySystemWebAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-09T13:51:43.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IWorksOnService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\CompanySystemWebAPI\\CompanySystemWebAPI\\Interfaces\\IWorksOnService.cs",
+              "RelativeDocumentMoniker": "CompanySystemWebAPI\\Interfaces\\IWorksOnService.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\CompanySystemWebAPI\\CompanySystemWebAPI\\Interfaces\\IWorksOnService.cs",
+              "RelativeToolTip": "CompanySystemWebAPI\\Interfaces\\IWorksOnService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T11:50:59.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DepartementsController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\CompanySystemWebAPI\\CompanySystemWebAPI\\Controllers\\DepartementsController.cs",
+              "RelativeDocumentMoniker": "CompanySystemWebAPI\\Controllers\\DepartementsController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\CompanySystemWebAPI\\CompanySystemWebAPI\\Controllers\\DepartementsController.cs",
+              "RelativeToolTip": "CompanySystemWebAPI\\Controllers\\DepartementsController.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAAACkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T04:35:49.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProjectsController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\CompanySystemWebAPI\\CompanySystemWebAPI\\Controllers\\ProjectsController.cs",
+              "RelativeDocumentMoniker": "CompanySystemWebAPI\\Controllers\\ProjectsController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\CompanySystemWebAPI\\CompanySystemWebAPI\\Controllers\\ProjectsController.cs",
+              "RelativeToolTip": "CompanySystemWebAPI\\Controllers\\ProjectsController.cs",
+              "ViewState": "AQIAAHQAAAAAAAAAAAAAAIcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T10:44:50.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WorksOnService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\CompanySystemWebAPI\\CompanySystemWebAPI\\Services\\WorksOnService.cs",
+              "RelativeDocumentMoniker": "CompanySystemWebAPI\\Services\\WorksOnService.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\CompanySystemWebAPI\\CompanySystemWebAPI\\Services\\WorksOnService.cs",
+              "RelativeToolTip": "CompanySystemWebAPI\\Services\\WorksOnService.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACgAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T11:53:28.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\CompanySystemWebAPI\\CompanySystemWebAPI\\Controllers\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "CompanySystemWebAPI\\Controllers\\EmployeesController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\CompanySystemWebAPI\\CompanySystemWebAPI\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "CompanySystemWebAPI\\Controllers\\EmployeesController.cs",
+              "ViewState": "AQIAAMkAAAAAAAAAAAAAAN4AAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T04:26:05.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\CompanySystemWebAPI\\CompanySystemWebAPI\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "CompanySystemWebAPI\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\CompanySystemWebAPI\\CompanySystemWebAPI\\appsettings.Development.json",
+              "RelativeToolTip": "CompanySystemWebAPI\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-09T09:59:28.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WorksonsController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\CompanySystemWebAPI\\CompanySystemWebAPI\\Controllers\\WorksonsController.cs",
+              "RelativeDocumentMoniker": "CompanySystemWebAPI\\Controllers\\WorksonsController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\CompanySystemWebAPI\\CompanySystemWebAPI\\Controllers\\WorksonsController.cs",
+              "RelativeToolTip": "CompanySystemWebAPI\\Controllers\\WorksonsController.cs",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAAAGYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T11:56:09.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "WorksOnUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\CompanySystemWebAPI\\CompanySystemWebAPI\\Dtos\\WorksOnDto\\WorksOnUpdateDto.cs",
+              "RelativeDocumentMoniker": "CompanySystemWebAPI\\Dtos\\WorksOnDto\\WorksOnUpdateDto.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\CompanySystemWebAPI\\CompanySystemWebAPI\\Dtos\\WorksOnDto\\WorksOnUpdateDto.cs",
+              "RelativeToolTip": "CompanySystemWebAPI\\Dtos\\WorksOnDto\\WorksOnUpdateDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T12:24:56.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IProjectsService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\CompanySystemWebAPI\\CompanySystemWebAPI\\Interfaces\\IProjectsService.cs",
+              "RelativeDocumentMoniker": "CompanySystemWebAPI\\Interfaces\\IProjectsService.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\CompanySystemWebAPI\\CompanySystemWebAPI\\Interfaces\\IProjectsService.cs",
+              "RelativeToolTip": "CompanySystemWebAPI\\Interfaces\\IProjectsService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T10:17:13.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IEmployeesService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\CompanySystemWebAPI\\CompanySystemWebAPI\\Interfaces\\IEmployeesService.cs",
+              "RelativeDocumentMoniker": "CompanySystemWebAPI\\Interfaces\\IEmployeesService.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\CompanySystemWebAPI\\CompanySystemWebAPI\\Interfaces\\IEmployeesService.cs",
+              "RelativeToolTip": "CompanySystemWebAPI\\Interfaces\\IEmployeesService.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAABYAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T04:18:26.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Workson.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\CompanySystemWebAPI\\CompanySystemWebAPI\\Models\\Workson.cs",
+              "RelativeDocumentMoniker": "CompanySystemWebAPI\\Models\\Workson.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\CompanySystemWebAPI\\CompanySystemWebAPI\\Models\\Workson.cs",
+              "RelativeToolTip": "CompanySystemWebAPI\\Models\\Workson.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T04:52:25.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DepartementsService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\CompanySystemWebAPI\\CompanySystemWebAPI\\Services\\DepartementsService.cs",
+              "RelativeDocumentMoniker": "CompanySystemWebAPI\\Services\\DepartementsService.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\CompanySystemWebAPI\\CompanySystemWebAPI\\Services\\DepartementsService.cs",
+              "RelativeToolTip": "CompanySystemWebAPI\\Services\\DepartementsService.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAAAEUAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T04:33:58.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IDepartementsService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\CompanySystemWebAPI\\CompanySystemWebAPI\\Interfaces\\IDepartementsService.cs",
+              "RelativeDocumentMoniker": "CompanySystemWebAPI\\Interfaces\\IDepartementsService.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\CompanySystemWebAPI\\CompanySystemWebAPI\\Interfaces\\IDepartementsService.cs",
+              "RelativeToolTip": "CompanySystemWebAPI\\Interfaces\\IDepartementsService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T04:32:46.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\CompanySystemWebAPI\\CompanySystemWebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "CompanySystemWebAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\CompanySystemWebAPI\\CompanySystemWebAPI\\Program.cs",
+              "RelativeToolTip": "CompanySystemWebAPI\\Program.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAAAFYAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T02:52:35.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ProjectsService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\CompanySystemWebAPI\\CompanySystemWebAPI\\Services\\ProjectsService.cs",
+              "RelativeDocumentMoniker": "CompanySystemWebAPI\\Services\\ProjectsService.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\CompanySystemWebAPI\\CompanySystemWebAPI\\Services\\ProjectsService.cs",
+              "RelativeToolTip": "CompanySystemWebAPI\\Services\\ProjectsService.cs",
+              "ViewState": "AQIAAGQAAAAAAAAAAAAAAHEAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T10:19:07.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CompanySystemWebAPI.http",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\CompanySystemWebAPI\\CompanySystemWebAPI\\CompanySystemWebAPI.http",
+              "RelativeDocumentMoniker": "CompanySystemWebAPI\\CompanySystemWebAPI.http",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\CompanySystemWebAPI\\CompanySystemWebAPI\\CompanySystemWebAPI.http",
+              "RelativeToolTip": "CompanySystemWebAPI\\CompanySystemWebAPI.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-08-08T03:56:42.114Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CompanySystemWebAPI.csproj",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\CompanySystemWebAPI\\CompanySystemWebAPI\\CompanySystemWebAPI.csproj",
+              "RelativeDocumentMoniker": "CompanySystemWebAPI\\CompanySystemWebAPI.csproj",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\CompanySystemWebAPI\\CompanySystemWebAPI\\CompanySystemWebAPI.csproj",
+              "RelativeToolTip": "CompanySystemWebAPI\\CompanySystemWebAPI.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-08T03:56:47.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "EmployeesService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\CompanySystemWebAPI\\CompanySystemWebAPI\\Services\\EmployeesService.cs",
+              "RelativeDocumentMoniker": "CompanySystemWebAPI\\Services\\EmployeesService.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\CompanySystemWebAPI\\CompanySystemWebAPI\\Services\\EmployeesService.cs",
+              "RelativeToolTip": "CompanySystemWebAPI\\Services\\EmployeesService.cs",
+              "ViewState": "AQIAAGAAAAAAAAAAAAAAAHEAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T04:17:39.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\CompanySystemWebAPI\\CompanySystemWebAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "CompanySystemWebAPI\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\CompanySystemWebAPI\\CompanySystemWebAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "CompanySystemWebAPI\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-08T03:39:57.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\CompanySystemWebAPI\\CompanySystemWebAPI\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "CompanySystemWebAPI\\Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\CompanySystemWebAPI\\CompanySystemWebAPI\\Models\\Employee.cs",
+              "RelativeToolTip": "CompanySystemWebAPI\\Models\\Employee.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T03:24:28.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Project.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\CompanySystemWebAPI\\CompanySystemWebAPI\\Models\\Project.cs",
+              "RelativeDocumentMoniker": "CompanySystemWebAPI\\Models\\Project.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\CompanySystemWebAPI\\CompanySystemWebAPI\\Models\\Project.cs",
+              "RelativeToolTip": "CompanySystemWebAPI\\Models\\Project.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T04:44:41.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Departement.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\CompanySystemWebAPI\\CompanySystemWebAPI\\Models\\Departement.cs",
+              "RelativeDocumentMoniker": "CompanySystemWebAPI\\Models\\Departement.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\CompanySystemWebAPI\\CompanySystemWebAPI\\Models\\Departement.cs",
+              "RelativeToolTip": "CompanySystemWebAPI\\Models\\Departement.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T03:24:28.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "WorksOnService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\AppData\\Local\\SourceServer\\39d6f55c4082cd2a92ddc434cb3ea6c08ca989030cabf0c5901b8c111def7840\\CompanySystemWebAPI\\CompanySystemWebAPI\\Services\\WorksOnService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\SourceServer\\39d6f55c4082cd2a92ddc434cb3ea6c08ca989030cabf0c5901b8c111def7840\\CompanySystemWebAPI\\CompanySystemWebAPI\\Services\\WorksOnService.cs",
+              "ToolTip": "C:\\Users\\user\\AppData\\Local\\SourceServer\\39d6f55c4082cd2a92ddc434cb3ea6c08ca989030cabf0c5901b8c111def7840\\CompanySystemWebAPI\\CompanySystemWebAPI\\Services\\WorksOnService.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\SourceServer\\39d6f55c4082cd2a92ddc434cb3ea6c08ca989030cabf0c5901b8c111def7840\\CompanySystemWebAPI\\CompanySystemWebAPI\\Services\\WorksOnService.cs [Read Only]",
+              "ViewState": "AQIAACkAAAAAAAAAAIAwwEAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T06:55:18.003Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "DepartementsAddDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\CompanySystemWebAPI\\CompanySystemWebAPI\\Dtos\\DepartementsDto\\DepartementsAddDto.cs",
+              "RelativeDocumentMoniker": "CompanySystemWebAPI\\Dtos\\DepartementsDto\\DepartementsAddDto.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\CompanySystemWebAPI\\CompanySystemWebAPI\\Dtos\\DepartementsDto\\DepartementsAddDto.cs",
+              "RelativeToolTip": "CompanySystemWebAPI\\Dtos\\DepartementsDto\\DepartementsAddDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T05:09:20.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "EmployeesAddDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\CompanySystemWebAPI\\CompanySystemWebAPI\\Dtos\\EmployeesDto\\EmployeesAddDto.cs",
+              "RelativeDocumentMoniker": "CompanySystemWebAPI\\Dtos\\EmployeesDto\\EmployeesAddDto.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\CompanySystemWebAPI\\CompanySystemWebAPI\\Dtos\\EmployeesDto\\EmployeesAddDto.cs",
+              "RelativeToolTip": "CompanySystemWebAPI\\Dtos\\EmployeesDto\\EmployeesAddDto.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAB8AAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T05:40:51.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CompanyContext.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\CompanySystemWebAPI\\CompanySystemWebAPI\\Models\\CompanyContext.cs",
+              "RelativeDocumentMoniker": "CompanySystemWebAPI\\Models\\CompanyContext.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\CompanySystemWebAPI\\CompanySystemWebAPI\\Models\\CompanyContext.cs",
+              "RelativeToolTip": "CompanySystemWebAPI\\Models\\CompanyContext.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABkAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T03:23:24.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "WorksOnAddDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\CompanySystemWebAPI\\CompanySystemWebAPI\\Dtos\\WorksOnDto\\WorksOnAddDto.cs",
+              "RelativeDocumentMoniker": "CompanySystemWebAPI\\Dtos\\WorksOnDto\\WorksOnAddDto.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\CompanySystemWebAPI\\CompanySystemWebAPI\\Dtos\\WorksOnDto\\WorksOnAddDto.cs",
+              "RelativeToolTip": "CompanySystemWebAPI\\Dtos\\WorksOnDto\\WorksOnAddDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T11:52:08.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ProjectsAddDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\CompanySystemWebAPI\\CompanySystemWebAPI\\Dtos\\ProjectsDto\\ProjectsAddDto.cs",
+              "RelativeDocumentMoniker": "CompanySystemWebAPI\\Dtos\\ProjectsDto\\ProjectsAddDto.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\CompanySystemWebAPI\\CompanySystemWebAPI\\Dtos\\ProjectsDto\\ProjectsAddDto.cs",
+              "RelativeToolTip": "CompanySystemWebAPI\\Dtos\\ProjectsDto\\ProjectsAddDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T10:20:45.498Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
