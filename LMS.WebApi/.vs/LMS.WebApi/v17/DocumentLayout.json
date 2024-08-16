@@ -1,0 +1,267 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\LMS.WebApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C87C8120-5788-4332-B981-AE2302E569F4}|LMS.WebApi\\LMS.WebApi.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\lms.webapi\\lms.webapi\\controllers\\transactionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C87C8120-5788-4332-B981-AE2302E569F4}|LMS.WebApi\\LMS.WebApi.csproj|solutionrelative:lms.webapi\\controllers\\transactionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C87C8120-5788-4332-B981-AE2302E569F4}|LMS.WebApi\\LMS.WebApi.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\lms.webapi\\lms.webapi\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C87C8120-5788-4332-B981-AE2302E569F4}|LMS.WebApi\\LMS.WebApi.csproj|solutionrelative:lms.webapi\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6472DFF-79F1-4793-9228-88E48E74645D}|LMS.Infrastructure\\LMS.Infrastructure.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\lms.webapi\\lms.infrastructure\\manager\\bookmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6472DFF-79F1-4793-9228-88E48E74645D}|LMS.Infrastructure\\LMS.Infrastructure.csproj|solutionrelative:lms.infrastructure\\manager\\bookmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6472DFF-79F1-4793-9228-88E48E74645D}|LMS.Infrastructure\\LMS.Infrastructure.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\lms.webapi\\lms.infrastructure\\repository\\bookusertransactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6472DFF-79F1-4793-9228-88E48E74645D}|LMS.Infrastructure\\LMS.Infrastructure.csproj|solutionrelative:lms.infrastructure\\repository\\bookusertransactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6472DFF-79F1-4793-9228-88E48E74645D}|LMS.Infrastructure\\LMS.Infrastructure.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\lms.webapi\\lms.infrastructure\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6472DFF-79F1-4793-9228-88E48E74645D}|LMS.Infrastructure\\LMS.Infrastructure.csproj|solutionrelative:lms.infrastructure\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C87C8120-5788-4332-B981-AE2302E569F4}|LMS.WebApi\\LMS.WebApi.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\lms.webapi\\lms.webapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C87C8120-5788-4332-B981-AE2302E569F4}|LMS.WebApi\\LMS.WebApi.csproj|solutionrelative:lms.webapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6472DFF-79F1-4793-9228-88E48E74645D}|LMS.Infrastructure\\LMS.Infrastructure.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\lms.webapi\\lms.infrastructure\\repository\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6472DFF-79F1-4793-9228-88E48E74645D}|LMS.Infrastructure\\LMS.Infrastructure.csproj|solutionrelative:lms.infrastructure\\repository\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C87C8120-5788-4332-B981-AE2302E569F4}|LMS.WebApi\\LMS.WebApi.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\lms.webapi\\lms.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C87C8120-5788-4332-B981-AE2302E569F4}|LMS.WebApi\\LMS.WebApi.csproj|solutionrelative:lms.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C87C8120-5788-4332-B981-AE2302E569F4}|LMS.WebApi\\LMS.WebApi.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\lms.webapi\\lms.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C87C8120-5788-4332-B981-AE2302E569F4}|LMS.WebApi\\LMS.WebApi.csproj|solutionrelative:lms.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDCD4FEB-7ADD-46C4-86EA-F006DCAB1D39}|LMS.Core\\LMS.Domain.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\lms.webapi\\lms.core\\models\\entities\\libraryoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDCD4FEB-7ADD-46C4-86EA-F006DCAB1D39}|LMS.Core\\LMS.Domain.csproj|solutionrelative:lms.core\\models\\entities\\libraryoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C87C8120-5788-4332-B981-AE2302E569F4}|LMS.WebApi\\LMS.WebApi.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\lms.webapi\\lms.webapi\\controllers\\base\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C87C8120-5788-4332-B981-AE2302E569F4}|LMS.WebApi\\LMS.WebApi.csproj|solutionrelative:lms.webapi\\controllers\\base\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6472DFF-79F1-4793-9228-88E48E74645D}|LMS.Infrastructure\\LMS.Infrastructure.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\lms.webapi\\lms.infrastructure\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6472DFF-79F1-4793-9228-88E48E74645D}|LMS.Infrastructure\\LMS.Infrastructure.csproj|solutionrelative:lms.infrastructure\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6472DFF-79F1-4793-9228-88E48E74645D}|LMS.Infrastructure\\LMS.Infrastructure.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\lms.webapi\\lms.infrastructure\\lmsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6472DFF-79F1-4793-9228-88E48E74645D}|LMS.Infrastructure\\LMS.Infrastructure.csproj|solutionrelative:lms.infrastructure\\lmsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CECF990-039B-47C6-A60C-067A99BAE720}|LMS.Application\\LMS.Application.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\lms.webapi\\lms.application\\irepositories\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CECF990-039B-47C6-A60C-067A99BAE720}|LMS.Application\\LMS.Application.csproj|solutionrelative:lms.application\\irepositories\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CECF990-039B-47C6-A60C-067A99BAE720}|LMS.Application\\LMS.Application.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\lms.webapi\\lms.application\\irepositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CECF990-039B-47C6-A60C-067A99BAE720}|LMS.Application\\LMS.Application.csproj|solutionrelative:lms.application\\irepositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\LMS.WebApi\\LMS.WebApi\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "LMS.WebApi\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\LMS.WebApi\\LMS.WebApi\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "LMS.WebApi\\Controllers\\UsersController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T09:07:13.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BookManager.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\LMS.WebApi\\LMS.Infrastructure\\Manager\\BookManager.cs",
+              "RelativeDocumentMoniker": "LMS.Infrastructure\\Manager\\BookManager.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\LMS.WebApi\\LMS.Infrastructure\\Manager\\BookManager.cs",
+              "RelativeToolTip": "LMS.Infrastructure\\Manager\\BookManager.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T10:35:23.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BookRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\LMS.WebApi\\LMS.Infrastructure\\Repository\\BookRepository.cs",
+              "RelativeDocumentMoniker": "LMS.Infrastructure\\Repository\\BookRepository.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\LMS.WebApi\\LMS.Infrastructure\\Repository\\BookRepository.cs",
+              "RelativeToolTip": "LMS.Infrastructure\\Repository\\BookRepository.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T03:48:43.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\LMS.WebApi\\LMS.WebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "LMS.WebApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\LMS.WebApi\\LMS.WebApi\\appsettings.json",
+              "RelativeToolTip": "LMS.WebApi\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-15T03:54:50.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\LMS.WebApi\\LMS.Infrastructure\\Repository\\UserRepository.cs",
+              "RelativeDocumentMoniker": "LMS.Infrastructure\\Repository\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\LMS.WebApi\\LMS.Infrastructure\\Repository\\UserRepository.cs",
+              "RelativeToolTip": "LMS.Infrastructure\\Repository\\UserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T10:42:12.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TransactionsController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\LMS.WebApi\\LMS.WebApi\\Controllers\\TransactionsController.cs",
+              "RelativeDocumentMoniker": "LMS.WebApi\\Controllers\\TransactionsController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\LMS.WebApi\\LMS.WebApi\\Controllers\\TransactionsController.cs",
+              "RelativeToolTip": "LMS.WebApi\\Controllers\\TransactionsController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T04:33:55.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\LMS.WebApi\\LMS.WebApi\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "LMS.WebApi\\Controllers\\BooksController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\LMS.WebApi\\LMS.WebApi\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "LMS.WebApi\\Controllers\\BooksController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T04:19:47.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BookusertransactionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\LMS.WebApi\\LMS.Infrastructure\\Repository\\BookusertransactionRepository.cs",
+              "RelativeDocumentMoniker": "LMS.Infrastructure\\Repository\\BookusertransactionRepository.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\LMS.WebApi\\LMS.Infrastructure\\Repository\\BookusertransactionRepository.cs",
+              "RelativeToolTip": "LMS.Infrastructure\\Repository\\BookusertransactionRepository.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T10:41:09.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\LMS.WebApi\\LMS.WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "LMS.WebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\LMS.WebApi\\LMS.WebApi\\Program.cs",
+              "RelativeToolTip": "LMS.WebApi\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T03:55:52.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LibraryOptions.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\LMS.WebApi\\LMS.Core\\Models\\Entities\\LibraryOptions.cs",
+              "RelativeDocumentMoniker": "LMS.Core\\Models\\Entities\\LibraryOptions.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\LMS.WebApi\\LMS.Core\\Models\\Entities\\LibraryOptions.cs",
+              "RelativeToolTip": "LMS.Core\\Models\\Entities\\LibraryOptions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T07:03:39.052Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\LMS.WebApi\\LMS.WebApi\\Controllers\\Base\\BaseController.cs",
+              "RelativeDocumentMoniker": "LMS.WebApi\\Controllers\\Base\\BaseController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\LMS.WebApi\\LMS.WebApi\\Controllers\\Base\\BaseController.cs",
+              "RelativeToolTip": "LMS.WebApi\\Controllers\\Base\\BaseController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T04:19:48.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LMSDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\LMS.WebApi\\LMS.Infrastructure\\LMSDbContext.cs",
+              "RelativeDocumentMoniker": "LMS.Infrastructure\\LMSDbContext.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\LMS.WebApi\\LMS.Infrastructure\\LMSDbContext.cs",
+              "RelativeToolTip": "LMS.Infrastructure\\LMSDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T03:49:59.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ServiceExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\LMS.WebApi\\LMS.Infrastructure\\ServiceExtensions.cs",
+              "RelativeDocumentMoniker": "LMS.Infrastructure\\ServiceExtensions.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\LMS.WebApi\\LMS.Infrastructure\\ServiceExtensions.cs",
+              "RelativeToolTip": "LMS.Infrastructure\\ServiceExtensions.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T03:49:57.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\LMS.WebApi\\LMS.Application\\IRepositories\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "LMS.Application\\IRepositories\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\LMS.WebApi\\LMS.Application\\IRepositories\\IUserRepository.cs",
+              "RelativeToolTip": "LMS.Application\\IRepositories\\IUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T03:29:39.284Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IBookRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\LMS.WebApi\\LMS.Application\\IRepositories\\IBookRepository.cs",
+              "RelativeDocumentMoniker": "LMS.Application\\IRepositories\\IBookRepository.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\LMS.WebApi\\LMS.Application\\IRepositories\\IBookRepository.cs",
+              "RelativeToolTip": "LMS.Application\\IRepositories\\IBookRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T03:29:36.608Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
