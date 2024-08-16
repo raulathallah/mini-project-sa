@@ -7007,11 +7007,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\user\\source\\repos\\mini-project-sa\\CompanyWebAPI_CA\\CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj",
       "projectName": "CompanyWeb.WebApi",
-      "projectPath": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj",
+      "projectPath": "C:\\Users\\user\\source\\repos\\mini-project-sa\\CompanyWebAPI_CA\\CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.WebApi\\obj\\",
+      "outputPath": "C:\\Users\\user\\source\\repos\\mini-project-sa\\CompanyWebAPI_CA\\CompanyWeb.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -7033,11 +7033,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Application\\CompanyWeb.Application.csproj": {
-              "projectPath": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Application\\CompanyWeb.Application.csproj"
+            "C:\\Users\\user\\source\\repos\\mini-project-sa\\CompanyWebAPI_CA\\CompanyWeb.Application\\CompanyWeb.Application.csproj": {
+              "projectPath": "C:\\Users\\user\\source\\repos\\mini-project-sa\\CompanyWebAPI_CA\\CompanyWeb.Application\\CompanyWeb.Application.csproj"
             },
-            "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Infrastructure\\CompanyWeb.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Infrastructure\\CompanyWeb.Infrastructure.csproj"
+            "C:\\Users\\user\\source\\repos\\mini-project-sa\\CompanyWebAPI_CA\\CompanyWeb.Infrastructure\\CompanyWeb.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\user\\source\\repos\\mini-project-sa\\CompanyWebAPI_CA\\CompanyWeb.Infrastructure\\CompanyWeb.Infrastructure.csproj"
             }
           }
         }
