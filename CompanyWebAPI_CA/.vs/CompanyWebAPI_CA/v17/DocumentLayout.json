@@ -1,0 +1,879 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3E9F0621-C3D9-4AFC-82D9-1D5995401982}|CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\companywebapi_ca\\companyweb.webapi\\controllers\\worksoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E9F0621-C3D9-4AFC-82D9-1D5995401982}|CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj|solutionrelative:companyweb.webapi\\controllers\\worksoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EFF3A4A-C01E-4312-B0AB-B309DD42AC68}|CompanyWeb.Infrastructure\\CompanyWeb.Infrastructure.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\companywebapi_ca\\companyweb.infrastructure\\services\\worksonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EFF3A4A-C01E-4312-B0AB-B309DD42AC68}|CompanyWeb.Infrastructure\\CompanyWeb.Infrastructure.csproj|solutionrelative:companyweb.infrastructure\\services\\worksonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CBC93D8-C748-4B5A-9D42-7A2B7F5A270A}|CompanyWeb.Application\\CompanyWeb.Application.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\companywebapi_ca\\companyweb.application\\services\\iworksonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CBC93D8-C748-4B5A-9D42-7A2B7F5A270A}|CompanyWeb.Application\\CompanyWeb.Application.csproj|solutionrelative:companyweb.application\\services\\iworksonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CBC93D8-C748-4B5A-9D42-7A2B7F5A270A}|CompanyWeb.Application\\CompanyWeb.Application.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\companywebapi_ca\\companyweb.application\\repositories\\iworksonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CBC93D8-C748-4B5A-9D42-7A2B7F5A270A}|CompanyWeb.Application\\CompanyWeb.Application.csproj|solutionrelative:companyweb.application\\repositories\\iworksonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EFF3A4A-C01E-4312-B0AB-B309DD42AC68}|CompanyWeb.Infrastructure\\CompanyWeb.Infrastructure.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\companywebapi_ca\\companyweb.infrastructure\\repositories\\worksonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EFF3A4A-C01E-4312-B0AB-B309DD42AC68}|CompanyWeb.Infrastructure\\CompanyWeb.Infrastructure.csproj|solutionrelative:companyweb.infrastructure\\repositories\\worksonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E9F0621-C3D9-4AFC-82D9-1D5995401982}|CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\companywebapi_ca\\companyweb.webapi\\controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E9F0621-C3D9-4AFC-82D9-1D5995401982}|CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj|solutionrelative:companyweb.webapi\\controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E9F0621-C3D9-4AFC-82D9-1D5995401982}|CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\companywebapi_ca\\companyweb.webapi\\controllers\\departementscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E9F0621-C3D9-4AFC-82D9-1D5995401982}|CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj|solutionrelative:companyweb.webapi\\controllers\\departementscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CBC93D8-C748-4B5A-9D42-7A2B7F5A270A}|CompanyWeb.Application\\CompanyWeb.Application.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\companywebapi_ca\\companyweb.application\\services\\icompanyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CBC93D8-C748-4B5A-9D42-7A2B7F5A270A}|CompanyWeb.Application\\CompanyWeb.Application.csproj|solutionrelative:companyweb.application\\services\\icompanyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EFF3A4A-C01E-4312-B0AB-B309DD42AC68}|CompanyWeb.Infrastructure\\CompanyWeb.Infrastructure.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\companywebapi_ca\\companyweb.infrastructure\\services\\companyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EFF3A4A-C01E-4312-B0AB-B309DD42AC68}|CompanyWeb.Infrastructure\\CompanyWeb.Infrastructure.csproj|solutionrelative:companyweb.infrastructure\\services\\companyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E9F0621-C3D9-4AFC-82D9-1D5995401982}|CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\companywebapi_ca\\companyweb.webapi\\controllers\\companycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E9F0621-C3D9-4AFC-82D9-1D5995401982}|CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj|solutionrelative:companyweb.webapi\\controllers\\companycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E9F0621-C3D9-4AFC-82D9-1D5995401982}|CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\companywebapi_ca\\companyweb.webapi\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E9F0621-C3D9-4AFC-82D9-1D5995401982}|CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj|solutionrelative:companyweb.webapi\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CBC93D8-C748-4B5A-9D42-7A2B7F5A270A}|CompanyWeb.Application\\CompanyWeb.Application.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\companywebapi_ca\\companyweb.application\\repositories\\idepartementrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CBC93D8-C748-4B5A-9D42-7A2B7F5A270A}|CompanyWeb.Application\\CompanyWeb.Application.csproj|solutionrelative:companyweb.application\\repositories\\idepartementrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EFF3A4A-C01E-4312-B0AB-B309DD42AC68}|CompanyWeb.Infrastructure\\CompanyWeb.Infrastructure.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\companywebapi_ca\\companyweb.infrastructure\\services\\projectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EFF3A4A-C01E-4312-B0AB-B309DD42AC68}|CompanyWeb.Infrastructure\\CompanyWeb.Infrastructure.csproj|solutionrelative:companyweb.infrastructure\\services\\projectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EFF3A4A-C01E-4312-B0AB-B309DD42AC68}|CompanyWeb.Infrastructure\\CompanyWeb.Infrastructure.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\companywebapi_ca\\companyweb.infrastructure\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EFF3A4A-C01E-4312-B0AB-B309DD42AC68}|CompanyWeb.Infrastructure\\CompanyWeb.Infrastructure.csproj|solutionrelative:companyweb.infrastructure\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EFF3A4A-C01E-4312-B0AB-B309DD42AC68}|CompanyWeb.Infrastructure\\CompanyWeb.Infrastructure.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\companywebapi_ca\\companyweb.infrastructure\\services\\departementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EFF3A4A-C01E-4312-B0AB-B309DD42AC68}|CompanyWeb.Infrastructure\\CompanyWeb.Infrastructure.csproj|solutionrelative:companyweb.infrastructure\\services\\departementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EFF3A4A-C01E-4312-B0AB-B309DD42AC68}|CompanyWeb.Infrastructure\\CompanyWeb.Infrastructure.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\companywebapi_ca\\companyweb.infrastructure\\repositories\\projectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EFF3A4A-C01E-4312-B0AB-B309DD42AC68}|CompanyWeb.Infrastructure\\CompanyWeb.Infrastructure.csproj|solutionrelative:companyweb.infrastructure\\repositories\\projectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EFF3A4A-C01E-4312-B0AB-B309DD42AC68}|CompanyWeb.Infrastructure\\CompanyWeb.Infrastructure.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\companywebapi_ca\\companyweb.infrastructure\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EFF3A4A-C01E-4312-B0AB-B309DD42AC68}|CompanyWeb.Infrastructure\\CompanyWeb.Infrastructure.csproj|solutionrelative:companyweb.infrastructure\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EFF3A4A-C01E-4312-B0AB-B309DD42AC68}|CompanyWeb.Infrastructure\\CompanyWeb.Infrastructure.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\companywebapi_ca\\companyweb.infrastructure\\repositories\\departementrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EFF3A4A-C01E-4312-B0AB-B309DD42AC68}|CompanyWeb.Infrastructure\\CompanyWeb.Infrastructure.csproj|solutionrelative:companyweb.infrastructure\\repositories\\departementrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EFF3A4A-C01E-4312-B0AB-B309DD42AC68}|CompanyWeb.Infrastructure\\CompanyWeb.Infrastructure.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\companywebapi_ca\\companyweb.infrastructure\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EFF3A4A-C01E-4312-B0AB-B309DD42AC68}|CompanyWeb.Infrastructure\\CompanyWeb.Infrastructure.csproj|solutionrelative:companyweb.infrastructure\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CBC93D8-C748-4B5A-9D42-7A2B7F5A270A}|CompanyWeb.Application\\CompanyWeb.Application.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\companywebapi_ca\\companyweb.application\\services\\idepartementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CBC93D8-C748-4B5A-9D42-7A2B7F5A270A}|CompanyWeb.Application\\CompanyWeb.Application.csproj|solutionrelative:companyweb.application\\services\\idepartementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CBC93D8-C748-4B5A-9D42-7A2B7F5A270A}|CompanyWeb.Application\\CompanyWeb.Application.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\companywebapi_ca\\companyweb.application\\services\\iprojectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CBC93D8-C748-4B5A-9D42-7A2B7F5A270A}|CompanyWeb.Application\\CompanyWeb.Application.csproj|solutionrelative:companyweb.application\\services\\iprojectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CBC93D8-C748-4B5A-9D42-7A2B7F5A270A}|CompanyWeb.Application\\CompanyWeb.Application.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\companywebapi_ca\\companyweb.application\\repositories\\iprojectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CBC93D8-C748-4B5A-9D42-7A2B7F5A270A}|CompanyWeb.Application\\CompanyWeb.Application.csproj|solutionrelative:companyweb.application\\repositories\\iprojectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CBC93D8-C748-4B5A-9D42-7A2B7F5A270A}|CompanyWeb.Application\\CompanyWeb.Application.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\companywebapi_ca\\companyweb.application\\repositories\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CBC93D8-C748-4B5A-9D42-7A2B7F5A270A}|CompanyWeb.Application\\CompanyWeb.Application.csproj|solutionrelative:companyweb.application\\repositories\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CBC93D8-C748-4B5A-9D42-7A2B7F5A270A}|CompanyWeb.Application\\CompanyWeb.Application.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\companywebapi_ca\\companyweb.application\\services\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CBC93D8-C748-4B5A-9D42-7A2B7F5A270A}|CompanyWeb.Application\\CompanyWeb.Application.csproj|solutionrelative:companyweb.application\\services\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E9F0621-C3D9-4AFC-82D9-1D5995401982}|CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\companywebapi_ca\\companyweb.webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3E9F0621-C3D9-4AFC-82D9-1D5995401982}|CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj|solutionrelative:companyweb.webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E9F0621-C3D9-4AFC-82D9-1D5995401982}|CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\companywebapi_ca\\companyweb.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3E9F0621-C3D9-4AFC-82D9-1D5995401982}|CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj|solutionrelative:companyweb.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EFF3A4A-C01E-4312-B0AB-B309DD42AC68}|CompanyWeb.Infrastructure\\CompanyWeb.Infrastructure.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\companywebapi_ca\\companyweb.infrastructure\\companydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EFF3A4A-C01E-4312-B0AB-B309DD42AC68}|CompanyWeb.Infrastructure\\CompanyWeb.Infrastructure.csproj|solutionrelative:companyweb.infrastructure\\companydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\companywebapi_ca\\companyweb.domain\\models\\options\\companyoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|solutionrelative:companyweb.domain\\models\\options\\companyoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E9F0621-C3D9-4AFC-82D9-1D5995401982}|CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\companywebapi_ca\\companyweb.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E9F0621-C3D9-4AFC-82D9-1D5995401982}|CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj|solutionrelative:companyweb.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\companywebapi_ca\\companyweb.domain\\models\\dtos\\projectdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|solutionrelative:companyweb.domain\\models\\dtos\\projectdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\companywebapi_ca\\companyweb.domain\\models\\dtos\\employeedetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|solutionrelative:companyweb.domain\\models\\dtos\\employeedetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\companywebapi_ca\\companyweb.domain\\models\\responses\\worksondetailresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|solutionrelative:companyweb.domain\\models\\responses\\worksondetailresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\companywebapi_ca\\companyweb.domain\\models\\requests\\updateworksonrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|solutionrelative:companyweb.domain\\models\\requests\\updateworksonrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E9F0621-C3D9-4AFC-82D9-1D5995401982}|CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\companywebapi_ca\\companyweb.webapi\\controllers\\base\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E9F0621-C3D9-4AFC-82D9-1D5995401982}|CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj|solutionrelative:companyweb.webapi\\controllers\\base\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\companywebapi_ca\\companyweb.domain\\models\\dtos\\worksondetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|solutionrelative:companyweb.domain\\models\\dtos\\worksondetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\companywebapi_ca\\companyweb.domain\\models\\responses\\projectdetailresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|solutionrelative:companyweb.domain\\models\\responses\\projectdetailresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E9F0621-C3D9-4AFC-82D9-1D5995401982}|CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\companywebapi_ca\\companyweb.webapi\\companyweb.webapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{3E9F0621-C3D9-4AFC-82D9-1D5995401982}|CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj|solutionrelative:companyweb.webapi\\companyweb.webapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\companywebapi_ca\\companyweb.domain\\models\\requests\\adddepartementrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|solutionrelative:companyweb.domain\\models\\requests\\adddepartementrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\companywebapi_ca\\companyweb.domain\\models\\entities\\workson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|solutionrelative:companyweb.domain\\models\\entities\\workson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\companywebapi_ca\\companyweb.domain\\models\\entities\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|solutionrelative:companyweb.domain\\models\\entities\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\companywebapi_ca\\companyweb.domain\\models\\responses\\employeedetailresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|solutionrelative:companyweb.domain\\models\\responses\\employeedetailresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E9F0621-C3D9-4AFC-82D9-1D5995401982}|CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\companywebapi_ca\\companyweb.webapi\\companyweb.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3E9F0621-C3D9-4AFC-82D9-1D5995401982}|CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj|solutionrelative:companyweb.webapi\\companyweb.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\companywebapi_ca\\companyweb.domain\\models\\requests\\addprojectrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|solutionrelative:companyweb.domain\\models\\requests\\addprojectrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\companywebapi_ca\\companyweb.domain\\models\\requests\\addemployeerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|solutionrelative:companyweb.domain\\models\\requests\\addemployeerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\companywebapi_ca\\companyweb.domain\\models\\requests\\addworksonrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|solutionrelative:companyweb.domain\\models\\requests\\addworksonrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\companywebapi_ca\\companyweb.domain\\models\\entities\\departement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|solutionrelative:companyweb.domain\\models\\entities\\departement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\companywebapi_ca\\companyweb.domain\\models\\entities\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|solutionrelative:companyweb.domain\\models\\entities\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\companywebapi_ca\\companyweb.domain\\models\\responses\\base\\baseresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|solutionrelative:companyweb.domain\\models\\responses\\base\\baseresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\companywebapi_ca\\companyweb.domain\\models\\requests\\updateemployeerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|solutionrelative:companyweb.domain\\models\\requests\\updateemployeerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\companywebapi_ca\\companyweb.domain\\models\\requests\\updatedepartementrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|solutionrelative:companyweb.domain\\models\\requests\\updatedepartementrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EFF3A4A-C01E-4312-B0AB-B309DD42AC68}|CompanyWeb.Infrastructure\\CompanyWeb.Infrastructure.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\companywebapi_ca\\companyweb.infrastructure\\companyweb.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2EFF3A4A-C01E-4312-B0AB-B309DD42AC68}|CompanyWeb.Infrastructure\\CompanyWeb.Infrastructure.csproj|solutionrelative:companyweb.infrastructure\\companyweb.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CBC93D8-C748-4B5A-9D42-7A2B7F5A270A}|CompanyWeb.Application\\CompanyWeb.Application.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\companywebapi_ca\\companyweb.application\\companyweb.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2CBC93D8-C748-4B5A-9D42-7A2B7F5A270A}|CompanyWeb.Application\\CompanyWeb.Application.csproj|solutionrelative:companyweb.application\\companyweb.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\companywebapi_ca\\companyweb.domain\\companyweb.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|solutionrelative:companyweb.domain\\companyweb.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProjectsController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.WebApi\\Controllers\\ProjectsController.cs",
+              "RelativeDocumentMoniker": "CompanyWeb.WebApi\\Controllers\\ProjectsController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.WebApi\\Controllers\\ProjectsController.cs",
+              "RelativeToolTip": "CompanyWeb.WebApi\\Controllers\\ProjectsController.cs",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAAACgAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T13:00:51.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DepartementsController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.WebApi\\Controllers\\DepartementsController.cs",
+              "RelativeDocumentMoniker": "CompanyWeb.WebApi\\Controllers\\DepartementsController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.WebApi\\Controllers\\DepartementsController.cs",
+              "RelativeToolTip": "CompanyWeb.WebApi\\Controllers\\DepartementsController.cs",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAAAGwAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T04:21:33.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WorksOnController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.WebApi\\Controllers\\WorksOnController.cs",
+              "RelativeDocumentMoniker": "CompanyWeb.WebApi\\Controllers\\WorksOnController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.WebApi\\Controllers\\WorksOnController.cs",
+              "RelativeToolTip": "CompanyWeb.WebApi\\Controllers\\WorksOnController.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAAK8AAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T16:57:28.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WorksOnService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Infrastructure\\Services\\WorksOnService.cs",
+              "RelativeDocumentMoniker": "CompanyWeb.Infrastructure\\Services\\WorksOnService.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Infrastructure\\Services\\WorksOnService.cs",
+              "RelativeToolTip": "CompanyWeb.Infrastructure\\Services\\WorksOnService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEUAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T15:35:58.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ICompanyService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Application\\Services\\ICompanyService.cs",
+              "RelativeDocumentMoniker": "CompanyWeb.Application\\Services\\ICompanyService.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Application\\Services\\ICompanyService.cs",
+              "RelativeToolTip": "CompanyWeb.Application\\Services\\ICompanyService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEgAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T03:38:17.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WorksOnRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Infrastructure\\Repositories\\WorksOnRepository.cs",
+              "RelativeDocumentMoniker": "CompanyWeb.Infrastructure\\Repositories\\WorksOnRepository.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Infrastructure\\Repositories\\WorksOnRepository.cs",
+              "RelativeToolTip": "CompanyWeb.Infrastructure\\Repositories\\WorksOnRepository.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAFYAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T12:47:04.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IWorksOnService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Application\\Services\\IWorksOnService.cs",
+              "RelativeDocumentMoniker": "CompanyWeb.Application\\Services\\IWorksOnService.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Application\\Services\\IWorksOnService.cs",
+              "RelativeToolTip": "CompanyWeb.Application\\Services\\IWorksOnService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA4AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T15:33:45.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IWorksOnRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Application\\Repositories\\IWorksOnRepository.cs",
+              "RelativeDocumentMoniker": "CompanyWeb.Application\\Repositories\\IWorksOnRepository.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Application\\Repositories\\IWorksOnRepository.cs",
+              "RelativeToolTip": "CompanyWeb.Application\\Repositories\\IWorksOnRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T03:36:46.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CompanyService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Infrastructure\\Services\\CompanyService.cs",
+              "RelativeDocumentMoniker": "CompanyWeb.Infrastructure\\Services\\CompanyService.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Infrastructure\\Services\\CompanyService.cs",
+              "RelativeToolTip": "CompanyWeb.Infrastructure\\Services\\CompanyService.cs",
+              "ViewState": "AQIAAEkBAAAAAAAAAAAAAEoBAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T06:45:41.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CompanyController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.WebApi\\Controllers\\CompanyController.cs",
+              "RelativeDocumentMoniker": "CompanyWeb.WebApi\\Controllers\\CompanyController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.WebApi\\Controllers\\CompanyController.cs",
+              "RelativeToolTip": "CompanyWeb.WebApi\\Controllers\\CompanyController.cs",
+              "ViewState": "AQIAAJABAAAAAAAAAAAAAJIBAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T06:42:59.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.WebApi\\Controllers\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "CompanyWeb.WebApi\\Controllers\\EmployeesController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.WebApi\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "CompanyWeb.WebApi\\Controllers\\EmployeesController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T04:48:05.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IDepartementRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Application\\Repositories\\IDepartementRepository.cs",
+              "RelativeDocumentMoniker": "CompanyWeb.Application\\Repositories\\IDepartementRepository.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Application\\Repositories\\IDepartementRepository.cs",
+              "RelativeToolTip": "CompanyWeb.Application\\Repositories\\IDepartementRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T03:31:11.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProjectService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Infrastructure\\Services\\ProjectService.cs",
+              "RelativeDocumentMoniker": "CompanyWeb.Infrastructure\\Services\\ProjectService.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Infrastructure\\Services\\ProjectService.cs",
+              "RelativeToolTip": "CompanyWeb.Infrastructure\\Services\\ProjectService.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAEgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T12:49:08.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Infrastructure\\Services\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "CompanyWeb.Infrastructure\\Services\\EmployeeService.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Infrastructure\\Services\\EmployeeService.cs",
+              "RelativeToolTip": "CompanyWeb.Infrastructure\\Services\\EmployeeService.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T09:07:28.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DepartementService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Infrastructure\\Services\\DepartementService.cs",
+              "RelativeDocumentMoniker": "CompanyWeb.Infrastructure\\Services\\DepartementService.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Infrastructure\\Services\\DepartementService.cs",
+              "RelativeToolTip": "CompanyWeb.Infrastructure\\Services\\DepartementService.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAACsAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T08:30:10.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ProjectRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Infrastructure\\Repositories\\ProjectRepository.cs",
+              "RelativeDocumentMoniker": "CompanyWeb.Infrastructure\\Repositories\\ProjectRepository.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Infrastructure\\Repositories\\ProjectRepository.cs",
+              "RelativeToolTip": "CompanyWeb.Infrastructure\\Repositories\\ProjectRepository.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAAA4AAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T12:43:01.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Infrastructure\\Repositories\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "CompanyWeb.Infrastructure\\Repositories\\EmployeeRepository.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Infrastructure\\Repositories\\EmployeeRepository.cs",
+              "RelativeToolTip": "CompanyWeb.Infrastructure\\Repositories\\EmployeeRepository.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAAFIAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T04:37:33.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DepartementRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Infrastructure\\Repositories\\DepartementRepository.cs",
+              "RelativeDocumentMoniker": "CompanyWeb.Infrastructure\\Repositories\\DepartementRepository.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Infrastructure\\Repositories\\DepartementRepository.cs",
+              "RelativeToolTip": "CompanyWeb.Infrastructure\\Repositories\\DepartementRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAF8AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T03:49:34.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ServiceExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Infrastructure\\ServiceExtensions.cs",
+              "RelativeDocumentMoniker": "CompanyWeb.Infrastructure\\ServiceExtensions.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Infrastructure\\ServiceExtensions.cs",
+              "RelativeToolTip": "CompanyWeb.Infrastructure\\ServiceExtensions.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAACAAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T03:54:28.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IDepartementService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Application\\Services\\IDepartementService.cs",
+              "RelativeDocumentMoniker": "CompanyWeb.Application\\Services\\IDepartementService.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Application\\Services\\IDepartementService.cs",
+              "RelativeToolTip": "CompanyWeb.Application\\Services\\IDepartementService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T08:30:23.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IProjectService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Application\\Services\\IProjectService.cs",
+              "RelativeDocumentMoniker": "CompanyWeb.Application\\Services\\IProjectService.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Application\\Services\\IProjectService.cs",
+              "RelativeToolTip": "CompanyWeb.Application\\Services\\IProjectService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T12:49:22.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IProjectRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Application\\Repositories\\IProjectRepository.cs",
+              "RelativeDocumentMoniker": "CompanyWeb.Application\\Repositories\\IProjectRepository.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Application\\Repositories\\IProjectRepository.cs",
+              "RelativeToolTip": "CompanyWeb.Application\\Repositories\\IProjectRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBMAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T03:34:53.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IEmployeeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Application\\Repositories\\IEmployeeRepository.cs",
+              "RelativeDocumentMoniker": "CompanyWeb.Application\\Repositories\\IEmployeeRepository.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Application\\Repositories\\IEmployeeRepository.cs",
+              "RelativeToolTip": "CompanyWeb.Application\\Repositories\\IEmployeeRepository.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAD4vw8AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T03:34:07.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IEmployeeService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Application\\Services\\IEmployeeService.cs",
+              "RelativeDocumentMoniker": "CompanyWeb.Application\\Services\\IEmployeeService.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Application\\Services\\IEmployeeService.cs",
+              "RelativeToolTip": "CompanyWeb.Application\\Services\\IEmployeeService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA8AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T09:21:00.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.WebApi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "CompanyWeb.WebApi\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.WebApi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "CompanyWeb.WebApi\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-15T04:23:58.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.WebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "CompanyWeb.WebApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.WebApi\\appsettings.json",
+              "RelativeToolTip": "CompanyWeb.WebApi\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-15T03:54:44.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CompanyDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Infrastructure\\CompanyDbContext.cs",
+              "RelativeDocumentMoniker": "CompanyWeb.Infrastructure\\CompanyDbContext.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Infrastructure\\CompanyDbContext.cs",
+              "RelativeToolTip": "CompanyWeb.Infrastructure\\CompanyDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T03:50:12.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CompanyOptions.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Options\\CompanyOptions.cs",
+              "RelativeDocumentMoniker": "CompanyWeb.Domain\\Models\\Options\\CompanyOptions.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Options\\CompanyOptions.cs",
+              "RelativeToolTip": "CompanyWeb.Domain\\Models\\Options\\CompanyOptions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T07:03:28.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "CompanyWeb.WebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.WebApi\\Program.cs",
+              "RelativeToolTip": "CompanyWeb.WebApi\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T03:54:41.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ProjectDetailDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Dtos\\ProjectDetailDto.cs",
+              "RelativeDocumentMoniker": "CompanyWeb.Domain\\Models\\Dtos\\ProjectDetailDto.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Dtos\\ProjectDetailDto.cs",
+              "RelativeToolTip": "CompanyWeb.Domain\\Models\\Dtos\\ProjectDetailDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T13:42:09.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "EmployeeDetailDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Dtos\\EmployeeDetailDto.cs",
+              "RelativeDocumentMoniker": "CompanyWeb.Domain\\Models\\Dtos\\EmployeeDetailDto.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Dtos\\EmployeeDetailDto.cs",
+              "RelativeToolTip": "CompanyWeb.Domain\\Models\\Dtos\\EmployeeDetailDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T12:06:08.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "WorksOnDetailResponse.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Responses\\WorksOnDetailResponse.cs",
+              "RelativeDocumentMoniker": "CompanyWeb.Domain\\Models\\Responses\\WorksOnDetailResponse.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Responses\\WorksOnDetailResponse.cs",
+              "RelativeToolTip": "CompanyWeb.Domain\\Models\\Responses\\WorksOnDetailResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T15:40:38.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "UpdateWorksOnRequest.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Requests\\UpdateWorksOnRequest.cs",
+              "RelativeDocumentMoniker": "CompanyWeb.Domain\\Models\\Requests\\UpdateWorksOnRequest.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Requests\\UpdateWorksOnRequest.cs",
+              "RelativeToolTip": "CompanyWeb.Domain\\Models\\Requests\\UpdateWorksOnRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T03:28:14.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.WebApi\\Controllers\\Base\\BaseController.cs",
+              "RelativeDocumentMoniker": "CompanyWeb.WebApi\\Controllers\\Base\\BaseController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.WebApi\\Controllers\\Base\\BaseController.cs",
+              "RelativeToolTip": "CompanyWeb.WebApi\\Controllers\\Base\\BaseController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T04:19:44.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "WorksOnDetailDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Dtos\\WorksOnDetailDto.cs",
+              "RelativeDocumentMoniker": "CompanyWeb.Domain\\Models\\Dtos\\WorksOnDetailDto.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Dtos\\WorksOnDetailDto.cs",
+              "RelativeToolTip": "CompanyWeb.Domain\\Models\\Dtos\\WorksOnDetailDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T15:41:17.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ProjectDetailResponse.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Responses\\ProjectDetailResponse.cs",
+              "RelativeDocumentMoniker": "CompanyWeb.Domain\\Models\\Responses\\ProjectDetailResponse.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Responses\\ProjectDetailResponse.cs",
+              "RelativeToolTip": "CompanyWeb.Domain\\Models\\Responses\\ProjectDetailResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T13:45:10.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "CompanyWeb.WebApi.http",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.WebApi\\CompanyWeb.WebApi.http",
+              "RelativeDocumentMoniker": "CompanyWeb.WebApi\\CompanyWeb.WebApi.http",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.WebApi\\CompanyWeb.WebApi.http",
+              "RelativeToolTip": "CompanyWeb.WebApi\\CompanyWeb.WebApi.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-08-15T03:54:43.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "AddDepartementRequest.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Requests\\AddDepartementRequest.cs",
+              "RelativeDocumentMoniker": "CompanyWeb.Domain\\Models\\Requests\\AddDepartementRequest.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Requests\\AddDepartementRequest.cs",
+              "RelativeToolTip": "CompanyWeb.Domain\\Models\\Requests\\AddDepartementRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T03:25:41.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Workson.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Entities\\Workson.cs",
+              "RelativeDocumentMoniker": "CompanyWeb.Domain\\Models\\Entities\\Workson.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Entities\\Workson.cs",
+              "RelativeToolTip": "CompanyWeb.Domain\\Models\\Entities\\Workson.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAABgAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T03:22:04.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Project.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Entities\\Project.cs",
+              "RelativeDocumentMoniker": "CompanyWeb.Domain\\Models\\Entities\\Project.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Entities\\Project.cs",
+              "RelativeToolTip": "CompanyWeb.Domain\\Models\\Entities\\Project.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABUAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T03:22:04.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "EmployeeDetailResponse.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Responses\\EmployeeDetailResponse.cs",
+              "RelativeDocumentMoniker": "CompanyWeb.Domain\\Models\\Responses\\EmployeeDetailResponse.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Responses\\EmployeeDetailResponse.cs",
+              "RelativeToolTip": "CompanyWeb.Domain\\Models\\Responses\\EmployeeDetailResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAwAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T12:06:51.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "CompanyWeb.WebApi.csproj",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj",
+              "RelativeDocumentMoniker": "CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj",
+              "RelativeToolTip": "CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-15T03:19:49.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "AddProjectRequest.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Requests\\AddProjectRequest.cs",
+              "RelativeDocumentMoniker": "CompanyWeb.Domain\\Models\\Requests\\AddProjectRequest.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Requests\\AddProjectRequest.cs",
+              "RelativeToolTip": "CompanyWeb.Domain\\Models\\Requests\\AddProjectRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T03:27:08.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "AddEmployeeRequest.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Requests\\AddEmployeeRequest.cs",
+              "RelativeDocumentMoniker": "CompanyWeb.Domain\\Models\\Requests\\AddEmployeeRequest.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Requests\\AddEmployeeRequest.cs",
+              "RelativeToolTip": "CompanyWeb.Domain\\Models\\Requests\\AddEmployeeRequest.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAqwA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T03:26:25.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "AddWorksOnRequest.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Requests\\AddWorksOnRequest.cs",
+              "RelativeDocumentMoniker": "CompanyWeb.Domain\\Models\\Requests\\AddWorksOnRequest.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Requests\\AddWorksOnRequest.cs",
+              "RelativeToolTip": "CompanyWeb.Domain\\Models\\Requests\\AddWorksOnRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T03:27:40.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Departement.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Entities\\Departement.cs",
+              "RelativeDocumentMoniker": "CompanyWeb.Domain\\Models\\Entities\\Departement.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Entities\\Departement.cs",
+              "RelativeToolTip": "CompanyWeb.Domain\\Models\\Entities\\Departement.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T03:22:01.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Entities\\Employee.cs",
+              "RelativeDocumentMoniker": "CompanyWeb.Domain\\Models\\Entities\\Employee.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Entities\\Employee.cs",
+              "RelativeToolTip": "CompanyWeb.Domain\\Models\\Entities\\Employee.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAwCgAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T03:21:17.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "BaseResponse.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Responses\\Base\\BaseResponse.cs",
+              "RelativeDocumentMoniker": "CompanyWeb.Domain\\Models\\Responses\\Base\\BaseResponse.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Responses\\Base\\BaseResponse.cs",
+              "RelativeToolTip": "CompanyWeb.Domain\\Models\\Responses\\Base\\BaseResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T10:47:50.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "UpdateEmployeeRequest.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Requests\\UpdateEmployeeRequest.cs",
+              "RelativeDocumentMoniker": "CompanyWeb.Domain\\Models\\Requests\\UpdateEmployeeRequest.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Requests\\UpdateEmployeeRequest.cs",
+              "RelativeToolTip": "CompanyWeb.Domain\\Models\\Requests\\UpdateEmployeeRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T04:44:48.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "UpdateDepartementRequest.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Requests\\UpdateDepartementRequest.cs",
+              "RelativeDocumentMoniker": "CompanyWeb.Domain\\Models\\Requests\\UpdateDepartementRequest.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Requests\\UpdateDepartementRequest.cs",
+              "RelativeToolTip": "CompanyWeb.Domain\\Models\\Requests\\UpdateDepartementRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T04:32:52.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "CompanyWeb.Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Infrastructure\\CompanyWeb.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "CompanyWeb.Infrastructure\\CompanyWeb.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Infrastructure\\CompanyWeb.Infrastructure.csproj",
+              "RelativeToolTip": "CompanyWeb.Infrastructure\\CompanyWeb.Infrastructure.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-15T03:19:41.351Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "CompanyWeb.Application.csproj",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Application\\CompanyWeb.Application.csproj",
+              "RelativeDocumentMoniker": "CompanyWeb.Application\\CompanyWeb.Application.csproj",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Application\\CompanyWeb.Application.csproj",
+              "RelativeToolTip": "CompanyWeb.Application\\CompanyWeb.Application.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-15T03:15:23.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "CompanyWeb.Domain.csproj",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Domain\\CompanyWeb.Domain.csproj",
+              "RelativeDocumentMoniker": "CompanyWeb.Domain\\CompanyWeb.Domain.csproj",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Domain\\CompanyWeb.Domain.csproj",
+              "RelativeToolTip": "CompanyWeb.Domain\\CompanyWeb.Domain.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-15T03:20:23.56Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
