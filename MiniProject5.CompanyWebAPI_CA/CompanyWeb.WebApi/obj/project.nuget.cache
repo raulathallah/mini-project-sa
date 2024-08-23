@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9kPAU0/Rjgo=",
+  "dgSpecHash": "xN8sS/xDf/w=",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj",
+  "projectFilePath": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\asp.versioning.abstractions\\8.1.0\\asp.versioning.abstractions.8.1.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\asp.versioning.http\\8.1.0\\asp.versioning.http.8.1.0.nupkg.sha512",

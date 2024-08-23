@@ -2233,11 +2233,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Domain\\CompanyWeb.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Domain\\CompanyWeb.Domain.csproj",
       "projectName": "CompanyWeb.Domain",
-      "projectPath": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Domain\\CompanyWeb.Domain.csproj",
+      "projectPath": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Domain\\CompanyWeb.Domain.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Domain\\obj\\",
+      "outputPath": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

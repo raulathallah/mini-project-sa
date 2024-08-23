@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8rLsZy5mLUE=",
+  "dgSpecHash": "wGHbaoYVnbc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\CompanyWebAPI_CA\\CompanyWeb.Application\\CompanyWeb.Application.csproj",
+  "projectFilePath": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Application\\CompanyWeb.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
