@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "pBvXwnPBafBzfYQKECwDyDQkvXbFFkNCr26WoF1CkKk=",
+  "Source": "LibraryManagementSystem.WebApi",
+  "BasePath": "_content/LibraryManagementSystem.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
