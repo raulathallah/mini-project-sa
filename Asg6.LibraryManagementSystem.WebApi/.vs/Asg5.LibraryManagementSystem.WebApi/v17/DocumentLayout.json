@@ -1,0 +1,520 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0AB793A3-EF93-4CBF-B7DB-BAF881902348}|LibraryManagementSystem.Application\\LibraryManagementSystem.Application.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\asg5.librarymanagementsystem.webapi\\librarymanagementsystem.application\\mappers\\bookmappers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AB793A3-EF93-4CBF-B7DB-BAF881902348}|LibraryManagementSystem.Application\\LibraryManagementSystem.Application.csproj|solutionrelative:librarymanagementsystem.application\\mappers\\bookmappers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D38CCE2-C661-4B4A-95F7-D7380A2E0C87}|LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\asg5.librarymanagementsystem.webapi\\librarymanagementsystem.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0D38CCE2-C661-4B4A-95F7-D7380A2E0C87}|LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi.csproj|solutionrelative:librarymanagementsystem.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D38CCE2-C661-4B4A-95F7-D7380A2E0C87}|LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\asg5.librarymanagementsystem.webapi\\librarymanagementsystem.webapi\\librarymanagementsystem.webapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{0D38CCE2-C661-4B4A-95F7-D7380A2E0C87}|LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi.csproj|solutionrelative:librarymanagementsystem.webapi\\librarymanagementsystem.webapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AB793A3-EF93-4CBF-B7DB-BAF881902348}|LibraryManagementSystem.Application\\LibraryManagementSystem.Application.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\asg5.librarymanagementsystem.webapi\\librarymanagementsystem.application\\service\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AB793A3-EF93-4CBF-B7DB-BAF881902348}|LibraryManagementSystem.Application\\LibraryManagementSystem.Application.csproj|solutionrelative:librarymanagementsystem.application\\service\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FE90E98-D4EC-4B24-A55D-B4D0C1E376AF}|LibraryManagementSystem.Domain\\LibraryManagementSystem.Domain.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\asg5.librarymanagementsystem.webapi\\librarymanagementsystem.domain\\service\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FE90E98-D4EC-4B24-A55D-B4D0C1E376AF}|LibraryManagementSystem.Domain\\LibraryManagementSystem.Domain.csproj|solutionrelative:librarymanagementsystem.domain\\service\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D38CCE2-C661-4B4A-95F7-D7380A2E0C87}|LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\asg5.librarymanagementsystem.webapi\\librarymanagementsystem.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D38CCE2-C661-4B4A-95F7-D7380A2E0C87}|LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi.csproj|solutionrelative:librarymanagementsystem.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D38CCE2-C661-4B4A-95F7-D7380A2E0C87}|LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\asg5.librarymanagementsystem.webapi\\librarymanagementsystem.webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0D38CCE2-C661-4B4A-95F7-D7380A2E0C87}|LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi.csproj|solutionrelative:librarymanagementsystem.webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06F7989D-B2AA-47F6-B9EA-161D19110EF7}|LibraryManagementSystem.Infrastructure\\LibraryManagementSystem.Infrastructure.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\asg5.librarymanagementsystem.webapi\\librarymanagementsystem.infrastructure\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06F7989D-B2AA-47F6-B9EA-161D19110EF7}|LibraryManagementSystem.Infrastructure\\LibraryManagementSystem.Infrastructure.csproj|solutionrelative:librarymanagementsystem.infrastructure\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06F7989D-B2AA-47F6-B9EA-161D19110EF7}|LibraryManagementSystem.Infrastructure\\LibraryManagementSystem.Infrastructure.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\asg5.librarymanagementsystem.webapi\\librarymanagementsystem.infrastructure\\context\\lmsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06F7989D-B2AA-47F6-B9EA-161D19110EF7}|LibraryManagementSystem.Infrastructure\\LibraryManagementSystem.Infrastructure.csproj|solutionrelative:librarymanagementsystem.infrastructure\\context\\lmsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06F7989D-B2AA-47F6-B9EA-161D19110EF7}|LibraryManagementSystem.Infrastructure\\LibraryManagementSystem.Infrastructure.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\asg5.librarymanagementsystem.webapi\\librarymanagementsystem.infrastructure\\migrations\\20240826044056_addtablestocks2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06F7989D-B2AA-47F6-B9EA-161D19110EF7}|LibraryManagementSystem.Infrastructure\\LibraryManagementSystem.Infrastructure.csproj|solutionrelative:librarymanagementsystem.infrastructure\\migrations\\20240826044056_addtablestocks2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FE90E98-D4EC-4B24-A55D-B4D0C1E376AF}|LibraryManagementSystem.Domain\\LibraryManagementSystem.Domain.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\asg5.librarymanagementsystem.webapi\\librarymanagementsystem.domain\\models\\entities\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FE90E98-D4EC-4B24-A55D-B4D0C1E376AF}|LibraryManagementSystem.Domain\\LibraryManagementSystem.Domain.csproj|solutionrelative:librarymanagementsystem.domain\\models\\entities\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FE90E98-D4EC-4B24-A55D-B4D0C1E376AF}|LibraryManagementSystem.Domain\\LibraryManagementSystem.Domain.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\asg5.librarymanagementsystem.webapi\\librarymanagementsystem.domain\\models\\entities\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FE90E98-D4EC-4B24-A55D-B4D0C1E376AF}|LibraryManagementSystem.Domain\\LibraryManagementSystem.Domain.csproj|solutionrelative:librarymanagementsystem.domain\\models\\entities\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06F7989D-B2AA-47F6-B9EA-161D19110EF7}|LibraryManagementSystem.Infrastructure\\LibraryManagementSystem.Infrastructure.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\asg5.librarymanagementsystem.webapi\\librarymanagementsystem.infrastructure\\migrations\\20240826043718_addtablestocks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06F7989D-B2AA-47F6-B9EA-161D19110EF7}|LibraryManagementSystem.Infrastructure\\LibraryManagementSystem.Infrastructure.csproj|solutionrelative:librarymanagementsystem.infrastructure\\migrations\\20240826043718_addtablestocks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06F7989D-B2AA-47F6-B9EA-161D19110EF7}|LibraryManagementSystem.Infrastructure\\LibraryManagementSystem.Infrastructure.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\asg5.librarymanagementsystem.webapi\\librarymanagementsystem.infrastructure\\migrations\\20240821080129_addtabletransactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06F7989D-B2AA-47F6-B9EA-161D19110EF7}|LibraryManagementSystem.Infrastructure\\LibraryManagementSystem.Infrastructure.csproj|solutionrelative:librarymanagementsystem.infrastructure\\migrations\\20240821080129_addtabletransactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06F7989D-B2AA-47F6-B9EA-161D19110EF7}|LibraryManagementSystem.Infrastructure\\LibraryManagementSystem.Infrastructure.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\asg5.librarymanagementsystem.webapi\\librarymanagementsystem.infrastructure\\migrations\\20240821060922_addcolumnlanguagebook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06F7989D-B2AA-47F6-B9EA-161D19110EF7}|LibraryManagementSystem.Infrastructure\\LibraryManagementSystem.Infrastructure.csproj|solutionrelative:librarymanagementsystem.infrastructure\\migrations\\20240821060922_addcolumnlanguagebook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06F7989D-B2AA-47F6-B9EA-161D19110EF7}|LibraryManagementSystem.Infrastructure\\LibraryManagementSystem.Infrastructure.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\asg5.librarymanagementsystem.webapi\\librarymanagementsystem.infrastructure\\migrations\\20240821034001_addtablelocations3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06F7989D-B2AA-47F6-B9EA-161D19110EF7}|LibraryManagementSystem.Infrastructure\\LibraryManagementSystem.Infrastructure.csproj|solutionrelative:librarymanagementsystem.infrastructure\\migrations\\20240821034001_addtablelocations3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06F7989D-B2AA-47F6-B9EA-161D19110EF7}|LibraryManagementSystem.Infrastructure\\LibraryManagementSystem.Infrastructure.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\asg5.librarymanagementsystem.webapi\\librarymanagementsystem.infrastructure\\migrations\\20240820055752_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06F7989D-B2AA-47F6-B9EA-161D19110EF7}|LibraryManagementSystem.Infrastructure\\LibraryManagementSystem.Infrastructure.csproj|solutionrelative:librarymanagementsystem.infrastructure\\migrations\\20240820055752_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06F7989D-B2AA-47F6-B9EA-161D19110EF7}|LibraryManagementSystem.Infrastructure\\LibraryManagementSystem.Infrastructure.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\asg5.librarymanagementsystem.webapi\\librarymanagementsystem.infrastructure\\migrations\\20240820061702_addcolumnuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06F7989D-B2AA-47F6-B9EA-161D19110EF7}|LibraryManagementSystem.Infrastructure\\LibraryManagementSystem.Infrastructure.csproj|solutionrelative:librarymanagementsystem.infrastructure\\migrations\\20240820061702_addcolumnuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06F7989D-B2AA-47F6-B9EA-161D19110EF7}|LibraryManagementSystem.Infrastructure\\LibraryManagementSystem.Infrastructure.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\asg5.librarymanagementsystem.webapi\\librarymanagementsystem.infrastructure\\context\\lmsdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06F7989D-B2AA-47F6-B9EA-161D19110EF7}|LibraryManagementSystem.Infrastructure\\LibraryManagementSystem.Infrastructure.csproj|solutionrelative:librarymanagementsystem.infrastructure\\context\\lmsdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FE90E98-D4EC-4B24-A55D-B4D0C1E376AF}|LibraryManagementSystem.Domain\\LibraryManagementSystem.Domain.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\asg5.librarymanagementsystem.webapi\\librarymanagementsystem.domain\\models\\entities\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FE90E98-D4EC-4B24-A55D-B4D0C1E376AF}|LibraryManagementSystem.Domain\\LibraryManagementSystem.Domain.csproj|solutionrelative:librarymanagementsystem.domain\\models\\entities\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AB793A3-EF93-4CBF-B7DB-BAF881902348}|LibraryManagementSystem.Application\\LibraryManagementSystem.Application.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\asg5.librarymanagementsystem.webapi\\librarymanagementsystem.application\\mappers\\checkoutmappers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AB793A3-EF93-4CBF-B7DB-BAF881902348}|LibraryManagementSystem.Application\\LibraryManagementSystem.Application.csproj|solutionrelative:librarymanagementsystem.application\\mappers\\checkoutmappers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FE90E98-D4EC-4B24-A55D-B4D0C1E376AF}|LibraryManagementSystem.Domain\\LibraryManagementSystem.Domain.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\asg5.librarymanagementsystem.webapi\\librarymanagementsystem.domain\\models\\entities\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FE90E98-D4EC-4B24-A55D-B4D0C1E376AF}|LibraryManagementSystem.Domain\\LibraryManagementSystem.Domain.csproj|solutionrelative:librarymanagementsystem.domain\\models\\entities\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FE90E98-D4EC-4B24-A55D-B4D0C1E376AF}|LibraryManagementSystem.Domain\\LibraryManagementSystem.Domain.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\asg5.librarymanagementsystem.webapi\\librarymanagementsystem.domain\\models\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FE90E98-D4EC-4B24-A55D-B4D0C1E376AF}|LibraryManagementSystem.Domain\\LibraryManagementSystem.Domain.csproj|solutionrelative:librarymanagementsystem.domain\\models\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FE90E98-D4EC-4B24-A55D-B4D0C1E376AF}|LibraryManagementSystem.Domain\\LibraryManagementSystem.Domain.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\asg5.librarymanagementsystem.webapi\\librarymanagementsystem.domain\\models\\entities\\libraryoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FE90E98-D4EC-4B24-A55D-B4D0C1E376AF}|LibraryManagementSystem.Domain\\LibraryManagementSystem.Domain.csproj|solutionrelative:librarymanagementsystem.domain\\models\\entities\\libraryoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FE90E98-D4EC-4B24-A55D-B4D0C1E376AF}|LibraryManagementSystem.Domain\\LibraryManagementSystem.Domain.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\asg5.librarymanagementsystem.webapi\\librarymanagementsystem.domain\\models\\entities\\bookusertransactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FE90E98-D4EC-4B24-A55D-B4D0C1E376AF}|LibraryManagementSystem.Domain\\LibraryManagementSystem.Domain.csproj|solutionrelative:librarymanagementsystem.domain\\models\\entities\\bookusertransactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AB793A3-EF93-4CBF-B7DB-BAF881902348}|LibraryManagementSystem.Application\\LibraryManagementSystem.Application.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\asg5.librarymanagementsystem.webapi\\librarymanagementsystem.application\\service\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AB793A3-EF93-4CBF-B7DB-BAF881902348}|LibraryManagementSystem.Application\\LibraryManagementSystem.Application.csproj|solutionrelative:librarymanagementsystem.application\\service\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AB793A3-EF93-4CBF-B7DB-BAF881902348}|LibraryManagementSystem.Application\\LibraryManagementSystem.Application.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\asg5.librarymanagementsystem.webapi\\librarymanagementsystem.application\\service\\stockservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AB793A3-EF93-4CBF-B7DB-BAF881902348}|LibraryManagementSystem.Application\\LibraryManagementSystem.Application.csproj|solutionrelative:librarymanagementsystem.application\\service\\stockservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FE90E98-D4EC-4B24-A55D-B4D0C1E376AF}|LibraryManagementSystem.Domain\\LibraryManagementSystem.Domain.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\asg5.librarymanagementsystem.webapi\\librarymanagementsystem.domain\\helpers\\pagerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FE90E98-D4EC-4B24-A55D-B4D0C1E376AF}|LibraryManagementSystem.Domain\\LibraryManagementSystem.Domain.csproj|solutionrelative:librarymanagementsystem.domain\\helpers\\pagerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FE90E98-D4EC-4B24-A55D-B4D0C1E376AF}|LibraryManagementSystem.Domain\\LibraryManagementSystem.Domain.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\asg5.librarymanagementsystem.webapi\\librarymanagementsystem.domain\\helpers\\searchbookquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FE90E98-D4EC-4B24-A55D-B4D0C1E376AF}|LibraryManagementSystem.Domain\\LibraryManagementSystem.Domain.csproj|solutionrelative:librarymanagementsystem.domain\\helpers\\searchbookquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06F7989D-B2AA-47F6-B9EA-161D19110EF7}|LibraryManagementSystem.Infrastructure\\LibraryManagementSystem.Infrastructure.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\asg5.librarymanagementsystem.webapi\\librarymanagementsystem.infrastructure\\librarymanagementsystem.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{06F7989D-B2AA-47F6-B9EA-161D19110EF7}|LibraryManagementSystem.Infrastructure\\LibraryManagementSystem.Infrastructure.csproj|solutionrelative:librarymanagementsystem.infrastructure\\librarymanagementsystem.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06F7989D-B2AA-47F6-B9EA-161D19110EF7}|LibraryManagementSystem.Infrastructure\\LibraryManagementSystem.Infrastructure.csproj|c:\\users\\user\\source\\repos\\net-solecode-academy\\asg5.librarymanagementsystem.webapi\\librarymanagementsystem.infrastructure\\migrations\\20240826054735_addauthorization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06F7989D-B2AA-47F6-B9EA-161D19110EF7}|LibraryManagementSystem.Infrastructure\\LibraryManagementSystem.Infrastructure.csproj|solutionrelative:librarymanagementsystem.infrastructure\\migrations\\20240826054735_addauthorization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LibraryManagementSystem.WebApi.http",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi.http",
+              "RelativeDocumentMoniker": "LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi.http",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi.http",
+              "RelativeToolTip": "LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-08-30T10:06:18.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Application\\Service\\TokenService.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem.Application\\Service\\TokenService.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Application\\Service\\TokenService.cs",
+              "RelativeToolTip": "LibraryManagementSystem.Application\\Service\\TokenService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T06:18:39.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "20240826054735_AddAuthorization.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Infrastructure\\Migrations\\20240826054735_AddAuthorization.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem.Infrastructure\\Migrations\\20240826054735_AddAuthorization.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Infrastructure\\Migrations\\20240826054735_AddAuthorization.cs",
+              "RelativeToolTip": "LibraryManagementSystem.Infrastructure\\Migrations\\20240826054735_AddAuthorization.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T05:47:35.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "LibraryManagementSystem.WebApi\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "LibraryManagementSystem.WebApi\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-26T05:43:49.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20240826044056_AddTableStocks2.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Infrastructure\\Migrations\\20240826044056_AddTableStocks2.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem.Infrastructure\\Migrations\\20240826044056_AddTableStocks2.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Infrastructure\\Migrations\\20240826044056_AddTableStocks2.cs",
+              "RelativeToolTip": "LibraryManagementSystem.Infrastructure\\Migrations\\20240826044056_AddTableStocks2.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAIBJwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T04:40:56.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "LibraryManagementSystem.WebApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi\\appsettings.json",
+              "RelativeToolTip": "LibraryManagementSystem.WebApi\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-20T09:24:10.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BookMappers.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Application\\Mappers\\BookMappers.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem.Application\\Mappers\\BookMappers.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Application\\Mappers\\BookMappers.cs",
+              "RelativeToolTip": "LibraryManagementSystem.Application\\Mappers\\BookMappers.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAiwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T07:31:15.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ITokenService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\Service\\ITokenService.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem.Domain\\Service\\ITokenService.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\Service\\ITokenService.cs",
+              "RelativeToolTip": "LibraryManagementSystem.Domain\\Service\\ITokenService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T06:15:12.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20240826043718_AddTableStocks.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Infrastructure\\Migrations\\20240826043718_AddTableStocks.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem.Infrastructure\\Migrations\\20240826043718_AddTableStocks.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Infrastructure\\Migrations\\20240826043718_AddTableStocks.cs",
+              "RelativeToolTip": "LibraryManagementSystem.Infrastructure\\Migrations\\20240826043718_AddTableStocks.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T04:37:18.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Stock.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\Models\\Entities\\Stock.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem.Domain\\Models\\Entities\\Stock.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\Models\\Entities\\Stock.cs",
+              "RelativeToolTip": "LibraryManagementSystem.Domain\\Models\\Entities\\Stock.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAIBJwBcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T07:15:45.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LMSDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Infrastructure\\Context\\LMSDbContext.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem.Infrastructure\\Context\\LMSDbContext.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Infrastructure\\Context\\LMSDbContext.cs",
+              "RelativeToolTip": "LibraryManagementSystem.Infrastructure\\Context\\LMSDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T09:23:59.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ServiceExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Infrastructure\\ServiceExtensions.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem.Infrastructure\\ServiceExtensions.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Infrastructure\\ServiceExtensions.cs",
+              "RelativeToolTip": "LibraryManagementSystem.Infrastructure\\ServiceExtensions.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAIBJwBcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T09:24:02.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem.WebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi\\Program.cs",
+              "RelativeToolTip": "LibraryManagementSystem.WebApi\\Program.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAIBJwEcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T09:24:09.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "20240821080129_AddTableTransactions.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Infrastructure\\Migrations\\20240821080129_AddTableTransactions.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem.Infrastructure\\Migrations\\20240821080129_AddTableTransactions.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Infrastructure\\Migrations\\20240821080129_AddTableTransactions.cs",
+              "RelativeToolTip": "LibraryManagementSystem.Infrastructure\\Migrations\\20240821080129_AddTableTransactions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T04:35:53.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20240821060922_AddColumnLanguageBook.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Infrastructure\\Migrations\\20240821060922_AddColumnLanguageBook.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem.Infrastructure\\Migrations\\20240821060922_AddColumnLanguageBook.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Infrastructure\\Migrations\\20240821060922_AddColumnLanguageBook.cs",
+              "RelativeToolTip": "LibraryManagementSystem.Infrastructure\\Migrations\\20240821060922_AddColumnLanguageBook.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T04:37:42.596Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20240821034001_AddTableLocations3.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Infrastructure\\Migrations\\20240821034001_AddTableLocations3.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem.Infrastructure\\Migrations\\20240821034001_AddTableLocations3.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Infrastructure\\Migrations\\20240821034001_AddTableLocations3.cs",
+              "RelativeToolTip": "LibraryManagementSystem.Infrastructure\\Migrations\\20240821034001_AddTableLocations3.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAIBJwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T04:33:04.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20240820055752_InitialMigration.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Infrastructure\\Migrations\\20240820055752_InitialMigration.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem.Infrastructure\\Migrations\\20240820055752_InitialMigration.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Infrastructure\\Migrations\\20240820055752_InitialMigration.cs",
+              "RelativeToolTip": "LibraryManagementSystem.Infrastructure\\Migrations\\20240820055752_InitialMigration.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAIBJwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T04:37:33.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Location.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\Models\\Entities\\Location.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem.Domain\\Models\\Entities\\Location.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\Models\\Entities\\Location.cs",
+              "RelativeToolTip": "LibraryManagementSystem.Domain\\Models\\Entities\\Location.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAIBJwBIAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T07:04:04.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "20240820061702_AddColumnUser.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Infrastructure\\Migrations\\20240820061702_AddColumnUser.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem.Infrastructure\\Migrations\\20240820061702_AddColumnUser.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Infrastructure\\Migrations\\20240820061702_AddColumnUser.cs",
+              "RelativeToolTip": "LibraryManagementSystem.Infrastructure\\Migrations\\20240820061702_AddColumnUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T04:37:34.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\Models\\Entities\\AppUser.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem.Domain\\Models\\Entities\\AppUser.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\Models\\Entities\\AppUser.cs",
+              "RelativeToolTip": "LibraryManagementSystem.Domain\\Models\\Entities\\AppUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T04:12:20.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "LMSDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Infrastructure\\Context\\LMSDbContextFactory.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem.Infrastructure\\Context\\LMSDbContextFactory.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Infrastructure\\Context\\LMSDbContextFactory.cs",
+              "RelativeToolTip": "LibraryManagementSystem.Infrastructure\\Context\\LMSDbContextFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T09:23:58.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "SearchBookQuery.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\Helpers\\SearchBookQuery.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem.Domain\\Helpers\\SearchBookQuery.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\Helpers\\SearchBookQuery.cs",
+              "RelativeToolTip": "LibraryManagementSystem.Domain\\Helpers\\SearchBookQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T03:07:15.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "BookService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Application\\Service\\BookService.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem.Application\\Service\\BookService.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Application\\Service\\BookService.cs",
+              "RelativeToolTip": "LibraryManagementSystem.Application\\Service\\BookService.cs",
+              "ViewState": "AQIAAK0BAAAAAAAAAIBZwMoBAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T09:26:24.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\Models\\Entities\\Book.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem.Domain\\Models\\Entities\\Book.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\Models\\Entities\\Book.cs",
+              "RelativeToolTip": "LibraryManagementSystem.Domain\\Models\\Entities\\Book.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAApwDsAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T06:46:37.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "LibraryOptions.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\Models\\Entities\\LibraryOptions.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem.Domain\\Models\\Entities\\LibraryOptions.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\Models\\Entities\\LibraryOptions.cs",
+              "RelativeToolTip": "LibraryManagementSystem.Domain\\Models\\Entities\\LibraryOptions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T07:04:04.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "BookUserTransactions.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\Models\\Entities\\BookUserTransactions.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem.Domain\\Models\\Entities\\BookUserTransactions.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\Models\\Entities\\BookUserTransactions.cs",
+              "RelativeToolTip": "LibraryManagementSystem.Domain\\Models\\Entities\\BookUserTransactions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T07:15:42.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\Models\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem.Domain\\Models\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\Models\\Entities\\User.cs",
+              "RelativeToolTip": "LibraryManagementSystem.Domain\\Models\\Entities\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T07:15:46.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CheckOutMappers.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Application\\Mappers\\CheckOutMappers.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem.Application\\Mappers\\CheckOutMappers.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Application\\Mappers\\CheckOutMappers.cs",
+              "RelativeToolTip": "LibraryManagementSystem.Application\\Mappers\\CheckOutMappers.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T03:07:11.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "PageRequest.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\Helpers\\PageRequest.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem.Domain\\Helpers\\PageRequest.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\Helpers\\PageRequest.cs",
+              "RelativeToolTip": "LibraryManagementSystem.Domain\\Helpers\\PageRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T03:07:14.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "StockService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Application\\Service\\StockService.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem.Application\\Service\\StockService.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Application\\Service\\StockService.cs",
+              "RelativeToolTip": "LibraryManagementSystem.Application\\Service\\StockService.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAMBcwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T03:07:12.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "LibraryManagementSystem.Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Infrastructure\\LibraryManagementSystem.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "LibraryManagementSystem.Infrastructure\\LibraryManagementSystem.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Infrastructure\\LibraryManagementSystem.Infrastructure.csproj",
+              "RelativeToolTip": "LibraryManagementSystem.Infrastructure\\LibraryManagementSystem.Infrastructure.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-20T09:23:54.518Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
