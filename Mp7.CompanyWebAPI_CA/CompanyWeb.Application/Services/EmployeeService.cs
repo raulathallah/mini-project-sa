@@ -319,8 +319,6 @@ namespace CompanyWeb.Application.Services
 
             var wa = await _workflowRepository.GetAllWorkflowAction();
 
-            var rrName = "";
-            List<string> managerEmail = new List<string>();
             var isRequiredRole = ws.Where(w=>w.StepId == nextStepId).Select(s=>s.RequiredRole).FirstOrDefault();
             if (isRequiredRole != null)
             {
