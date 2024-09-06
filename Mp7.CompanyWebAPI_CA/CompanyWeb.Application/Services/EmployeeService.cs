@@ -376,7 +376,7 @@ namespace CompanyWeb.Application.Services
 
         public async Task<object> LeaveRequest(EmployeeLeaveRequest request)
         {
-            var role_LU = await _roleManager.FindByNameAsync("Employee");
+            var role_E = await _roleManager.FindByNameAsync("Employee");
             var allEmp = await _employeeRepository.GetAllEmployees();
 
             // requester
@@ -402,7 +402,7 @@ namespace CompanyWeb.Application.Services
                 .FirstOrDefault();
 
             var currStepId = ws
-                .Where(w => w.WorkflowId == wfId && w.RequiredRole == role_LU.Id)
+                .Where(w => w.WorkflowId == wfId && w.RequiredRole == role_E.Id)
                 .Select(s => s.WorkflowId)
                 .FirstOrDefault();
 
