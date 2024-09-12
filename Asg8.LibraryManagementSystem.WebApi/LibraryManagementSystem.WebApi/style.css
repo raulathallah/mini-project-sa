@@ -1,0 +1,15 @@
+﻿body {
+}
+
+table {
+    border: 1px solid #ccc;
+    width: 100%;
+}
+tr{
+    border: 1px solid #ccc;
+}
+
+td {
+    border: 1px solid #ccc;
+    padding: 8px
+}

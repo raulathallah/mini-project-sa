@@ -1,0 +1,688 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CompanyWeb.WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:CompanyWeb.WebApi.Controllers.CompanyController.GetEmployeeBetweenEightyAndNinety">
+            <summary>
+            Get employee that born between 1980 - 1990
+            </summary>
+             <remarks>
+             
+             Sample request:
+            
+                 GET /Company/between-eighty-ninety
+                 
+             </remarks>
+             <param name="request"></param>
+             <returns> return employee that born between 1980 - 1990 </returns>
+        </member>
+        <member name="M:CompanyWeb.WebApi.Controllers.CompanyController.GetEmployeeFemaleAfterNinety">
+            <summary>
+            Get employee that is female and born after 1990
+            </summary>
+             <remarks>
+             
+             Sample request:
+            
+                 GET /Company/between-eighty-ninety
+                 
+             </remarks>
+             <param name="request"></param>
+             <returns> return employee that is female and born after 1990 </returns>
+        </member>
+        <member name="M:CompanyWeb.WebApi.Controllers.CompanyController.GetEmployeeFemaleManagerInOrder">
+            <summary>
+            Get employee that is female manager in order
+            </summary>
+             <remarks>
+             
+             Sample request:
+            
+                 GET /Company/female-manager-in-order
+                 
+             </remarks>
+             <param name="request"></param>
+             <returns> return employee that is female manager in order </returns>
+        </member>
+        <member name="M:CompanyWeb.WebApi.Controllers.CompanyController.GetEmployeeNotManager">
+            <summary>
+            Get employee that is NOT manager
+            </summary>
+             <remarks>
+             
+             Sample request:
+            
+                 GET /Company/employee-not-manager
+                 
+             </remarks>
+             <param name="request"></param>
+             <returns> return employee that is NOT manager </returns>
+        </member>
+        <member name="M:CompanyWeb.WebApi.Controllers.CompanyController.GetEmployeeIT">
+            <summary>
+            Get employee that is in IT Departement
+            </summary>
+             <remarks>
+             
+             Sample request:
+            
+                 GET /Company/employee-it
+                 
+             </remarks>
+             <param name="request"></param>
+             <returns> return employee that is in IT Departement </returns>
+        </member>
+        <member name="M:CompanyWeb.WebApi.Controllers.CompanyController.GetEmployeeBRICS">
+            <summary>
+            Get employee that is from Brazil, Russia, India, China and South Africa
+            </summary>
+             <remarks>
+             
+             Sample request:
+            
+                 GET /Company/employee-brics
+                 
+             </remarks>
+             <param name="request"></param>
+             <returns> return employee that is from Brazil, Russia, India, China and South Africa </returns>
+        </member>
+        <member name="M:CompanyWeb.WebApi.Controllers.CompanyController.GetManagerUnderFourty">
+            <summary>
+            Get employee that is manager under age of 40
+            </summary>
+             <remarks>
+             
+             Sample request:
+            
+                 GET /Company/manager-under-fourty
+                 
+             </remarks>
+             <param name="request"></param>
+             <returns> return employee that is manager under age of 40 </returns>
+        </member>
+        <member name="M:CompanyWeb.WebApi.Controllers.CompanyController.GetManagerFemaleCount">
+            <summary>
+            Get employee that is female manager
+            </summary>
+             <remarks>
+             
+             Sample request:
+            
+                 GET /Company/manager-female
+                 
+             </remarks>
+             <param name="request"></param>
+             <returns> return employee that is female manager </returns>
+        </member>
+        <member name="M:CompanyWeb.WebApi.Controllers.CompanyController.GetEmployeeRetireThisYear">
+            <summary>
+            Get employee that is retire this year
+            </summary>
+             <remarks>
+             
+             Sample request:
+            
+                 GET /Company/employee-retire
+                 
+             </remarks>
+             <param name="request"></param>
+             <returns> return employee that is retire this year </returns>
+        </member>
+        <member name="M:CompanyWeb.WebApi.Controllers.CompanyController.GetEmployeeAges">
+            <summary>
+            Get employee list of ages
+            </summary>
+             <remarks>
+             
+             Sample request:
+            
+                 GET /Company/employee-ages
+                 
+             </remarks>
+             <param name="request"></param>
+             <returns> return employee list of ages </returns>
+        </member>
+        <member name="M:CompanyWeb.WebApi.Controllers.CompanyController.GetEmployeeNotManagerAndSupervisor">
+            <summary>
+            Get employee that is not manager and supervisor
+            </summary>
+             <remarks>
+             
+             Sample request:
+            
+                 GET /Company/employee-not-manager-supervisor
+                 
+             </remarks>
+             <param name="request"></param>
+             <returns> return employee that is not manager and supervisor </returns>
+        </member>
+        <member name="M:CompanyWeb.WebApi.Controllers.CompanyController.GetPlanningDepartementProjects">
+            <summary>
+            Get projects handled by Planning Departement
+            </summary>
+             <remarks>
+             
+             Sample request:
+            
+                 GET /Company/planning-departement-projects
+                 
+             </remarks>
+             <param name="request"></param>
+             <returns> return all planning departement projects </returns>
+        </member>
+        <member name="M:CompanyWeb.WebApi.Controllers.CompanyController.GetITAndHRProjects">
+            <summary>
+            Get projects handled by IT and HR departements
+            </summary>
+             <remarks>
+             
+             Sample request:
+            
+                 GET /Company/it-hr-projects
+                 
+             </remarks>
+             <param name="request"></param>
+             <returns> return all IT and HR departement projects </returns>
+        </member>
+        <member name="M:CompanyWeb.WebApi.Controllers.CompanyController.GetFemaleManagerProjects">
+            <summary>
+            Get projects handled by female manager
+            </summary>
+             <remarks>
+             
+             Sample request:
+            
+                 GET /Company/female-manager-projects
+                 
+             </remarks>
+             <param name="request"></param>
+             <returns> return all projects handled by female manager </returns>
+        </member>
+        <member name="M:CompanyWeb.WebApi.Controllers.CompanyController.GetTotalHoursWorkedFemale">
+            <summary>
+            Get total hours worked for female employees
+            </summary>
+             <remarks>
+             
+             
+             Sample request:
+            
+                 GET /Company/total-hours-female
+                 
+             </remarks>
+             <param name="request"></param>
+             <returns> return departement name and number, and list of employee name with total works hour </returns>
+        </member>
+        <member name="M:CompanyWeb.WebApi.Controllers.CompanyController.GetTotalHoursWorked">
+            <summary>
+            Get total hours worked for every employee
+            </summary>
+             <remarks>
+             
+             
+             Sample request:
+            
+                 GET /Company/total-hours
+                 
+             </remarks>
+             <param name="request"></param>
+             <returns> return departement name and total works hour </returns>
+        </member>
+        <member name="M:CompanyWeb.WebApi.Controllers.CompanyController.GetAllProjectWithoutEmployee">
+            <summary>
+            Get retirement status employee
+            </summary>
+             <remarks>
+             
+             
+             Sample request:
+            
+                 GET /Company/retirement-status
+                 
+             </remarks>
+             <param name="request"></param>
+             <returns> return departement name and total works hour </returns>
+        </member>
+        <member name="M:CompanyWeb.WebApi.Controllers.CompanyController.GetDepartementMoreThanTenEmployee">
+            <summary>
+            Get departement more than 10 employee
+            </summary>
+             <remarks>
+             
+             
+             Sample request:
+            
+                 GET /Company/departement-more-ten
+                 
+             </remarks>
+             <param name="request"></param>
+             <returns> return departement name and total works hour </returns>
+        </member>
+        <member name="M:CompanyWeb.WebApi.Controllers.CompanyController.GetMinMaxHoursWorked">
+            <summary>
+            Get min and max hours for each employee
+            </summary>
+             <remarks>
+             
+             
+             Sample request:
+            
+                 GET /Company/hours-min-max
+                 
+             </remarks>
+             <param name="request"></param>
+             <returns> return departement name and total works hour </returns>
+        </member>
+        <member name="M:CompanyWeb.WebApi.Controllers.CompanyController.GetEmployeeWorkDetail">
+            <summary>
+            Get employee work detail
+            </summary>
+             <remarks>
+             
+             
+             Sample request:
+            
+                 GET /Company/employee-work-detail
+                 
+             </remarks>
+             <param name="request"></param>
+             <returns> return departement name and total works hour </returns>
+        </member>
+        <member name="M:CompanyWeb.WebApi.Controllers.DepartementsController.GetDepartements(System.Int32,System.Int32)">
+            <summary>
+            Get all departements with paging
+            </summary>
+             <remarks>
+             Sample request:
+            
+                 GET /Departements?pageNumber=1ANDperPage=5
+                 
+             </remarks>
+             <param name="request"></param>
+             <returns> return departement list with paging </returns>
+        </member>
+        <member name="M:CompanyWeb.WebApi.Controllers.DepartementsController.GetDepartement(System.Int32)">
+            <summary>
+            Get departement by ID
+            </summary>
+             <remarks>
+             Sample request:
+            
+                 GET /Departements/1
+                 
+             </remarks>
+             <param name="request"></param>
+             <returns> return departement data by ID </returns>
+        </member>
+        <member name="M:CompanyWeb.WebApi.Controllers.DepartementsController.PostDepartement(CompanyWeb.Domain.Models.Requests.Add.AddDepartementRequest)">
+            <summary>
+            Create departement
+            </summary>
+             <remarks>
+             Sample request:
+            
+                 POST /Departements
+                 {
+                     "deptName": "Finance",
+                     "mgrEmpNo": null,
+                     "location": [1,2]
+                 }
+                 
+             </remarks>
+             <param name="request"></param>
+             <returns> return departement data that just created </returns>
+        </member>
+        <member name="M:CompanyWeb.WebApi.Controllers.DepartementsController.PutDepartement(System.Int32,CompanyWeb.Domain.Models.Requests.UpdateDepartementRequest)">
+            <summary>
+            Update departement by ID
+            </summary>
+             <remarks>
+             Sample request:
+            
+                 PUT /Departements/1
+                 {
+                     "deptName": "Finance",
+                     "mgrEmpNo": 2,
+                     "location": [1,2]
+                 }
+                 
+             </remarks>
+             <param name="request"></param>
+             <returns> return departement data that just updated </returns>
+        </member>
+        <member name="M:CompanyWeb.WebApi.Controllers.DepartementsController.DeleteDepartement(System.Int32)">
+            <summary>
+            Delete departement by ID
+            </summary>
+             <remarks>
+             Sample request:
+            
+                 DELETE /Departements/1
+                 
+             </remarks>
+             <param name="request"></param>
+             <returns> return departement data that just deleted </returns>
+        </member>
+        <member name="M:CompanyWeb.WebApi.Controllers.EmployeesController.GetEmployees(System.Int32,System.Int32)">
+            <summary>
+            Get all employees
+            </summary>
+             <remarks>
+             
+             Sample request:
+            
+                 GET /Employees
+                 
+             </remarks>
+             <param name="request"></param>
+             <returns> return all employee data </returns>
+        </member>
+        <member name="M:CompanyWeb.WebApi.Controllers.EmployeesController.GetEmployee(System.Int32)">
+            <summary>
+            Get employee data by ID
+            </summary>
+             <remarks>
+             
+             Sample request:
+            
+                 GET /Employees/1
+                 
+             </remarks>
+             <param name="request"></param>
+             <returns> return employee data by ID </returns>
+        </member>
+        <member name="M:CompanyWeb.WebApi.Controllers.EmployeesController.PostEmployee(CompanyWeb.Domain.Models.Requests.Add.AddEmployeeRequest)">
+            <summary>
+            Create employee
+            </summary>
+             <remarks>
+             
+             Sample request:
+            
+                 POST /Employees
+                 {
+                     "fName": "Zahra",
+                     "lName": "Safitri",
+                     "address": "Jakarta, Indonesia",
+                     "dob": "1998-08-20",
+                     "sex": "Female",
+                     "salary": 6000000,
+                     "ssn": "081-71-XXXX",
+                     "emailAddress": "zahra@gmail.com",
+                     "phoneNumber": "082293019931",
+                     "position": "Staff",
+                     "deptNo": 1,
+                     "empType": "Permanent",
+                     "empLevel": 1,
+                     "empDependents": [
+                         {
+                             "fName": "Anton",
+                             "lName": "Syahputra",
+                             "sex": "Male",
+                             "birthDate": "2001-12-31",
+                             "relation": "Family"
+                         }
+                      ]
+                  }
+                 
+             </remarks>
+             <param name="request"></param>
+             <returns> return employee data that just created </returns>
+        </member>
+        <member name="M:CompanyWeb.WebApi.Controllers.EmployeesController.PutEmployee(System.Int32,CompanyWeb.Domain.Models.Requests.UpdateEmployeeRequest)">
+            <summary>
+            Update employee data by ID
+            </summary>
+             <remarks>
+             
+             Sample request:
+            
+                 PUT /Employees/1
+                 {
+                     "fName": "Zahra",
+                     "lName": "Safitri",
+                     "address": "Jakarta, Indonesia",
+                     "dob": "1998-08-20",
+                     "sex": "Female",
+                     "salary": 6000000,
+                     "ssn": "081-71-XXXX",
+                     "emailAddress": "zahra@gmail.com",
+                     "phoneNumber": "082293019931",
+                     "position": "Staff",
+                     "deptNo": 1,
+                     "empType": "Permanent",
+                     "empLevel": 1,
+                     "empDependents": [
+                         {
+                             "fName": "Anton",
+                             "lName": "Syahputra",
+                             "sex": "Male",
+                             "birthDate": "2001-12-31",
+                             "relation": "Family"
+                         }
+                      ]
+                  }
+                 
+             </remarks>
+             <param name="request"></param>
+             <returns> return employee data that just updated </returns>
+        </member>
+        <member name="M:CompanyWeb.WebApi.Controllers.EmployeesController.DeleteEmployee(System.Int32)">
+            <summary>
+            Delete employee by ID
+            </summary>
+             <remarks>
+             
+             Sample request:
+            
+                 DELETE /Employees/1
+                 
+             </remarks>
+             <param name="request"></param>
+             <returns> return employee data that just deleted </returns>
+        </member>
+        <member name="M:CompanyWeb.WebApi.Controllers.EmployeesController.SearchEmployee(CompanyWeb.Domain.Models.Helpers.SearchEmployeeQuery,CompanyWeb.Domain.Models.Helpers.PageRequest)">
+            <summary>
+            Search employee by parameters
+            </summary>
+             <remarks>
+             
+             Sample request:
+            
+                 POST /Employees/search?searchBy=dept_keyword=IT_sortBy=name_isDescending=false
+                 {
+                     "pageNumber": 1,
+                     "perPage": 30
+                 }
+                 
+             </remarks>
+             <param name="request"></param>
+             <returns> return employee data filtered by search parameters</returns>
+        </member>
+        <member name="M:CompanyWeb.WebApi.Controllers.EmployeesController.DeactivateEmployee(System.Int32,CompanyWeb.Domain.Models.Requests.DeactivateEmployeeRequest)">
+            <summary>
+            Search employee by parameters
+            </summary>
+             <remarks>
+             
+             Sample request:
+            
+                 PUT /Employees/14/deactivate
+                 {
+                     "deactivateReason": "Left"
+                 }
+                 
+             </remarks>
+             <param name="request"></param>
+             <returns> return employee data that just deactivate</returns>
+        </member>
+        <member name="M:CompanyWeb.WebApi.Controllers.ProjectsController.GetProjects(System.Int32,System.Int32)">
+            <summary>
+            Get all projects data
+            </summary>
+             <remarks>
+             
+             Sample request:
+            
+                 GET /Projects
+                 
+             </remarks>
+             <param name="request"></param>
+             <returns> return all project data </returns>
+        </member>
+        <member name="M:CompanyWeb.WebApi.Controllers.ProjectsController.GetProject(System.Int32)">
+            <summary>
+            Get project data by ID
+            </summary>
+             <remarks>
+             
+             Sample request:
+            
+                 GET /Projects/1
+                 
+             </remarks>
+             <param name="request"></param>
+             <returns> return project data by ID </returns>
+        </member>
+        <member name="M:CompanyWeb.WebApi.Controllers.ProjectsController.PutProject(System.Int32,CompanyWeb.Domain.Models.Requests.UpdateProjectRequest)">
+            <summary>
+            Update project by ID
+            </summary>
+             <remarks>
+             
+             Sample request:
+            
+                 PUT /Projects/1
+                 {
+                     "projName": "Company Development 2024",
+                     "projLocation": 1,
+                     "deptNo": 2
+                 }
+                 
+             </remarks>
+             <param name="request"></param>
+             <returns> return project data that just updated </returns>
+        </member>
+        <member name="M:CompanyWeb.WebApi.Controllers.ProjectsController.PostProject(CompanyWeb.Domain.Models.Requests.Add.AddProjectRequest)">
+            <summary>
+            Create project
+            </summary>
+             <remarks>
+             
+             Sample request:
+            
+                 POST /Projects
+                 {
+                     "projName": "Company Development 2024",
+                     "deptNo": 2,
+                     "projLocation": 1,
+                 }
+                 
+             </remarks>
+             <param name="request"></param>
+             <returns> return project data that just created </returns>
+        </member>
+        <member name="M:CompanyWeb.WebApi.Controllers.ProjectsController.DeleteProject(System.Int32)">
+            <summary>
+            Delete project
+            </summary>
+             <remarks>
+             
+             Sample request:
+            
+                 DELETE /Projects/1
+                 
+             </remarks>
+             <param name="request"></param>
+             <returns> return project data that just deleted </returns>
+        </member>
+        <member name="M:CompanyWeb.WebApi.Controllers.WorksOnController.GetWorksons(System.Int32,System.Int32)">
+            <summary>
+            Get all work data with pagination
+            </summary>
+             <remarks>
+             Sample request:
+            
+                 GET /Worksons?pageNumber=1ANDperPage=20
+                 
+             </remarks>
+             <param name="request"></param>
+             <returns> return all work data </returns>
+        </member>
+        <member name="M:CompanyWeb.WebApi.Controllers.WorksOnController.GetWorkson(System.Int32,System.Int32)">
+            <summary>
+            Get work data by Project Number and Employee Number
+            </summary>
+             <remarks>
+             
+                 /Worksons/_projectNumber_/_employeeNumber_    
+             
+             Sample request:
+            
+                 GET /Worksons/11/3
+                 
+             </remarks>
+             <param name="request"></param>
+             <returns> return work data by Project and Employee Number </returns>
+        </member>
+        <member name="M:CompanyWeb.WebApi.Controllers.WorksOnController.PutWorkson(System.Int32,System.Int32,CompanyWeb.Domain.Models.Requests.UpdateWorksOnRequest)">
+            <summary>
+            Update work data by Project and Employee number
+            </summary>
+             <remarks>
+             
+                 /Worksons/_projectNumber_/_employeeNumber_    
+             
+             Sample request:
+            
+                 PUT /Worksons/11/3
+                 {
+                     "dateWorked": "2024-02-12",
+                     "hoursWorked": 8
+                 }
+                 
+             </remarks>
+             <param name="request"></param>
+             <returns> return work data that just updated </returns>
+        </member>
+        <member name="M:CompanyWeb.WebApi.Controllers.WorksOnController.PostWorkson(CompanyWeb.Domain.Models.Requests.Add.AddWorksOnRequest)">
+            <summary>
+            Create work
+            </summary>
+             <remarks>
+             
+             
+             Sample request:
+            
+                 POST /Worksons
+                 {
+                     "empNo": 12,
+                     "projNo": 13,
+                     "dateWorked": "2024-02-12",
+                     "hoursWorked": 8
+                 }
+                 
+             </remarks>
+             <param name="request"></param>
+             <returns> return work data that just created </returns>
+        </member>
+        <member name="M:CompanyWeb.WebApi.Controllers.WorksOnController.DeleteWorkson(System.Int32,System.Int32)">
+            <summary>
+            Delete work by Project and Employee number
+            </summary>
+             <remarks>
+             
+             
+             Sample request:
+            
+                 DELETE /Worksons/13/12
+                 
+                 
+             </remarks>
+             <param name="request"></param>
+             <returns> return work data that just deleted </returns>
+        </member>
+    </members>
+</doc>
