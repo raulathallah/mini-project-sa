@@ -344,13 +344,25 @@ namespace CompanyWeb.WebApi.Controllers
             return Ok(response);
         }
 
-
-        [HttpGet("report/{deptNo}")]
+        // EMPLOYEE REPROT PDF
+        [HttpGet("report-pdf/{deptNo}")]
         public async Task<IActionResult> GetEmployeeReportPDF([FromRoute]int deptNo)
         {
             var fileName = "EmployeeReport.pdf";
             var response = await _employeeService.GenerateEmployeeReportPDF(deptNo);
             return File(response, "application/pdf", fileName);
+        }
+
+        // EMPLOYEE REPORT JSON
+        [HttpGet("report/{deptNo}")]
+        public async Task<IActionResult> GetEmployeeReport([FromRoute] int deptNo, [FromQuery] int page)
+        {
+            var response = await _employeeService.GetEmployeeReport(deptNo, page);
+            if (response == null)
+            {
+                return NotFound();
+            }
+            return Ok(response);
         }
     }
 }

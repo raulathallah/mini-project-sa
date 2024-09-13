@@ -183,7 +183,7 @@ namespace CompanyWeb.Application.Services
             return response.ToEmployeeResponse(dependents);
         }
 
-        //Generate Report
+        // Generate Employee Report
         public async Task<byte[]> GenerateEmployeeReportPDF(int deptNo)
         {
 
@@ -198,17 +198,17 @@ namespace CompanyWeb.Application.Services
             var employees = await _employeeRepository.GetAllEmployees();
             var employeeFiltered = employees.Where(w => w.Deptno == deptNo);
             var totalPage = 0;
-            if(employeeFiltered.Count() > 20)
+            var page = 1;
+            var perPage = 2;
+            if (employeeFiltered.Count() > perPage)
             {
-                totalPage = employeeFiltered.Count() / 20;
+                totalPage = employeeFiltered.Count() / perPage;
             }
             else
             {
                 totalPage = 1;
             }
 
-            var page = 1;
-            var perPage = 20;
 
             for(int i = 0; i < totalPage; i++)
             {
@@ -264,7 +264,41 @@ namespace CompanyWeb.Application.Services
             return bytes;
         }
 
-        //Generate Leave Report
+        // EMPLOYEE REPORT JSON
+        public async Task<List<object>> GetEmployeeReport(int deptNo, int page)
+        {
+            var employees = await _employeeRepository.GetAllEmployees();
+            var employeeFiltered = employees.Where(w => w.Deptno == deptNo);
+            var totalPage = 0;
+            var perPage = 20;
+
+            if (employeeFiltered.Count() > perPage)
+            {
+                totalPage = employeeFiltered.Count() / perPage;
+            }
+            else
+            {
+                totalPage = 1;
+            }
+
+            var paged = employeeFiltered.Skip((page - 1) * perPage).Take(perPage).ToList();
+
+            return paged.Select(s => new
+            {
+                Empno = s.Empno,
+                EmpName = s.Fname + " " + s.Lname,
+                Email = s.EmailAddress,
+                PhoneNumber = s.PhoneNumber,
+                Address = s.Address,
+                Position = s.Position,
+                Status = s.IsActive,
+                Department = s.Deptno
+            })
+            .ToList<object>();
+
+        }
+
+        // Generate Leave Report 
         public async Task<byte[]> GenerateLeaveReportPDF(LeaveReportRequest request)
         {
             string htmlcontent = String.Empty;
@@ -278,10 +312,16 @@ namespace CompanyWeb.Application.Services
 
             var process = await _workflowRepository.GetAllProcess();
             var requests = await _workflowRepository.GetAllLeaveRequest();
+            var workflow = await _workflowRepository.GetAllWorkflow();
+
+            var leaveWorkflowId = workflow
+                .Where(w => w.WorkflowName == "Employee Leave Request")
+                .Select(s => s.WorkflowId)
+                .FirstOrDefault();
 
             var join = (from value in process.ToList()
                         join req in requests.ToList() on value.ProcessId equals req.ProcessId
-                        where value.Status == "Approved"
+                        where value.Status == "Approved" && value.WorkflowId == leaveWorkflowId
                         select req)
                         .Where(w=>w.StartDate >= request.StartDate && w.EndDate <= request.EndDate)
                         .GroupBy(gb => gb.LeaveType)
@@ -310,6 +350,33 @@ namespace CompanyWeb.Application.Services
             return bytes;
         }
 
+        // LEAVE REPORT JSON
+        public async Task<List<object>> GetLeaveReport(LeaveReportRequest request)
+        {
+
+            var process = await _workflowRepository.GetAllProcess();
+            var requests = await _workflowRepository.GetAllLeaveRequest();
+            var workflow = await _workflowRepository.GetAllWorkflow();
+
+            var leaveWorkflowId = workflow
+                .Where(w => w.WorkflowName == "Employee Leave Request")
+                .Select(s => s.WorkflowId)
+                .FirstOrDefault();
+
+            var join = (from value in process.ToList()
+                        join req in requests.ToList() on value.ProcessId equals req.ProcessId
+                        where value.Status == "Approved" && value.WorkflowId == leaveWorkflowId
+                        select req)
+                        .Where(w => w.StartDate >= request.StartDate && w.EndDate <= request.EndDate)
+                        .GroupBy(gb => gb.LeaveType)
+                        .Select(s => new
+                        {
+                            LeaveType = s.Key,
+                            Total = s.Count()
+                        })
+                        .ToList<object>();
+            return join;
+        }
         public async Task<IEnumerable<LeaveRequest>> GetAllLeaveRequest()
         {
             return await _workflowRepository.GetAllLeaveRequest();
@@ -322,6 +389,7 @@ namespace CompanyWeb.Application.Services
             var dependents = await _employeeDependentRepository.GetEmployeeDependentByEmpNo(id);
             return emp.ToEmployeeDetailResponse(dependents);
         }
+
 
         public async Task<List<object>> GetEmployees(int pageNumber, int perPage)
         {

@@ -412,6 +412,7 @@ namespace CompanyWeb.Application.Services
             return result;
         }
 
+        // DASHBOARD
         public async Task<object> GetCompanyDashboard()
         {
             var employees = await _employeeRepository.GetAllEmployees();
@@ -425,7 +426,7 @@ namespace CompanyWeb.Application.Services
                     .Select(s => new
                     {
                         Department = s.Key,
-                        Count = s.Count()
+                        EmpCount = s.Count()
                     });
 
             var avgSalary = (from value in employees
@@ -438,10 +439,11 @@ namespace CompanyWeb.Application.Services
                         AvgSalary = Math.Round(s.Select(s2 => s2.Salary).Average(), 2)
                     });
 
-            var totalHoursByEmpDesc = workson.GroupBy(gb => gb.EmpnoNavigation.Fname)
+            var totalHoursByEmpDesc = workson.GroupBy(gb => gb.Empno)
                 .Select(s => new
                 {
-                    Name = s.Key,
+                    Empno = s.Key,
+                    EmpName = s.Select(s => s.EmpnoNavigation.Fname + " " + s.EmpnoNavigation.Lname).FirstOrDefault(),
                     TotalHoursworked = s.Select(x => x.Hoursworked).Sum()
                 })
                 .OrderByDescending(ob=>ob.TotalHoursworked)
@@ -456,6 +458,7 @@ namespace CompanyWeb.Application.Services
             };
         }
 
+        // WORKFLOW DASHBOARD
         public async Task<List<object>> GetWorkflowDashboard()
         {
             var userName = _httpContextAccessor.HttpContext.User.Identity.Name;

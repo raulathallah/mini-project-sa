@@ -100,38 +100,29 @@ namespace CompanyWeb.Application.Services
             CssData css = PdfGenerator.ParseStyleSheet(cssStr);
 
 
-            var workson = await _worksOnRepository.GetAllWorksons();
+            var worksons = await _worksOnRepository.GetAllWorksons();
+            var projects = await _projectRepository.GetAllProjects();
 
-            var totalHoursLogged = workson.Select(s => s.Hoursworked).Sum();
-            var employeeInvolved = workson.Select(s => s.Empno).Distinct().Count();
-
-            var worksonPerEmployee = workson.GroupBy(gb => gb.Empno);
+            var join = (from work in worksons
+                       join proj in projects on work.Projno equals proj.Projno
+                       select work)
+                       .GroupBy(gb=>gb.Projno);
 
             htmlcontent += "<h1>Project Report</h3>";
-            htmlcontent += "<h3>Total Hours Logged : " + totalHoursLogged + "</h3>";
-            htmlcontent += "<h3>Number of Employee Involved : " + employeeInvolved + "</h3>";
-            htmlcontent += "<h3>Average Hour per Employee : </h3>";
-            htmlcontent += "<table>";
-            htmlcontent +=
-                "<tr>" +
-                "<td>Employee No</td>" +
-                "<td>Name</td>" +
-                "<td>Average Hour Worked</td>" +
-                "</tr>";
-            foreach( var item in worksonPerEmployee.ToList())
+            htmlcontent += "<hr></hr>";
+
+            foreach (var item in join.ToList())
             {
-                htmlcontent += "<tr>";
-                htmlcontent += "<td>" + item.Key + "</td>";
-
-                var emp = await _employeeRepository.GetEmployee(item.Key);
-                var empName = emp.Fname + " " + emp.Lname;
-                htmlcontent += "<td>" + empName + "</td>";
-
-                htmlcontent += "<td>" + item.Select(s=>s.Hoursworked).Average() + "</td>";
-                htmlcontent += "</tr>"; 
-
+                var getProject = await _projectRepository.GetProject(item.Key);
+                var totalEmp = item.Select(s => s.Empno).Distinct().Count();
+                var hourWorked = item.Select(s => s.Hoursworked);
+                htmlcontent += "<p>Project No : " + item.Key + "</p>";
+                htmlcontent += "<p>Project Name : " + getProject.Projname + "</p>";
+                htmlcontent += "<p>Total Hours Logged : " + hourWorked.Sum() + "</p>";
+                htmlcontent += "<p>Number of Employee Involved : " + totalEmp + "</p>";
+                htmlcontent += "<p>Average Hour per Employee : " + hourWorked.Average() + "</p>";
+                htmlcontent += "<hr></hr>";
             }
-            htmlcontent += "</table>";
 
             return _pdfService.OnGeneratePDF(htmlcontent);
         }
@@ -140,6 +131,29 @@ namespace CompanyWeb.Application.Services
         {
             var response = await _projectRepository.GetProject(id);
             return response.ToProjectResponse();
+        }
+
+        // PROJECT REPORT JSON
+        public async Task<List<object>> GetProjectReport()
+        {
+            var worksons = await _worksOnRepository.GetAllWorksons();
+            var projects = await _projectRepository.GetAllProjects();
+
+            var join = (from work in worksons
+                        join proj in projects on work.Projno equals proj.Projno
+                        select work)
+                       .GroupBy(gb => gb.Projno)
+                       .Select(s => new
+                       {
+                           Projno = s.Key,
+                           Projname = s.Select(s1=>s1.ProjnoNavigation.Projname).FirstOrDefault(),
+                           TotalHourLogged = s.Select(s1=>s1.Hoursworked).Sum(),
+                           TotalEmpInvolved = s.Select(s1=>s1.Empno).Distinct().Count(),
+                           AvgHourWorked = Math.Round(s.Select(s1=>s1.Hoursworked).Average(), 2)
+                       })
+                       .ToList<object>();
+
+            return join;
         }
 
         public async Task<List<ProjectResponse>> GetProjects(int pageNumber, int perPage)

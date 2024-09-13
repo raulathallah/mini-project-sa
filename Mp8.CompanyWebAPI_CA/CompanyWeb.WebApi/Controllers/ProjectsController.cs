@@ -182,12 +182,25 @@ namespace CompanyWeb.WebApi.Controllers
             return Ok(action);
         }
 
-        [HttpGet("report")]
-        public async Task<IActionResult> GetEmployeeReportPDF()
+        // PROJECT REPORT PDF
+        [HttpGet("report-pdf")]
+        public async Task<IActionResult> GetProjectReportPDF()
         {
             var fileName = "ProjectReport.pdf";
             var response = await _projectService.GenerateProjectReportPDF();
             return File(response, "application/pdf", fileName);
+        }
+
+        // PROJECT REPORT JSON
+        [HttpGet("report")]
+        public async Task<IActionResult> GetProjectReport()
+        {
+            var action = await _projectService.GetProjectReport();
+            if (action == null)
+            {
+                return NotFound();
+            }
+            return Ok(action);
         }
     }
 }

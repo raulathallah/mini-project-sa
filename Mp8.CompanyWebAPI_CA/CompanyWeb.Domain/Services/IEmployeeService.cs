@@ -38,6 +38,8 @@ namespace CompanyWeb.Domain.Services
         // Report
         Task<byte[]> GenerateEmployeeReportPDF(int deptNo);
         Task<byte[]> GenerateLeaveReportPDF(LeaveReportRequest request);
+        Task<List<object>> GetEmployeeReport(int deptNo, int page);
+        Task<List<object>> GetLeaveReport(LeaveReportRequest request);
 
     }
 }

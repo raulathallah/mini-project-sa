@@ -528,12 +528,25 @@ namespace CompanyWeb.WebApi.Controllers
             return Ok(action);
         }
 
-        [HttpPost("leave-report")]
+        // LEAVE REPORT PDF
+        [HttpPost("leave-report-pdf")]
         public async Task<IActionResult> GetLeaveReportPDF(LeaveReportRequest request)
         {
             var fileName = "LeaveTakenReport.pdf";
             var response = await _employeeService.GenerateLeaveReportPDF(request);
             return File(response, "application/pdf", fileName);
+        }
+
+        // LEAVE REPORT JSON
+        [HttpPost("leave-report")]
+        public async Task<IActionResult> GetLeaveReport(LeaveReportRequest request)
+        {
+            var action = await _employeeService.GetLeaveReport(request);
+            if (action == null)
+            {
+                return NotFound();
+            }
+            return Ok(action);
         }
     }
 }

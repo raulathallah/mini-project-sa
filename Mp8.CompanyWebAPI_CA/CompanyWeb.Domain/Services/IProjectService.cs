@@ -20,6 +20,7 @@ namespace CompanyWeb.Domain.Services
 
         // Report
         Task<byte[]> GenerateProjectReportPDF();
+        Task<List<object>> GetProjectReport();
 
     }
 }
