@@ -54,7 +54,7 @@ namespace CompanyWeb.WebApi.Controllers
         /// <param name="request"></param>
         /// <returns> return employee data by ID </returns>
         // GET: api/Employees/5
-        [HttpGet("{id}")]
+        [HttpGet("{id}")]   
         [ProducesResponseType(typeof(Employee), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(Employee), StatusCodes.Status404NotFound)]
         [ProducesResponseType(typeof(Employee), StatusCodes.Status400BadRequest)]

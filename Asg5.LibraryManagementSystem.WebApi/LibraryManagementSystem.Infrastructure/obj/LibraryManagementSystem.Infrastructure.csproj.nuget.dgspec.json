@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Infrastructure\\LibraryManagementSystem.Infrastructure.csproj": {}
+    "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Infrastructure\\LibraryManagementSystem.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Application\\LibraryManagementSystem.Application.csproj": {
+    "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Application\\LibraryManagementSystem.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Application\\LibraryManagementSystem.Application.csproj",
+        "projectUniqueName": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Application\\LibraryManagementSystem.Application.csproj",
         "projectName": "LibraryManagementSystem.Application",
-        "projectPath": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Application\\LibraryManagementSystem.Application.csproj",
+        "projectPath": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Application\\LibraryManagementSystem.Application.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Application\\obj\\",
+        "outputPath": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\LibraryManagementSystem.Domain.csproj": {
-                "projectPath": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\LibraryManagementSystem.Domain.csproj"
+              "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\LibraryManagementSystem.Domain.csproj": {
+                "projectPath": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\LibraryManagementSystem.Domain.csproj"
               }
             }
           }
@@ -79,14 +79,14 @@
         }
       }
     },
-    "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\LibraryManagementSystem.Domain.csproj": {
+    "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\LibraryManagementSystem.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\LibraryManagementSystem.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\LibraryManagementSystem.Domain.csproj",
         "projectName": "LibraryManagementSystem.Domain",
-        "projectPath": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\LibraryManagementSystem.Domain.csproj",
+        "projectPath": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\LibraryManagementSystem.Domain.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\obj\\",
+        "outputPath": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -150,14 +150,14 @@
         }
       }
     },
-    "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Infrastructure\\LibraryManagementSystem.Infrastructure.csproj": {
+    "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Infrastructure\\LibraryManagementSystem.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Infrastructure\\LibraryManagementSystem.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Infrastructure\\LibraryManagementSystem.Infrastructure.csproj",
         "projectName": "LibraryManagementSystem.Infrastructure",
-        "projectPath": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Infrastructure\\LibraryManagementSystem.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Infrastructure\\LibraryManagementSystem.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -179,11 +179,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Application\\LibraryManagementSystem.Application.csproj": {
-                "projectPath": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Application\\LibraryManagementSystem.Application.csproj"
+              "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Application\\LibraryManagementSystem.Application.csproj": {
+                "projectPath": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Application\\LibraryManagementSystem.Application.csproj"
               },
-              "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\LibraryManagementSystem.Domain.csproj": {
-                "projectPath": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\LibraryManagementSystem.Domain.csproj"
+              "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\LibraryManagementSystem.Domain.csproj": {
+                "projectPath": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\LibraryManagementSystem.Domain.csproj"
               }
             }
           }

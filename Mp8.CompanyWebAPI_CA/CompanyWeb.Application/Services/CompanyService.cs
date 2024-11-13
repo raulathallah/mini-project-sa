@@ -494,10 +494,6 @@ namespace CompanyWeb.Application.Services
                 });
             }
             return result;
-
-
-
-
         }
 
         //extra

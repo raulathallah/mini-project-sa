@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+1OxhvXKXBg=",
+  "dgSpecHash": "LqXQ8JBqrzs=",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\LibraryManagementSystem.Domain.csproj",
+  "projectFilePath": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\LibraryManagementSystem.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.8\\microsoft.entityframeworkcore.8.0.8.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.8\\microsoft.entityframeworkcore.abstractions.8.0.8.nupkg.sha512",

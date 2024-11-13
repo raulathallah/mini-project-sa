@@ -42,6 +42,7 @@ namespace LMS.Infrastructure.Repository
                 return null;
             }
             _context.Users.Remove(deleteUser);
+            await _context.SaveChangesAsync();
             return deleteUser;
         }
 

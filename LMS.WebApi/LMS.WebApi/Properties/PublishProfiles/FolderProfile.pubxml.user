@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\user\source\repos\mini-project-sa\LMS.WebApi\LMS.WebApi\bin\Release\net8.0\publish\</_PublishTargetUrl>
+    <History>True|2024-11-13T03:43:12.6538726Z||;True|2024-11-13T09:20:13.7379850+07:00||;True|2024-11-12T18:37:25.1331811+07:00||;True|2024-11-12T17:53:00.5441859+07:00||;False|2024-11-12T17:51:51.5442279+07:00||;False|2024-11-12T17:51:34.9561713+07:00||;False|2024-11-12T17:50:16.9989279+07:00||;False|2024-11-12T17:49:39.7997285+07:00||;True|2024-11-12T17:44:57.9854721+07:00||;True|2024-11-12T17:38:33.4098670+07:00||;True|2024-11-12T17:18:41.2039347+07:00||;True|2024-11-12T17:18:36.3638293+07:00||;True|2024-11-12T17:17:36.1315822+07:00||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

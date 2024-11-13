@@ -567,11 +567,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\LibraryManagementSystem.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\LibraryManagementSystem.Domain.csproj",
       "projectName": "LibraryManagementSystem.Domain",
-      "projectPath": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\LibraryManagementSystem.Domain.csproj",
+      "projectPath": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\LibraryManagementSystem.Domain.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\obj\\",
+      "outputPath": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

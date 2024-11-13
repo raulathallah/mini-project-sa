@@ -43,6 +43,7 @@ namespace LMS.Infrastructure.Repository
                 return null;
             }
             _context.Books.Remove(deleteBook);
+            await _context.SaveChangesAsync();
             return deleteBook;
         }
 

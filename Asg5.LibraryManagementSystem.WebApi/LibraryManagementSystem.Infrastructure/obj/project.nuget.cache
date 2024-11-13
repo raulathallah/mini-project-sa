@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3KVfx2Hj6wU=",
+  "dgSpecHash": "P8I2O42cFHU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Infrastructure\\LibraryManagementSystem.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Infrastructure\\LibraryManagementSystem.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

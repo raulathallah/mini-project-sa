@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SrsKZ8IWFBc=",
+  "dgSpecHash": "m8UIycdlC+M=",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\source\\repos\\NET-Solecode-Academy\\LMS.WebApi\\LMS.Application\\LMS.Application.csproj",
+  "projectFilePath": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LMS.WebApi\\LMS.Application\\LMS.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",

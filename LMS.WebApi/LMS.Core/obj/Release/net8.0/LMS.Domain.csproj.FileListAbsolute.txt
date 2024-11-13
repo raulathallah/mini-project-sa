@@ -1,0 +1,15 @@
+C:\Users\user\source\repos\mini-project-sa\LMS.WebApi\LMS.Core\bin\Release\net8.0\LMS.Domain.deps.json
+C:\Users\user\source\repos\mini-project-sa\LMS.WebApi\LMS.Core\bin\Release\net8.0\LMS.Domain.runtimeconfig.json
+C:\Users\user\source\repos\mini-project-sa\LMS.WebApi\LMS.Core\bin\Release\net8.0\LMS.Domain.dll
+C:\Users\user\source\repos\mini-project-sa\LMS.WebApi\LMS.Core\bin\Release\net8.0\LMS.Domain.pdb
+C:\Users\user\source\repos\mini-project-sa\LMS.WebApi\LMS.Core\obj\Release\net8.0\LMS.Domain.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\mini-project-sa\LMS.WebApi\LMS.Core\obj\Release\net8.0\LMS.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\mini-project-sa\LMS.WebApi\LMS.Core\obj\Release\net8.0\LMS.Domain.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\mini-project-sa\LMS.WebApi\LMS.Core\obj\Release\net8.0\LMS.Domain.AssemblyInfo.cs
+C:\Users\user\source\repos\mini-project-sa\LMS.WebApi\LMS.Core\obj\Release\net8.0\LMS.Domain.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\mini-project-sa\LMS.WebApi\LMS.Core\obj\Release\net8.0\LMS.Domain.sourcelink.json
+C:\Users\user\source\repos\mini-project-sa\LMS.WebApi\LMS.Core\obj\Release\net8.0\LMS.Domain.dll
+C:\Users\user\source\repos\mini-project-sa\LMS.WebApi\LMS.Core\obj\Release\net8.0\refint\LMS.Domain.dll
+C:\Users\user\source\repos\mini-project-sa\LMS.WebApi\LMS.Core\obj\Release\net8.0\LMS.Domain.pdb
+C:\Users\user\source\repos\mini-project-sa\LMS.WebApi\LMS.Core\obj\Release\net8.0\LMS.Domain.genruntimeconfig.cache
+C:\Users\user\source\repos\mini-project-sa\LMS.WebApi\LMS.Core\obj\Release\net8.0\ref\LMS.Domain.dll
