@@ -38,6 +38,9 @@ namespace LMS.Infrastructure
             services.AddScoped<IWorksOnService, WorksOnService>();
             services.AddScoped<IDepartementService, DepartementService>();
             services.AddScoped<IDepartementLocationService, DepartementLocationService>();
+
+
+            services.AddCors();
         }
     }
 }

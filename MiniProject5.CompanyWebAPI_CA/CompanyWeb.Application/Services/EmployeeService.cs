@@ -56,6 +56,8 @@ namespace CompanyWeb.Application.Services
                 Deptno = request.Deptno,
                 EmpLevel = request.EmpLevel,
                 EmpType = request.EmpType,
+                //NEW======>
+                DirectSupervisor = request.DirectSupervisor,
                 Ssn = request.Ssn,
                 Salary = request.Salary,
                 IsActive = true,
@@ -228,6 +230,9 @@ namespace CompanyWeb.Application.Services
             e.Salary = request.Salary;
             e.EmpType = request.EmpType;
             e.EmpLevel = request.EmpLevel;
+
+            //NEW======>
+            e.DirectSupervisor = request.DirectSupervisor;
             var response = await _employeeRepository.Update(e);
 
             // update dependent

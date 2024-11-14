@@ -21,6 +21,9 @@ namespace CompanyWeb.Domain.Models.Requests
         public string EmailAddress { get; set; } = null!;
         public string Position { get; set; } = null!;
         public int? Deptno { get; set; }
+
+        //NEW======>
+        public int? DirectSupervisor { get; set; }
         public int EmpLevel { get; set; }
         public string EmpType { get; set; } = null!;
         public List<AddEmployeeDependentRequest>? EmpDependents { get; set; }

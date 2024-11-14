@@ -22,6 +22,8 @@ namespace CompanyWeb.Application.Mappers
                 EmailAddress = model.EmailAddress,
                 PhoneNumber = model.PhoneNumber,
                 DeactivateReason = model.DeactivateReason,
+                //NEW======>
+                DirectSupervisor = model.DirectSupervisor,
                 Dob = model.Dob,
                 Sex = model.Sex,
                 IsActive = model.IsActive,
@@ -50,6 +52,7 @@ namespace CompanyWeb.Application.Mappers
 
         public static EmployeeDetailResponse ToEmployeeDetailResponse(this Employee model, List<EmployeeDependent> employeeDependents)
         {
+            //NEW======>
             return new EmployeeDetailResponse()
             {
                 Empno = model.Empno,
@@ -60,7 +63,8 @@ namespace CompanyWeb.Application.Mappers
                 IsActive = model.IsActive,
                 Ssn = model.Ssn,
                 Salary = model.Salary,
-                Name = model.Fname + " " + model.Lname,
+                Fname = model.Fname,
+                Lname = model.Lname,
                 Position = model.Position,
                 EmpType = model.EmpType,
                 Address = model.Address,
