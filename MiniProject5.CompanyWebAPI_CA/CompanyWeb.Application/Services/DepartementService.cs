@@ -110,6 +110,18 @@ namespace CompanyWeb.Application.Services
                .ToList<object>();*/
         }
 
+        // NEW ======>
+        public async Task<List<object>> GetAllDepartements()
+        {
+            var locations = await _locationRepository.GetAllLocations();
+            var dl = await _departementLocationRepository.GetAllDepartementLocations();
+            var departement = await _departementRepository.GetAllDepartements();
+
+            return departement
+                .Select(s => s.ToDepartementDetailResponse(dl.Where(w => w.Deptno == s.Deptno).Select(s2 => s2.LocationId).ToList()))
+                .ToList<object>();
+        }
+
         public async Task<object> UpdateDepartement(int id, UpdateDepartementRequest request)
         {
             var dept = await _departementRepository.GetDepartement(id); 

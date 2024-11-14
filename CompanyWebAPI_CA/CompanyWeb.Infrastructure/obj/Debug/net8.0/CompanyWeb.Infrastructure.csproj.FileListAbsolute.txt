@@ -18,3 +18,12 @@ C:\Users\user\source\repos\NET-Solecode-Academy\CompanyWebAPI_CA\CompanyWeb.Infr
 C:\Users\user\source\repos\NET-Solecode-Academy\CompanyWebAPI_CA\CompanyWeb.Infrastructure\obj\Debug\net8.0\CompanyWeb.Infrastructure.pdb
 C:\Users\user\source\repos\NET-Solecode-Academy\CompanyWebAPI_CA\CompanyWeb.Infrastructure\obj\Debug\net8.0\CompanyWeb.Infrastructure.genruntimeconfig.cache
 C:\Users\user\source\repos\NET-Solecode-Academy\CompanyWebAPI_CA\CompanyWeb.Infrastructure\obj\Debug\net8.0\ref\CompanyWeb.Infrastructure.dll
+C:\Users\user\source\repos\mini-project-sa\CompanyWebAPI_CA\CompanyWeb.Infrastructure\obj\Debug\net8.0\CompanyWeb.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\mini-project-sa\CompanyWebAPI_CA\CompanyWeb.Infrastructure\obj\Debug\net8.0\CompanyWeb.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\mini-project-sa\CompanyWebAPI_CA\CompanyWeb.Infrastructure\obj\Debug\net8.0\CompanyWeb.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\mini-project-sa\CompanyWebAPI_CA\CompanyWeb.Infrastructure\obj\Debug\net8.0\CompanyWeb.Infrastructure.AssemblyInfo.cs
+C:\Users\user\source\repos\mini-project-sa\CompanyWebAPI_CA\CompanyWeb.Infrastructure\obj\Debug\net8.0\CompanyWeb.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\mini-project-sa\CompanyWebAPI_CA\CompanyWeb.Infrastructure\obj\Debug\net8.0\CompanyWeb.Infrastructure.sourcelink.json
+C:\Users\user\source\repos\mini-project-sa\CompanyWebAPI_CA\CompanyWeb.Infrastructure\obj\Debug\net8.0\CompanyWeb.Infrastructure.dll
+C:\Users\user\source\repos\mini-project-sa\CompanyWebAPI_CA\CompanyWeb.Infrastructure\obj\Debug\net8.0\refint\CompanyWeb.Infrastructure.dll
+C:\Users\user\source\repos\mini-project-sa\CompanyWebAPI_CA\CompanyWeb.Infrastructure\obj\Debug\net8.0\CompanyWeb.Infrastructure.pdb

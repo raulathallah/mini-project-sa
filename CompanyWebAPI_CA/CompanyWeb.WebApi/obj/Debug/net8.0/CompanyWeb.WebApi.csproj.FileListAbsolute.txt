@@ -242,3 +242,15 @@ C:\Users\user\source\repos\NET-Solecode-Academy\CompanyWebAPI_CA\CompanyWeb.WebA
 C:\Users\user\source\repos\NET-Solecode-Academy\CompanyWebAPI_CA\CompanyWeb.WebApi\bin\Debug\net8.0\Asp.Versioning.Mvc.ApiExplorer.dll
 C:\Users\user\source\repos\NET-Solecode-Academy\CompanyWebAPI_CA\CompanyWeb.WebApi\bin\Debug\net8.0\CompanyWeb.WebApi.xml
 C:\Users\user\source\repos\NET-Solecode-Academy\CompanyWebAPI_CA\CompanyWeb.WebApi\obj\Debug\net8.0\CompanyWeb.WebApi.xml
+C:\Users\user\source\repos\mini-project-sa\CompanyWebAPI_CA\CompanyWeb.WebApi\obj\Debug\net8.0\CompanyWeb.WebApi.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\mini-project-sa\CompanyWebAPI_CA\CompanyWeb.WebApi\obj\Debug\net8.0\CompanyWeb.WebApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\mini-project-sa\CompanyWebAPI_CA\CompanyWeb.WebApi\obj\Debug\net8.0\CompanyWeb.WebApi.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\mini-project-sa\CompanyWebAPI_CA\CompanyWeb.WebApi\obj\Debug\net8.0\CompanyWeb.WebApi.AssemblyInfo.cs
+C:\Users\user\source\repos\mini-project-sa\CompanyWebAPI_CA\CompanyWeb.WebApi\obj\Debug\net8.0\CompanyWeb.WebApi.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\mini-project-sa\CompanyWebAPI_CA\CompanyWeb.WebApi\obj\Debug\net8.0\CompanyWeb.WebApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\user\source\repos\mini-project-sa\CompanyWebAPI_CA\CompanyWeb.WebApi\obj\Debug\net8.0\CompanyWeb.WebApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user\source\repos\mini-project-sa\CompanyWebAPI_CA\CompanyWeb.WebApi\obj\Debug\net8.0\CompanyWeb.WebApi.sourcelink.json
+C:\Users\user\source\repos\mini-project-sa\CompanyWebAPI_CA\CompanyWeb.WebApi\obj\Debug\net8.0\CompanyWeb.WebApi.dll
+C:\Users\user\source\repos\mini-project-sa\CompanyWebAPI_CA\CompanyWeb.WebApi\obj\Debug\net8.0\refint\CompanyWeb.WebApi.dll
+C:\Users\user\source\repos\mini-project-sa\CompanyWebAPI_CA\CompanyWeb.WebApi\obj\Debug\net8.0\CompanyWeb.WebApi.xml
+C:\Users\user\source\repos\mini-project-sa\CompanyWebAPI_CA\CompanyWeb.WebApi\obj\Debug\net8.0\CompanyWeb.WebApi.pdb

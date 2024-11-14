@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\user\source\repos\mini-project-sa\MiniProject5.CompanyWebAPI_CA\CompanyWeb.WebApi\bin\Release\net8.0\publish\</_PublishTargetUrl>
+    <History>True|2024-11-14T10:06:48.3495133Z||;True|2024-11-14T16:24:34.1627858+07:00||;True|2024-11-14T13:21:44.3261233+07:00||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

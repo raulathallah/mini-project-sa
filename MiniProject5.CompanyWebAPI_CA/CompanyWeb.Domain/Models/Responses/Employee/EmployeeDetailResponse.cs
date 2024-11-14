@@ -22,5 +22,14 @@ namespace CompanyWeb.Domain.Models.Responses.Employee
         public DateTime? CreatedAt { get; set; }
         public DateTime? UpdatedAt { get; set; }
         public List<EmployeeDependent>? EmpDependents { get; set; }
+        public int Empno { get; set; }
+        public DateOnly Dob { get; set; }
+        public string DeactivateReason { get; set; }
+        public string Sex { get; set; } = null!;
+        public string Ssn { get; set; } = null!;
+        public int Salary { get; set; }
+        public bool IsActive { get; set; }
+        public int? Deptno { get; set; }
+
     }
 }

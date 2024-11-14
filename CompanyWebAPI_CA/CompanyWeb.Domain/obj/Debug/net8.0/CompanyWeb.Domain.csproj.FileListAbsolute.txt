@@ -13,3 +13,12 @@ C:\Users\user\source\repos\NET-Solecode-Academy\CompanyWebAPI_CA\CompanyWeb.Doma
 C:\Users\user\source\repos\NET-Solecode-Academy\CompanyWebAPI_CA\CompanyWeb.Domain\obj\Debug\net8.0\CompanyWeb.Domain.pdb
 C:\Users\user\source\repos\NET-Solecode-Academy\CompanyWebAPI_CA\CompanyWeb.Domain\obj\Debug\net8.0\CompanyWeb.Domain.genruntimeconfig.cache
 C:\Users\user\source\repos\NET-Solecode-Academy\CompanyWebAPI_CA\CompanyWeb.Domain\obj\Debug\net8.0\ref\CompanyWeb.Domain.dll
+C:\Users\user\source\repos\mini-project-sa\CompanyWebAPI_CA\CompanyWeb.Domain\obj\Debug\net8.0\CompanyWeb.Domain.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\mini-project-sa\CompanyWebAPI_CA\CompanyWeb.Domain\obj\Debug\net8.0\CompanyWeb.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\mini-project-sa\CompanyWebAPI_CA\CompanyWeb.Domain\obj\Debug\net8.0\CompanyWeb.Domain.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\mini-project-sa\CompanyWebAPI_CA\CompanyWeb.Domain\obj\Debug\net8.0\CompanyWeb.Domain.AssemblyInfo.cs
+C:\Users\user\source\repos\mini-project-sa\CompanyWebAPI_CA\CompanyWeb.Domain\obj\Debug\net8.0\CompanyWeb.Domain.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\mini-project-sa\CompanyWebAPI_CA\CompanyWeb.Domain\obj\Debug\net8.0\CompanyWeb.Domain.sourcelink.json
+C:\Users\user\source\repos\mini-project-sa\CompanyWebAPI_CA\CompanyWeb.Domain\obj\Debug\net8.0\CompanyWeb.Domain.dll
+C:\Users\user\source\repos\mini-project-sa\CompanyWebAPI_CA\CompanyWeb.Domain\obj\Debug\net8.0\refint\CompanyWeb.Domain.dll
+C:\Users\user\source\repos\mini-project-sa\CompanyWebAPI_CA\CompanyWeb.Domain\obj\Debug\net8.0\CompanyWeb.Domain.pdb

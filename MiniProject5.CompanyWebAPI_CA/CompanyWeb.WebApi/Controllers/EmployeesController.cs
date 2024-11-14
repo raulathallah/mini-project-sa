@@ -21,7 +21,7 @@ namespace CompanyWeb.WebApi.Controllers
         }
 
         /// <summary>
-        /// Get all employees
+        /// Get all employees paging
         /// </summary>
 
         /// <remarks>
@@ -41,6 +41,35 @@ namespace CompanyWeb.WebApi.Controllers
         {
             var response = await _employeeService.GetEmployees(pageNumber, perPage);
             if(response == null)
+            {
+                return null;
+            }
+            return Ok(response);
+        }
+
+
+        // NEW ======>
+        /// <summary>
+        /// Get all employees
+        /// </summary>
+
+        /// <remarks>
+        /// 
+        /// Sample request:
+        ///
+        ///     GET /Employees/all
+        ///     
+        /// </remarks>
+        /// <param name="request"></param>
+        /// <returns> return all employee data </returns>
+        // GET: api/Employees
+        [HttpGet("all")]
+        [ProducesResponseType(typeof(Employee), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(Employee), StatusCodes.Status404NotFound)]
+        public async Task<IActionResult> GetAllEmployees()
+        {
+            var response = await _employeeService.GetAllEmployees();
+            if (response == null)
             {
                 return null;
             }

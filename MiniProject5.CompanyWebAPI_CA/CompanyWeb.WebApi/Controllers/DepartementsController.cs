@@ -38,6 +38,29 @@ namespace CompanyWeb.WebApi.Controllers
             return Ok(await _departementService.GetDepartements(pageNumber, perPage));
         }
 
+        // NEW ======>
+        /// <summary>
+        /// Get all departements
+        /// </summary>
+
+        /// <remarks>
+        /// Sample request:
+        ///
+        ///     GET /Departements/all
+        ///     
+        /// </remarks>
+        /// <param name="request"></param>
+        /// <returns> return departement list </returns>
+        // GET: api/Departements/all
+        [HttpGet("all")]
+        [ProducesResponseType(typeof(Departement), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(Departement), StatusCodes.Status404NotFound)]
+        [ProducesResponseType(typeof(Departement), StatusCodes.Status400BadRequest)]
+        public async Task<IActionResult> GetAllDepartements()
+        {
+            return Ok(await _departementService.GetAllDepartements());
+        }
+
         /// <summary>
         /// Get departement by ID
         /// </summary>

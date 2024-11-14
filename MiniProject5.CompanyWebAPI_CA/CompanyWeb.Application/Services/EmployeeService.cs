@@ -141,6 +141,14 @@ namespace CompanyWeb.Application.Services
                 .ToList<object>();
         }
 
+        // NEW ======>
+        public async Task<List<object>> GetAllEmployees()
+        {
+            var employees = await _employeeRepository.GetAllEmployees();
+            return employees.Select(s => s.ToEmployeeResponse(null)).ToList<object>();
+                
+        }
+
         public async Task<List<EmployeeSearchResponse>> SearchEmployee(SearchEmployeeQuery query, PageRequest pageRequest)
         {
             var employees = await _employeeRepository.GetAllEmployees();

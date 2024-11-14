@@ -1,4 +1,5 @@
-﻿using CompanyWeb.Domain.Models.Auth;
+﻿
+using CompanyWeb.Domain.Models.Auth;
 using CompanyWeb.Domain.Models.Requests;
 using CompanyWeb.Domain.Models.Requests.Add;
 using CompanyWeb.Domain.Models.Requests.Update;

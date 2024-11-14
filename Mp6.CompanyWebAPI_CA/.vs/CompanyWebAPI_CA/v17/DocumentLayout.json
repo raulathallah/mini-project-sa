@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Mp6.CompanyWebAPI_CA\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3E9F0621-C3D9-4AFC-82D9-1D5995401982}|CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\mp6.companywebapi_ca\\companyweb.webapi\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E9F0621-C3D9-4AFC-82D9-1D5995401982}|CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj|solutionrelative:companyweb.webapi\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3E9F0621-C3D9-4AFC-82D9-1D5995401982}|CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\mp6.companywebapi_ca\\companyweb.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E9F0621-C3D9-4AFC-82D9-1D5995401982}|CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj|solutionrelative:companyweb.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -41,10 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\mp6.companywebapi_ca\\companyweb.domain\\models\\responses\\roleresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|solutionrelative:companyweb.domain\\models\\responses\\roleresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E9F0621-C3D9-4AFC-82D9-1D5995401982}|CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\mp6.companywebapi_ca\\companyweb.webapi\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E9F0621-C3D9-4AFC-82D9-1D5995401982}|CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj|solutionrelative:companyweb.webapi\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3E9F0621-C3D9-4AFC-82D9-1D5995401982}|CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\mp6.companywebapi_ca\\companyweb.webapi\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -406,11 +406,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "EmployeeService.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Mp6.CompanyWebAPI_CA\\CompanyWeb.Application\\Services\\EmployeeService.cs",
               "RelativeDocumentMoniker": "CompanyWeb.Application\\Services\\EmployeeService.cs",
@@ -427,32 +427,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RoleService.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Mp6.CompanyWebAPI_CA\\CompanyWeb.Application\\Services\\RoleService.cs",
-              "RelativeDocumentMoniker": "CompanyWeb.Application\\Services\\RoleService.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Mp6.CompanyWebAPI_CA\\CompanyWeb.Application\\Services\\RoleService.cs",
-              "RelativeToolTip": "CompanyWeb.Application\\Services\\RoleService.cs",
-              "ViewState": "AQIAAD4AAAAAAAAAAAAAAFcAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T08:46:33.579Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DepartementService.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Mp6.CompanyWebAPI_CA\\CompanyWeb.Application\\Services\\DepartementService.cs",
-              "RelativeDocumentMoniker": "CompanyWeb.Application\\Services\\DepartementService.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Mp6.CompanyWebAPI_CA\\CompanyWeb.Application\\Services\\DepartementService.cs",
-              "RelativeToolTip": "CompanyWeb.Application\\Services\\DepartementService.cs",
-              "ViewState": "AQIAAIsAAAAAAAAAAAAAAJQAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T01:32:16.813Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "RoleRepository.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Mp6.CompanyWebAPI_CA\\CompanyWeb.Infrastructure\\Repositories\\RoleRepository.cs",
               "RelativeDocumentMoniker": "CompanyWeb.Infrastructure\\Repositories\\RoleRepository.cs",
@@ -464,7 +439,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Mp6.CompanyWebAPI_CA\\CompanyWeb.Application\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "CompanyWeb.Application\\Services\\UserService.cs",
@@ -476,7 +451,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "ProjectsController.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Mp6.CompanyWebAPI_CA\\CompanyWeb.WebApi\\Controllers\\ProjectsController.cs",
               "RelativeDocumentMoniker": "CompanyWeb.WebApi\\Controllers\\ProjectsController.cs",
@@ -488,7 +463,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "ProjectService.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Mp6.CompanyWebAPI_CA\\CompanyWeb.Application\\Services\\ProjectService.cs",
               "RelativeDocumentMoniker": "CompanyWeb.Application\\Services\\ProjectService.cs",
@@ -500,7 +475,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Mp6.CompanyWebAPI_CA\\CompanyWeb.WebApi\\Program.cs",
               "RelativeDocumentMoniker": "CompanyWeb.WebApi\\Program.cs",
@@ -513,7 +488,44 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Mp6.CompanyWebAPI_CA\\CompanyWeb.WebApi\\Controllers\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "CompanyWeb.WebApi\\Controllers\\EmployeesController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Mp6.CompanyWebAPI_CA\\CompanyWeb.WebApi\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "CompanyWeb.WebApi\\Controllers\\EmployeesController.cs",
+              "ViewState": "AQIAABYBAAAAAAAAAAAAACcBAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T04:48:05.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DepartementService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Mp6.CompanyWebAPI_CA\\CompanyWeb.Application\\Services\\DepartementService.cs",
+              "RelativeDocumentMoniker": "CompanyWeb.Application\\Services\\DepartementService.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Mp6.CompanyWebAPI_CA\\CompanyWeb.Application\\Services\\DepartementService.cs",
+              "RelativeToolTip": "CompanyWeb.Application\\Services\\DepartementService.cs",
+              "ViewState": "AQIAAIsAAAAAAAAAAAAAAJQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T01:32:16.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RoleService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Mp6.CompanyWebAPI_CA\\CompanyWeb.Application\\Services\\RoleService.cs",
+              "RelativeDocumentMoniker": "CompanyWeb.Application\\Services\\RoleService.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Mp6.CompanyWebAPI_CA\\CompanyWeb.Application\\Services\\RoleService.cs",
+              "RelativeToolTip": "CompanyWeb.Application\\Services\\RoleService.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAAAFcAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T08:46:33.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "DepartementLocationService.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Mp6.CompanyWebAPI_CA\\CompanyWeb.Application\\Services\\DepartementLocationService.cs",
               "RelativeDocumentMoniker": "CompanyWeb.Application\\Services\\DepartementLocationService.cs",
@@ -525,7 +537,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "RoleResponse.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Mp6.CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Responses\\RoleResponse.cs",
               "RelativeDocumentMoniker": "CompanyWeb.Domain\\Models\\Responses\\RoleResponse.cs",
@@ -534,18 +546,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-30T07:50:41.997Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "EmployeesController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Mp6.CompanyWebAPI_CA\\CompanyWeb.WebApi\\Controllers\\EmployeesController.cs",
-              "RelativeDocumentMoniker": "CompanyWeb.WebApi\\Controllers\\EmployeesController.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Mp6.CompanyWebAPI_CA\\CompanyWeb.WebApi\\Controllers\\EmployeesController.cs",
-              "RelativeToolTip": "CompanyWeb.WebApi\\Controllers\\EmployeesController.cs",
-              "ViewState": "AQIAABYBAAAAAAAAAAAAACcBAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T04:48:05.88Z"
             },
             {
               "$type": "Document",

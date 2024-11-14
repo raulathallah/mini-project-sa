@@ -52,6 +52,14 @@ namespace CompanyWeb.Application.Mappers
         {
             return new EmployeeDetailResponse()
             {
+                Empno = model.Empno,
+                Deptno = model.Deptno,
+                DeactivateReason = model.DeactivateReason,
+                Dob = model.Dob,
+                Sex = model.Sex,
+                IsActive = model.IsActive,
+                Ssn = model.Ssn,
+                Salary = model.Salary,
                 Name = model.Fname + " " + model.Lname,
                 Position = model.Position,
                 EmpType = model.EmpType,
