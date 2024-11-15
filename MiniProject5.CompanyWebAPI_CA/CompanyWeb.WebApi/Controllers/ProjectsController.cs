@@ -2,6 +2,7 @@
 using CompanyWeb.Domain.Models.Entities;
 using CompanyWeb.Domain.Models.Requests;
 using CompanyWeb.Domain.Models.Requests.Add;
+using CompanyWeb.Domain.Models.Responses.Base;
 using CompanyWeb.Domain.Services;
 using CompanyWeb.WebApi.Controllers.Base;
 using Microsoft.AspNetCore.Mvc;
@@ -21,6 +22,30 @@ namespace CompanyWeb.WebApi.Controllers
 
 
         /// <summary>
+        /// Get all projects data paginate
+        /// </summary>
+
+        /// <remarks>
+        /// 
+        /// Sample request:
+        ///
+        ///     GET /Projects
+        ///     
+        /// </remarks>
+        /// <param name="request"></param>
+        /// <returns> return all project data paginate </returns>
+        // GET: api/Projects
+        [HttpGet]
+        [ProducesResponseType(typeof(Project), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(Project), StatusCodes.Status404NotFound)]
+        public async Task<IActionResult> GetProjects([FromQuery] int pageNumber, int perPage)
+        {
+            return Ok(await _projectService.GetProjects(pageNumber, perPage));
+        }
+
+
+        //NEW======>
+        /// <summary>
         /// Get all projects data
         /// </summary>
 
@@ -33,13 +58,13 @@ namespace CompanyWeb.WebApi.Controllers
         /// </remarks>
         /// <param name="request"></param>
         /// <returns> return all project data </returns>
-        // GET: api/Projects
-        [HttpGet]
+        // GET: api/Projects/all
+        [HttpGet("all")]
         [ProducesResponseType(typeof(Project), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(Project), StatusCodes.Status404NotFound)]
-        public async Task<IActionResult> GetProjects([FromQuery] int pageNumber, int perPage)
+        public async Task<IActionResult> GetAllProject()
         {
-            return Ok(await _projectService.GetProjects(pageNumber, perPage));
+            return Ok(await _projectService.GetAllProject());
         }
 
         /// <summary>
@@ -104,7 +129,7 @@ namespace CompanyWeb.WebApi.Controllers
 
             if (action == null)
             {
-                return NotFound();
+                return BadRequest();
             }
             return Ok(action);
         }
@@ -136,9 +161,11 @@ namespace CompanyWeb.WebApi.Controllers
         public async Task<IActionResult> PostProject([FromBody] AddProjectRequest project)
         {
             var action = await _projectService.CreateProject(project);
+
             if (action == null)
             {
-                return NotFound();
+                //NEW======>
+                return BadRequest(action);
             }
             return Ok(action);
         }

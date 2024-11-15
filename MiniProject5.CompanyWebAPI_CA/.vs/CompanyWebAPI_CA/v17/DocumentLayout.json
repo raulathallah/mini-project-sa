@@ -3,16 +3,92 @@
   "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2EFF3A4A-C01E-4312-B0AB-B309DD42AC68}|CompanyWeb.Infrastructure\\CompanyWeb.Infrastructure.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\miniproject5.companywebapi_ca\\companyweb.infrastructure\\repositories\\worksonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EFF3A4A-C01E-4312-B0AB-B309DD42AC68}|CompanyWeb.Infrastructure\\CompanyWeb.Infrastructure.csproj|solutionrelative:companyweb.infrastructure\\repositories\\worksonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E9F0621-C3D9-4AFC-82D9-1D5995401982}|CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\miniproject5.companywebapi_ca\\companyweb.webapi\\controllers\\worksoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E9F0621-C3D9-4AFC-82D9-1D5995401982}|CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj|solutionrelative:companyweb.webapi\\controllers\\worksoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CBC93D8-C748-4B5A-9D42-7A2B7F5A270A}|CompanyWeb.Application\\CompanyWeb.Application.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\miniproject5.companywebapi_ca\\companyweb.application\\services\\worksonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CBC93D8-C748-4B5A-9D42-7A2B7F5A270A}|CompanyWeb.Application\\CompanyWeb.Application.csproj|solutionrelative:companyweb.application\\services\\worksonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E9F0621-C3D9-4AFC-82D9-1D5995401982}|CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\miniproject5.companywebapi_ca\\companyweb.webapi\\controllers\\base\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E9F0621-C3D9-4AFC-82D9-1D5995401982}|CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj|solutionrelative:companyweb.webapi\\controllers\\base\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3E9F0621-C3D9-4AFC-82D9-1D5995401982}|CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\miniproject5.companywebapi_ca\\companyweb.webapi\\companyweb.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{3E9F0621-C3D9-4AFC-82D9-1D5995401982}|CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj|solutionrelative:companyweb.webapi\\companyweb.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\miniproject5.companywebapi_ca\\companyweb.domain\\models\\requests\\add\\addemployeerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|solutionrelative:companyweb.domain\\models\\requests\\add\\addemployeerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\miniproject5.companywebapi_ca\\companyweb.domain\\services\\iworksonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|solutionrelative:companyweb.domain\\services\\iworksonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E9F0621-C3D9-4AFC-82D9-1D5995401982}|CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\miniproject5.companywebapi_ca\\companyweb.webapi\\companyweb.webapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{3E9F0621-C3D9-4AFC-82D9-1D5995401982}|CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj|solutionrelative:companyweb.webapi\\companyweb.webapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CBC93D8-C748-4B5A-9D42-7A2B7F5A270A}|CompanyWeb.Application\\CompanyWeb.Application.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\miniproject5.companywebapi_ca\\companyweb.application\\services\\projectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CBC93D8-C748-4B5A-9D42-7A2B7F5A270A}|CompanyWeb.Application\\CompanyWeb.Application.csproj|solutionrelative:companyweb.application\\services\\projectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E9F0621-C3D9-4AFC-82D9-1D5995401982}|CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\miniproject5.companywebapi_ca\\companyweb.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E9F0621-C3D9-4AFC-82D9-1D5995401982}|CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj|solutionrelative:companyweb.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\miniproject5.companywebapi_ca\\companyweb.domain\\services\\iprojectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|solutionrelative:companyweb.domain\\services\\iprojectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\miniproject5.companywebapi_ca\\companyweb.domain\\models\\entities\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|solutionrelative:companyweb.domain\\models\\entities\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EFF3A4A-C01E-4312-B0AB-B309DD42AC68}|CompanyWeb.Infrastructure\\CompanyWeb.Infrastructure.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\miniproject5.companywebapi_ca\\companyweb.infrastructure\\repositories\\projectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EFF3A4A-C01E-4312-B0AB-B309DD42AC68}|CompanyWeb.Infrastructure\\CompanyWeb.Infrastructure.csproj|solutionrelative:companyweb.infrastructure\\repositories\\projectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E9F0621-C3D9-4AFC-82D9-1D5995401982}|CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\miniproject5.companywebapi_ca\\companyweb.webapi\\controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E9F0621-C3D9-4AFC-82D9-1D5995401982}|CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj|solutionrelative:companyweb.webapi\\controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E9F0621-C3D9-4AFC-82D9-1D5995401982}|CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\miniproject5.companywebapi_ca\\companyweb.webapi\\controllers\\departementscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E9F0621-C3D9-4AFC-82D9-1D5995401982}|CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj|solutionrelative:companyweb.webapi\\controllers\\departementscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CBC93D8-C748-4B5A-9D42-7A2B7F5A270A}|CompanyWeb.Application\\CompanyWeb.Application.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\miniproject5.companywebapi_ca\\companyweb.application\\services\\departementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CBC93D8-C748-4B5A-9D42-7A2B7F5A270A}|CompanyWeb.Application\\CompanyWeb.Application.csproj|solutionrelative:companyweb.application\\services\\departementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\miniproject5.companywebapi_ca\\companyweb.domain\\services\\idepartementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|solutionrelative:companyweb.domain\\services\\idepartementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2CBC93D8-C748-4B5A-9D42-7A2B7F5A270A}|CompanyWeb.Application\\CompanyWeb.Application.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\miniproject5.companywebapi_ca\\companyweb.application\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2CBC93D8-C748-4B5A-9D42-7A2B7F5A270A}|CompanyWeb.Application\\CompanyWeb.Application.csproj|solutionrelative:companyweb.application\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EFF3A4A-C01E-4312-B0AB-B309DD42AC68}|CompanyWeb.Infrastructure\\CompanyWeb.Infrastructure.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\miniproject5.companywebapi_ca\\companyweb.infrastructure\\repositories\\locationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EFF3A4A-C01E-4312-B0AB-B309DD42AC68}|CompanyWeb.Infrastructure\\CompanyWeb.Infrastructure.csproj|solutionrelative:companyweb.infrastructure\\repositories\\locationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EFF3A4A-C01E-4312-B0AB-B309DD42AC68}|CompanyWeb.Infrastructure\\CompanyWeb.Infrastructure.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\miniproject5.companywebapi_ca\\companyweb.infrastructure\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EFF3A4A-C01E-4312-B0AB-B309DD42AC68}|CompanyWeb.Infrastructure\\CompanyWeb.Infrastructure.csproj|solutionrelative:companyweb.infrastructure\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E9F0621-C3D9-4AFC-82D9-1D5995401982}|CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\miniproject5.companywebapi_ca\\companyweb.webapi\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E9F0621-C3D9-4AFC-82D9-1D5995401982}|CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj|solutionrelative:companyweb.webapi\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E9F0621-C3D9-4AFC-82D9-1D5995401982}|CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\miniproject5.companywebapi_ca\\companyweb.webapi\\controllers\\companycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E9F0621-C3D9-4AFC-82D9-1D5995401982}|CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj|solutionrelative:companyweb.webapi\\controllers\\companycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\miniproject5.companywebapi_ca\\companyweb.domain\\models\\requests\\add\\addemployeerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|solutionrelative:companyweb.domain\\models\\requests\\add\\addemployeerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2CBC93D8-C748-4B5A-9D42-7A2B7F5A270A}|CompanyWeb.Application\\CompanyWeb.Application.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\miniproject5.companywebapi_ca\\companyweb.application\\mappers\\employeemappers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,24 +107,12 @@
       "RelativeMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|solutionrelative:companyweb.domain\\services\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2EFF3A4A-C01E-4312-B0AB-B309DD42AC68}|CompanyWeb.Infrastructure\\CompanyWeb.Infrastructure.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\miniproject5.companywebapi_ca\\companyweb.infrastructure\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2EFF3A4A-C01E-4312-B0AB-B309DD42AC68}|CompanyWeb.Infrastructure\\CompanyWeb.Infrastructure.csproj|solutionrelative:companyweb.infrastructure\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\miniproject5.companywebapi_ca\\companyweb.domain\\models\\responses\\employee\\employeedetailresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|solutionrelative:companyweb.domain\\models\\responses\\employee\\employeedetailresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2CBC93D8-C748-4B5A-9D42-7A2B7F5A270A}|CompanyWeb.Application\\CompanyWeb.Application.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\miniproject5.companywebapi_ca\\companyweb.application\\services\\departementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CBC93D8-C748-4B5A-9D42-7A2B7F5A270A}|CompanyWeb.Application\\CompanyWeb.Application.csproj|solutionrelative:companyweb.application\\services\\departementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2EFF3A4A-C01E-4312-B0AB-B309DD42AC68}|CompanyWeb.Infrastructure\\CompanyWeb.Infrastructure.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\miniproject5.companywebapi_ca\\companyweb.infrastructure\\repositories\\departementrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2EFF3A4A-C01E-4312-B0AB-B309DD42AC68}|CompanyWeb.Infrastructure\\CompanyWeb.Infrastructure.csproj|solutionrelative:companyweb.infrastructure\\repositories\\departementrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E9F0621-C3D9-4AFC-82D9-1D5995401982}|CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\miniproject5.companywebapi_ca\\companyweb.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E9F0621-C3D9-4AFC-82D9-1D5995401982}|CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj|solutionrelative:companyweb.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2EFF3A4A-C01E-4312-B0AB-B309DD42AC68}|CompanyWeb.Infrastructure\\CompanyWeb.Infrastructure.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\miniproject5.companywebapi_ca\\companyweb.infrastructure\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -59,18 +123,6 @@
       "RelativeMoniker": "D:0:0:{2EFF3A4A-C01E-4312-B0AB-B309DD42AC68}|CompanyWeb.Infrastructure\\CompanyWeb.Infrastructure.csproj|solutionrelative:companyweb.infrastructure\\companydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\miniproject5.companywebapi_ca\\companyweb.domain\\services\\idepartementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|solutionrelative:companyweb.domain\\services\\idepartementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E9F0621-C3D9-4AFC-82D9-1D5995401982}|CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\miniproject5.companywebapi_ca\\companyweb.webapi\\controllers\\departementscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E9F0621-C3D9-4AFC-82D9-1D5995401982}|CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj|solutionrelative:companyweb.webapi\\controllers\\departementscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E9F0621-C3D9-4AFC-82D9-1D5995401982}|CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\miniproject5.companywebapi_ca\\companyweb.webapi\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E9F0621-C3D9-4AFC-82D9-1D5995401982}|CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj|solutionrelative:companyweb.webapi\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3E9F0621-C3D9-4AFC-82D9-1D5995401982}|CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\miniproject5.companywebapi_ca\\companyweb.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{3E9F0621-C3D9-4AFC-82D9-1D5995401982}|CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj|solutionrelative:companyweb.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -79,32 +131,12 @@
       "RelativeMoniker": "D:0:0:{2CBC93D8-C748-4B5A-9D42-7A2B7F5A270A}|CompanyWeb.Application\\CompanyWeb.Application.csproj|solutionrelative:companyweb.application\\mappers\\departementmappers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E9F0621-C3D9-4AFC-82D9-1D5995401982}|CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\miniproject5.companywebapi_ca\\companyweb.webapi\\controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E9F0621-C3D9-4AFC-82D9-1D5995401982}|CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj|solutionrelative:companyweb.webapi\\controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E9F0621-C3D9-4AFC-82D9-1D5995401982}|CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\miniproject5.companywebapi_ca\\companyweb.webapi\\controllers\\worksoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E9F0621-C3D9-4AFC-82D9-1D5995401982}|CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj|solutionrelative:companyweb.webapi\\controllers\\worksoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E9F0621-C3D9-4AFC-82D9-1D5995401982}|CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\miniproject5.companywebapi_ca\\companyweb.webapi\\controllers\\companycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E9F0621-C3D9-4AFC-82D9-1D5995401982}|CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj|solutionrelative:companyweb.webapi\\controllers\\companycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3E9F0621-C3D9-4AFC-82D9-1D5995401982}|CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\miniproject5.companywebapi_ca\\companyweb.webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{3E9F0621-C3D9-4AFC-82D9-1D5995401982}|CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj|solutionrelative:companyweb.webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\miniproject5.companywebapi_ca\\companyweb.domain\\models\\helpers\\searchemployeequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|solutionrelative:companyweb.domain\\models\\helpers\\searchemployeequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2EFF3A4A-C01E-4312-B0AB-B309DD42AC68}|CompanyWeb.Infrastructure\\CompanyWeb.Infrastructure.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\miniproject5.companywebapi_ca\\companyweb.infrastructure\\repositories\\projectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2EFF3A4A-C01E-4312-B0AB-B309DD42AC68}|CompanyWeb.Infrastructure\\CompanyWeb.Infrastructure.csproj|solutionrelative:companyweb.infrastructure\\repositories\\projectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2CBC93D8-C748-4B5A-9D42-7A2B7F5A270A}|CompanyWeb.Application\\CompanyWeb.Application.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\miniproject5.companywebapi_ca\\companyweb.application\\services\\projectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CBC93D8-C748-4B5A-9D42-7A2B7F5A270A}|CompanyWeb.Application\\CompanyWeb.Application.csproj|solutionrelative:companyweb.application\\services\\projectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\miniproject5.companywebapi_ca\\companyweb.domain\\models\\entities\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -167,28 +199,12 @@
       "RelativeMoniker": "D:0:0:{2EFF3A4A-C01E-4312-B0AB-B309DD42AC68}|CompanyWeb.Infrastructure\\CompanyWeb.Infrastructure.csproj|solutionrelative:companyweb.infrastructure\\repositories\\employeedependentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2EFF3A4A-C01E-4312-B0AB-B309DD42AC68}|CompanyWeb.Infrastructure\\CompanyWeb.Infrastructure.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\miniproject5.companywebapi_ca\\companyweb.infrastructure\\repositories\\worksonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2EFF3A4A-C01E-4312-B0AB-B309DD42AC68}|CompanyWeb.Infrastructure\\CompanyWeb.Infrastructure.csproj|solutionrelative:companyweb.infrastructure\\repositories\\worksonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\miniproject5.companywebapi_ca\\companyweb.domain\\repositories\\ilocationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|solutionrelative:companyweb.domain\\repositories\\ilocationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2EFF3A4A-C01E-4312-B0AB-B309DD42AC68}|CompanyWeb.Infrastructure\\CompanyWeb.Infrastructure.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\miniproject5.companywebapi_ca\\companyweb.infrastructure\\repositories\\locationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2EFF3A4A-C01E-4312-B0AB-B309DD42AC68}|CompanyWeb.Infrastructure\\CompanyWeb.Infrastructure.csproj|solutionrelative:companyweb.infrastructure\\repositories\\locationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\miniproject5.companywebapi_ca\\companyweb.domain\\models\\requests\\update\\updateprojectrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|solutionrelative:companyweb.domain\\models\\requests\\update\\updateprojectrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\miniproject5.companywebapi_ca\\companyweb.domain\\services\\iprojectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|solutionrelative:companyweb.domain\\services\\iprojectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\miniproject5.companywebapi_ca\\companyweb.domain\\services\\iworksonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|solutionrelative:companyweb.domain\\services\\iworksonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\miniproject5.companywebapi_ca\\companyweb.domain\\repositories\\iworksonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -211,16 +227,8 @@
       "RelativeMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|solutionrelative:companyweb.domain\\models\\responses\\projectdetailresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\miniproject5.companywebapi_ca\\companyweb.domain\\models\\entities\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|solutionrelative:companyweb.domain\\models\\entities\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2CBC93D8-C748-4B5A-9D42-7A2B7F5A270A}|CompanyWeb.Application\\CompanyWeb.Application.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\miniproject5.companywebapi_ca\\companyweb.application\\mappers\\projectmappers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2CBC93D8-C748-4B5A-9D42-7A2B7F5A270A}|CompanyWeb.Application\\CompanyWeb.Application.csproj|solutionrelative:companyweb.application\\mappers\\projectmappers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\miniproject5.companywebapi_ca\\companyweb.domain\\models\\responses\\projectresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|solutionrelative:companyweb.domain\\models\\responses\\projectresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\miniproject5.companywebapi_ca\\companyweb.domain\\models\\requests\\add\\addprojectrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -233,10 +241,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\miniproject5.companywebapi_ca\\companyweb.domain\\models\\requests\\update\\updateworksonrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|solutionrelative:companyweb.domain\\models\\requests\\update\\updateworksonrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2CBC93D8-C748-4B5A-9D42-7A2B7F5A270A}|CompanyWeb.Application\\CompanyWeb.Application.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\miniproject5.companywebapi_ca\\companyweb.application\\services\\worksonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CBC93D8-C748-4B5A-9D42-7A2B7F5A270A}|CompanyWeb.Application\\CompanyWeb.Application.csproj|solutionrelative:companyweb.application\\services\\worksonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\miniproject5.companywebapi_ca\\companyweb.domain\\models\\responses\\employee\\employeesearchresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -291,20 +295,12 @@
       "RelativeMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|solutionrelative:companyweb.domain\\models\\helpers\\pagerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E9F0621-C3D9-4AFC-82D9-1D5995401982}|CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\miniproject5.companywebapi_ca\\companyweb.webapi\\controllers\\base\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E9F0621-C3D9-4AFC-82D9-1D5995401982}|CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj|solutionrelative:companyweb.webapi\\controllers\\base\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\miniproject5.companywebapi_ca\\companyweb.domain\\models\\responses\\base\\baseresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|solutionrelative:companyweb.domain\\models\\responses\\base\\baseresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\miniproject5.companywebapi_ca\\companyweb.domain\\services\\icompanyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|solutionrelative:companyweb.domain\\services\\icompanyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E9F0621-C3D9-4AFC-82D9-1D5995401982}|CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\miniproject5.companywebapi_ca\\companyweb.webapi\\companyweb.webapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{3E9F0621-C3D9-4AFC-82D9-1D5995401982}|CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj|solutionrelative:companyweb.webapi\\companyweb.webapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\miniproject5.companywebapi_ca\\companyweb.domain\\models\\requests\\add\\addworksonrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -322,59 +318,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 11,
               "Title": "ProjectRepository.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Infrastructure\\Repositories\\ProjectRepository.cs",
               "RelativeDocumentMoniker": "CompanyWeb.Infrastructure\\Repositories\\ProjectRepository.cs",
               "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Infrastructure\\Repositories\\ProjectRepository.cs",
               "RelativeToolTip": "CompanyWeb.Infrastructure\\Repositories\\ProjectRepository.cs",
-              "ViewState": "AQIAADsAAAAAAAAAAAAqwEsAAAAJAAAA",
+              "ViewState": "AQIAADsAAAAAAAAAAAAqwEcAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-15T12:43:01.307Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 7,
               "Title": "ProjectService.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Application\\Services\\ProjectService.cs",
               "RelativeDocumentMoniker": "CompanyWeb.Application\\Services\\ProjectService.cs",
               "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Application\\Services\\ProjectService.cs",
               "RelativeToolTip": "CompanyWeb.Application\\Services\\ProjectService.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAAqwF0AAAAcAAAA",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAIwFkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-22T01:34:42.621Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 10,
               "Title": "Project.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Entities\\Project.cs",
               "RelativeDocumentMoniker": "CompanyWeb.Domain\\Models\\Entities\\Project.cs",
               "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Entities\\Project.cs",
               "RelativeToolTip": "CompanyWeb.Domain\\Models\\Entities\\Project.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAIBZwBgAAAAjAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-15T03:22:04.105Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
-              "Title": "ProjectResponse.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Responses\\ProjectResponse.cs",
-              "RelativeDocumentMoniker": "CompanyWeb.Domain\\Models\\Responses\\ProjectResponse.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Responses\\ProjectResponse.cs",
-              "RelativeToolTip": "CompanyWeb.Domain\\Models\\Responses\\ProjectResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAnAAAA",
+              "DocumentIndex": 12,
+              "Title": "ProjectsController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.WebApi\\Controllers\\ProjectsController.cs",
+              "RelativeDocumentMoniker": "CompanyWeb.WebApi\\Controllers\\ProjectsController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.WebApi\\Controllers\\ProjectsController.cs",
+              "RelativeToolTip": "CompanyWeb.WebApi\\Controllers\\ProjectsController.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAcwD0AAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T07:42:08.92Z",
-              "IsPinned": true
+              "WhenOpened": "2024-08-15T13:00:51.094Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -382,33 +382,163 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WorksOnController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.WebApi\\Controllers\\WorksOnController.cs",
+              "RelativeDocumentMoniker": "CompanyWeb.WebApi\\Controllers\\WorksOnController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.WebApi\\Controllers\\WorksOnController.cs",
+              "RelativeToolTip": "CompanyWeb.WebApi\\Controllers\\WorksOnController.cs",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAwwFcAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T16:57:28.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WorksOnService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Application\\Services\\WorksOnService.cs",
+              "RelativeDocumentMoniker": "CompanyWeb.Application\\Services\\WorksOnService.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Application\\Services\\WorksOnService.cs",
+              "RelativeToolTip": "CompanyWeb.Application\\Services\\WorksOnService.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAAiwBMAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T01:32:26.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "WorksOnRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Infrastructure\\Repositories\\WorksOnRepository.cs",
+              "RelativeDocumentMoniker": "CompanyWeb.Infrastructure\\Repositories\\WorksOnRepository.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Infrastructure\\Repositories\\WorksOnRepository.cs",
+              "RelativeToolTip": "CompanyWeb.Infrastructure\\Repositories\\WorksOnRepository.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAAwwEUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T12:47:04.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.WebApi\\Controllers\\Base\\BaseController.cs",
+              "RelativeDocumentMoniker": "CompanyWeb.WebApi\\Controllers\\Base\\BaseController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.WebApi\\Controllers\\Base\\BaseController.cs",
+              "RelativeToolTip": "CompanyWeb.WebApi\\Controllers\\Base\\BaseController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T04:19:44.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "CompanyWeb.WebApi.csproj",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj",
               "RelativeDocumentMoniker": "CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj",
               "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj",
               "RelativeToolTip": "CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAgAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAcAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2024-08-15T03:19:49.433Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AddEmployeeRequest.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Requests\\Add\\AddEmployeeRequest.cs",
-              "RelativeDocumentMoniker": "CompanyWeb.Domain\\Models\\Requests\\Add\\AddEmployeeRequest.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Requests\\Add\\AddEmployeeRequest.cs",
-              "RelativeToolTip": "CompanyWeb.Domain\\Models\\Requests\\Add\\AddEmployeeRequest.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAowBgAAAAUAAAA",
+              "DocumentIndex": 5,
+              "Title": "IWorksOnService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Domain\\Services\\IWorksOnService.cs",
+              "RelativeDocumentMoniker": "CompanyWeb.Domain\\Services\\IWorksOnService.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Domain\\Services\\IWorksOnService.cs",
+              "RelativeToolTip": "CompanyWeb.Domain\\Services\\IWorksOnService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T03:26:25.731Z",
+              "WhenOpened": "2024-08-22T01:29:57.879Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
+              "Title": "CompanyWeb.WebApi.http",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.WebApi\\CompanyWeb.WebApi.http",
+              "RelativeDocumentMoniker": "CompanyWeb.WebApi\\CompanyWeb.WebApi.http",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.WebApi\\CompanyWeb.WebApi.http",
+              "RelativeToolTip": "CompanyWeb.WebApi\\CompanyWeb.WebApi.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-08-15T03:54:43.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "CompanyWeb.WebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.WebApi\\Program.cs",
+              "RelativeToolTip": "CompanyWeb.WebApi\\Program.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAAADYAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T03:54:41.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IProjectService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Domain\\Services\\IProjectService.cs",
+              "RelativeDocumentMoniker": "CompanyWeb.Domain\\Services\\IProjectService.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Domain\\Services\\IProjectService.cs",
+              "RelativeToolTip": "CompanyWeb.Domain\\Services\\IProjectService.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAqwBMAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T01:29:56.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DepartementsController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.WebApi\\Controllers\\DepartementsController.cs",
+              "RelativeDocumentMoniker": "CompanyWeb.WebApi\\Controllers\\DepartementsController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.WebApi\\Controllers\\DepartementsController.cs",
+              "RelativeToolTip": "CompanyWeb.WebApi\\Controllers\\DepartementsController.cs",
+              "ViewState": "AQIAAJwAAAAAAAAAAAAuwLAAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T04:21:33.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DepartementService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Application\\Services\\DepartementService.cs",
+              "RelativeDocumentMoniker": "CompanyWeb.Application\\Services\\DepartementService.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Application\\Services\\DepartementService.cs",
+              "RelativeToolTip": "CompanyWeb.Application\\Services\\DepartementService.cs",
+              "ViewState": "AQIAAIkAAAAAAAAAAAAIwKEAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T01:32:16.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IDepartementService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Domain\\Services\\IDepartementService.cs",
+              "RelativeDocumentMoniker": "CompanyWeb.Domain\\Services\\IDepartementService.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Domain\\Services\\IDepartementService.cs",
+              "RelativeToolTip": "CompanyWeb.Domain\\Services\\IDepartementService.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAQwA8AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T01:29:52.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "EmployeeService.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Application\\Services\\EmployeeService.cs",
               "RelativeDocumentMoniker": "CompanyWeb.Application\\Services\\EmployeeService.cs",
@@ -421,59 +551,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EmployeeMappers.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Application\\Mappers\\EmployeeMappers.cs",
-              "RelativeDocumentMoniker": "CompanyWeb.Application\\Mappers\\EmployeeMappers.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Application\\Mappers\\EmployeeMappers.cs",
-              "RelativeToolTip": "CompanyWeb.Application\\Mappers\\EmployeeMappers.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAtwBYAAAAwAAAA",
+              "DocumentIndex": 17,
+              "Title": "LocationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Infrastructure\\Repositories\\LocationRepository.cs",
+              "RelativeDocumentMoniker": "CompanyWeb.Infrastructure\\Repositories\\LocationRepository.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Infrastructure\\Repositories\\LocationRepository.cs",
+              "RelativeToolTip": "CompanyWeb.Infrastructure\\Repositories\\LocationRepository.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T08:03:57.136Z",
+              "WhenOpened": "2024-08-22T08:49:47.502Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EmployeeResponse.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Responses\\Employee\\EmployeeResponse.cs",
-              "RelativeDocumentMoniker": "CompanyWeb.Domain\\Models\\Responses\\Employee\\EmployeeResponse.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Responses\\Employee\\EmployeeResponse.cs",
-              "RelativeToolTip": "CompanyWeb.Domain\\Models\\Responses\\Employee\\EmployeeResponse.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAowBwAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T09:33:09.883Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UpdateEmployeeRequest.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Requests\\Update\\UpdateEmployeeRequest.cs",
-              "RelativeDocumentMoniker": "CompanyWeb.Domain\\Models\\Requests\\Update\\UpdateEmployeeRequest.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Requests\\Update\\UpdateEmployeeRequest.cs",
-              "RelativeToolTip": "CompanyWeb.Domain\\Models\\Requests\\Update\\UpdateEmployeeRequest.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAA0wBcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T04:44:48.84Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IEmployeeService.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Domain\\Services\\IEmployeeService.cs",
-              "RelativeDocumentMoniker": "CompanyWeb.Domain\\Services\\IEmployeeService.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Domain\\Services\\IEmployeeService.cs",
-              "RelativeToolTip": "CompanyWeb.Domain\\Services\\IEmployeeService.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAhwBUAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T07:54:36.063Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 18,
               "Title": "EmployeeRepository.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Infrastructure\\Repositories\\EmployeeRepository.cs",
               "RelativeDocumentMoniker": "CompanyWeb.Infrastructure\\Repositories\\EmployeeRepository.cs",
@@ -486,7 +577,93 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 19,
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.WebApi\\Controllers\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "CompanyWeb.WebApi\\Controllers\\EmployeesController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.WebApi\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "CompanyWeb.WebApi\\Controllers\\EmployeesController.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAAIwDIAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T04:48:05.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CompanyController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.WebApi\\Controllers\\CompanyController.cs",
+              "RelativeDocumentMoniker": "CompanyWeb.WebApi\\Controllers\\CompanyController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.WebApi\\Controllers\\CompanyController.cs",
+              "RelativeToolTip": "CompanyWeb.WebApi\\Controllers\\CompanyController.cs",
+              "ViewState": "AQIAANUBAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T06:42:59.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AddEmployeeRequest.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Requests\\Add\\AddEmployeeRequest.cs",
+              "RelativeDocumentMoniker": "CompanyWeb.Domain\\Models\\Requests\\Add\\AddEmployeeRequest.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Requests\\Add\\AddEmployeeRequest.cs",
+              "RelativeToolTip": "CompanyWeb.Domain\\Models\\Requests\\Add\\AddEmployeeRequest.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAowBgAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T03:26:25.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "EmployeeMappers.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Application\\Mappers\\EmployeeMappers.cs",
+              "RelativeDocumentMoniker": "CompanyWeb.Application\\Mappers\\EmployeeMappers.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Application\\Mappers\\EmployeeMappers.cs",
+              "RelativeToolTip": "CompanyWeb.Application\\Mappers\\EmployeeMappers.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAtwBYAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T08:03:57.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "EmployeeResponse.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Responses\\Employee\\EmployeeResponse.cs",
+              "RelativeDocumentMoniker": "CompanyWeb.Domain\\Models\\Responses\\Employee\\EmployeeResponse.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Responses\\Employee\\EmployeeResponse.cs",
+              "RelativeToolTip": "CompanyWeb.Domain\\Models\\Responses\\Employee\\EmployeeResponse.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAowBwAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T09:33:09.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UpdateEmployeeRequest.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Requests\\Update\\UpdateEmployeeRequest.cs",
+              "RelativeDocumentMoniker": "CompanyWeb.Domain\\Models\\Requests\\Update\\UpdateEmployeeRequest.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Requests\\Update\\UpdateEmployeeRequest.cs",
+              "RelativeToolTip": "CompanyWeb.Domain\\Models\\Requests\\Update\\UpdateEmployeeRequest.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAA0wBcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T04:44:48.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IEmployeeService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Domain\\Services\\IEmployeeService.cs",
+              "RelativeDocumentMoniker": "CompanyWeb.Domain\\Services\\IEmployeeService.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Domain\\Services\\IEmployeeService.cs",
+              "RelativeToolTip": "CompanyWeb.Domain\\Services\\IEmployeeService.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAhwBUAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T07:54:36.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
               "Title": "EmployeeDetailResponse.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Responses\\Employee\\EmployeeDetailResponse.cs",
               "RelativeDocumentMoniker": "CompanyWeb.Domain\\Models\\Responses\\Employee\\EmployeeDetailResponse.cs",
@@ -494,25 +671,11 @@
               "RelativeToolTip": "CompanyWeb.Domain\\Models\\Responses\\Employee\\EmployeeDetailResponse.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAAA4AAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T09:40:44.132Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-22T09:40:44.132Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "DepartementService.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Application\\Services\\DepartementService.cs",
-              "RelativeDocumentMoniker": "CompanyWeb.Application\\Services\\DepartementService.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Application\\Services\\DepartementService.cs",
-              "RelativeToolTip": "CompanyWeb.Application\\Services\\DepartementService.cs",
-              "ViewState": "AQIAAIMAAAAAAAAAAAAmwHcAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T01:32:16.813Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 27,
               "Title": "DepartementRepository.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Infrastructure\\Repositories\\DepartementRepository.cs",
               "RelativeDocumentMoniker": "CompanyWeb.Infrastructure\\Repositories\\DepartementRepository.cs",
@@ -524,19 +687,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.WebApi\\Program.cs",
-              "RelativeDocumentMoniker": "CompanyWeb.WebApi\\Program.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.WebApi\\Program.cs",
-              "RelativeToolTip": "CompanyWeb.WebApi\\Program.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAAADYAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T03:54:41.433Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 29,
               "Title": "CompanyDbContext.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Infrastructure\\CompanyDbContext.cs",
               "RelativeDocumentMoniker": "CompanyWeb.Infrastructure\\CompanyDbContext.cs",
@@ -548,7 +699,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 28,
               "Title": "ServiceExtensions.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Infrastructure\\ServiceExtensions.cs",
               "RelativeDocumentMoniker": "CompanyWeb.Infrastructure\\ServiceExtensions.cs",
@@ -560,45 +711,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "IDepartementService.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Domain\\Services\\IDepartementService.cs",
-              "RelativeDocumentMoniker": "CompanyWeb.Domain\\Services\\IDepartementService.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Domain\\Services\\IDepartementService.cs",
-              "RelativeToolTip": "CompanyWeb.Domain\\Services\\IDepartementService.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAMwBMAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T01:29:52.949Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "DepartementsController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.WebApi\\Controllers\\DepartementsController.cs",
-              "RelativeDocumentMoniker": "CompanyWeb.WebApi\\Controllers\\DepartementsController.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.WebApi\\Controllers\\DepartementsController.cs",
-              "RelativeToolTip": "CompanyWeb.WebApi\\Controllers\\DepartementsController.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAwwCcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T04:21:33.047Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "EmployeesController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.WebApi\\Controllers\\EmployeesController.cs",
-              "RelativeDocumentMoniker": "CompanyWeb.WebApi\\Controllers\\EmployeesController.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.WebApi\\Controllers\\EmployeesController.cs",
-              "RelativeToolTip": "CompanyWeb.WebApi\\Controllers\\EmployeesController.cs",
-              "ViewState": "AQIAADIAAAAAAAAAAAAIwDIAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T04:48:05.88Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 30,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.WebApi\\appsettings.json",
               "RelativeDocumentMoniker": "CompanyWeb.WebApi\\appsettings.json",
@@ -610,7 +723,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 31,
               "Title": "DepartementMappers.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Application\\Mappers\\DepartementMappers.cs",
               "RelativeDocumentMoniker": "CompanyWeb.Application\\Mappers\\DepartementMappers.cs",
@@ -622,46 +735,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "WorksOnController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.WebApi\\Controllers\\WorksOnController.cs",
-              "RelativeDocumentMoniker": "CompanyWeb.WebApi\\Controllers\\WorksOnController.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.WebApi\\Controllers\\WorksOnController.cs",
-              "RelativeToolTip": "CompanyWeb.WebApi\\Controllers\\WorksOnController.cs",
-              "ViewState": "AQIAACsAAAAAAAAAACBjwAgAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T16:57:28.488Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "ProjectsController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.WebApi\\Controllers\\ProjectsController.cs",
-              "RelativeDocumentMoniker": "CompanyWeb.WebApi\\Controllers\\ProjectsController.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.WebApi\\Controllers\\ProjectsController.cs",
-              "RelativeToolTip": "CompanyWeb.WebApi\\Controllers\\ProjectsController.cs",
-              "ViewState": "AQIAAKgAAAAAAAAAAAAqwLMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T13:00:51.094Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "CompanyController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.WebApi\\Controllers\\CompanyController.cs",
-              "RelativeDocumentMoniker": "CompanyWeb.WebApi\\Controllers\\CompanyController.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.WebApi\\Controllers\\CompanyController.cs",
-              "RelativeToolTip": "CompanyWeb.WebApi\\Controllers\\CompanyController.cs",
-              "ViewState": "AQIAAMABAAAAAAAAACBjwAcAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T06:42:59.457Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 32,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.WebApi\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "CompanyWeb.WebApi\\Properties\\launchSettings.json",
@@ -673,7 +747,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 33,
               "Title": "SearchEmployeeQuery.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Helpers\\SearchEmployeeQuery.cs",
               "RelativeDocumentMoniker": "CompanyWeb.Domain\\Models\\Helpers\\SearchEmployeeQuery.cs",
@@ -685,7 +759,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 34,
               "Title": "Employee.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Entities\\Employee.cs",
               "RelativeDocumentMoniker": "CompanyWeb.Domain\\Models\\Entities\\Employee.cs",
@@ -697,7 +771,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 35,
               "Title": "DepartementDetailResponse.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Responses\\DepartementDetailResponse.cs",
               "RelativeDocumentMoniker": "CompanyWeb.Domain\\Models\\Responses\\DepartementDetailResponse.cs",
@@ -709,7 +783,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 36,
               "Title": "DepartementLocationRepository.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Infrastructure\\Repositories\\DepartementLocationRepository.cs",
               "RelativeDocumentMoniker": "CompanyWeb.Infrastructure\\Repositories\\DepartementLocationRepository.cs",
@@ -721,7 +795,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 37,
               "Title": "IDepartementLocationService.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Domain\\Services\\IDepartementLocationService.cs",
               "RelativeDocumentMoniker": "CompanyWeb.Domain\\Services\\IDepartementLocationService.cs",
@@ -733,7 +807,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 38,
               "Title": "IDepartementLocationRepository.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Domain\\Repositories\\IDepartementLocationRepository.cs",
               "RelativeDocumentMoniker": "CompanyWeb.Domain\\Repositories\\IDepartementLocationRepository.cs",
@@ -745,7 +819,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 39,
               "Title": "AddEmployeeDependentRequest.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Requests\\Add\\AddEmployeeDependentRequest.cs",
               "RelativeDocumentMoniker": "CompanyWeb.Domain\\Models\\Requests\\Add\\AddEmployeeDependentRequest.cs",
@@ -757,7 +831,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 40,
               "Title": "DepartementLocationService.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Application\\Services\\DepartementLocationService.cs",
               "RelativeDocumentMoniker": "CompanyWeb.Application\\Services\\DepartementLocationService.cs",
@@ -769,7 +843,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 41,
               "Title": "IEmployeeDependentRepository.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Domain\\Repositories\\IEmployeeDependentRepository.cs",
               "RelativeDocumentMoniker": "CompanyWeb.Domain\\Repositories\\IEmployeeDependentRepository.cs",
@@ -781,7 +855,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 42,
               "Title": "IDepartementRepository.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Domain\\Repositories\\IDepartementRepository.cs",
               "RelativeDocumentMoniker": "CompanyWeb.Domain\\Repositories\\IDepartementRepository.cs",
@@ -793,7 +867,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 43,
               "Title": "Departement.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Entities\\Departement.cs",
               "RelativeDocumentMoniker": "CompanyWeb.Domain\\Models\\Entities\\Departement.cs",
@@ -805,7 +879,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 44,
               "Title": "UpdateDepartementRequest.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Requests\\Update\\UpdateDepartementRequest.cs",
               "RelativeDocumentMoniker": "CompanyWeb.Domain\\Models\\Requests\\Update\\UpdateDepartementRequest.cs",
@@ -817,7 +891,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 45,
               "Title": "AddDepartementRequest.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Requests\\Add\\AddDepartementRequest.cs",
               "RelativeDocumentMoniker": "CompanyWeb.Domain\\Models\\Requests\\Add\\AddDepartementRequest.cs",
@@ -829,7 +903,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 46,
               "Title": "EmployeeDependent.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Entities\\EmployeeDependent.cs",
               "RelativeDocumentMoniker": "CompanyWeb.Domain\\Models\\Entities\\EmployeeDependent.cs",
@@ -841,7 +915,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 47,
               "Title": "CompanyOptions.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Options\\CompanyOptions.cs",
               "RelativeDocumentMoniker": "CompanyWeb.Domain\\Models\\Options\\CompanyOptions.cs",
@@ -853,7 +927,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 48,
               "Title": "EmployeeDependentRepository.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Infrastructure\\Repositories\\EmployeeDependentRepository.cs",
               "RelativeDocumentMoniker": "CompanyWeb.Infrastructure\\Repositories\\EmployeeDependentRepository.cs",
@@ -865,19 +939,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "WorksOnRepository.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Infrastructure\\Repositories\\WorksOnRepository.cs",
-              "RelativeDocumentMoniker": "CompanyWeb.Infrastructure\\Repositories\\WorksOnRepository.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Infrastructure\\Repositories\\WorksOnRepository.cs",
-              "RelativeToolTip": "CompanyWeb.Infrastructure\\Repositories\\WorksOnRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T12:47:04.884Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 49,
               "Title": "ILocationRepository.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Domain\\Repositories\\ILocationRepository.cs",
               "RelativeDocumentMoniker": "CompanyWeb.Domain\\Repositories\\ILocationRepository.cs",
@@ -889,19 +951,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "LocationRepository.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Infrastructure\\Repositories\\LocationRepository.cs",
-              "RelativeDocumentMoniker": "CompanyWeb.Infrastructure\\Repositories\\LocationRepository.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Infrastructure\\Repositories\\LocationRepository.cs",
-              "RelativeToolTip": "CompanyWeb.Infrastructure\\Repositories\\LocationRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAIBZwAsAAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T08:49:47.502Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 50,
               "Title": "UpdateProjectRequest.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Requests\\Update\\UpdateProjectRequest.cs",
               "RelativeDocumentMoniker": "CompanyWeb.Domain\\Models\\Requests\\Update\\UpdateProjectRequest.cs",
@@ -913,31 +963,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "IProjectService.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Domain\\Services\\IProjectService.cs",
-              "RelativeDocumentMoniker": "CompanyWeb.Domain\\Services\\IProjectService.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Domain\\Services\\IProjectService.cs",
-              "RelativeToolTip": "CompanyWeb.Domain\\Services\\IProjectService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA8AAAA7AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T01:29:56.364Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "IWorksOnService.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Domain\\Services\\IWorksOnService.cs",
-              "RelativeDocumentMoniker": "CompanyWeb.Domain\\Services\\IWorksOnService.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Domain\\Services\\IWorksOnService.cs",
-              "RelativeToolTip": "CompanyWeb.Domain\\Services\\IWorksOnService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T01:29:57.879Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 51,
               "Title": "IWorksOnRepository.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Domain\\Repositories\\IWorksOnRepository.cs",
               "RelativeDocumentMoniker": "CompanyWeb.Domain\\Repositories\\IWorksOnRepository.cs",
@@ -949,7 +975,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 52,
               "Title": "IProjectRepository.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Domain\\Repositories\\IProjectRepository.cs",
               "RelativeDocumentMoniker": "CompanyWeb.Domain\\Repositories\\IProjectRepository.cs",
@@ -961,7 +987,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 53,
               "Title": "IEmployeeRepository.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Domain\\Repositories\\IEmployeeRepository.cs",
               "RelativeDocumentMoniker": "CompanyWeb.Domain\\Repositories\\IEmployeeRepository.cs",
@@ -973,7 +999,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 54,
               "Title": "CompanyService.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Application\\Services\\CompanyService.cs",
               "RelativeDocumentMoniker": "CompanyWeb.Application\\Services\\CompanyService.cs",
@@ -985,7 +1011,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 55,
               "Title": "ProjectDetailResponse.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Responses\\ProjectDetailResponse.cs",
               "RelativeDocumentMoniker": "CompanyWeb.Domain\\Models\\Responses\\ProjectDetailResponse.cs",
@@ -997,7 +1023,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 56,
               "Title": "ProjectMappers.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Application\\Mappers\\ProjectMappers.cs",
               "RelativeDocumentMoniker": "CompanyWeb.Application\\Mappers\\ProjectMappers.cs",
@@ -1009,7 +1035,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 57,
               "Title": "AddProjectRequest.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Requests\\Add\\AddProjectRequest.cs",
               "RelativeDocumentMoniker": "CompanyWeb.Domain\\Models\\Requests\\Add\\AddProjectRequest.cs",
@@ -1021,7 +1047,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 58,
               "Title": "AddDepartementLocationRequest.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Requests\\Add\\AddDepartementLocationRequest.cs",
               "RelativeDocumentMoniker": "CompanyWeb.Domain\\Models\\Requests\\Add\\AddDepartementLocationRequest.cs",
@@ -1033,7 +1059,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 59,
               "Title": "UpdateWorksOnRequest.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Requests\\Update\\UpdateWorksOnRequest.cs",
               "RelativeDocumentMoniker": "CompanyWeb.Domain\\Models\\Requests\\Update\\UpdateWorksOnRequest.cs",
@@ -1045,19 +1071,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
-              "Title": "WorksOnService.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Application\\Services\\WorksOnService.cs",
-              "RelativeDocumentMoniker": "CompanyWeb.Application\\Services\\WorksOnService.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Application\\Services\\WorksOnService.cs",
-              "RelativeToolTip": "CompanyWeb.Application\\Services\\WorksOnService.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAACBjwA0AAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T01:32:26.303Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 60,
               "Title": "EmployeeSearchResponse.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Responses\\Employee\\EmployeeSearchResponse.cs",
               "RelativeDocumentMoniker": "CompanyWeb.Domain\\Models\\Responses\\Employee\\EmployeeSearchResponse.cs",
@@ -1069,7 +1083,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 61,
               "Title": "Location.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Entities\\Location.cs",
               "RelativeDocumentMoniker": "CompanyWeb.Domain\\Models\\Entities\\Location.cs",
@@ -1081,7 +1095,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 62,
               "Title": "Workson.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Entities\\Workson.cs",
               "RelativeDocumentMoniker": "CompanyWeb.Domain\\Models\\Entities\\Workson.cs",
@@ -1093,7 +1107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 63,
               "Title": "CompanyWeb.Domain.csproj",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Domain\\CompanyWeb.Domain.csproj",
               "RelativeDocumentMoniker": "CompanyWeb.Domain\\CompanyWeb.Domain.csproj",
@@ -1106,7 +1120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 64,
               "Title": "DepartementLocation.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Entities\\DepartementLocation.cs",
               "RelativeDocumentMoniker": "CompanyWeb.Domain\\Models\\Entities\\DepartementLocation.cs",
@@ -1118,7 +1132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 65,
               "Title": "DeactivateEmployeeRequest.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Requests\\DeactivateEmployeeRequest.cs",
               "RelativeDocumentMoniker": "CompanyWeb.Domain\\Models\\Requests\\DeactivateEmployeeRequest.cs",
@@ -1130,7 +1144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 66,
               "Title": "ProjectDetailDto.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Dtos\\ProjectDetailDto.cs",
               "RelativeDocumentMoniker": "CompanyWeb.Domain\\Models\\Dtos\\ProjectDetailDto.cs",
@@ -1142,7 +1156,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 67,
               "Title": "WorksOnDetailDto.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Dtos\\WorksOnDetailDto.cs",
               "RelativeDocumentMoniker": "CompanyWeb.Domain\\Models\\Dtos\\WorksOnDetailDto.cs",
@@ -1154,7 +1168,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 68,
               "Title": "MSEmployeeDetailResponse.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Responses\\Employee\\MSEmployeeDetailResponse.cs",
               "RelativeDocumentMoniker": "CompanyWeb.Domain\\Models\\Responses\\Employee\\MSEmployeeDetailResponse.cs",
@@ -1166,7 +1180,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 69,
               "Title": "EmployeeDetailDto.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Dtos\\EmployeeDetailDto.cs",
               "RelativeDocumentMoniker": "CompanyWeb.Domain\\Models\\Dtos\\EmployeeDetailDto.cs",
@@ -1178,7 +1192,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 70,
               "Title": "WorksOnDetailResponse.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Responses\\WorksOnDetailResponse.cs",
               "RelativeDocumentMoniker": "CompanyWeb.Domain\\Models\\Responses\\WorksOnDetailResponse.cs",
@@ -1190,7 +1204,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 71,
               "Title": "CompanyWeb.Domain",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Domain\\CompanyWeb.Domain.csproj",
               "RelativeDocumentMoniker": "CompanyWeb.Domain\\CompanyWeb.Domain.csproj",
@@ -1202,7 +1216,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 72,
               "Title": "PageRequest.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Helpers\\PageRequest.cs",
               "RelativeDocumentMoniker": "CompanyWeb.Domain\\Models\\Helpers\\PageRequest.cs",
@@ -1211,18 +1225,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-22T03:12:07.327Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 72,
-              "Title": "BaseController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.WebApi\\Controllers\\Base\\BaseController.cs",
-              "RelativeDocumentMoniker": "CompanyWeb.WebApi\\Controllers\\Base\\BaseController.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.WebApi\\Controllers\\Base\\BaseController.cs",
-              "RelativeToolTip": "CompanyWeb.WebApi\\Controllers\\Base\\BaseController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T04:19:44.332Z"
             },
             {
               "$type": "Document",
@@ -1251,18 +1253,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 75,
-              "Title": "CompanyWeb.WebApi.http",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.WebApi\\CompanyWeb.WebApi.http",
-              "RelativeDocumentMoniker": "CompanyWeb.WebApi\\CompanyWeb.WebApi.http",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.WebApi\\CompanyWeb.WebApi.http",
-              "RelativeToolTip": "CompanyWeb.WebApi\\CompanyWeb.WebApi.http",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-08-15T03:54:43.851Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 76,
               "Title": "AddWorksOnRequest.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Requests\\Add\\AddWorksOnRequest.cs",
               "RelativeDocumentMoniker": "CompanyWeb.Domain\\Models\\Requests\\Add\\AddWorksOnRequest.cs",
@@ -1274,7 +1264,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
+              "DocumentIndex": 76,
               "Title": "CompanyWeb.Infrastructure.csproj",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Infrastructure\\CompanyWeb.Infrastructure.csproj",
               "RelativeDocumentMoniker": "CompanyWeb.Infrastructure\\CompanyWeb.Infrastructure.csproj",

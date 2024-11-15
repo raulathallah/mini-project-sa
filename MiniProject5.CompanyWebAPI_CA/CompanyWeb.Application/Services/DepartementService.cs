@@ -65,6 +65,7 @@ namespace CompanyWeb.Application.Services
             }
 
             var dl = await _departementLocationRepository.GetAllDepartementLocations();
+
             return response.ToDepartementDetailResponse(dl.Where(w => w.Deptno == response.Deptno).Select(s2 => s2.LocationId).ToList());
         }
 
@@ -124,10 +125,20 @@ namespace CompanyWeb.Application.Services
 
         public async Task<object> UpdateDepartement(int id, UpdateDepartementRequest request)
         {
-            var dept = await _departementRepository.GetDepartement(id); 
+
+            //NEW======>
+            var dept = await _departementRepository.GetDepartement(id);
+            var departements = await _departementRepository.GetAllDepartements();
+            var d = departements.Where(w=>w.Deptno!= id).Any(x => x.Deptname == request.Deptname);
+
+            if (d)
+            {
+                return "ERROR NAME EXIST"; 
+            }
+
             if (dept == null)
             {
-                return null;
+                return "ERROR NOT FOUND";
             }
             dept.Deptname = request.Deptname;
             dept.Mgrempno = request.Mgrempno;
@@ -147,7 +158,10 @@ namespace CompanyWeb.Application.Services
             var deptLocations = await _departementLocationRepository.GetAllDepartementLocations();
             // update location
             var response = await _departementRepository.Update(dept);
-            return response.ToDepartementDetailResponse(deptLocations.Where(w=>w.Deptno == id).Select(s=>s.LocationId).ToList());
+
+            //NEW======>
+            //return response.ToDepartementDetailResponse(deptLocations.Where(w=>w.Deptno == id).Select(s=>s.LocationId).ToList());
+            return new { Status = "Success", Message = "Department updated!" };
         }
     }
 }

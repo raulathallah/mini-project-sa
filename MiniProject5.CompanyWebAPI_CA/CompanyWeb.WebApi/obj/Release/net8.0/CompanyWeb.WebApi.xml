@@ -547,6 +547,20 @@
         </member>
         <member name="M:CompanyWeb.WebApi.Controllers.ProjectsController.GetProjects(System.Int32,System.Int32)">
             <summary>
+            Get all projects data paginate
+            </summary>
+             <remarks>
+             
+             Sample request:
+            
+                 GET /Projects
+                 
+             </remarks>
+             <param name="request"></param>
+             <returns> return all project data paginate </returns>
+        </member>
+        <member name="M:CompanyWeb.WebApi.Controllers.ProjectsController.GetAllProject">
+            <summary>
             Get all projects data
             </summary>
              <remarks>
@@ -628,6 +642,19 @@
         <member name="M:CompanyWeb.WebApi.Controllers.WorksOnController.GetWorksons(System.Int32,System.Int32)">
             <summary>
             Get all work data with pagination
+            </summary>
+             <remarks>
+             Sample request:
+            
+                 GET /Worksons?pageNumber=1ANDperPage=20
+                 
+             </remarks>
+             <param name="request"></param>
+             <returns> return all work data </returns>
+        </member>
+        <member name="M:CompanyWeb.WebApi.Controllers.WorksOnController.GetAllWorksons">
+            <summary>
+            Get all work data
             </summary>
              <remarks>
              Sample request:

@@ -67,6 +67,13 @@ namespace CompanyWeb.Application.Services
             return await _worksOnRepository.GetWorksons(pageNumber, perPage);
         }
 
+        //NEW======>
+        public async Task<List<Workson>> GetAllWorksons()
+        {
+            var response = await _worksOnRepository.GetAllWorksons();
+            return response.ToList();
+        }
+
         public async Task<Workson> UpdateWorksOn(int projNo, int empNo, UpdateWorksOnRequest request)
         {
             return await _worksOnRepository.Update(projNo, empNo, request);

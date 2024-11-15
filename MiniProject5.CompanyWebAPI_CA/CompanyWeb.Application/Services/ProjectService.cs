@@ -44,8 +44,10 @@ namespace CompanyWeb.Application.Services
             var p = await _projectRepository.GetAllProjects();
             var isAnyProject = p.Any(x => x.Projname == request.Projname);
             if (isAnyProject)
-            {
-                return null;
+            {   
+                //NEW======>
+                response.Message = $"Project already exist";
+                return response;
             }
 
             var newProj = new Project()
@@ -86,17 +88,39 @@ namespace CompanyWeb.Application.Services
 
         }
 
+        //NEW======>
+        public async Task<List<ProjectResponse>> GetAllProject()
+        {
+            var response = await _projectRepository.GetAllProjects();
+            return response.Select(s => s.ToProjectResponse()).ToList();
+
+        }
+
         public async Task<object> UpdateProject(int id, UpdateProjectRequest request)
         {
+            var res = CreateResponse();
             var project = await _projectRepository.GetProject(id);
             if (project == null)
             {
-                return null;
+                //NEW======>
+                res.Message = $"Project not found!";
+                return res;
             }
 
             project.Projname = request.Projname;
             project.Deptno = request.Deptno;
             project.ProjLocation = request.ProjLocation;
+
+            var p = await _projectRepository.GetAllProjects();
+
+            //NEW======>
+            var isAnyProject = p.Where(w=> w.Projno != id).Any(x => x.Projname == request.Projname);
+            if (isAnyProject)
+            {
+                //NEW======>
+                res.Message = $"Project already exist";
+                return res;
+            }
 
             var response = await _projectRepository.Update(project);
             return response.ToProjectResponse();

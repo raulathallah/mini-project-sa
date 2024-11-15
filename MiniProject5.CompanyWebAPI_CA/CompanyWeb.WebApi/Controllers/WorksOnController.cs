@@ -38,6 +38,28 @@ namespace CompanyWeb.WebApi.Controllers
             return await _worksOnService.GetWorksons(pageNumber, perPage);
         }
 
+        //NEW======>
+        /// <summary>
+        /// Get all work data
+        /// </summary>
+
+        /// <remarks>
+        /// Sample request:
+        ///
+        ///     GET /Worksons?pageNumber=1ANDperPage=20
+        ///     
+        /// </remarks>
+        /// <param name="request"></param>
+        /// <returns> return all work data </returns>
+        // GET: api/Worksons/all
+        [HttpGet("all")]
+        [ProducesResponseType(typeof(Workson), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(Workson), StatusCodes.Status404NotFound)]
+        public async Task<ActionResult<IEnumerable<Workson>>> GetAllWorksons()
+        {
+            return await _worksOnService.GetAllWorksons();
+        }
+
         /// <summary>
         /// Get work data by Project Number and Employee Number
         /// </summary>

@@ -15,6 +15,9 @@ namespace CompanyWeb.Domain.Services
         Task<Workson> UpdateWorksOn(int projNo, int empNo, UpdateWorksOnRequest request);
         Task<Workson> DeleteWorksOn(int projNo, int empNo);
         Task<List<Workson>> GetWorksons(int pageNumber, int perPage);
+
+        //NEW======>
+        Task<List<Workson>> GetAllWorksons();
         Task<Workson> GetWorkson(int projNo, int empNo);
 
     }

@@ -116,7 +116,13 @@ namespace CompanyWeb.WebApi.Controllers
             var action = await _departementService.CreateDepartement(request);
             if (action == null)
             {
-                return NotFound();
+
+                //NEW======>
+                return BadRequest(new
+                {
+                    Status = "Error",
+                    Message = "Department name exist!"
+                });
             }
             return Ok(action);
         }
@@ -152,9 +158,23 @@ namespace CompanyWeb.WebApi.Controllers
                 return BadRequest();
             }
             var action = await _departementService.UpdateDepartement(id, request);
-            if (action == null)
+
+            //NEW======>
+            if (action.ToString() == "ERROR NAME EXIST")
             {
-                return NotFound();
+                return BadRequest(new
+                {
+                    Status = "Error",
+                    Message = "Department name exist!"
+                });
+            }
+            if (action.ToString() == "ERROR NOT FOUND")
+            {
+                return NotFound(new
+                {
+                    Status = "Error",
+                    Message = "Department not found!"
+                });
             }
             return Ok(action);
         }
