@@ -39,10 +39,13 @@ namespace CompanyWeb.Application.Services
         {
             var departements = await _departementRepository.GetAllDepartements();
             var d = departements.Any(x => x.Deptname == request.Deptname);
+
+            //NEW======>
             if (d)
             {
-                return null;
+                return "ERROR NAME EXIST";
             }
+
             var newDept = new Departement()
             {
                 Deptname = request.Deptname,

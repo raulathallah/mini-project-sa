@@ -114,9 +114,9 @@ namespace CompanyWeb.WebApi.Controllers
         public async Task<ActionResult<Departement>> PostDepartement([FromBody] AddDepartementRequest request)
         {
             var action = await _departementService.CreateDepartement(request);
-            if (action == null)
-            {
 
+            if (action.ToString() == "ERROR NAME EXIST")
+            {
                 //NEW======>
                 return BadRequest(new
                 {

@@ -20,6 +20,7 @@ namespace CompanyWeb.Domain.Models.Responses.Employee
         public string? Position { get; set; } = null!;
         public int? DirectSupervisor { get; set; }
         public string? EmpType { get; set; }
+        public int? EmpLevel { get; set; }
 
         public DateTime? CreatedAt { get; set; }
         public DateTime? UpdatedAt { get; set; }

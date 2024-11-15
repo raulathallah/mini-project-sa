@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CompanyWeb.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2226401f886f038716d74d6afac0537e351ba689")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+91e4d1314d2d115cb3427fdfc702241ec506a61b")]
 [assembly: System.Reflection.AssemblyProductAttribute("CompanyWeb.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CompanyWeb.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

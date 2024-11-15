@@ -13,6 +13,7 @@ namespace CompanyWeb.Application.Mappers
     {
         public static EmployeeResponse ToEmployeeResponse(this Employee model, List<EmployeeDependent> employeeDependents)
         {
+            //NEW======>
             return new EmployeeResponse()
             {
                 Empno = model.Empno,
@@ -22,7 +23,6 @@ namespace CompanyWeb.Application.Mappers
                 EmailAddress = model.EmailAddress,
                 PhoneNumber = model.PhoneNumber,
                 DeactivateReason = model.DeactivateReason,
-                //NEW======>
                 DirectSupervisor = model.DirectSupervisor,
                 Dob = model.Dob,
                 Sex = model.Sex,
@@ -31,6 +31,8 @@ namespace CompanyWeb.Application.Mappers
                 Deptno = model.Deptno,
                 Ssn = model.Ssn,
                 Salary = model.Salary,
+                EmpType = model.EmpType,
+                EmpLevel = model.EmpLevel,
                 UpdateAt = model.UpdatedAt,
                 CreatedAt = model.CreatedAt,
                 EmpDependents = employeeDependents,
@@ -67,6 +69,7 @@ namespace CompanyWeb.Application.Mappers
                 Lname = model.Lname,
                 Position = model.Position,
                 EmpType = model.EmpType,
+                EmpLevel = model.EmpLevel,
                 Address = model.Address,
                 EmailAddress = model.EmailAddress,
                 PhoneNumber = model.PhoneNumber,
