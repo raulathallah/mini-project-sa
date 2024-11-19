@@ -220,3 +220,4 @@ C:\Users\USER\source\repos\mini-project-sa\Asg5.LibraryManagementSystem.WebApi\L
 C:\Users\USER\source\repos\mini-project-sa\Asg5.LibraryManagementSystem.WebApi\LibraryManagementSystem.WebApi\obj\Debug\net8.0\LibraryManagementSystem.WebApi.pdb
 C:\Users\USER\source\repos\mini-project-sa\Asg5.LibraryManagementSystem.WebApi\LibraryManagementSystem.WebApi\obj\Debug\net8.0\LibraryManagementSystem.WebApi.genruntimeconfig.cache
 C:\Users\USER\source\repos\mini-project-sa\Asg5.LibraryManagementSystem.WebApi\LibraryManagementSystem.WebApi\obj\Debug\net8.0\ref\LibraryManagementSystem.WebApi.dll
+C:\Users\USER\source\repos\mini-project-sa\Asg5.LibraryManagementSystem.WebApi\LibraryManagementSystem.WebApi\obj\Debug\net8.0\LibraryManagementSystem.WebApi.sourcelink.json

@@ -29,3 +29,4 @@ C:\Users\USER\source\repos\mini-project-sa\Asg5.LibraryManagementSystem.WebApi\L
 C:\Users\USER\source\repos\mini-project-sa\Asg5.LibraryManagementSystem.WebApi\LibraryManagementSystem.Application\obj\Debug\net8.0\refint\LibraryManagementSystem.Application.dll
 C:\Users\USER\source\repos\mini-project-sa\Asg5.LibraryManagementSystem.WebApi\LibraryManagementSystem.Application\obj\Debug\net8.0\LibraryManagementSystem.Application.pdb
 C:\Users\USER\source\repos\mini-project-sa\Asg5.LibraryManagementSystem.WebApi\LibraryManagementSystem.Application\obj\Debug\net8.0\ref\LibraryManagementSystem.Application.dll
+C:\Users\USER\source\repos\mini-project-sa\Asg5.LibraryManagementSystem.WebApi\LibraryManagementSystem.Application\obj\Debug\net8.0\LibraryManagementSystem.Application.sourcelink.json

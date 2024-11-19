@@ -23,3 +23,4 @@ C:\Users\USER\source\repos\mini-project-sa\Asg5.LibraryManagementSystem.WebApi\L
 C:\Users\USER\source\repos\mini-project-sa\Asg5.LibraryManagementSystem.WebApi\LibraryManagementSystem.Domain\obj\Debug\net8.0\refint\LibraryManagementSystem.Domain.dll
 C:\Users\USER\source\repos\mini-project-sa\Asg5.LibraryManagementSystem.WebApi\LibraryManagementSystem.Domain\obj\Debug\net8.0\LibraryManagementSystem.Domain.pdb
 C:\Users\USER\source\repos\mini-project-sa\Asg5.LibraryManagementSystem.WebApi\LibraryManagementSystem.Domain\obj\Debug\net8.0\ref\LibraryManagementSystem.Domain.dll
+C:\Users\USER\source\repos\mini-project-sa\Asg5.LibraryManagementSystem.WebApi\LibraryManagementSystem.Domain\obj\Debug\net8.0\LibraryManagementSystem.Domain.sourcelink.json

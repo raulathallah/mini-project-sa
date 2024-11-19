@@ -34,6 +34,7 @@ namespace LibraryManagementSystem.Application.Mappers
         {
             return new BookSearchResponse()
             {
+                BookId = bookModel.BookId,
                 Category = bookModel.Category,
                 Description = bookModel.Description,
                 Isbn =bookModel.Isbn,
