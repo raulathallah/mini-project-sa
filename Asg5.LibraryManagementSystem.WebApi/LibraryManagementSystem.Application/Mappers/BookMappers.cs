@@ -26,7 +26,7 @@ namespace LibraryManagementSystem.Application.Mappers
                 DeleteReason = bookModel.DeleteReason,
                 IsDeleted = bookModel.IsDeleted,
                 Price = bookModel.Price,
-                Stock = bookModel.Stock
+                //Stock = bookModel.Stock
             };
         }
 
@@ -37,6 +37,7 @@ namespace LibraryManagementSystem.Application.Mappers
                 Category = bookModel.Category,
                 Description = bookModel.Description,
                 Isbn =bookModel.Isbn,
+                Author = bookModel.Author,
                 Publisher = bookModel.Publisher,
                 Title = bookModel.Title,
                 Locations = locations,
