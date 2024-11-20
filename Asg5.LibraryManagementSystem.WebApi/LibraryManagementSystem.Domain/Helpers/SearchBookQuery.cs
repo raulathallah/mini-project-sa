@@ -17,5 +17,10 @@ namespace LibraryManagementSystem.Application.Helpers
         public string? AndOr2 { get; set; }
         public string? AndOr3 { get; set; }
 
+
+        //sort & size
+        public string? SortBy { get; set; } = null;
+        public string? SortOrder { get; set; } = "asc";
+
     }
 }
