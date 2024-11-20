@@ -1,82 +1,46 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\USER\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\",
+  "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\",
   "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{3FE90E98-D4EC-4B24-A55D-B4D0C1E376AF}|LibraryManagementSystem.Domain\\LibraryManagementSystem.Domain.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\asg5.librarymanagementsystem.webapi\\librarymanagementsystem.domain\\models\\responses\\booksearchresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3FE90E98-D4EC-4B24-A55D-B4D0C1E376AF}|LibraryManagementSystem.Domain\\LibraryManagementSystem.Domain.csproj|solutionrelative:librarymanagementsystem.domain\\models\\responses\\booksearchresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0AB793A3-EF93-4CBF-B7DB-BAF881902348}|LibraryManagementSystem.Application\\LibraryManagementSystem.Application.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\asg5.librarymanagementsystem.webapi\\librarymanagementsystem.application\\mappers\\bookmappers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AB793A3-EF93-4CBF-B7DB-BAF881902348}|LibraryManagementSystem.Application\\LibraryManagementSystem.Application.csproj|solutionrelative:librarymanagementsystem.application\\mappers\\bookmappers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0AB793A3-EF93-4CBF-B7DB-BAF881902348}|LibraryManagementSystem.Application\\LibraryManagementSystem.Application.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\asg5.librarymanagementsystem.webapi\\librarymanagementsystem.application\\service\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AB793A3-EF93-4CBF-B7DB-BAF881902348}|LibraryManagementSystem.Application\\LibraryManagementSystem.Application.csproj|solutionrelative:librarymanagementsystem.application\\service\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3FE90E98-D4EC-4B24-A55D-B4D0C1E376AF}|LibraryManagementSystem.Domain\\LibraryManagementSystem.Domain.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\asg5.librarymanagementsystem.webapi\\librarymanagementsystem.domain\\models\\responses\\bookdetailresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3FE90E98-D4EC-4B24-A55D-B4D0C1E376AF}|LibraryManagementSystem.Domain\\LibraryManagementSystem.Domain.csproj|solutionrelative:librarymanagementsystem.domain\\models\\responses\\bookdetailresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3FE90E98-D4EC-4B24-A55D-B4D0C1E376AF}|LibraryManagementSystem.Domain\\LibraryManagementSystem.Domain.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\asg5.librarymanagementsystem.webapi\\librarymanagementsystem.domain\\helpers\\searchbookquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3FE90E98-D4EC-4B24-A55D-B4D0C1E376AF}|LibraryManagementSystem.Domain\\LibraryManagementSystem.Domain.csproj|solutionrelative:librarymanagementsystem.domain\\helpers\\searchbookquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D38CCE2-C661-4B4A-95F7-D7380A2E0C87}|LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\asg5.librarymanagementsystem.webapi\\librarymanagementsystem.webapi\\controllers\\stockscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D38CCE2-C661-4B4A-95F7-D7380A2E0C87}|LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi.csproj|solutionrelative:librarymanagementsystem.webapi\\controllers\\stockscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{06F7989D-B2AA-47F6-B9EA-161D19110EF7}|LibraryManagementSystem.Infrastructure\\LibraryManagementSystem.Infrastructure.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\asg5.librarymanagementsystem.webapi\\librarymanagementsystem.infrastructure\\repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06F7989D-B2AA-47F6-B9EA-161D19110EF7}|LibraryManagementSystem.Infrastructure\\LibraryManagementSystem.Infrastructure.csproj|solutionrelative:librarymanagementsystem.infrastructure\\repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D38CCE2-C661-4B4A-95F7-D7380A2E0C87}|LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\asg5.librarymanagementsystem.webapi\\librarymanagementsystem.webapi\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D38CCE2-C661-4B4A-95F7-D7380A2E0C87}|LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi.csproj|solutionrelative:librarymanagementsystem.webapi\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3FE90E98-D4EC-4B24-A55D-B4D0C1E376AF}|LibraryManagementSystem.Domain\\LibraryManagementSystem.Domain.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\asg5.librarymanagementsystem.webapi\\librarymanagementsystem.domain\\models\\entities\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3FE90E98-D4EC-4B24-A55D-B4D0C1E376AF}|LibraryManagementSystem.Domain\\LibraryManagementSystem.Domain.csproj|solutionrelative:librarymanagementsystem.domain\\models\\entities\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3FE90E98-D4EC-4B24-A55D-B4D0C1E376AF}|LibraryManagementSystem.Domain\\LibraryManagementSystem.Domain.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\asg5.librarymanagementsystem.webapi\\librarymanagementsystem.domain\\models\\entities\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3FE90E98-D4EC-4B24-A55D-B4D0C1E376AF}|LibraryManagementSystem.Domain\\LibraryManagementSystem.Domain.csproj|solutionrelative:librarymanagementsystem.domain\\models\\entities\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D38CCE2-C661-4B4A-95F7-D7380A2E0C87}|LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\asg5.librarymanagementsystem.webapi\\librarymanagementsystem.webapi\\controllers\\base\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D38CCE2-C661-4B4A-95F7-D7380A2E0C87}|LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi.csproj|solutionrelative:librarymanagementsystem.webapi\\controllers\\base\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
     {
       "AbsoluteMoniker": "D:0:0:{0D38CCE2-C661-4B4A-95F7-D7380A2E0C87}|LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\asg5.librarymanagementsystem.webapi\\librarymanagementsystem.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0D38CCE2-C661-4B4A-95F7-D7380A2E0C87}|LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi.csproj|solutionrelative:librarymanagementsystem.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3FE90E98-D4EC-4B24-A55D-B4D0C1E376AF}|LibraryManagementSystem.Domain\\LibraryManagementSystem.Domain.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\asg5.librarymanagementsystem.webapi\\librarymanagementsystem.domain\\service\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3FE90E98-D4EC-4B24-A55D-B4D0C1E376AF}|LibraryManagementSystem.Domain\\LibraryManagementSystem.Domain.csproj|solutionrelative:librarymanagementsystem.domain\\service\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3FE90E98-D4EC-4B24-A55D-B4D0C1E376AF}|LibraryManagementSystem.Domain\\LibraryManagementSystem.Domain.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\asg5.librarymanagementsystem.webapi\\librarymanagementsystem.domain\\models\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3FE90E98-D4EC-4B24-A55D-B4D0C1E376AF}|LibraryManagementSystem.Domain\\LibraryManagementSystem.Domain.csproj|solutionrelative:librarymanagementsystem.domain\\models\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0D38CCE2-C661-4B4A-95F7-D7380A2E0C87}|LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\asg5.librarymanagementsystem.webapi\\librarymanagementsystem.webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{0D38CCE2-C661-4B4A-95F7-D7380A2E0C87}|LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi.csproj|solutionrelative:librarymanagementsystem.webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3FE90E98-D4EC-4B24-A55D-B4D0C1E376AF}|LibraryManagementSystem.Domain\\LibraryManagementSystem.Domain.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\asg5.librarymanagementsystem.webapi\\librarymanagementsystem.domain\\helpers\\pagerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3FE90E98-D4EC-4B24-A55D-B4D0C1E376AF}|LibraryManagementSystem.Domain\\LibraryManagementSystem.Domain.csproj|solutionrelative:librarymanagementsystem.domain\\helpers\\pagerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0D38CCE2-C661-4B4A-95F7-D7380A2E0C87}|LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\asg5.librarymanagementsystem.webapi\\librarymanagementsystem.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{0D38CCE2-C661-4B4A-95F7-D7380A2E0C87}|LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi.csproj|solutionrelative:librarymanagementsystem.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D38CCE2-C661-4B4A-95F7-D7380A2E0C87}|LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\asg5.librarymanagementsystem.webapi\\librarymanagementsystem.webapi\\librarymanagementsystem.webapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{0D38CCE2-C661-4B4A-95F7-D7380A2E0C87}|LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi.csproj|solutionrelative:librarymanagementsystem.webapi\\librarymanagementsystem.webapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0AB793A3-EF93-4CBF-B7DB-BAF881902348}|LibraryManagementSystem.Application\\LibraryManagementSystem.Application.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\asg5.librarymanagementsystem.webapi\\librarymanagementsystem.application\\mappers\\checkoutmappers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0AB793A3-EF93-4CBF-B7DB-BAF881902348}|LibraryManagementSystem.Application\\LibraryManagementSystem.Application.csproj|solutionrelative:librarymanagementsystem.application\\mappers\\checkoutmappers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{0AB793A3-EF93-4CBF-B7DB-BAF881902348}|LibraryManagementSystem.Application\\LibraryManagementSystem.Application.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\asg5.librarymanagementsystem.webapi\\librarymanagementsystem.application\\mappers\\bookmappers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AB793A3-EF93-4CBF-B7DB-BAF881902348}|LibraryManagementSystem.Application\\LibraryManagementSystem.Application.csproj|solutionrelative:librarymanagementsystem.application\\mappers\\bookmappers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FE90E98-D4EC-4B24-A55D-B4D0C1E376AF}|LibraryManagementSystem.Domain\\LibraryManagementSystem.Domain.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\asg5.librarymanagementsystem.webapi\\librarymanagementsystem.domain\\models\\entities\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FE90E98-D4EC-4B24-A55D-B4D0C1E376AF}|LibraryManagementSystem.Domain\\LibraryManagementSystem.Domain.csproj|solutionrelative:librarymanagementsystem.domain\\models\\entities\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FE90E98-D4EC-4B24-A55D-B4D0C1E376AF}|LibraryManagementSystem.Domain\\LibraryManagementSystem.Domain.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\asg5.librarymanagementsystem.webapi\\librarymanagementsystem.domain\\models\\entities\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FE90E98-D4EC-4B24-A55D-B4D0C1E376AF}|LibraryManagementSystem.Domain\\LibraryManagementSystem.Domain.csproj|solutionrelative:librarymanagementsystem.domain\\models\\entities\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3FE90E98-D4EC-4B24-A55D-B4D0C1E376AF}|LibraryManagementSystem.Domain\\LibraryManagementSystem.Domain.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\asg5.librarymanagementsystem.webapi\\librarymanagementsystem.domain\\models\\entities\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3FE90E98-D4EC-4B24-A55D-B4D0C1E376AF}|LibraryManagementSystem.Domain\\LibraryManagementSystem.Domain.csproj|solutionrelative:librarymanagementsystem.domain\\models\\entities\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FE90E98-D4EC-4B24-A55D-B4D0C1E376AF}|LibraryManagementSystem.Domain\\LibraryManagementSystem.Domain.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\asg5.librarymanagementsystem.webapi\\librarymanagementsystem.domain\\models\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FE90E98-D4EC-4B24-A55D-B4D0C1E376AF}|LibraryManagementSystem.Domain\\LibraryManagementSystem.Domain.csproj|solutionrelative:librarymanagementsystem.domain\\models\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3FE90E98-D4EC-4B24-A55D-B4D0C1E376AF}|LibraryManagementSystem.Domain\\LibraryManagementSystem.Domain.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\asg5.librarymanagementsystem.webapi\\librarymanagementsystem.domain\\models\\entities\\libraryoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -87,8 +51,20 @@
       "RelativeMoniker": "D:0:0:{3FE90E98-D4EC-4B24-A55D-B4D0C1E376AF}|LibraryManagementSystem.Domain\\LibraryManagementSystem.Domain.csproj|solutionrelative:librarymanagementsystem.domain\\models\\entities\\bookusertransactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{0AB793A3-EF93-4CBF-B7DB-BAF881902348}|LibraryManagementSystem.Application\\LibraryManagementSystem.Application.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\asg5.librarymanagementsystem.webapi\\librarymanagementsystem.application\\service\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AB793A3-EF93-4CBF-B7DB-BAF881902348}|LibraryManagementSystem.Application\\LibraryManagementSystem.Application.csproj|solutionrelative:librarymanagementsystem.application\\service\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0AB793A3-EF93-4CBF-B7DB-BAF881902348}|LibraryManagementSystem.Application\\LibraryManagementSystem.Application.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\asg5.librarymanagementsystem.webapi\\librarymanagementsystem.application\\service\\stockservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0AB793A3-EF93-4CBF-B7DB-BAF881902348}|LibraryManagementSystem.Application\\LibraryManagementSystem.Application.csproj|solutionrelative:librarymanagementsystem.application\\service\\stockservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FE90E98-D4EC-4B24-A55D-B4D0C1E376AF}|LibraryManagementSystem.Domain\\LibraryManagementSystem.Domain.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\asg5.librarymanagementsystem.webapi\\librarymanagementsystem.domain\\helpers\\pagerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FE90E98-D4EC-4B24-A55D-B4D0C1E376AF}|LibraryManagementSystem.Domain\\LibraryManagementSystem.Domain.csproj|solutionrelative:librarymanagementsystem.domain\\helpers\\pagerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FE90E98-D4EC-4B24-A55D-B4D0C1E376AF}|LibraryManagementSystem.Domain\\LibraryManagementSystem.Domain.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\asg5.librarymanagementsystem.webapi\\librarymanagementsystem.domain\\helpers\\searchbookquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FE90E98-D4EC-4B24-A55D-B4D0C1E376AF}|LibraryManagementSystem.Domain\\LibraryManagementSystem.Domain.csproj|solutionrelative:librarymanagementsystem.domain\\helpers\\searchbookquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{06F7989D-B2AA-47F6-B9EA-161D19110EF7}|LibraryManagementSystem.Infrastructure\\LibraryManagementSystem.Infrastructure.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\asg5.librarymanagementsystem.webapi\\librarymanagementsystem.infrastructure\\context\\lmsdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -117,228 +93,64 @@
           "SelectedChildIndex": 6,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BookService.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Application\\Service\\BookService.cs",
-              "RelativeDocumentMoniker": "LibraryManagementSystem.Application\\Service\\BookService.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Application\\Service\\BookService.cs",
-              "RelativeToolTip": "LibraryManagementSystem.Application\\Service\\BookService.cs",
-              "ViewState": "AQIAAPIBAAAAAAAAAAAQwAACAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T09:26:24.339Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "LibraryManagementSystem.WebApi\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "LibraryManagementSystem.WebApi\\Properties\\launchSettings.json",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABAAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-18T05:14:35.085Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BookDetailResponse.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\Models\\Responses\\BookDetailResponse.cs",
-              "RelativeDocumentMoniker": "LibraryManagementSystem.Domain\\Models\\Responses\\BookDetailResponse.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\Models\\Responses\\BookDetailResponse.cs",
-              "RelativeToolTip": "LibraryManagementSystem.Domain\\Models\\Responses\\BookDetailResponse.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAqwAwAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T03:09:49.326Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BookRepository.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Infrastructure\\Repositories\\BookRepository.cs",
-              "RelativeDocumentMoniker": "LibraryManagementSystem.Infrastructure\\Repositories\\BookRepository.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Infrastructure\\Repositories\\BookRepository.cs",
-              "RelativeToolTip": "LibraryManagementSystem.Infrastructure\\Repositories\\BookRepository.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAgwCcAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T03:03:04.634Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "StocksController.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi\\Controllers\\StocksController.cs",
-              "RelativeDocumentMoniker": "LibraryManagementSystem.WebApi\\Controllers\\StocksController.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi\\Controllers\\StocksController.cs",
-              "RelativeToolTip": "LibraryManagementSystem.WebApi\\Controllers\\StocksController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T02:39:27.943Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BookSearchResponse.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\Models\\Responses\\BookSearchResponse.cs",
-              "RelativeDocumentMoniker": "LibraryManagementSystem.Domain\\Models\\Responses\\BookSearchResponse.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\Models\\Responses\\BookSearchResponse.cs",
-              "RelativeToolTip": "LibraryManagementSystem.Domain\\Models\\Responses\\BookSearchResponse.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAYwAsAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T02:38:19.698Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "Book.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\Models\\Entities\\Book.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\Models\\Entities\\Book.cs",
               "RelativeDocumentMoniker": "LibraryManagementSystem.Domain\\Models\\Entities\\Book.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\Models\\Entities\\Book.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\Models\\Entities\\Book.cs",
               "RelativeToolTip": "LibraryManagementSystem.Domain\\Models\\Entities\\Book.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAArwDsAAAAmAAAA",
+              "ViewState": "AQIAACwAAAAAAAAAAAApwDsAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-22T06:46:37.556Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 12,
+              "Title": "BookService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Application\\Service\\BookService.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem.Application\\Service\\BookService.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Application\\Service\\BookService.cs",
+              "RelativeToolTip": "LibraryManagementSystem.Application\\Service\\BookService.cs",
+              "ViewState": "AQIAALABAAAAAAAAAIBJwMoBAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T09:26:24.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "SearchBookQuery.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\Helpers\\SearchBookQuery.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\Helpers\\SearchBookQuery.cs",
               "RelativeDocumentMoniker": "LibraryManagementSystem.Domain\\Helpers\\SearchBookQuery.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\Helpers\\SearchBookQuery.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\Helpers\\SearchBookQuery.cs",
               "RelativeToolTip": "LibraryManagementSystem.Domain\\Helpers\\SearchBookQuery.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAqwBEAAAAIAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-22T03:07:15.122Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Stock.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\Models\\Entities\\Stock.cs",
-              "RelativeDocumentMoniker": "LibraryManagementSystem.Domain\\Models\\Entities\\Stock.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\Models\\Entities\\Stock.cs",
-              "RelativeToolTip": "LibraryManagementSystem.Domain\\Models\\Entities\\Stock.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAA1wAwAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T07:15:45.455Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BookMappers.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Application\\Mappers\\BookMappers.cs",
-              "RelativeDocumentMoniker": "LibraryManagementSystem.Application\\Mappers\\BookMappers.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Application\\Mappers\\BookMappers.cs",
-              "RelativeToolTip": "LibraryManagementSystem.Application\\Mappers\\BookMappers.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAjwCIAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T07:31:15.504Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "BooksController.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi\\Controllers\\BooksController.cs",
-              "RelativeDocumentMoniker": "LibraryManagementSystem.WebApi\\Controllers\\BooksController.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi\\Controllers\\BooksController.cs",
-              "RelativeToolTip": "LibraryManagementSystem.WebApi\\Controllers\\BooksController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAE4AAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T03:02:12.752Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi\\Program.cs",
-              "RelativeDocumentMoniker": "LibraryManagementSystem.WebApi\\Program.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi\\Program.cs",
-              "RelativeToolTip": "LibraryManagementSystem.WebApi\\Program.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAAB4AAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T09:24:09.673Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "LibraryManagementSystem.WebApi\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi\\Properties\\launchSettings.json",
-              "RelativeToolTip": "LibraryManagementSystem.WebApi\\Properties\\launchSettings.json",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-19T02:16:38.085Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "BaseController.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi\\Controllers\\Base\\BaseController.cs",
-              "RelativeDocumentMoniker": "LibraryManagementSystem.WebApi\\Controllers\\Base\\BaseController.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi\\Controllers\\Base\\BaseController.cs",
-              "RelativeToolTip": "LibraryManagementSystem.WebApi\\Controllers\\Base\\BaseController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T03:06:23.651Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "IBookService.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\Service\\IBookService.cs",
-              "RelativeDocumentMoniker": "LibraryManagementSystem.Domain\\Service\\IBookService.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\Service\\IBookService.cs",
-              "RelativeToolTip": "LibraryManagementSystem.Domain\\Service\\IBookService.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAIA6wBYAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T02:52:47.386Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\Models\\Entities\\User.cs",
-              "RelativeDocumentMoniker": "LibraryManagementSystem.Domain\\Models\\Entities\\User.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\Models\\Entities\\User.cs",
-              "RelativeToolTip": "LibraryManagementSystem.Domain\\Models\\Entities\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T07:15:46.287Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "PageRequest.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\Helpers\\PageRequest.cs",
-              "RelativeDocumentMoniker": "LibraryManagementSystem.Domain\\Helpers\\PageRequest.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\Helpers\\PageRequest.cs",
-              "RelativeToolTip": "LibraryManagementSystem.Domain\\Helpers\\PageRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T03:07:14.852Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "BookUserTransactions.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\Models\\Entities\\BookUserTransactions.cs",
-              "RelativeDocumentMoniker": "LibraryManagementSystem.Domain\\Models\\Entities\\BookUserTransactions.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\Models\\Entities\\BookUserTransactions.cs",
-              "RelativeToolTip": "LibraryManagementSystem.Domain\\Models\\Entities\\BookUserTransactions.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T07:15:42.342Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 4,
               "Title": "CheckOutMappers.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Application\\Mappers\\CheckOutMappers.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Application\\Mappers\\CheckOutMappers.cs",
               "RelativeDocumentMoniker": "LibraryManagementSystem.Application\\Mappers\\CheckOutMappers.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Application\\Mappers\\CheckOutMappers.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Application\\Mappers\\CheckOutMappers.cs",
               "RelativeToolTip": "LibraryManagementSystem.Application\\Mappers\\CheckOutMappers.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -346,11 +158,48 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem.WebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi\\Program.cs",
+              "RelativeToolTip": "LibraryManagementSystem.WebApi\\Program.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAUAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T09:24:09.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LibraryManagementSystem.WebApi.http",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi.http",
+              "RelativeDocumentMoniker": "LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi.http",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi.http",
+              "RelativeToolTip": "LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-11-18T05:14:31.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "LibraryManagementSystem.WebApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi\\appsettings.json",
+              "RelativeToolTip": "LibraryManagementSystem.WebApi\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-20T09:24:10.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "LibraryOptions.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\Models\\Entities\\LibraryOptions.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\Models\\Entities\\LibraryOptions.cs",
               "RelativeDocumentMoniker": "LibraryManagementSystem.Domain\\Models\\Entities\\LibraryOptions.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\Models\\Entities\\LibraryOptions.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\Models\\Entities\\LibraryOptions.cs",
               "RelativeToolTip": "LibraryManagementSystem.Domain\\Models\\Entities\\LibraryOptions.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -358,23 +207,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi\\appsettings.json",
-              "RelativeDocumentMoniker": "LibraryManagementSystem.WebApi\\appsettings.json",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi\\appsettings.json",
-              "RelativeToolTip": "LibraryManagementSystem.WebApi\\appsettings.json",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAwAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-20T09:24:10.659Z"
+              "DocumentIndex": 11,
+              "Title": "BookUserTransactions.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\Models\\Entities\\BookUserTransactions.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem.Domain\\Models\\Entities\\BookUserTransactions.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\Models\\Entities\\BookUserTransactions.cs",
+              "RelativeToolTip": "LibraryManagementSystem.Domain\\Models\\Entities\\BookUserTransactions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T07:15:42.342Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 8,
               "Title": "Location.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\Models\\Entities\\Location.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\Models\\Entities\\Location.cs",
               "RelativeDocumentMoniker": "LibraryManagementSystem.Domain\\Models\\Entities\\Location.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\Models\\Entities\\Location.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\Models\\Entities\\Location.cs",
               "RelativeToolTip": "LibraryManagementSystem.Domain\\Models\\Entities\\Location.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAIBJwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -382,11 +231,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 6,
+              "Title": "Stock.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\Models\\Entities\\Stock.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem.Domain\\Models\\Entities\\Stock.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\Models\\Entities\\Stock.cs",
+              "RelativeToolTip": "LibraryManagementSystem.Domain\\Models\\Entities\\Stock.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAIBJwAwAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T07:15:45.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\Models\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem.Domain\\Models\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\Models\\Entities\\User.cs",
+              "RelativeToolTip": "LibraryManagementSystem.Domain\\Models\\Entities\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T07:15:46.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BookMappers.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Application\\Mappers\\BookMappers.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem.Application\\Mappers\\BookMappers.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Application\\Mappers\\BookMappers.cs",
+              "RelativeToolTip": "LibraryManagementSystem.Application\\Mappers\\BookMappers.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAIBJwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T07:31:15.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PageRequest.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\Helpers\\PageRequest.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem.Domain\\Helpers\\PageRequest.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\Helpers\\PageRequest.cs",
+              "RelativeToolTip": "LibraryManagementSystem.Domain\\Helpers\\PageRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T03:07:14.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "StockService.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Application\\Service\\StockService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Application\\Service\\StockService.cs",
               "RelativeDocumentMoniker": "LibraryManagementSystem.Application\\Service\\StockService.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Application\\Service\\StockService.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Application\\Service\\StockService.cs",
               "RelativeToolTip": "LibraryManagementSystem.Application\\Service\\StockService.cs",
               "ViewState": "AQIAABcAAAAAAAAAAIBJwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -394,11 +291,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 17,
               "Title": "ServiceExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Infrastructure\\ServiceExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Infrastructure\\ServiceExtensions.cs",
               "RelativeDocumentMoniker": "LibraryManagementSystem.Infrastructure\\ServiceExtensions.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Infrastructure\\ServiceExtensions.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Infrastructure\\ServiceExtensions.cs",
               "RelativeToolTip": "LibraryManagementSystem.Infrastructure\\ServiceExtensions.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAIBJwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -406,11 +303,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 18,
               "Title": "LMSDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Infrastructure\\Context\\LMSDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Infrastructure\\Context\\LMSDbContext.cs",
               "RelativeDocumentMoniker": "LibraryManagementSystem.Infrastructure\\Context\\LMSDbContext.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Infrastructure\\Context\\LMSDbContext.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Infrastructure\\Context\\LMSDbContext.cs",
               "RelativeToolTip": "LibraryManagementSystem.Infrastructure\\Context\\LMSDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -418,11 +315,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 16,
               "Title": "LMSDbContextFactory.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Infrastructure\\Context\\LMSDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Infrastructure\\Context\\LMSDbContextFactory.cs",
               "RelativeDocumentMoniker": "LibraryManagementSystem.Infrastructure\\Context\\LMSDbContextFactory.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Infrastructure\\Context\\LMSDbContextFactory.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Infrastructure\\Context\\LMSDbContextFactory.cs",
               "RelativeToolTip": "LibraryManagementSystem.Infrastructure\\Context\\LMSDbContextFactory.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -430,11 +327,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 19,
               "Title": "LibraryManagementSystem.Infrastructure.csproj",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Infrastructure\\LibraryManagementSystem.Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Infrastructure\\LibraryManagementSystem.Infrastructure.csproj",
               "RelativeDocumentMoniker": "LibraryManagementSystem.Infrastructure\\LibraryManagementSystem.Infrastructure.csproj",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Infrastructure\\LibraryManagementSystem.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Infrastructure\\LibraryManagementSystem.Infrastructure.csproj",
               "RelativeToolTip": "LibraryManagementSystem.Infrastructure\\LibraryManagementSystem.Infrastructure.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
