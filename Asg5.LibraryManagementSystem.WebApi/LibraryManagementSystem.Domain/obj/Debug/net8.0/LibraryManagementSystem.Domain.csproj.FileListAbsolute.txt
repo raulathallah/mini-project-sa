@@ -11,3 +11,16 @@ C:\Users\user\source\repos\NET-Solecode-Academy\Asg5.LibraryManagementSystem.Web
 C:\Users\user\source\repos\NET-Solecode-Academy\Asg5.LibraryManagementSystem.WebApi\LibraryManagementSystem.Domain\obj\Debug\net8.0\refint\LibraryManagementSystem.Domain.dll
 C:\Users\user\source\repos\NET-Solecode-Academy\Asg5.LibraryManagementSystem.WebApi\LibraryManagementSystem.Domain\obj\Debug\net8.0\LibraryManagementSystem.Domain.pdb
 C:\Users\user\source\repos\NET-Solecode-Academy\Asg5.LibraryManagementSystem.WebApi\LibraryManagementSystem.Domain\obj\Debug\net8.0\ref\LibraryManagementSystem.Domain.dll
+C:\Users\user\source\repos\mini-project-sa\Asg5.LibraryManagementSystem.WebApi\LibraryManagementSystem.Domain\bin\Debug\net8.0\LibraryManagementSystem.Domain.deps.json
+C:\Users\user\source\repos\mini-project-sa\Asg5.LibraryManagementSystem.WebApi\LibraryManagementSystem.Domain\bin\Debug\net8.0\LibraryManagementSystem.Domain.dll
+C:\Users\user\source\repos\mini-project-sa\Asg5.LibraryManagementSystem.WebApi\LibraryManagementSystem.Domain\bin\Debug\net8.0\LibraryManagementSystem.Domain.pdb
+C:\Users\user\source\repos\mini-project-sa\Asg5.LibraryManagementSystem.WebApi\LibraryManagementSystem.Domain\obj\Debug\net8.0\LibraryManagementSystem.Domain.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\mini-project-sa\Asg5.LibraryManagementSystem.WebApi\LibraryManagementSystem.Domain\obj\Debug\net8.0\LibraryManagementSystem.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\mini-project-sa\Asg5.LibraryManagementSystem.WebApi\LibraryManagementSystem.Domain\obj\Debug\net8.0\LibraryManagementSystem.Domain.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\mini-project-sa\Asg5.LibraryManagementSystem.WebApi\LibraryManagementSystem.Domain\obj\Debug\net8.0\LibraryManagementSystem.Domain.AssemblyInfo.cs
+C:\Users\user\source\repos\mini-project-sa\Asg5.LibraryManagementSystem.WebApi\LibraryManagementSystem.Domain\obj\Debug\net8.0\LibraryManagementSystem.Domain.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\mini-project-sa\Asg5.LibraryManagementSystem.WebApi\LibraryManagementSystem.Domain\obj\Debug\net8.0\LibraryManagementSystem.Domain.sourcelink.json
+C:\Users\user\source\repos\mini-project-sa\Asg5.LibraryManagementSystem.WebApi\LibraryManagementSystem.Domain\obj\Debug\net8.0\LibraryManagementSystem.Domain.dll
+C:\Users\user\source\repos\mini-project-sa\Asg5.LibraryManagementSystem.WebApi\LibraryManagementSystem.Domain\obj\Debug\net8.0\refint\LibraryManagementSystem.Domain.dll
+C:\Users\user\source\repos\mini-project-sa\Asg5.LibraryManagementSystem.WebApi\LibraryManagementSystem.Domain\obj\Debug\net8.0\LibraryManagementSystem.Domain.pdb
+C:\Users\user\source\repos\mini-project-sa\Asg5.LibraryManagementSystem.WebApi\LibraryManagementSystem.Domain\obj\Debug\net8.0\ref\LibraryManagementSystem.Domain.dll
