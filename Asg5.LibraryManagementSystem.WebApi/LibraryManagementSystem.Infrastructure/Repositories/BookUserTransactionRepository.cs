@@ -1,6 +1,9 @@
-﻿using LibraryManagementSystem.Domain.Models.Entities;
+﻿using LibraryManagementSystem.Core.Models;
+using LibraryManagementSystem.Domain.Models.Entities;
+using LibraryManagementSystem.Domain.Models.Requests.Transactions;
 using LibraryManagementSystem.Domain.Repositories;
 using LibraryManagementSystem.Infrastructure.Context;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -35,9 +38,14 @@ namespace LibraryManagementSystem.Infrastructure.Repositories
             return await Context.BookUserTransactions.FindAsync(bookUserTransactionId);
         }
 
-        public async Task<IQueryable<BookUserTransactions>> GetAll()
+        public async Task<List<BookUserTransactions>> GetByUserId(int userId)
         {
-            return Context.BookUserTransactions;
+            return await Context.BookUserTransactions.Where(w => w.UserId == userId).ToListAsync();
+        }
+
+        public async Task<List<BookUserTransactions>> GetAll()
+        {
+            return await Context.BookUserTransactions.ToListAsync();
         }
 
         public async Task<BookUserTransactions> Update(BookUserTransactions bookUserTransactions)
@@ -45,6 +53,13 @@ namespace LibraryManagementSystem.Infrastructure.Repositories
             Context.BookUserTransactions.Update(bookUserTransactions);
             await Context.SaveChangesAsync();
             return bookUserTransactions;
+        }
+
+        public async Task<List<BookUserTransactions>> UpdateTransactions(UpdateTransactionRequest request)
+        {
+            Context.BookUserTransactions.UpdateRange(request.Transactions);
+            await Context.SaveChangesAsync();
+            return request.Transactions;
         }
     }
 }

@@ -2,6 +2,7 @@
 using LibraryManagementSystem.Domain.Models.Entities;
 using LibraryManagementSystem.Domain.Models.Requests.Borrows;
 using LibraryManagementSystem.Domain.Models.Requests.Stocks;
+using LibraryManagementSystem.Domain.Models.Requests.Transactions;
 using LibraryManagementSystem.Domain.Repositories;
 using LibraryManagementSystem.Domain.Service;
 using Microsoft.EntityFrameworkCore;
@@ -88,5 +89,49 @@ namespace LibraryManagementSystem.Application.Service
 
         }
 
+        
+        public async Task<object> BookCheckIn(BookReturnRequest request)
+        {
+            var returnBook = await _bookUserTransactionRepository.GetByUserId(request.UserId);
+
+            if (returnBook == null)
+            {
+                return $"No transaction available for user with ID {request.UserId}";
+            }
+
+            foreach (var item in returnBook)
+            {
+
+                if (request.BookId.Any(a => a.Equals(item.BookIdNavigation.BookId)))
+                {
+                    if (item.IsReturned == true)
+                    {
+                        return $"Book with ID {item.BookIdNavigation.BookId} already returned! Please try again.";
+                    }
+                    item.ReturnDate = DateOnly.FromDateTime(DateTime.Now);
+                    item.IsReturned = true;
+                }
+            }
+
+            var response = await _bookUserTransactionRepository.UpdateTransactions(new UpdateTransactionRequest() { Transactions = returnBook });
+            return response;
+        }
+
+        public async Task<object> GetAllTransactions()
+        {
+            var res = await _bookUserTransactionRepository.GetAll();
+            return res.Select(s => new
+            {
+                BookUserTransactionId = s.BookUserTransactionId,
+                BookId = s.BookId,
+                UserId = s.UserId,
+                LocationId = s.LocationId,
+                DueDate = s.DueDate,
+                IsReturned = s.IsReturned,
+                BorrowedDate = s.BorrowedAt,
+                ReturnDate = s.ReturnDate,
+            });
+        }
     }
+
 }

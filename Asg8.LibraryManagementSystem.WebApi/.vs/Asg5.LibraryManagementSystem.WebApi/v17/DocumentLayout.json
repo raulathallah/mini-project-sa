@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg8.LibraryManagementSystem.WebApi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0D38CCE2-C661-4B4A-95F7-D7380A2E0C87}|LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\asg8.librarymanagementsystem.webapi\\librarymanagementsystem.webapi\\controllers\\stockscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D38CCE2-C661-4B4A-95F7-D7380A2E0C87}|LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi.csproj|solutionrelative:librarymanagementsystem.webapi\\controllers\\stockscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0D38CCE2-C661-4B4A-95F7-D7380A2E0C87}|LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\asg8.librarymanagementsystem.webapi\\librarymanagementsystem.webapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0D38CCE2-C661-4B4A-95F7-D7380A2E0C87}|LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi.csproj|solutionrelative:librarymanagementsystem.webapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -97,10 +101,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{06F7989D-B2AA-47F6-B9EA-161D19110EF7}|LibraryManagementSystem.Infrastructure\\LibraryManagementSystem.Infrastructure.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\asg8.librarymanagementsystem.webapi\\librarymanagementsystem.infrastructure\\context\\lmsdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{06F7989D-B2AA-47F6-B9EA-161D19110EF7}|LibraryManagementSystem.Infrastructure\\LibraryManagementSystem.Infrastructure.csproj|solutionrelative:librarymanagementsystem.infrastructure\\context\\lmsdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D38CCE2-C661-4B4A-95F7-D7380A2E0C87}|LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\asg8.librarymanagementsystem.webapi\\librarymanagementsystem.webapi\\controllers\\stockscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D38CCE2-C661-4B4A-95F7-D7380A2E0C87}|LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi.csproj|solutionrelative:librarymanagementsystem.webapi\\controllers\\stockscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{06F7989D-B2AA-47F6-B9EA-161D19110EF7}|LibraryManagementSystem.Infrastructure\\LibraryManagementSystem.Infrastructure.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\asg8.librarymanagementsystem.webapi\\librarymanagementsystem.infrastructure\\context\\lmsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -233,19 +233,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg8.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\Service\\IUserService.cs",
-              "RelativeDocumentMoniker": "LibraryManagementSystem.Domain\\Service\\IUserService.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg8.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\Service\\IUserService.cs",
-              "RelativeToolTip": "LibraryManagementSystem.Domain\\Service\\IUserService.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAIA7wBgAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T06:45:52.329Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "IEmailService.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg8.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\Service\\IEmailService.cs",
               "RelativeDocumentMoniker": "LibraryManagementSystem.Domain\\Service\\IEmailService.cs",
@@ -257,7 +245,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "IBookService.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg8.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\Service\\IBookService.cs",
               "RelativeDocumentMoniker": "LibraryManagementSystem.Domain\\Service\\IBookService.cs",
@@ -269,7 +257,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "IAuthService.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg8.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\Service\\IAuthService.cs",
               "RelativeDocumentMoniker": "LibraryManagementSystem.Domain\\Service\\IAuthService.cs",
@@ -281,7 +269,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "IBookRepository.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg8.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\Repositories\\IBookRepository.cs",
               "RelativeDocumentMoniker": "LibraryManagementSystem.Domain\\Repositories\\IBookRepository.cs",
@@ -293,7 +281,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "IPdfService.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg8.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\Service\\IPdfService.cs",
               "RelativeDocumentMoniker": "LibraryManagementSystem.Domain\\Service\\IPdfService.cs",
@@ -305,7 +293,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "EmailService.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg8.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Application\\Service\\EmailService.cs",
               "RelativeDocumentMoniker": "LibraryManagementSystem.Application\\Service\\EmailService.cs",
@@ -317,7 +305,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "UsersController.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg8.LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "LibraryManagementSystem.WebApi\\Controllers\\UsersController.cs",
@@ -330,7 +318,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "StocksController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg8.LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi\\Controllers\\StocksController.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem.WebApi\\Controllers\\StocksController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg8.LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi\\Controllers\\StocksController.cs",
+              "RelativeToolTip": "LibraryManagementSystem.WebApi\\Controllers\\StocksController.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAADwv2IAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T13:26:37.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg8.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\Service\\IUserService.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem.Domain\\Service\\IUserService.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg8.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\Service\\IUserService.cs",
+              "RelativeToolTip": "LibraryManagementSystem.Domain\\Service\\IUserService.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAIA7wBgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T06:45:52.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "BooksController.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg8.LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi\\Controllers\\BooksController.cs",
               "RelativeDocumentMoniker": "LibraryManagementSystem.WebApi\\Controllers\\BooksController.cs",
@@ -338,12 +351,11 @@
               "RelativeToolTip": "LibraryManagementSystem.WebApi\\Controllers\\BooksController.cs",
               "ViewState": "AQIAAHIAAAAAAAAAAAAAABoAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T13:26:37.2Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-06T13:26:37.2Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg8.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Application\\Service\\UserService.cs",
               "RelativeDocumentMoniker": "LibraryManagementSystem.Application\\Service\\UserService.cs",
@@ -355,7 +367,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "EmailTemplate.html",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg8.LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi\\EmailTemplate.html",
               "RelativeDocumentMoniker": "LibraryManagementSystem.WebApi\\EmailTemplate.html",
@@ -367,7 +379,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "IStockService.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg8.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\Service\\IStockService.cs",
               "RelativeDocumentMoniker": "LibraryManagementSystem.Domain\\Service\\IStockService.cs",
@@ -379,7 +391,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ITokenService.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg8.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\Service\\ITokenService.cs",
               "RelativeDocumentMoniker": "LibraryManagementSystem.Domain\\Service\\ITokenService.cs",
@@ -391,7 +403,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "BookService.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg8.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Application\\Service\\BookService.cs",
               "RelativeDocumentMoniker": "LibraryManagementSystem.Application\\Service\\BookService.cs",
@@ -415,7 +427,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "MailSettings.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg8.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\Models\\Entities\\MailSettings.cs",
               "RelativeDocumentMoniker": "LibraryManagementSystem.Domain\\Models\\Entities\\MailSettings.cs",
@@ -427,7 +439,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "TokenService.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg8.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Application\\Service\\TokenService.cs",
               "RelativeDocumentMoniker": "LibraryManagementSystem.Application\\Service\\TokenService.cs",
@@ -439,7 +451,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "PdfService.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg8.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Application\\Service\\PdfService.cs",
               "RelativeDocumentMoniker": "LibraryManagementSystem.Application\\Service\\PdfService.cs",
@@ -451,7 +463,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "StockService.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg8.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Application\\Service\\StockService.cs",
               "RelativeDocumentMoniker": "LibraryManagementSystem.Application\\Service\\StockService.cs",
@@ -463,7 +475,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg8.LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi\\Program.cs",
               "RelativeDocumentMoniker": "LibraryManagementSystem.WebApi\\Program.cs",
@@ -475,19 +487,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "StocksController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg8.LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi\\Controllers\\StocksController.cs",
-              "RelativeDocumentMoniker": "LibraryManagementSystem.WebApi\\Controllers\\StocksController.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg8.LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi\\Controllers\\StocksController.cs",
-              "RelativeToolTip": "LibraryManagementSystem.WebApi\\Controllers\\StocksController.cs",
-              "ViewState": "AQIAAE0AAAAAAAAAAIBJwGIAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T13:26:37.601Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg8.LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "LibraryManagementSystem.WebApi\\Controllers\\AuthController.cs",
@@ -499,7 +499,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg8.LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi\\appsettings.json",
               "RelativeDocumentMoniker": "LibraryManagementSystem.WebApi\\appsettings.json",
@@ -511,7 +511,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "IStockRepository.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg8.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\Repositories\\IStockRepository.cs",
               "RelativeDocumentMoniker": "LibraryManagementSystem.Domain\\Repositories\\IStockRepository.cs",
@@ -523,7 +523,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "BaseController.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg8.LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi\\Controllers\\Base\\BaseController.cs",
               "RelativeDocumentMoniker": "LibraryManagementSystem.WebApi\\Controllers\\Base\\BaseController.cs",
@@ -535,7 +535,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "LMSDbContextFactory.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg8.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Infrastructure\\Context\\LMSDbContextFactory.cs",
               "RelativeDocumentMoniker": "LibraryManagementSystem.Infrastructure\\Context\\LMSDbContextFactory.cs",

@@ -14,7 +14,10 @@ namespace LibraryManagementSystem.Domain.Models.Responses
         public string Author { get; set; } = null!;
         public string Publisher { get; set; } = null!;
         public string Isbn { get; set; } = null!;
+        public bool isDeleted { get; set; }
         public string Description { get; set; } = null!;
+        public string Language { get; set; } = null!;
         public string[]? Locations { get; set; } = null!;
+
     }
 }

@@ -107,7 +107,7 @@ namespace LibraryManagementSystem.Application.Service
 
             if (isLanguage)
             {
-               books = books.Where(w => w.Language.ToLower() == query.Language.ToLower());
+               books = books.Where(w => w.Language.ToLower().Contains(query.Language.ToLower()));
             }
 
             // Only Title
