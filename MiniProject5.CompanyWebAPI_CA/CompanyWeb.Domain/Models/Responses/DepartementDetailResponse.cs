@@ -13,6 +13,6 @@ namespace CompanyWeb.Domain.Models.Responses
         public int Deptno { get; set; }
         public string? Deptname { get; set; }
         public int? Mgrempno { get; set; }
-        public List<int>? LocationId { get; set; }
+        public List<int>? Location { get; set; }
     }
 }

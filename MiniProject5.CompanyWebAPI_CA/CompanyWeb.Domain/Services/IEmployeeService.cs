@@ -16,7 +16,7 @@ namespace CompanyWeb.Domain.Services
     public interface IEmployeeService
     {
         Task<object> CreateEmployee(AddEmployeeRequest request);
-        Task<List<object>> GetEmployees(int pageNumber, int perPage);
+        Task<object> GetEmployees(int pageNumber, int perPage);
 
         // NEW ======>
         Task<List<object>> GetAllEmployees();
@@ -25,7 +25,7 @@ namespace CompanyWeb.Domain.Services
         Task<object> DeleteEmployee(int id);
 
         // Search & Filter
-        Task<List<EmployeeSearchResponse>> SearchEmployee(SearchEmployeeQuery query, PageRequest pageRequest);
+        Task<object> SearchEmployee(SearchEmployeeQuery query, PageRequest pageRequest);
 
         // Deactive Employee
         // - not yet timestamp
