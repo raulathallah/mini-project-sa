@@ -11,12 +11,12 @@
       "RelativeMoniker": "D:0:0:{2CBC93D8-C748-4B5A-9D42-7A2B7F5A270A}|CompanyWeb.Application\\CompanyWeb.Application.csproj|solutionrelative:companyweb.application\\services\\departementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\miniproject5.companywebapi_ca\\companyweb.domain\\models\\responses\\departementdetailresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|solutionrelative:companyweb.domain\\models\\responses\\departementdetailresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2CBC93D8-C748-4B5A-9D42-7A2B7F5A270A}|CompanyWeb.Application\\CompanyWeb.Application.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\miniproject5.companywebapi_ca\\companyweb.application\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2CBC93D8-C748-4B5A-9D42-7A2B7F5A270A}|CompanyWeb.Application\\CompanyWeb.Application.csproj|solutionrelative:companyweb.application\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\miniproject5.companywebapi_ca\\companyweb.domain\\models\\responses\\departementdetailresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78BD399D-D88B-4FC7-B113-6165362B5477}|CompanyWeb.Domain\\CompanyWeb.Domain.csproj|solutionrelative:companyweb.domain\\models\\responses\\departementdetailresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2EFF3A4A-C01E-4312-B0AB-B309DD42AC68}|CompanyWeb.Infrastructure\\CompanyWeb.Infrastructure.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\miniproject5.companywebapi_ca\\companyweb.infrastructure\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -388,7 +388,7 @@
               "RelativeDocumentMoniker": "CompanyWeb.Application\\Mappers\\DepartementMappers.cs",
               "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Application\\Mappers\\DepartementMappers.cs",
               "RelativeToolTip": "CompanyWeb.Application\\Mappers\\DepartementMappers.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBMAAAAYAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA4AAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-22T08:03:56.266Z",
               "EditorCaption": ""
@@ -401,7 +401,7 @@
               "RelativeDocumentMoniker": "CompanyWeb.Application\\Services\\DepartementService.cs",
               "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Application\\Services\\DepartementService.cs",
               "RelativeToolTip": "CompanyWeb.Application\\Services\\DepartementService.cs",
-              "ViewState": "AQIAAFAAAAAAAAAAAAAQwFkAAAAsAAAA",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAQwGQAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-22T01:32:16.813Z",
               "EditorCaption": ""
@@ -409,6 +409,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Application\\Services\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "CompanyWeb.Application\\Services\\EmployeeService.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Application\\Services\\EmployeeService.cs",
+              "RelativeToolTip": "CompanyWeb.Application\\Services\\EmployeeService.cs",
+              "ViewState": "AQIAAGoAAAAAAAAAAAAawOEAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T08:35:56.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "DepartementDetailResponse.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Responses\\DepartementDetailResponse.cs",
               "RelativeDocumentMoniker": "CompanyWeb.Domain\\Models\\Responses\\DepartementDetailResponse.cs",
@@ -416,21 +429,7 @@
               "RelativeToolTip": "CompanyWeb.Domain\\Models\\Responses\\DepartementDetailResponse.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T05:21:34.085Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EmployeeService.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Application\\Services\\EmployeeService.cs",
-              "RelativeDocumentMoniker": "CompanyWeb.Application\\Services\\EmployeeService.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\MiniProject5.CompanyWebAPI_CA\\CompanyWeb.Application\\Services\\EmployeeService.cs",
-              "RelativeToolTip": "CompanyWeb.Application\\Services\\EmployeeService.cs",
-              "ViewState": "AQIAAHYAAAAAAAAAAAAawOEAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T08:35:56.539Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-22T05:21:34.085Z"
             },
             {
               "$type": "Document",
