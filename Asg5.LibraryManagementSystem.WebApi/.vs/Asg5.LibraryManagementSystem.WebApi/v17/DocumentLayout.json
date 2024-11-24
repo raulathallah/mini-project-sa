@@ -142,8 +142,7 @@
               "RelativeToolTip": "LibraryManagementSystem.Domain\\Models\\Entities\\BookUserTransactions.cs",
               "ViewState": "AQIAACAAAAAAAAAAAAAIwCsAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T07:15:42.342Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-22T07:15:42.342Z"
             },
             {
               "$type": "Document",
@@ -168,8 +167,7 @@
               "RelativeToolTip": "LibraryManagementSystem.Domain\\Repositories\\IBookUserTransactionRepository.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAqwA0AAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T08:38:49.797Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-20T08:38:49.797Z"
             },
             {
               "$type": "Document",
@@ -181,8 +179,7 @@
               "RelativeToolTip": "LibraryManagementSystem.Infrastructure\\Repositories\\BookUserTransactionRepository.cs",
               "ViewState": "AQIAAAEAAAAAAAAAAAAuwA4AAABPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T08:35:54.213Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-20T08:35:54.213Z"
             },
             {
               "$type": "Document",
@@ -194,8 +191,7 @@
               "RelativeToolTip": "LibraryManagementSystem.WebApi\\Controllers\\StocksController.cs",
               "ViewState": "AQIAADYAAAAAAAAAAAAAAEAAAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T08:26:01.306Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-20T08:26:01.306Z"
             },
             {
               "$type": "Document",
@@ -207,8 +203,7 @@
               "RelativeToolTip": "LibraryManagementSystem.Domain\\Service\\IStockService.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAqwBEAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T08:35:21.727Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-20T08:35:21.727Z"
             },
             {
               "$type": "Document",
@@ -220,8 +215,7 @@
               "RelativeToolTip": "LibraryManagementSystem.WebApi\\Controllers\\BooksController.cs",
               "ViewState": "AQIAABsAAAAAAAAAAAAowEMAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T06:40:55.664Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-20T06:40:55.664Z"
             },
             {
               "$type": "Document",
@@ -233,8 +227,7 @@
               "RelativeToolTip": "LibraryManagementSystem.Domain\\Models\\Requests\\Transactions\\UpdateTransactionRequest.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T08:53:10.456Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-20T08:53:10.456Z"
             },
             {
               "$type": "Document",
@@ -246,8 +239,7 @@
               "RelativeToolTip": "LibraryManagementSystem.Domain\\Models\\Entities\\Stock.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAAAAwAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T07:15:45.455Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-22T07:15:45.455Z"
             },
             {
               "$type": "Document",
@@ -259,8 +251,7 @@
               "RelativeToolTip": "LibraryManagementSystem.Domain\\Models\\Entities\\LibraryOptions.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T07:04:04.152Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-22T07:04:04.152Z"
             },
             {
               "$type": "Document",
@@ -272,8 +263,7 @@
               "RelativeToolTip": "LibraryManagementSystem.Domain\\Models\\Entities\\Location.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T07:04:04.744Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-22T07:04:04.744Z"
             },
             {
               "$type": "Document",
@@ -285,8 +275,7 @@
               "RelativeToolTip": "LibraryManagementSystem.Domain\\Repositories\\IStockRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T08:39:48.779Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-20T08:39:48.779Z"
             },
             {
               "$type": "Document",
@@ -298,8 +287,7 @@
               "RelativeToolTip": "LibraryManagementSystem.Domain\\Models\\Requests\\Borrows\\BookReturnRequest.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T08:28:20.986Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-20T08:28:20.986Z"
             },
             {
               "$type": "Document",
@@ -311,8 +299,7 @@
               "RelativeToolTip": "LibraryManagementSystem.WebApi\\Program.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAAAUAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T09:24:09.673Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-20T09:24:09.673Z"
             },
             {
               "$type": "Document",
@@ -324,8 +311,7 @@
               "RelativeToolTip": "LibraryManagementSystem.WebApi\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-20T09:24:10.659Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-20T09:24:10.659Z"
             },
             {
               "$type": "Document",
@@ -337,8 +323,7 @@
               "RelativeToolTip": "LibraryManagementSystem.WebApi\\Properties\\launchSettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-18T05:14:35.085Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-18T05:14:35.085Z"
             },
             {
               "$type": "Document",
@@ -350,8 +335,7 @@
               "RelativeToolTip": "LibraryManagementSystem.Application\\Service\\BookService.cs",
               "ViewState": "AQIAAC4AAAAAAAAAAAAAAAACAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T09:26:24.339Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-20T09:26:24.339Z"
             },
             {
               "$type": "Document",
@@ -363,8 +347,7 @@
               "RelativeToolTip": "LibraryManagementSystem.Domain\\Models\\Responses\\BookSearchResponse.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAQwBAAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T04:42:42.08Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-20T04:42:42.08Z"
             },
             {
               "$type": "Document",
@@ -388,8 +371,7 @@
               "RelativeToolTip": "LibraryManagementSystem.Application\\Mappers\\BookMappers.cs",
               "ViewState": "AQIAAB0AAAAAAAAAAAAowCIAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T07:31:15.504Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-22T07:31:15.504Z"
             },
             {
               "$type": "Document",
