@@ -41,7 +41,9 @@ namespace LibraryManagementSystem.Application.Mappers
                 Author = bookModel.Author,
                 Publisher = bookModel.Publisher,
                 Title = bookModel.Title,
+                Language = bookModel.Language,
                 Locations = locations,
+                isDeleted = bookModel.IsDeleted,
             };
 
         }

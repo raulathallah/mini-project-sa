@@ -3,6 +3,46 @@
   "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LMS.WebApi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C87C8120-5788-4332-B981-AE2302E569F4}|LMS.WebApi\\LMS.WebApi.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\lms.webapi\\lms.webapi\\controllers\\transactionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C87C8120-5788-4332-B981-AE2302E569F4}|LMS.WebApi\\LMS.WebApi.csproj|solutionrelative:lms.webapi\\controllers\\transactionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6472DFF-79F1-4793-9228-88E48E74645D}|LMS.Infrastructure\\LMS.Infrastructure.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\lms.webapi\\lms.infrastructure\\repository\\bookusertransactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6472DFF-79F1-4793-9228-88E48E74645D}|LMS.Infrastructure\\LMS.Infrastructure.csproj|solutionrelative:lms.infrastructure\\repository\\bookusertransactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6472DFF-79F1-4793-9228-88E48E74645D}|LMS.Infrastructure\\LMS.Infrastructure.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\lms.webapi\\lms.infrastructure\\manager\\bookmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6472DFF-79F1-4793-9228-88E48E74645D}|LMS.Infrastructure\\LMS.Infrastructure.csproj|solutionrelative:lms.infrastructure\\manager\\bookmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C87C8120-5788-4332-B981-AE2302E569F4}|LMS.WebApi\\LMS.WebApi.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\lms.webapi\\lms.webapi\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C87C8120-5788-4332-B981-AE2302E569F4}|LMS.WebApi\\LMS.WebApi.csproj|solutionrelative:lms.webapi\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDCD4FEB-7ADD-46C4-86EA-F006DCAB1D39}|LMS.Core\\LMS.Domain.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\lms.webapi\\lms.core\\models\\entities\\bookusertransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDCD4FEB-7ADD-46C4-86EA-F006DCAB1D39}|LMS.Core\\LMS.Domain.csproj|solutionrelative:lms.core\\models\\entities\\bookusertransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C87C8120-5788-4332-B981-AE2302E569F4}|LMS.WebApi\\LMS.WebApi.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\lms.webapi\\lms.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C87C8120-5788-4332-B981-AE2302E569F4}|LMS.WebApi\\LMS.WebApi.csproj|solutionrelative:lms.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6472DFF-79F1-4793-9228-88E48E74645D}|LMS.Infrastructure\\LMS.Infrastructure.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\lms.webapi\\lms.infrastructure\\repository\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6472DFF-79F1-4793-9228-88E48E74645D}|LMS.Infrastructure\\LMS.Infrastructure.csproj|solutionrelative:lms.infrastructure\\repository\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CECF990-039B-47C6-A60C-067A99BAE720}|LMS.Application\\LMS.Application.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\lms.webapi\\lms.application\\iservice\\ibookmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CECF990-039B-47C6-A60C-067A99BAE720}|LMS.Application\\LMS.Application.csproj|solutionrelative:lms.application\\iservice\\ibookmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDCD4FEB-7ADD-46C4-86EA-F006DCAB1D39}|LMS.Core\\LMS.Domain.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\lms.webapi\\lms.core\\models\\requests\\returnbookrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDCD4FEB-7ADD-46C4-86EA-F006DCAB1D39}|LMS.Core\\LMS.Domain.csproj|solutionrelative:lms.core\\models\\requests\\returnbookrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6472DFF-79F1-4793-9228-88E48E74645D}|LMS.Infrastructure\\LMS.Infrastructure.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\lms.webapi\\lms.infrastructure\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6472DFF-79F1-4793-9228-88E48E74645D}|LMS.Infrastructure\\LMS.Infrastructure.csproj|solutionrelative:lms.infrastructure\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D6472DFF-79F1-4793-9228-88E48E74645D}|LMS.Infrastructure\\LMS.Infrastructure.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\lms.webapi\\lms.infrastructure\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D6472DFF-79F1-4793-9228-88E48E74645D}|LMS.Infrastructure\\LMS.Infrastructure.csproj|solutionrelative:lms.infrastructure\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,22 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C87C8120-5788-4332-B981-AE2302E569F4}|LMS.WebApi\\LMS.WebApi.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\lms.webapi\\lms.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C87C8120-5788-4332-B981-AE2302E569F4}|LMS.WebApi\\LMS.WebApi.csproj|solutionrelative:lms.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C87C8120-5788-4332-B981-AE2302E569F4}|LMS.WebApi\\LMS.WebApi.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\lms.webapi\\lms.webapi\\controllers\\transactionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C87C8120-5788-4332-B981-AE2302E569F4}|LMS.WebApi\\LMS.WebApi.csproj|solutionrelative:lms.webapi\\controllers\\transactionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6472DFF-79F1-4793-9228-88E48E74645D}|LMS.Infrastructure\\LMS.Infrastructure.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\lms.webapi\\lms.infrastructure\\manager\\bookmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6472DFF-79F1-4793-9228-88E48E74645D}|LMS.Infrastructure\\LMS.Infrastructure.csproj|solutionrelative:lms.infrastructure\\manager\\bookmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6472DFF-79F1-4793-9228-88E48E74645D}|LMS.Infrastructure\\LMS.Infrastructure.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\lms.webapi\\lms.infrastructure\\repository\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6472DFF-79F1-4793-9228-88E48E74645D}|LMS.Infrastructure\\LMS.Infrastructure.csproj|solutionrelative:lms.infrastructure\\repository\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6472DFF-79F1-4793-9228-88E48E74645D}|LMS.Infrastructure\\LMS.Infrastructure.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\lms.webapi\\lms.infrastructure\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6472DFF-79F1-4793-9228-88E48E74645D}|LMS.Infrastructure\\LMS.Infrastructure.csproj|solutionrelative:lms.infrastructure\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C87C8120-5788-4332-B981-AE2302E569F4}|LMS.WebApi\\LMS.WebApi.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\lms.webapi\\lms.webapi\\lms.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -43,14 +67,6 @@
       "RelativeMoniker": "D:0:0:{D6472DFF-79F1-4793-9228-88E48E74645D}|LMS.Infrastructure\\LMS.Infrastructure.csproj|solutionrelative:lms.infrastructure\\factory\\bookfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6472DFF-79F1-4793-9228-88E48E74645D}|LMS.Infrastructure\\LMS.Infrastructure.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\lms.webapi\\lms.infrastructure\\repository\\bookusertransactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6472DFF-79F1-4793-9228-88E48E74645D}|LMS.Infrastructure\\LMS.Infrastructure.csproj|solutionrelative:lms.infrastructure\\repository\\bookusertransactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4CECF990-039B-47C6-A60C-067A99BAE720}|LMS.Application\\LMS.Application.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\lms.webapi\\lms.application\\iservice\\ibookmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4CECF990-039B-47C6-A60C-067A99BAE720}|LMS.Application\\LMS.Application.csproj|solutionrelative:lms.application\\iservice\\ibookmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C87C8120-5788-4332-B981-AE2302E569F4}|LMS.WebApi\\LMS.WebApi.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\lms.webapi\\lms.webapi\\lms.webapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
       "RelativeMoniker": "D:0:0:{C87C8120-5788-4332-B981-AE2302E569F4}|LMS.WebApi\\LMS.WebApi.csproj|solutionrelative:lms.webapi\\lms.webapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
@@ -59,16 +75,8 @@
       "RelativeMoniker": "D:0:0:{C87C8120-5788-4332-B981-AE2302E569F4}|LMS.WebApi\\LMS.WebApi.csproj|solutionrelative:lms.webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C87C8120-5788-4332-B981-AE2302E569F4}|LMS.WebApi\\LMS.WebApi.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\lms.webapi\\lms.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{C87C8120-5788-4332-B981-AE2302E569F4}|LMS.WebApi\\LMS.WebApi.csproj|solutionrelative:lms.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C87C8120-5788-4332-B981-AE2302E569F4}|LMS.WebApi\\LMS.WebApi.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\lms.webapi\\lms.webapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{C87C8120-5788-4332-B981-AE2302E569F4}|LMS.WebApi\\LMS.WebApi.csproj|solutionrelative:lms.webapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C87C8120-5788-4332-B981-AE2302E569F4}|LMS.WebApi\\LMS.WebApi.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\lms.webapi\\lms.webapi\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C87C8120-5788-4332-B981-AE2302E569F4}|LMS.WebApi\\LMS.WebApi.csproj|solutionrelative:lms.webapi\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C87C8120-5788-4332-B981-AE2302E569F4}|LMS.WebApi\\LMS.WebApi.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\lms.webapi\\lms.webapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -98,223 +106,80 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Bookusertransaction.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LMS.WebApi\\LMS.Core\\Models\\Entities\\Bookusertransaction.cs",
+              "RelativeDocumentMoniker": "LMS.Core\\Models\\Entities\\Bookusertransaction.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LMS.WebApi\\LMS.Core\\Models\\Entities\\Bookusertransaction.cs",
+              "RelativeToolTip": "LMS.Core\\Models\\Entities\\Bookusertransaction.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAA1wB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T08:41:50.768Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LMS.WebApi\\LMS.Infrastructure\\Repository\\UserRepository.cs",
-              "RelativeDocumentMoniker": "LMS.Infrastructure\\Repository\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LMS.WebApi\\LMS.Infrastructure\\Repository\\UserRepository.cs",
-              "RelativeToolTip": "LMS.Infrastructure\\Repository\\UserRepository.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAowCkAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T10:42:12.627Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "TransactionsController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LMS.WebApi\\LMS.WebApi\\Controllers\\TransactionsController.cs",
-              "RelativeDocumentMoniker": "LMS.WebApi\\Controllers\\TransactionsController.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LMS.WebApi\\LMS.WebApi\\Controllers\\TransactionsController.cs",
-              "RelativeToolTip": "LMS.WebApi\\Controllers\\TransactionsController.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBcAAAADAAAA",
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LMS.WebApi\\LMS.WebApi\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "LMS.WebApi\\Controllers\\BooksController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LMS.WebApi\\LMS.WebApi\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "LMS.WebApi\\Controllers\\BooksController.cs",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAcwBQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T04:33:55.08Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "BookFactory.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LMS.WebApi\\LMS.Infrastructure\\Factory\\BookFactory.cs",
-              "RelativeDocumentMoniker": "LMS.Infrastructure\\Factory\\BookFactory.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LMS.WebApi\\LMS.Infrastructure\\Factory\\BookFactory.cs",
-              "RelativeToolTip": "LMS.Infrastructure\\Factory\\BookFactory.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T03:42:52.295Z",
+              "WhenOpened": "2024-08-15T04:19:47.211Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LMS.WebApi\\LMS.WebApi\\Program.cs",
-              "RelativeDocumentMoniker": "LMS.WebApi\\Program.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LMS.WebApi\\LMS.WebApi\\Program.cs",
-              "RelativeToolTip": "LMS.WebApi\\Program.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T10:50:28.644Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LMSDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LMS.WebApi\\LMS.Infrastructure\\LMSDbContext.cs",
-              "RelativeDocumentMoniker": "LMS.Infrastructure\\LMSDbContext.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LMS.WebApi\\LMS.Infrastructure\\LMSDbContext.cs",
-              "RelativeToolTip": "LMS.Infrastructure\\LMSDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T03:49:59.068Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ServiceExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LMS.WebApi\\LMS.Infrastructure\\ServiceExtensions.cs",
-              "RelativeDocumentMoniker": "LMS.Infrastructure\\ServiceExtensions.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LMS.WebApi\\LMS.Infrastructure\\ServiceExtensions.cs",
-              "RelativeToolTip": "LMS.Infrastructure\\ServiceExtensions.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAAABoAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T03:49:57.989Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "BookRepository.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LMS.WebApi\\LMS.Infrastructure\\Repository\\BookRepository.cs",
-              "RelativeDocumentMoniker": "LMS.Infrastructure\\Repository\\BookRepository.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LMS.WebApi\\LMS.Infrastructure\\Repository\\BookRepository.cs",
-              "RelativeToolTip": "LMS.Infrastructure\\Repository\\BookRepository.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAowCIAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T03:48:43.825Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LMS.WebApi\\LMS.WebApi\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "LMS.WebApi\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LMS.WebApi\\LMS.WebApi\\appsettings.Development.json",
-              "RelativeToolTip": "LMS.WebApi\\appsettings.Development.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-11T04:32:39.756Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "BookManager.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LMS.WebApi\\LMS.Infrastructure\\Manager\\BookManager.cs",
               "RelativeDocumentMoniker": "LMS.Infrastructure\\Manager\\BookManager.cs",
               "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LMS.WebApi\\LMS.Infrastructure\\Manager\\BookManager.cs",
               "RelativeToolTip": "LMS.Infrastructure\\Manager\\BookManager.cs",
-              "ViewState": "AQIAAD4AAAAAAAAAAAAwwBwAAAAJAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAowFQAAABRAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-15T10:35:23.27Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "LMS.WebApi.csproj",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LMS.WebApi\\LMS.WebApi\\LMS.WebApi.csproj",
-              "RelativeDocumentMoniker": "LMS.WebApi\\LMS.WebApi.csproj",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LMS.WebApi\\LMS.WebApi\\LMS.WebApi.csproj",
-              "RelativeToolTip": "LMS.WebApi\\LMS.WebApi.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-13T02:19:53.241Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UserFactory.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LMS.WebApi\\LMS.Infrastructure\\Factory\\UserFactory.cs",
-              "RelativeDocumentMoniker": "LMS.Infrastructure\\Factory\\UserFactory.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LMS.WebApi\\LMS.Infrastructure\\Factory\\UserFactory.cs",
-              "RelativeToolTip": "LMS.Infrastructure\\Factory\\UserFactory.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T03:42:53.06Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 1,
               "Title": "BookusertransactionRepository.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LMS.WebApi\\LMS.Infrastructure\\Repository\\BookusertransactionRepository.cs",
               "RelativeDocumentMoniker": "LMS.Infrastructure\\Repository\\BookusertransactionRepository.cs",
               "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LMS.WebApi\\LMS.Infrastructure\\Repository\\BookusertransactionRepository.cs",
               "RelativeToolTip": "LMS.Infrastructure\\Repository\\BookusertransactionRepository.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAUwAAAAAAAAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAAqwCEAAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-15T10:41:09.814Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LMS.WebApi\\LMS.WebApi\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "LMS.WebApi\\Controllers\\UsersController.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LMS.WebApi\\LMS.WebApi\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "LMS.WebApi\\Controllers\\UsersController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "TransactionsController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LMS.WebApi\\LMS.WebApi\\Controllers\\TransactionsController.cs",
+              "RelativeDocumentMoniker": "LMS.WebApi\\Controllers\\TransactionsController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LMS.WebApi\\LMS.WebApi\\Controllers\\TransactionsController.cs",
+              "RelativeToolTip": "LMS.WebApi\\Controllers\\TransactionsController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAwwB4AAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T09:07:13.694Z",
+              "WhenOpened": "2024-08-15T04:33:55.08Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IBookManager.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LMS.WebApi\\LMS.Application\\IService\\IBookManager.cs",
-              "RelativeDocumentMoniker": "LMS.Application\\IService\\IBookManager.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LMS.WebApi\\LMS.Application\\IService\\IBookManager.cs",
-              "RelativeToolTip": "LMS.Application\\IService\\IBookManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T02:18:46.696Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "LMS.WebApi.http",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LMS.WebApi\\LMS.WebApi\\LMS.WebApi.http",
-              "RelativeDocumentMoniker": "LMS.WebApi\\LMS.WebApi.http",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LMS.WebApi\\LMS.WebApi\\LMS.WebApi.http",
-              "RelativeToolTip": "LMS.WebApi\\LMS.WebApi.http",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-11-11T04:32:36.853Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LMS.WebApi\\LMS.WebApi\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "LMS.WebApi\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LMS.WebApi\\LMS.WebApi\\Properties\\launchSettings.json",
-              "RelativeToolTip": "LMS.WebApi\\Properties\\launchSettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAIBJwBAAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-11T04:35:17.749Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LMS.WebApi\\LMS.WebApi\\appsettings.json",
               "RelativeDocumentMoniker": "LMS.WebApi\\appsettings.json",
@@ -327,20 +192,180 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "BooksController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LMS.WebApi\\LMS.WebApi\\Controllers\\BooksController.cs",
-              "RelativeDocumentMoniker": "LMS.WebApi\\Controllers\\BooksController.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LMS.WebApi\\LMS.WebApi\\Controllers\\BooksController.cs",
-              "RelativeToolTip": "LMS.WebApi\\Controllers\\BooksController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "DocumentIndex": 6,
+              "Title": "BookRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LMS.WebApi\\LMS.Infrastructure\\Repository\\BookRepository.cs",
+              "RelativeDocumentMoniker": "LMS.Infrastructure\\Repository\\BookRepository.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LMS.WebApi\\LMS.Infrastructure\\Repository\\BookRepository.cs",
+              "RelativeToolTip": "LMS.Infrastructure\\Repository\\BookRepository.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAwwCIAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T04:19:47.211Z",
+              "WhenOpened": "2024-08-15T03:48:43.825Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IBookManager.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LMS.WebApi\\LMS.Application\\IService\\IBookManager.cs",
+              "RelativeDocumentMoniker": "LMS.Application\\IService\\IBookManager.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LMS.WebApi\\LMS.Application\\IService\\IBookManager.cs",
+              "RelativeToolTip": "LMS.Application\\IService\\IBookManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T02:18:46.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ReturnBookRequest.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LMS.WebApi\\LMS.Core\\Models\\Requests\\ReturnBookRequest.cs",
+              "RelativeDocumentMoniker": "LMS.Core\\Models\\Requests\\ReturnBookRequest.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LMS.WebApi\\LMS.Core\\Models\\Requests\\ReturnBookRequest.cs",
+              "RelativeToolTip": "LMS.Core\\Models\\Requests\\ReturnBookRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T08:27:47.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LMS.WebApi\\LMS.Infrastructure\\Repository\\UserRepository.cs",
+              "RelativeDocumentMoniker": "LMS.Infrastructure\\Repository\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LMS.WebApi\\LMS.Infrastructure\\Repository\\UserRepository.cs",
+              "RelativeToolTip": "LMS.Infrastructure\\Repository\\UserRepository.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAowCkAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T10:42:12.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ServiceExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LMS.WebApi\\LMS.Infrastructure\\ServiceExtensions.cs",
+              "RelativeDocumentMoniker": "LMS.Infrastructure\\ServiceExtensions.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LMS.WebApi\\LMS.Infrastructure\\ServiceExtensions.cs",
+              "RelativeToolTip": "LMS.Infrastructure\\ServiceExtensions.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAABoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T03:49:57.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LMSDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LMS.WebApi\\LMS.Infrastructure\\LMSDbContext.cs",
+              "RelativeDocumentMoniker": "LMS.Infrastructure\\LMSDbContext.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LMS.WebApi\\LMS.Infrastructure\\LMSDbContext.cs",
+              "RelativeToolTip": "LMS.Infrastructure\\LMSDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T03:49:59.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LMS.WebApi\\LMS.WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "LMS.WebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LMS.WebApi\\LMS.WebApi\\Program.cs",
+              "RelativeToolTip": "LMS.WebApi\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T10:50:28.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BookFactory.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LMS.WebApi\\LMS.Infrastructure\\Factory\\BookFactory.cs",
+              "RelativeDocumentMoniker": "LMS.Infrastructure\\Factory\\BookFactory.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LMS.WebApi\\LMS.Infrastructure\\Factory\\BookFactory.cs",
+              "RelativeToolTip": "LMS.Infrastructure\\Factory\\BookFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T03:42:52.295Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 18,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LMS.WebApi\\LMS.WebApi\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "LMS.WebApi\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LMS.WebApi\\LMS.WebApi\\appsettings.Development.json",
+              "RelativeToolTip": "LMS.WebApi\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-11T04:32:39.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LMS.WebApi.csproj",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LMS.WebApi\\LMS.WebApi\\LMS.WebApi.csproj",
+              "RelativeDocumentMoniker": "LMS.WebApi\\LMS.WebApi.csproj",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LMS.WebApi\\LMS.WebApi\\LMS.WebApi.csproj",
+              "RelativeToolTip": "LMS.WebApi\\LMS.WebApi.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-13T02:19:53.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserFactory.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LMS.WebApi\\LMS.Infrastructure\\Factory\\UserFactory.cs",
+              "RelativeDocumentMoniker": "LMS.Infrastructure\\Factory\\UserFactory.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LMS.WebApi\\LMS.Infrastructure\\Factory\\UserFactory.cs",
+              "RelativeToolTip": "LMS.Infrastructure\\Factory\\UserFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T03:42:53.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LMS.WebApi\\LMS.WebApi\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "LMS.WebApi\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LMS.WebApi\\LMS.WebApi\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "LMS.WebApi\\Controllers\\UsersController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T09:07:13.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "LMS.WebApi.http",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LMS.WebApi\\LMS.WebApi\\LMS.WebApi.http",
+              "RelativeDocumentMoniker": "LMS.WebApi\\LMS.WebApi.http",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LMS.WebApi\\LMS.WebApi\\LMS.WebApi.http",
+              "RelativeToolTip": "LMS.WebApi\\LMS.WebApi.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-11-11T04:32:36.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LMS.WebApi\\LMS.WebApi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "LMS.WebApi\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LMS.WebApi\\LMS.WebApi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "LMS.WebApi\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwBAAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-11T04:35:17.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "LibraryOptions.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LMS.WebApi\\LMS.Core\\Models\\Entities\\LibraryOptions.cs",
               "RelativeDocumentMoniker": "LMS.Core\\Models\\Entities\\LibraryOptions.cs",
@@ -348,12 +373,11 @@
               "RelativeToolTip": "LMS.Core\\Models\\Entities\\LibraryOptions.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T07:03:39.052Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-16T07:03:39.052Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "BaseController.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LMS.WebApi\\LMS.WebApi\\Controllers\\Base\\BaseController.cs",
               "RelativeDocumentMoniker": "LMS.WebApi\\Controllers\\Base\\BaseController.cs",
@@ -361,12 +385,11 @@
               "RelativeToolTip": "LMS.WebApi\\Controllers\\Base\\BaseController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T04:19:48.091Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-15T04:19:48.091Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LMS.WebApi\\LMS.Application\\IRepositories\\IUserRepository.cs",
               "RelativeDocumentMoniker": "LMS.Application\\IRepositories\\IUserRepository.cs",
@@ -374,12 +397,11 @@
               "RelativeToolTip": "LMS.Application\\IRepositories\\IUserRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T03:29:39.284Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-15T03:29:39.284Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "IBookRepository.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\LMS.WebApi\\LMS.Application\\IRepositories\\IBookRepository.cs",
               "RelativeDocumentMoniker": "LMS.Application\\IRepositories\\IBookRepository.cs",
@@ -387,8 +409,7 @@
               "RelativeToolTip": "LMS.Application\\IRepositories\\IBookRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T03:29:36.608Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-15T03:29:36.608Z"
             }
           ]
         }

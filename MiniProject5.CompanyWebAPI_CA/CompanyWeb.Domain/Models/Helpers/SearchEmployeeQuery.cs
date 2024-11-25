@@ -12,7 +12,7 @@ namespace CompanyWeb.Domain.Models.Helpers
     {
         public string? KeyWord { get; set; }
         public string? SearchBy { get; set; }
-        public DateOnly? UpdateDate { get; set; }
+        public string? UpdateDate { get; set; }
         public bool? isActive { get; set; }
         public bool isDescending { get; set; }
         public string? SortBy { get; set; }

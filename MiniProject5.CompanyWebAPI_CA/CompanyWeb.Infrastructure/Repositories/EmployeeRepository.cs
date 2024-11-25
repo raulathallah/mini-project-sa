@@ -35,7 +35,9 @@ namespace CompanyWeb.Infrastructure.Repositories
                 return null;
             }
 
-            Context.Employees.Remove(e);
+            e.IsActive = false;
+
+            Context.Employees.Update(e);
             await Context.SaveChangesAsync();
 
             return e;

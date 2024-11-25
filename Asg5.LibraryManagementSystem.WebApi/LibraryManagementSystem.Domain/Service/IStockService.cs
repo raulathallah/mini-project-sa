@@ -13,5 +13,9 @@ namespace LibraryManagementSystem.Domain.Service
     {
         Task<object> AddStocks(AddStockRequest request);
         Task<object> BookCheckOut(BookBorrowRequest request);
+        Task<object> BookCheckIn(BookReturnRequest request);
+
+        //TRANSACTIONS
+        Task<object> GetAllTransactions();
     }
 }

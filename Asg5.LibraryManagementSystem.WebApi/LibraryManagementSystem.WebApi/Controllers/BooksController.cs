@@ -78,7 +78,7 @@ namespace LibraryManagementSystem.WebApi.Controllers
             var response = await _bookService.GetAllBookSearchPaged(query, pageRequest);
             if (response == null)
             {
-                return NotFound();
+                return NotFound("Data not found!");
             }
             return Ok(response);
         }

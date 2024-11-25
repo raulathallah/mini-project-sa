@@ -37,6 +37,15 @@ namespace LibraryManagementSystem.Domain.Models.Entities
         [StringLength(255)]
         public DateOnly DueDate { get; set; }
 
+        [Column("isreturned")]
+        public bool? IsReturned { get; set; }
+
+        [Column("returndate")]
+        public DateOnly ReturnDate { get; set; }
+
+        [Column("borrowedAt")]
+        public DateOnly BorrowedAt { get; set; }
+
         [ForeignKey("LocationId")]
         [InverseProperty("BookUserTransactions")]
         public virtual Location? LocationIdNavigation { get; set; }

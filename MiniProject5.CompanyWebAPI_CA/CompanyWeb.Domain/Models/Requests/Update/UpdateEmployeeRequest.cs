@@ -26,6 +26,7 @@ namespace CompanyWeb.Domain.Models.Requests
         public int? DirectSupervisor { get; set; }
         public int EmpLevel { get; set; }
         public string EmpType { get; set; } = null!;
+        public bool IsActive { get; set; }
         public List<AddEmployeeDependentRequest>? EmpDependents { get; set; }
 
     }
