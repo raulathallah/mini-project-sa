@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Application\\LibraryManagementSystem.Application.csproj": {}
+    "C:\\Users\\USER\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Application\\LibraryManagementSystem.Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Application\\LibraryManagementSystem.Application.csproj": {
+    "C:\\Users\\USER\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Application\\LibraryManagementSystem.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Application\\LibraryManagementSystem.Application.csproj",
+        "projectUniqueName": "C:\\Users\\USER\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Application\\LibraryManagementSystem.Application.csproj",
         "projectName": "LibraryManagementSystem.Application",
-        "projectPath": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Application\\LibraryManagementSystem.Application.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Application\\obj\\",
+        "projectPath": "C:\\Users\\USER\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Application\\LibraryManagementSystem.Application.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\USER\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -33,8 +33,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\LibraryManagementSystem.Domain.csproj": {
-                "projectPath": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\LibraryManagementSystem.Domain.csproj"
+              "C:\\Users\\USER\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\LibraryManagementSystem.Domain.csproj": {
+                "projectPath": "C:\\Users\\USER\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\LibraryManagementSystem.Domain.csproj"
               }
             }
           }
@@ -79,20 +79,20 @@
         }
       }
     },
-    "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\LibraryManagementSystem.Domain.csproj": {
+    "C:\\Users\\USER\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\LibraryManagementSystem.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\LibraryManagementSystem.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\USER\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\LibraryManagementSystem.Domain.csproj",
         "projectName": "LibraryManagementSystem.Domain",
-        "projectPath": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\LibraryManagementSystem.Domain.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\obj\\",
+        "projectPath": "C:\\Users\\USER\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\LibraryManagementSystem.Domain.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\USER\\source\\repos\\mini-project-sa\\Asg5.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
