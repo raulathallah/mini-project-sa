@@ -1,4 +1,5 @@
-﻿using LibraryManagementSystem.Domain.Models.Entities;
+﻿using LibraryManagementSystem.Application.Mappers;
+using LibraryManagementSystem.Domain.Models.Entities;
 using LibraryManagementSystem.Domain.Models.Requests.Users;
 using LibraryManagementSystem.Domain.Models.Responses;
 using LibraryManagementSystem.Domain.Repositories;
@@ -94,6 +95,13 @@ namespace LibraryManagementSystem.Application.Service
         public async Task<AppUserResponse> Login(AppUserLogin model)
         {
             var user = await _userManager.FindByNameAsync(model.UserName);
+
+            var roles = new List<string>();
+            if (user != null)
+            {
+                var getRoles = await _userManager.GetRolesAsync(user);
+                roles = getRoles.ToList();
+            }
             if(user != null && await _userManager.CheckPasswordAsync(user, model.Password))
             {
             
@@ -108,6 +116,7 @@ namespace LibraryManagementSystem.Application.Service
                     };
                 }
 
+                var userData = await _userRepository.GetByAppUserId(user.Id);
                 return new AppUserResponse()
                 {
                     Token = accessToken.Token,
@@ -115,7 +124,9 @@ namespace LibraryManagementSystem.Application.Service
                     RefreshTokenExpiredOn = tokenCreated.ExpiryDate,
                     ExpiredOn = accessToken.ExpiredOn,
                     Status = true,
-                    Message = "Login success!"
+                    Message = "Login success!",
+                    User = userData.ToUserResponse(),
+                    Roles = roles
                 };            
             }
 

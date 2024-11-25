@@ -21,7 +21,7 @@ namespace LibraryManagementSystem.Domain.Service
 
 
         // Search //
-        Task<List<BookSearchResponse>> GetAllBookSearchPaged(SearchBookQuery query, PageRequest pageRequest);
+        Task<object> GetAllBookSearchPaged(SearchBookQuery query, PageRequest pageRequest);
 
         // Generate Report //
         Task<byte[]> GenerateOverdueReportPDF();

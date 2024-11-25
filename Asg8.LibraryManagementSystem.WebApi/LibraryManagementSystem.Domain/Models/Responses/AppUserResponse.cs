@@ -1,4 +1,6 @@
-﻿using System;
+﻿using LibraryManagementSystem.Core.Models;
+using LibraryManagementSystem.Domain.Models.Entities;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -16,7 +18,9 @@ namespace LibraryManagementSystem.Domain.Models.Responses
         public DateTime? ExpiredOn { get; set; }
         public DateTime? RefreshTokenExpiredOn { get; set; }
 
-
+        //tambahan
+        public UserDetailResponse? User { get; set; }
+        public List<string>? Roles { get; set; }
 
         
     }

@@ -116,7 +116,7 @@ namespace LibraryManagementSystem.Application.Service
             return updateBook;
         }
 
-        public async Task<List<BookSearchResponse>> GetAllBookSearchPaged(SearchBookQuery query, PageRequest pageRequest)
+        public async Task<object> GetAllBookSearchPaged(SearchBookQuery query, PageRequest pageRequest)
         {
             var books = await _bookRepository.GetAll();
 
@@ -126,9 +126,10 @@ namespace LibraryManagementSystem.Application.Service
             bool isIsbn = !string.IsNullOrWhiteSpace(query.Isbn);
             bool isLanguage = !string.IsNullOrWhiteSpace(query.Language);
 
+
             if (isLanguage)
             {
-               books = books.Where(w => w.Language.ToLower() == query.Language.ToLower());
+                books = books.Where(w => w.Language.ToLower() == query.Language.ToLower());
             }
 
             // Only Title
@@ -175,14 +176,15 @@ namespace LibraryManagementSystem.Application.Service
                         );
             }
 
+
             // Author + Category
-            if(isAuthor && isCategory && !isTitle && !isIsbn)
+            if (isAuthor && isCategory && !isTitle && !isIsbn)
             {
-                if(query.AndOr2 == "or")
+                if (query.AndOr2 == "or")
                 {
-                    books = books.Where(w => 
-                    w.Author.ToLower().Contains(query.Author.ToLower()) 
-                    || 
+                    books = books.Where(w =>
+                    w.Author.ToLower().Contains(query.Author.ToLower())
+                    ||
                     w.Category.ToLower().Contains(query.Category.ToLower())
                     );
                 }
@@ -197,7 +199,7 @@ namespace LibraryManagementSystem.Application.Service
             }
 
             // Category + Isbn
-            if(isCategory && isIsbn)
+            if (isCategory && isIsbn)
             {
                 if (query.AndOr3 == "or")
                 {
@@ -313,6 +315,20 @@ namespace LibraryManagementSystem.Application.Service
 
                                 );
                         }
+                    }
+                    else
+                    {
+                        books = books
+                               .Where(w =>
+                                   w.Title
+                                   .ToLower()
+                                   .Contains(query.Title.ToLower())
+                                   ||
+                                   w.Author
+                                   .ToLower()
+                                   .Contains(query.Author.ToLower())
+
+                               );
                     }
                 }
                 // __ and __
@@ -442,7 +458,28 @@ namespace LibraryManagementSystem.Application.Service
                             }
                             else
                             {
-                                 books = books
+                                books = books
+                                   .Where(w =>
+                                       w.Title
+                                       .ToLower()
+                                       .Contains(query.Title.ToLower())
+                                       &&
+                                       w.Author
+                                       .ToLower()
+                                       .Contains(query.Author.ToLower())
+                                       &&
+                                       w.Category
+                                       .ToLower()
+                                       .Contains(query.Category.ToLower())
+
+                                   );
+                            }
+
+                        }
+                    }
+                    else
+                    {
+                        books = books
                                     .Where(w =>
                                         w.Title
                                         .ToLower()
@@ -451,35 +488,63 @@ namespace LibraryManagementSystem.Application.Service
                                         w.Author
                                         .ToLower()
                                         .Contains(query.Author.ToLower())
-                                        &&
-                                        w.Category
-                                        .ToLower()
-                                        .Contains(query.Category.ToLower())
-
                                     );
-                            }
-                           
-                        }
                     }
-                    books = books
-                        .Where(w =>
-                            w.Title
-                            .ToLower()
-                            .Contains(query.Title.ToLower())
-                            &&
-                            w.Author
-                            .ToLower()
-                            .Contains(query.Author.ToLower())
-                        );
+
                 }
             }
 
-            return await books
-                .OrderBy(ob => ob.Title)
+            var total = books.Count();
+
+            if (!string.IsNullOrWhiteSpace(query.SortBy))
+            {
+                switch (query.SortBy)
+                {
+
+                    case "category":
+
+                        books = query.SortOrder.Equals("asc") ? books.OrderBy(s => s.Category) :
+                        books.OrderByDescending(s => s.Category);
+                        break;
+
+                    case "author":
+
+                        books = query.SortOrder.Equals("asc") ? books.OrderBy(s => s.Author) :
+                        books.OrderByDescending(s => s.Author);
+                        break;
+
+                    case "isbn":
+
+                        books = query.SortOrder.Equals("asc") ? books.OrderBy(s => s.Isbn) :
+                        books.OrderByDescending(s => s.Isbn);
+                        break;
+
+                    default:
+
+                        books = query.SortOrder.Equals("asc") ? books.OrderBy(s => s.Title) :
+                        books.OrderByDescending(s => s.Title);
+                        break;
+                }
+            }
+
+
+            var list = books
+                //.OrderBy(ob => ob.Title)
                 .Skip((pageRequest.PageNumber - 1) * pageRequest.PerPage)
                 .Take(pageRequest.PerPage)
-                .Select(s=>s.ToBookSearchResponse(s.Stocks.Select(sm=>sm.LocationIdNavigation.LocationName).ToArray()))
-                .ToListAsync();
+                .Select(s => s.ToBookSearchResponse(s.Stocks.Select(sm => sm.LocationIdNavigation.LocationName).ToArray()))
+                //.Select(s => s.ToBookResponse())
+                .ToList();
+
+
+
+            return new
+            {
+                Total = total,
+                Page = pageRequest.PageNumber,
+                Data = list
+            };
+
         }
 
         //SRS-035

@@ -9,7 +9,9 @@ namespace LibraryManagementSystem.Domain.Models.Responses
     public class BookSearchResponse
     {
         public string Title { get; set; } = null!;
+        public int BookId { get; set; }
         public string Category { get; set; } = null!;
+        public string Author { get; set; } = null!;
         public string Publisher { get; set; } = null!;
         public string Isbn { get; set; } = null!;
         public string Description { get; set; } = null!;

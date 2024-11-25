@@ -2,6 +2,7 @@
 using LibraryManagementSystem.Domain.Models.Requests;
 using LibraryManagementSystem.Domain.Service;
 using LibraryManagementSystem.WebApi.Controllers.Base;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.AspNetCore.Mvc;
@@ -49,20 +50,30 @@ namespace LibraryManagementSystem.WebApi.Controllers
         [HttpPost("login")]
         public async Task<IActionResult> Login([FromBody] AppUserLogin model)
         {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
-
             var response = await _authService.Login(model);
             if (response.Status == false)
             {
-                return BadRequest(response.Message);
+                return BadRequest(response);
             }
 
+            SetRefreshTokenCookie("AuthToken", response.Token, response.ExpiredOn);
+            SetRefreshTokenCookie("RefreshToken", response.RefreshToken, response.RefreshTokenExpiredOn);
             return Ok(response);
         }
+
+        private void SetRefreshTokenCookie(string tokenType, string? token, DateTime? expires)
+        {
+            var cookieOptions = new CookieOptions
+            {
+                HttpOnly = true,
+                Secure = true,
+                SameSite = SameSiteMode.Strict,
+                Expires = expires
+            };
+            Response.Cookies.Append(tokenType, token, cookieOptions);
+        }
         // POST: api/auth/logout
+        [Authorize]
         [HttpPost("logout")]
         public async Task<IActionResult> Logout([FromBody] AppUserLogout model)
         {
@@ -71,13 +82,29 @@ namespace LibraryManagementSystem.WebApi.Controllers
                 return BadRequest(ModelState);
             }
 
-            var response = await _authService.Logout(model.RefreshToken);
-            if (response.Status == false)
+            /*            var response = await _authService.Logout(model.RefreshToken);
+                        if (response.Status == false)
+                        {
+                            return BadRequest(response.Message);
+                        }*/
+            try
             {
-                return BadRequest(response.Message);
+                //hapus cookie
+                Response.Cookies.Delete("AuthToken", new CookieOptions
+                {
+                    HttpOnly = true,
+                    Secure = true,
+                    SameSite = SameSiteMode.Strict
+                });
+
+                return Ok("Logout success!");
+
+            }catch (Exception ex)
+            {
+                return StatusCode(500, "Error logout");
             }
 
-            return Ok(response);
+            //return Ok(response);
         }
         // POST: api/Auth/role
         [HttpPost("role")]
