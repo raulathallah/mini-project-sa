@@ -103,7 +103,7 @@ namespace LibraryManagementSystem.Application.Service
                 authClaims.Add(new Claim(ClaimTypes.Role, userRole));
             }
             var authSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["JWT:SigningKey"]));
-            var expiredDate = DateTime.Now.AddHours(3);
+            var expiredDate = DateTime.UtcNow.AddMinutes(1);
             var token = new JwtSecurityToken(
                 issuer: _configuration["JWT:Issuer"],
                 audience: _configuration["JWT:Audience"],
@@ -128,7 +128,7 @@ namespace LibraryManagementSystem.Application.Service
                 return null;
             }
             findRt.Token = token;
-            findRt.ExpiryDate = DateTime.UtcNow.AddHours(3);
+            findRt.ExpiryDate = DateTime.UtcNow.AddDays(7);
             await _tokenRepository.Update(findRt); 
             return findRt;
         }

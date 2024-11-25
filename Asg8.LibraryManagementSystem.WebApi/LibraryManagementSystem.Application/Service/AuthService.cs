@@ -1,4 +1,5 @@
 ﻿using LibraryManagementSystem.Application.Mappers;
+using LibraryManagementSystem.Core.Models;
 using LibraryManagementSystem.Domain.Models.Entities;
 using LibraryManagementSystem.Domain.Models.Requests.Users;
 using LibraryManagementSystem.Domain.Models.Responses;
@@ -45,11 +46,6 @@ namespace LibraryManagementSystem.Application.Service
         {
             var targetUser = await _userService.GetUserByUsername(model.UserName);
 
-            if (targetUser == null)
-            {
-                return null;
-            }
-
             var userExist = await _userManager.FindByNameAsync(model.UserName);
             if (userExist != null)
             {
@@ -75,13 +71,18 @@ namespace LibraryManagementSystem.Application.Service
                     ExpiredOn = null,
                     Token = null,
                     Status = false,
-                    Message = "User creation failed! Please check user details and try again."
+                    Message = result.Errors.ToList().ToString()
                 };
             }
             var justCreatedUser = await _userManager.FindByNameAsync(model.UserName);
             await _userManager.AddToRoleAsync(user, model.Role);
-            targetUser.AppUserId = justCreatedUser.Id;
-            await _userRepository.Update(targetUser);
+
+            if(targetUser != null)
+            {
+                targetUser.AppUserId = justCreatedUser.Id;
+                await _userRepository.Update(targetUser);
+
+            }
 
             return new AppUserResponse()
             {
@@ -116,7 +117,19 @@ namespace LibraryManagementSystem.Application.Service
                     };
                 }
 
-                var userData = await _userRepository.GetByAppUserId(user.Id);
+                UserDetailResponse userData = new();
+
+                var getUserData = await _userRepository.GetByAppUserId(user.Id);
+
+                if(getUserData != null)
+                {
+                    userData = getUserData.ToUserResponse();
+                }
+                else
+                {
+                    userData = null;
+                }
+
                 return new AppUserResponse()
                 {
                     Token = accessToken.Token,
@@ -125,7 +138,7 @@ namespace LibraryManagementSystem.Application.Service
                     ExpiredOn = accessToken.ExpiredOn,
                     Status = true,
                     Message = "Login success!",
-                    User = userData.ToUserResponse(),
+                    User = userData,
                     Roles = roles
                 };            
             }

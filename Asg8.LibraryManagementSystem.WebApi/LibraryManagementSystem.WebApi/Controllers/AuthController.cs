@@ -38,10 +38,10 @@ namespace LibraryManagementSystem.WebApi.Controllers
             }
 
             var response = await _authService.Register(model);
-/*            if(response.Status == false)
+            if (response.Status == false)
             {
-                return BadRequest(response.Message);
-            }*/
+                return BadRequest(response);
+            }
 
             return Ok(response);
         }
@@ -75,12 +75,12 @@ namespace LibraryManagementSystem.WebApi.Controllers
         // POST: api/auth/logout
         [Authorize]
         [HttpPost("logout")]
-        public async Task<IActionResult> Logout([FromBody] AppUserLogout model)
+        public async Task<IActionResult> Logout()
         {
-            if (!ModelState.IsValid)
+          /*  if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
-            }
+            }*/
 
             /*            var response = await _authService.Logout(model.RefreshToken);
                         if (response.Status == false)
@@ -116,17 +116,20 @@ namespace LibraryManagementSystem.WebApi.Controllers
 
         // POST: api/Auth/RefreshToken
         [HttpPost("RefreshToken")]
-        public async Task<IActionResult> RefreshToken([FromBody] RefreshTokenRequest request)
+        public async Task<IActionResult> RefreshToken()
         {
             // Validate the refresh token request.
-            if (request == null || string.IsNullOrWhiteSpace(request.RefreshToken))
-            {
-                return BadRequest("Refresh token is required.");  // Return bad request if no refresh token is provided.
-            }
+            /*            if (request == null || string.IsNullOrWhiteSpace(request.RefreshToken))
+                        {
+                            return BadRequest("Refresh token is required.");  // Return bad request if no refresh token is provided.
+                        }*/
+
+            var refreshToken = Request.Cookies["RefreshToken"];
+
             try
             {
                 // Retrieve the username associated with the provided refresh token.
-                var username = await _tokenService.RetrieveUsernameByRefreshToken(request.RefreshToken);
+                var username = await _tokenService.RetrieveUsernameByRefreshToken(refreshToken);
                 if (string.IsNullOrEmpty(username))
                 {
                     return Unauthorized("Invalid refresh token.");  // Return unauthorized if no username is found (invalid or expired token).
@@ -143,6 +146,11 @@ namespace LibraryManagementSystem.WebApi.Controllers
 
                 // Save the new refresh token.
                 var newRt = await _tokenService.SaveRefreshToken(user.UserName, newRefreshToken);
+
+                // set token cookie
+                SetRefreshTokenCookie("AuthToken", accessToken.Token, accessToken.ExpiredOn);
+                SetRefreshTokenCookie("RefreshToken", newRefreshToken, newRt.ExpiryDate);
+
                 // Return the new access and refresh tokens.
                 return Ok(new { Token = accessToken.Token, TokenExpiredOn = accessToken.ExpiredOn, RefreshToken = newRefreshToken, RefreshTokenExpiredOn = newRt.ExpiryDate });
             }
