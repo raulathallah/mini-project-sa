@@ -19,6 +19,7 @@ namespace CompanyWeb.Domain.Services
         Task<object> CreateEmployee(AddEmployeeRequest request);
         Task<List<object>> GetEmployees(int pageNumber, int perPage);
         Task<object> GetEmployee(int id);
+        Task<object> GetEmployeeByAppUserId(string id);
         Task<object> UpdateEmployee(int id, UpdateEmployeeRequest request);
         Task<object> DeleteEmployee(int id);
 

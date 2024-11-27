@@ -43,8 +43,34 @@ namespace CompanyWeb.WebApi.Controllers
                 return BadRequest(response.Message);
             }
 
+            SetRefreshTokenCookie("AuthToken", response.Token, response.ExpiredOn);
+            SetRefreshTokenCookie("RefreshToken", response.RefreshToken, response.RefreshTokenExpiredOn);
+
             return Ok(response);
         }
+
+        // POST: api/auth/logout
+        [Authorize]
+        [HttpPost("logout")]
+        public async Task<IActionResult> Logout()
+        {
+            try
+            {
+                // Hapus cookie
+                Response.Cookies.Delete("AuthToken", new CookieOptions
+                {
+                    HttpOnly = true,
+                    Secure = true,
+                    SameSite = SameSiteMode.Strict
+                });
+                return Ok("Logout successfully");
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, "An error occurred during logout");
+            }
+        }
+
 
         // POST: api/Auth/RefreshToken
         [HttpPost("RefreshToken")]
@@ -178,5 +204,27 @@ namespace CompanyWeb.WebApi.Controllers
             return Ok(response);
         }
 
+
+        private void SetRefreshTokenCookie(string tokenType, string? token, DateTime? expires)
+
+        {
+
+            var cookieOptions = new CookieOptions
+
+            {
+
+                HttpOnly = true, // Hanya dapat diakses oleh server
+
+                Secure = true, // Hanya dikirim melalui HTTPS
+
+                SameSite = SameSiteMode.Strict, // Cegah serangan CSRF
+
+                Expires = expires // Waktu kadaluarsa token
+
+            };
+
+            Response.Cookies.Append(tokenType, token, cookieOptions);
+
+        }
     }
 }

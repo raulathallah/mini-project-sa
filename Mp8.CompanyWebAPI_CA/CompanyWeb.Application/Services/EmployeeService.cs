@@ -390,6 +390,18 @@ namespace CompanyWeb.Application.Services
             return emp.ToEmployeeDetailResponse(dependents);
         }
 
+        public async Task<object> GetEmployeeByAppUserId(string id)
+        {
+            var allEmp = await _employeeRepository.GetAllEmployees();
+            var employee = allEmp.Where(w => w.AppUserId == id).FirstOrDefault();
+
+            if(employee == null)
+            {
+                return null;
+            }
+            var dependents = await _employeeDependentRepository.GetEmployeeDependentByEmpNo(employee.Empno);
+            return employee.ToEmployeeDetailResponse(dependents);
+        }
 
         public async Task<List<object>> GetEmployees(int pageNumber, int perPage)
         {
@@ -419,6 +431,8 @@ namespace CompanyWeb.Application.Services
                     ))
                 .ToList<object>();
         }
+
+
 
         public async Task<object> LeaveApproval(EmployeeLeaveApprovalRequest request)
         {
