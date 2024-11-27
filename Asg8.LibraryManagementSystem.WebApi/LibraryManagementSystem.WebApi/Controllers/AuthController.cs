@@ -72,6 +72,7 @@ namespace LibraryManagementSystem.WebApi.Controllers
             };
             Response.Cookies.Append(tokenType, token, cookieOptions);
         }
+
         // POST: api/auth/logout
         [Authorize]
         [HttpPost("logout")]
