@@ -51,6 +51,35 @@ namespace CompanyWeb.WebApi.Controllers
             return Ok(response);
         }
 
+        // NEW ======>
+        /// <summary>
+        /// Get all employees
+        /// </summary>
+
+        /// <remarks>
+        /// 
+        /// Sample request:
+        ///
+        ///     GET /Employees/all
+        ///     
+        /// </remarks>
+        /// <param name="request"></param>
+        /// <returns> return all employee data </returns>
+        // GET: api/Employees
+        [Authorize(Roles = "Administrator, HR Manager, Employee Supervisor, Department Manager")]
+        [HttpGet("all")]
+        [ProducesResponseType(typeof(Employee), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(Employee), StatusCodes.Status404NotFound)]
+        public async Task<IActionResult> GetAllEmployees()
+        {
+            var response = await _employeeService.GetAllEmployees();
+            if (response == null)
+            {
+                return null;
+            }
+            return Ok(response);
+        }
+
 
         /// <summary>
         /// Get employee data by ID

@@ -21,6 +21,7 @@ namespace CompanyWeb.Domain.Models.Responses
 
         //tambahan
         public object? User { get; set; }
+        public string[]? Roles { get; set; }
         public object? Employee { get; set; }
     }
 }

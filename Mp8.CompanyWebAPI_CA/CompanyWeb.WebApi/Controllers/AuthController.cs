@@ -74,17 +74,19 @@ namespace CompanyWeb.WebApi.Controllers
 
         // POST: api/Auth/RefreshToken
         [HttpPost("RefreshToken")]
-        public async Task<IActionResult> RefreshToken([FromBody] RefreshTokenRequest request)
+        public async Task<IActionResult> RefreshToken()
         {
             // Validate the refresh token request.
-            if (request == null || string.IsNullOrWhiteSpace(request.RefreshToken))
+            var refreshToken = Request.Cookies["RefreshToken"];
+
+/*            if (request == null || string.IsNullOrWhiteSpace(request.RefreshToken))
             {
                 return BadRequest("Refresh token is required.");  // Return bad request if no refresh token is provided.
-            }
+            }*/
             try
             {
                 // Retrieve the username associated with the provided refresh token.
-                var username = await _authService.RetrieveUsernameByRefreshToken(request.RefreshToken);
+                var username = await _authService.RetrieveUsernameByRefreshToken(refreshToken);
                 if (string.IsNullOrEmpty(username))
                 {
                     return Unauthorized("Invalid refresh token.");  // Return unauthorized if no username is found (invalid or expired token).
@@ -98,11 +100,20 @@ namespace CompanyWeb.WebApi.Controllers
                 // Issue a new access token and refresh token for the user.
                 var tokens = await _authService.GetTokens(user);
 
-                // Save the new refresh token
+        /*        // Save the new refresh token
                 if (user.RefreshTokenExpiredOn > DateTime.UtcNow)
                 {
                     user.RefreshToken = tokens.NewRefreshToken;
-                }
+                    await _userManager.UpdateAsync(user);
+                    SetRefreshTokenCookie("RefreshToken", tokens.NewRefreshToken, user.RefreshTokenExpiredOn);
+                }*/
+  
+
+
+                SetRefreshTokenCookie("AuthToken", tokens.AccessToken.Token, tokens.AccessToken.ExpiredOn);
+                SetRefreshTokenCookie("RefreshToken", user.RefreshToken, user.RefreshTokenExpiredOn);
+
+
                 // Return the new access and refresh tokens.
                 return Ok(new { Token = tokens.AccessToken.Token, TokenExpiredOn = tokens.AccessToken.ExpiredOn, RefreshToken = user.RefreshToken, RefreshTokenExpiredOn = user.RefreshTokenExpiredOn });
             }
@@ -140,7 +151,7 @@ namespace CompanyWeb.WebApi.Controllers
         }
 
         // POST: api/auth/register
-        //[Authorize(Roles = "Administrator")]
+        [Authorize(Roles = "Administrator")]
         [HttpPost("register")]
         public async Task<IActionResult> Register([FromBody] AppUserRegister model)
         {

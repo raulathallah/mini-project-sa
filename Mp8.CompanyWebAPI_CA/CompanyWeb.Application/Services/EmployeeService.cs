@@ -432,7 +432,12 @@ namespace CompanyWeb.Application.Services
                 .ToList<object>();
         }
 
+        public async Task<List<object>> GetAllEmployees()
+        {
+            var employees = await _employeeRepository.GetAllEmployees();
+            return employees.Select(s => s.ToEmployeeResponse(null)).ToList<object>();
 
+        }
 
         public async Task<object> LeaveApproval(EmployeeLeaveApprovalRequest request)
         {
@@ -702,9 +707,11 @@ namespace CompanyWeb.Application.Services
             return response;
         }
 
-        public async Task<List<EmployeeSearchResponse>> SearchEmployee(SearchEmployeeQuery query, PageRequest pageRequest)
+        public async Task<object> SearchEmployee(SearchEmployeeQuery query, PageRequest pageRequest)
         {
             var employees = await _employeeRepository.GetAllEmployees();
+
+            var total = employees.Count();
             
             bool isKeyWord = !string.IsNullOrWhiteSpace(query.KeyWord);
             bool isSearchBy = !string.IsNullOrWhiteSpace(query.SearchBy);
@@ -751,15 +758,22 @@ namespace CompanyWeb.Application.Services
                 employees = employees.Where(w => w.IsActive == false);
             }
             else
+            if (query.isActive == true)
             {
                 employees = employees.Where(w => w.IsActive == true);
             }
 
-            return await employees
+
+
+            return new
+            {
+                Total = total,
+                Data = await employees
                 .Skip((pageRequest.PageNumber - 1) * pageRequest.PerPage)
                 .Take(pageRequest.PerPage)
                 .Select(s => s.ToEmployeeSearchResponse(s.DeptnoNavigation.Deptname))
-                .ToListAsync();
+                .ToListAsync()
+            };
         }
 
         public async Task<object> UpdateEmployee(int id, UpdateEmployeeRequest request)
@@ -775,14 +789,14 @@ namespace CompanyWeb.Application.Services
             }
 
             var updateUser = await _userManager.FindByEmailAsync(e.EmailAddress);
-            if (updateUser == null)
+            if (updateUser != null)
             {
-                return null;
+                updateUser.Email = request.EmailAddress;
+                await _userManager.UpdateAsync(updateUser);
             }
 
-            updateUser.Email = request.Email;
-            e.EmailAddress = request.Email;
-            await _userManager.UpdateAsync(updateUser);
+
+            e.EmailAddress = request.EmailAddress;
 
             //if (roles.Any(x => x == "HR Manager" || x == "Administrator"))
             //{
@@ -829,6 +843,8 @@ namespace CompanyWeb.Application.Services
             }
 
             var dependents = await _employeeDependentRepository.GetAllEmployeeDependents();
+
+  
             return response.ToEmployeeResponse(dependents.Where(w=>w.DependentEmpno == id).ToList());
         }
 

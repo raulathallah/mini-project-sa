@@ -42,12 +42,14 @@ namespace CompanyWeb.Application.Mappers
         {
             return new EmployeeSearchResponse()
             {
+                Empno = model.Empno,
                 Name = model.Fname + " " + model.Lname,
                 Departement = deptName,
                 Position = model.Position,
                 EmpLevel = model.EmpLevel,
                 EmpType = model.EmpType,
-                UpdateAt = model.UpdatedAt
+                UpdateAt = model.UpdatedAt,
+                IsActive = model.IsActive
             };
         }
 

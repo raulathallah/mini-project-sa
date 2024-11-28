@@ -57,6 +57,7 @@ namespace CompanyWeb.Application.Services
         {
             var user = await _userManager.FindByNameAsync(model.UserName);
             var emp = await _employeeService.GetEmployeeByAppUserId(user.Id);
+            var roles = await _userManager.GetRolesAsync(user);
             if (user != null && await _userManager.CheckPasswordAsync(user, model.Password))
             {
 
@@ -76,6 +77,7 @@ namespace CompanyWeb.Application.Services
                     Status = true,
                     User = user,
                     Employee = emp,
+                    Roles = roles.ToArray(),
                     Message = "Login success!"
                 };
             }

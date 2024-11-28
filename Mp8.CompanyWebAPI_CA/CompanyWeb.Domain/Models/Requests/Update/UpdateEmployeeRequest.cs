@@ -18,7 +18,7 @@ namespace CompanyWeb.Domain.Models.Requests
         public string PhoneNumber { get; set; } = null!;
         public string? Ssn { get; set; }
         public int Salary { get; set; }
-        public string Email { get; set; } = null!;
+        public string EmailAddress { get; set; } = null!;
         public string Position { get; set; } = null!;
         public int? Deptno { get; set; }
         public int? DirectSupervisor { get; set; }
