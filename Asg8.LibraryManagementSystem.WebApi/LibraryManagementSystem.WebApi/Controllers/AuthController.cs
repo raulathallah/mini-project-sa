@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.AspNetCore.Mvc;
 using Org.BouncyCastle.Asn1.Pkcs;
+using System.Data;
 
 namespace LibraryManagementSystem.WebApi.Controllers
 {
@@ -16,16 +17,17 @@ namespace LibraryManagementSystem.WebApi.Controllers
         private readonly ITokenService _tokenService;
         private readonly UserManager<AppUser> _userManager;
         private readonly IEmailService _emailService;
-        public AuthController(IAuthService authService, 
-            ITokenService tokenService,
-            UserManager<AppUser> userManager,
-            IEmailService emailService)
+        private readonly IUserService _userService;
+
+        public AuthController(IAuthService authService, ITokenService tokenService, UserManager<AppUser> userManager, IEmailService emailService, IUserService userService)
         {
             _authService = authService;
             _tokenService = tokenService;
             _userManager = userManager;
             _emailService = emailService;
+            _userService = userService;
         }
+
 
 
         // POST: api/auth/register
@@ -129,6 +131,7 @@ namespace LibraryManagementSystem.WebApi.Controllers
 
             try
             {
+  
                 // Retrieve the username associated with the provided refresh token.
                 var username = await _tokenService.RetrieveUsernameByRefreshToken(refreshToken);
                 if (string.IsNullOrEmpty(username))
@@ -147,13 +150,41 @@ namespace LibraryManagementSystem.WebApi.Controllers
 
                 // Save the new refresh token.
                 var newRt = await _tokenService.SaveRefreshToken(user.UserName, newRefreshToken);
+                var roles = await _userManager.GetRolesAsync(user);
+                var userData = await _userService.GetUserByUsername(user.UserName);
 
-                // set token cookie
-                SetRefreshTokenCookie("AuthToken", accessToken.Token, accessToken.ExpiredOn);
-                SetRefreshTokenCookie("RefreshToken", newRefreshToken, newRt.ExpiryDate);
+                if (refreshToken == null)
+                {
+                    Response.Cookies.Delete("AuthToken", new CookieOptions
+                    {
+                        HttpOnly = true,
+                        Secure = true,
+                        SameSite = SameSiteMode.Strict
+                    });
+                    Response.Cookies.Delete("RefreshToken", new CookieOptions
+                    {
+                        HttpOnly = true,
+                        Secure = true,
+                        SameSite = SameSiteMode.Strict
+                    });
+                }
+                else
+                {
+                    // set token cookie
+                    SetRefreshTokenCookie("AuthToken", accessToken.Token, accessToken.ExpiredOn);
+                    SetRefreshTokenCookie("RefreshToken", newRefreshToken, newRt.ExpiryDate);
+                }
+
 
                 // Return the new access and refresh tokens.
-                return Ok(new { Token = accessToken.Token, TokenExpiredOn = accessToken.ExpiredOn, RefreshToken = newRefreshToken, RefreshTokenExpiredOn = newRt.ExpiryDate });
+                return Ok(new { 
+                    Token = accessToken.Token, 
+                    TokenExpiredOn = accessToken.ExpiredOn, 
+                    RefreshToken = newRefreshToken, 
+                    RefreshTokenExpiredOn = newRt.ExpiryDate,
+                    User = userData,
+                    Roles = roles.ToArray(),
+                });
             }
             catch (Exception ex)
             {

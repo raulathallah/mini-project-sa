@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Mp8.CompanyWebAPI_CA\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3E9F0621-C3D9-4AFC-82D9-1D5995401982}|CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\mp8.companywebapi_ca\\companyweb.webapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E9F0621-C3D9-4AFC-82D9-1D5995401982}|CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj|solutionrelative:companyweb.webapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3E9F0621-C3D9-4AFC-82D9-1D5995401982}|CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\mp8.companywebapi_ca\\companyweb.webapi\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E9F0621-C3D9-4AFC-82D9-1D5995401982}|CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj|solutionrelative:companyweb.webapi\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -45,10 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{2CBC93D8-C748-4B5A-9D42-7A2B7F5A270A}|CompanyWeb.Application\\CompanyWeb.Application.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\mp8.companywebapi_ca\\companyweb.application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2CBC93D8-C748-4B5A-9D42-7A2B7F5A270A}|CompanyWeb.Application\\CompanyWeb.Application.csproj|solutionrelative:companyweb.application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E9F0621-C3D9-4AFC-82D9-1D5995401982}|CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\mp8.companywebapi_ca\\companyweb.webapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E9F0621-C3D9-4AFC-82D9-1D5995401982}|CompanyWeb.WebApi\\CompanyWeb.WebApi.csproj|solutionrelative:companyweb.webapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2EFF3A4A-C01E-4312-B0AB-B309DD42AC68}|CompanyWeb.Infrastructure\\CompanyWeb.Infrastructure.csproj|c:\\users\\user\\source\\repos\\mini-project-sa\\mp8.companywebapi_ca\\companyweb.infrastructure\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -500,17 +500,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 0,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Mp8.CompanyWebAPI_CA\\CompanyWeb.WebApi\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "CompanyWeb.WebApi\\Controllers\\AuthController.cs",
               "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Mp8.CompanyWebAPI_CA\\CompanyWeb.WebApi\\Controllers\\AuthController.cs",
               "RelativeToolTip": "CompanyWeb.WebApi\\Controllers\\AuthController.cs",
-              "ViewState": "AQIAAEQAAAAAAAAAAAAwwIMAAAAnAAAA",
+              "ViewState": "AQIAAIYAAAAAAAAAAAAawBYAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-29T04:42:36.646Z",
               "IsPinned": true,
@@ -518,7 +518,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "AuthService.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Mp8.CompanyWebAPI_CA\\CompanyWeb.Application\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "CompanyWeb.Application\\Services\\AuthService.cs",
@@ -527,12 +527,11 @@
               "ViewState": "AQIAAAkAAAAAAAAAAAAAABgAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-29T04:26:04.999Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "DepartementRepository.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Mp8.CompanyWebAPI_CA\\CompanyWeb.Infrastructure\\Repositories\\DepartementRepository.cs",
               "RelativeDocumentMoniker": "CompanyWeb.Infrastructure\\Repositories\\DepartementRepository.cs",
@@ -541,8 +540,7 @@
               "ViewState": "AQIAAFAAAAAAAAAAAAAjwFkAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-15T03:49:34.645Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -555,8 +553,7 @@
               "ViewState": "AQIAAGQAAAAAAAAAAAAiwGkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-22T01:32:16.813Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -565,19 +562,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ProjectRepository.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Mp8.CompanyWebAPI_CA\\CompanyWeb.Infrastructure\\Repositories\\ProjectRepository.cs",
-              "RelativeDocumentMoniker": "CompanyWeb.Infrastructure\\Repositories\\ProjectRepository.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Mp8.CompanyWebAPI_CA\\CompanyWeb.Infrastructure\\Repositories\\ProjectRepository.cs",
-              "RelativeToolTip": "CompanyWeb.Infrastructure\\Repositories\\ProjectRepository.cs",
-              "ViewState": "AQIAAD4AAAAAAAAAAAAIwEMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T12:43:01.307Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "WorksOnRepository.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Mp8.CompanyWebAPI_CA\\CompanyWeb.Infrastructure\\Repositories\\WorksOnRepository.cs",
               "RelativeDocumentMoniker": "CompanyWeb.Infrastructure\\Repositories\\WorksOnRepository.cs",
@@ -585,12 +569,11 @@
               "RelativeToolTip": "CompanyWeb.Infrastructure\\Repositories\\WorksOnRepository.cs",
               "ViewState": "AQIAAEUAAAAAAAAAAAAUwF0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T12:47:04.884Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-15T12:47:04.884Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ProjectDetailResponse.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Mp8.CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Responses\\ProjectDetailResponse.cs",
               "RelativeDocumentMoniker": "CompanyWeb.Domain\\Models\\Responses\\ProjectDetailResponse.cs",
@@ -598,31 +581,17 @@
               "RelativeToolTip": "CompanyWeb.Domain\\Models\\Responses\\ProjectDetailResponse.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwA0AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T13:45:10.66Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-15T13:45:10.66Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ProjectService.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Mp8.CompanyWebAPI_CA\\CompanyWeb.Application\\Services\\ProjectService.cs",
-              "RelativeDocumentMoniker": "CompanyWeb.Application\\Services\\ProjectService.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Mp8.CompanyWebAPI_CA\\CompanyWeb.Application\\Services\\ProjectService.cs",
-              "RelativeToolTip": "CompanyWeb.Application\\Services\\ProjectService.cs",
-              "ViewState": "AQIAAJYAAAAAAAAAAAAiwBoAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T01:34:42.621Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "EmployeesController.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Mp8.CompanyWebAPI_CA\\CompanyWeb.WebApi\\Controllers\\EmployeesController.cs",
               "RelativeDocumentMoniker": "CompanyWeb.WebApi\\Controllers\\EmployeesController.cs",
               "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Mp8.CompanyWebAPI_CA\\CompanyWeb.WebApi\\Controllers\\EmployeesController.cs",
               "RelativeToolTip": "CompanyWeb.WebApi\\Controllers\\EmployeesController.cs",
-              "ViewState": "AQIAAKwAAAAAAAAAAAAcwMUAAAAwAAAA",
+              "ViewState": "AQIAAMEAAAAAAAAAAAAswMUAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-15T04:48:05.88Z",
               "EditorCaption": ""
@@ -630,6 +599,30 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "ProjectRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Mp8.CompanyWebAPI_CA\\CompanyWeb.Infrastructure\\Repositories\\ProjectRepository.cs",
+              "RelativeDocumentMoniker": "CompanyWeb.Infrastructure\\Repositories\\ProjectRepository.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Mp8.CompanyWebAPI_CA\\CompanyWeb.Infrastructure\\Repositories\\ProjectRepository.cs",
+              "RelativeToolTip": "CompanyWeb.Infrastructure\\Repositories\\ProjectRepository.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAIwEMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T12:43:01.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProjectService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Mp8.CompanyWebAPI_CA\\CompanyWeb.Application\\Services\\ProjectService.cs",
+              "RelativeDocumentMoniker": "CompanyWeb.Application\\Services\\ProjectService.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Mp8.CompanyWebAPI_CA\\CompanyWeb.Application\\Services\\ProjectService.cs",
+              "RelativeToolTip": "CompanyWeb.Application\\Services\\ProjectService.cs",
+              "ViewState": "AQIAAJYAAAAAAAAAAAAiwBoAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T01:34:42.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "ProjectResponse.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Mp8.CompanyWebAPI_CA\\CompanyWeb.Domain\\Models\\Responses\\ProjectResponse.cs",
               "RelativeDocumentMoniker": "CompanyWeb.Domain\\Models\\Responses\\ProjectResponse.cs",
@@ -637,12 +630,11 @@
               "RelativeToolTip": "CompanyWeb.Domain\\Models\\Responses\\ProjectResponse.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T07:42:08.92Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-23T07:42:08.92Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "WorksOnService.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Mp8.CompanyWebAPI_CA\\CompanyWeb.Application\\Services\\WorksOnService.cs",
               "RelativeDocumentMoniker": "CompanyWeb.Application\\Services\\WorksOnService.cs",
@@ -650,12 +642,11 @@
               "RelativeToolTip": "CompanyWeb.Application\\Services\\WorksOnService.cs",
               "ViewState": "AQIAADkAAAAAAAAAAAAwwEYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T01:32:26.303Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-22T01:32:26.303Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "WorksOnController.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Mp8.CompanyWebAPI_CA\\CompanyWeb.WebApi\\Controllers\\WorksOnController.cs",
               "RelativeDocumentMoniker": "CompanyWeb.WebApi\\Controllers\\WorksOnController.cs",
@@ -663,12 +654,11 @@
               "RelativeToolTip": "CompanyWeb.WebApi\\Controllers\\WorksOnController.cs",
               "ViewState": "AQIAABYAAAAAAAAAAAAgwDEAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T16:57:28.488Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-15T16:57:28.488Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "ProjectsController.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Mp8.CompanyWebAPI_CA\\CompanyWeb.WebApi\\Controllers\\ProjectsController.cs",
               "RelativeDocumentMoniker": "CompanyWeb.WebApi\\Controllers\\ProjectsController.cs",
@@ -676,8 +666,7 @@
               "RelativeToolTip": "CompanyWeb.WebApi\\Controllers\\ProjectsController.cs",
               "ViewState": "AQIAABsAAAAAAAAAAAAmwCYAAABoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T13:00:51.094Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-15T13:00:51.094Z"
             },
             {
               "$type": "Document",
@@ -689,8 +678,7 @@
               "RelativeToolTip": "CompanyWeb.Infrastructure\\Repositories\\EmployeeRepository.cs",
               "ViewState": "AQIAACAAAAAAAAAAAAAwwCIAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T04:37:33.706Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-15T04:37:33.706Z"
             },
             {
               "$type": "Document",
@@ -702,8 +690,7 @@
               "RelativeToolTip": "CompanyWeb.Application\\Services\\EmployeeService.cs",
               "ViewState": "AQIAAMYCAAAAAAAAAAAowN4CAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T08:35:56.539Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-23T08:35:56.539Z"
             },
             {
               "$type": "Document",
@@ -715,8 +702,7 @@
               "RelativeToolTip": "CompanyWeb.Application\\Mappers\\DepartementMappers.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T08:03:56.266Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-22T08:03:56.266Z"
             },
             {
               "$type": "Document",
@@ -728,8 +714,7 @@
               "RelativeToolTip": "CompanyWeb.Domain\\Models\\Responses\\DepartementDetailResponse.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T05:21:34.085Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-22T05:21:34.085Z"
             },
             {
               "$type": "Document",
@@ -741,8 +726,7 @@
               "RelativeToolTip": "CompanyWeb.Domain\\Services\\IWorksOnService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T01:29:57.879Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-22T01:29:57.879Z"
             },
             {
               "$type": "Document",
@@ -754,8 +738,7 @@
               "RelativeToolTip": "CompanyWeb.Domain\\Models\\Responses\\WorksOnDetailResponse.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T15:40:38.369Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-15T15:40:38.369Z"
             },
             {
               "$type": "Document",
@@ -767,8 +750,7 @@
               "RelativeToolTip": "CompanyWeb.Domain\\Services\\IAuthService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAawBEAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T08:46:43.584Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-29T08:46:43.584Z"
             },
             {
               "$type": "Document",
@@ -780,8 +762,7 @@
               "RelativeToolTip": "CompanyWeb.WebApi\\Controllers\\CompanyController.cs",
               "ViewState": "AQIAAA4CAAAAAAAAAAAAABICAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T06:42:59.457Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-15T06:42:59.457Z"
             },
             {
               "$type": "Document",
@@ -793,8 +774,7 @@
               "RelativeToolTip": "CompanyWeb.WebApi\\Controllers\\DepartementsController.cs",
               "ViewState": "AQIAABwAAAAAAAAAAAAgwDUAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T04:21:33.047Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-15T04:21:33.047Z"
             },
             {
               "$type": "Document",
@@ -806,8 +786,7 @@
               "RelativeToolTip": "CompanyWeb.Application\\Services\\RoleService.cs",
               "ViewState": "AQIAAD4AAAAAAAAAAAAAAFcAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T08:46:33.579Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-29T08:46:33.579Z"
             },
             {
               "$type": "Document",
@@ -819,8 +798,7 @@
               "RelativeToolTip": "CompanyWeb.Domain\\Services\\IProjectService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T01:29:56.364Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-22T01:29:56.364Z"
             },
             {
               "$type": "Document",
@@ -832,8 +810,7 @@
               "RelativeToolTip": "CompanyWeb.Domain\\Repositories\\IProjectRepository.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAqwA8AAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T01:29:36.425Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-22T01:29:36.425Z"
             },
             {
               "$type": "Document",
@@ -845,8 +822,7 @@
               "RelativeToolTip": "CompanyWeb.WebApi\\Program.cs",
               "ViewState": "AQIAACIAAAAAAAAAAAAAADkAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T10:16:26.824Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-14T10:16:26.824Z"
             },
             {
               "$type": "Document",
