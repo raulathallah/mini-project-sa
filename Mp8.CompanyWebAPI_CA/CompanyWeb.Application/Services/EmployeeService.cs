@@ -75,7 +75,14 @@ namespace CompanyWeb.Application.Services
             {
                 return null;
             }
+
+            if(emp.Deptno != deptNo)
+            {
+                emp.DirectSupervisor = null;
+            }
+
             emp.Deptno = deptNo;
+
             await _employeeRepository.Update(emp);
 
 
@@ -709,7 +716,24 @@ namespace CompanyWeb.Application.Services
 
         public async Task<object> SearchEmployee(SearchEmployeeQuery query, PageRequest pageRequest)
         {
+            var userName = _httpContextAccessor.HttpContext.User.Identity.Name;
+            var user = await _userManager.FindByNameAsync(userName);
+            var roles = await _userManager.GetRolesAsync(user);
+
             var employees = await _employeeRepository.GetAllEmployees();
+            var userRequest = employees.Where(w => w.AppUserId == user.Id).FirstOrDefault();
+
+
+            if (roles.Any(x => x == "Employee Supervisor"))
+            {
+                employees = employees.Where(w => w.DirectSupervisor == userRequest.Empno);
+            }
+
+            if (roles.Any(x => x == "Department Manager"))
+            {
+                employees = employees.Where(w => w.Deptno == userRequest.Deptno);
+
+            }
 
             var total = employees.Count();
             

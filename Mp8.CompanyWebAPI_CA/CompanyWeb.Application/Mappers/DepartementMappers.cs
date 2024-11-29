@@ -17,7 +17,7 @@ namespace CompanyWeb.Application.Mappers
                 Deptname = departement.Deptname,
                 Deptno = departement.Deptno,
                 Mgrempno = departement.Mgrempno,
-                LocationId = locations
+                Location = locations
             };
         }
     }

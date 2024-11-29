@@ -3,6 +3,7 @@ using CompanyWeb.Domain.Models.Requests;
 using CompanyWeb.Domain.Models.Requests.Add;
 using CompanyWeb.Domain.Services;
 using CompanyWeb.WebApi.Controllers.Base;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -52,6 +53,7 @@ namespace CompanyWeb.WebApi.Controllers
         /// <param name="request"></param>
         /// <returns> return departement list </returns>
         // GET: api/Departements/all
+        [Authorize]
         [HttpGet("all")]
         [ProducesResponseType(typeof(Departement), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(Departement), StatusCodes.Status404NotFound)]

@@ -66,7 +66,7 @@ namespace CompanyWeb.WebApi.Controllers
         /// <param name="request"></param>
         /// <returns> return all employee data </returns>
         // GET: api/Employees
-        [Authorize(Roles = "Administrator, HR Manager, Employee Supervisor, Department Manager")]
+        [Authorize(Roles = "Administrator, HR Manager, Employee Supervisor, Department Manager, Employee")]
         [HttpGet("all")]
         [ProducesResponseType(typeof(Employee), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(Employee), StatusCodes.Status404NotFound)]
@@ -95,7 +95,7 @@ namespace CompanyWeb.WebApi.Controllers
         /// <param name="request"></param>
         /// <returns> return employee data by ID </returns>
         // GET: api/Employees/5
-        [Authorize(Roles = "Administrator, HR Manager, Employee, Department Manager, Employee Supervisor")]
+        [Authorize(Roles = "Administrator, HR Manager, Employee, Department Manager, Employee Supervisor, Employee")]
         [HttpGet("{id}")]
         [ProducesResponseType(typeof(Employee), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(Employee), StatusCodes.Status404NotFound)]
@@ -266,7 +266,7 @@ namespace CompanyWeb.WebApi.Controllers
         /// </remarks>
         /// <param name="request"></param>
         /// <returns> return employee data filtered by search parameters</returns>
-        [Authorize(Roles = "Administrator, HR Manager")]
+        [Authorize(Roles = "Administrator, HR Manager, Employee Supervisor")]
         [HttpPost("search")]
         [ProducesResponseType(typeof(Employee), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(Employee), StatusCodes.Status404NotFound)]

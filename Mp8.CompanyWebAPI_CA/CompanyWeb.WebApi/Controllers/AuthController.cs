@@ -9,6 +9,7 @@ using CompanyWeb.WebApi.Controllers.Base;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using System.Data;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -19,13 +20,16 @@ namespace CompanyWeb.WebApi.Controllers
         private readonly IAuthService _authService;
         private readonly IUserService _userService;
         private readonly UserManager<AppUser> _userManager;
+        private readonly IEmployeeService _employeeService;
         public AuthController(IAuthService authService,
             UserManager<AppUser> userManager,
-            IUserService userService)
+            IUserService userService,
+            IEmployeeService employeeService)
         {
             _authService = authService;
             _userManager = userManager;
             _userService = userService;
+            _employeeService = employeeService;
         }
 
         // POST: api/auth/login
@@ -83,39 +87,70 @@ namespace CompanyWeb.WebApi.Controllers
             {
                 return BadRequest("Refresh token is required.");  // Return bad request if no refresh token is provided.
             }*/
+
+
             try
             {
-                // Retrieve the username associated with the provided refresh token.
-                var username = await _authService.RetrieveUsernameByRefreshToken(refreshToken);
-                if (string.IsNullOrEmpty(username))
-                {
-                    return Unauthorized("Invalid refresh token.");  // Return unauthorized if no username is found (invalid or expired token).
-                }
-                // Retrieve the user by username.
-                var user = await _userManager.FindByNameAsync(username);
-                if (user == null)
-                {
-                    return Unauthorized("Invalid user.");  // Return unauthorized if no user is found.
-                }
-                // Issue a new access token and refresh token for the user.
-                var tokens = await _authService.GetTokens(user);
-
-        /*        // Save the new refresh token
-                if (user.RefreshTokenExpiredOn > DateTime.UtcNow)
-                {
-                    user.RefreshToken = tokens.NewRefreshToken;
-                    await _userManager.UpdateAsync(user);
-                    SetRefreshTokenCookie("RefreshToken", tokens.NewRefreshToken, user.RefreshTokenExpiredOn);
-                }*/
+                    // Retrieve the username associated with the provided refresh token.
+                    var username = await _authService.RetrieveUsernameByRefreshToken(refreshToken);
+                    if (string.IsNullOrEmpty(username))
+                    {
+                        return Unauthorized("Invalid refresh token.");  // Return unauthorized if no username is found (invalid or expired token).
+                    }
+                    // Retrieve the user by username.
+                    var user = await _userManager.FindByNameAsync(username); 
+                    if (user == null)
+                    {
+                        return Unauthorized("Invalid user.");  // Return unauthorized if no user is found.
+                    }
+                    var roles =  await _userManager.GetRolesAsync(user);
+                    var emp = await _employeeService.GetEmployeeByAppUserId(user.Id);
   
+                    // Issue a new access token and refresh token for the user.
+                    var tokens = await _authService.GetTokens(user);
+
+                    /*        // Save the new refresh token
+                            if (user.RefreshTokenExpiredOn > DateTime.UtcNow)
+                            {
+                                user.RefreshToken = tokens.NewRefreshToken;
+                                await _userManager.UpdateAsync(user);
+                                SetRefreshTokenCookie("RefreshToken", tokens.NewRefreshToken, user.RefreshTokenExpiredOn);
+                            }*/
 
 
-                SetRefreshTokenCookie("AuthToken", tokens.AccessToken.Token, tokens.AccessToken.ExpiredOn);
-                SetRefreshTokenCookie("RefreshToken", user.RefreshToken, user.RefreshTokenExpiredOn);
+                    if(refreshToken == null)
+                    {
+                        Response.Cookies.Delete("AuthToken", new CookieOptions
+                        {
+                            HttpOnly = true,
+                            Secure = true,
+                            SameSite = SameSiteMode.Strict
+                        });
+                        Response.Cookies.Delete("RefreshToken", new CookieOptions
+                        {
+                            HttpOnly = true,
+                            Secure = true,
+                            SameSite = SameSiteMode.Strict
+                        });
+                    }
+                    else
+                    {
+                        SetRefreshTokenCookie("AuthToken", tokens.AccessToken.Token, tokens.AccessToken.ExpiredOn);
+                        SetRefreshTokenCookie("RefreshToken", user.RefreshToken, user.RefreshTokenExpiredOn);
+                    }
+                                           
+                    // Return the new access and refresh tokens.
+                    return Ok(new { 
+                        Token = tokens.AccessToken.Token, 
+                        TokenExpiredOn = tokens.AccessToken.ExpiredOn, 
+                        RefreshToken = user.RefreshToken, 
+                        RefreshTokenExpiredOn = user.RefreshTokenExpiredOn,
+                        User = user,
+                        Employee = emp,
+                        Roles = roles.ToArray(),
+                    });
 
 
-                // Return the new access and refresh tokens.
-                return Ok(new { Token = tokens.AccessToken.Token, TokenExpiredOn = tokens.AccessToken.ExpiredOn, RefreshToken = user.RefreshToken, RefreshTokenExpiredOn = user.RefreshTokenExpiredOn });
             }
             catch (Exception ex)
             {

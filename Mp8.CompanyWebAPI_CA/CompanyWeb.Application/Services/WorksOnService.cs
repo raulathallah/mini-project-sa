@@ -9,6 +9,7 @@ using CompanyWeb.Domain.Models.Responses;
 using CompanyWeb.Domain.Models.Responses.Base;
 using CompanyWeb.Domain.Repositories;
 using CompanyWeb.Domain.Services;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Options;
 using System;
 using System.Collections.Generic;
@@ -67,7 +68,15 @@ namespace CompanyWeb.Application.Services
 
         public async Task<List<object>> GetWorksons(int pageNumber, int perPage)
         {
+
+
             var wo = await _worksOnRepository.GetWorksons(pageNumber, perPage);
+            return wo.Select(s => s.ToWorksOnResponse()).ToList<object>();
+        }
+
+        public async Task<List<object>> GetAllWorkson()
+        {
+            var wo = await _worksOnRepository.GetAllWorksons();
             return wo.Select(s => s.ToWorksOnResponse()).ToList<object>();
         }
 

@@ -124,6 +124,7 @@ namespace CompanyWeb.Application.Services
                     .ToList<object>();
             }
 
+
             return departement
                 .Select(s => s.ToDepartementDetailResponse(dl.Where(w => w.Deptno == s.Deptno).Select(s2 => s2.LocationId).ToList()))
                 .ToList<object>();

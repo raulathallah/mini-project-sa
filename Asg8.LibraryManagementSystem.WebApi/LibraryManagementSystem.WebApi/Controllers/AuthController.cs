@@ -133,13 +133,13 @@ namespace LibraryManagementSystem.WebApi.Controllers
                 var username = await _tokenService.RetrieveUsernameByRefreshToken(refreshToken);
                 if (string.IsNullOrEmpty(username))
                 {
-                    return Unauthorized("Invalid refresh token.");  // Return unauthorized if no username is found (invalid or expired token).
+                    return BadRequest("Invalid refresh token.");  // Return unauthorized if no username is found (invalid or expired token).
                 }
                 // Retrieve the user by username.
                 var user = await _userManager.FindByNameAsync(username);
                 if (user == null)
                 {
-                    return Unauthorized("Invalid user.");  // Return unauthorized if no user is found.
+                    return BadRequest("Invalid user.");  // Return unauthorized if no user is found.
                 }
                 // Issue a new access token and refresh token for the user.
                 var accessToken = await _tokenService.IssueAccessToken(user);

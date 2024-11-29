@@ -54,6 +54,7 @@ namespace CompanyWeb.WebApi.Controllers
         /// <param name="request"></param>
         /// <returns> return departement list </returns>
         // GET: api/Departements/all
+        //[Authorize(Roles = "Administrator, Employee Supervisor, Department Manager")]
         [HttpGet("all")]
         [ProducesResponseType(typeof(Departement), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(Departement), StatusCodes.Status404NotFound)]
