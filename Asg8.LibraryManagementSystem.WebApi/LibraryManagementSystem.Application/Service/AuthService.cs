@@ -8,6 +8,7 @@ using LibraryManagementSystem.Domain.Service;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
+using Org.BouncyCastle.Asn1.Ocsp;
 using System;
 using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
@@ -44,7 +45,7 @@ namespace LibraryManagementSystem.Application.Service
 
         public async Task<AppUserResponse> Register(AppUserRegister model)
         {
-            var targetUser = await _userService.GetUserByUsername(model.UserName);
+            //var targetUser = await _userService.GetUserByUsername(model.UserName);
 
             var userExist = await _userManager.FindByNameAsync(model.UserName);
             if (userExist != null)
@@ -74,15 +75,26 @@ namespace LibraryManagementSystem.Application.Service
                     Message = result.Errors.ToList().ToString()
                 };
             }
-            var justCreatedUser = await _userManager.FindByNameAsync(model.UserName);
             await _userManager.AddToRoleAsync(user, model.Role);
 
-            if(targetUser != null)
+           /* if(targetUser != null)
             {
                 targetUser.AppUserId = justCreatedUser.Id;
                 await _userRepository.Update(targetUser);
+            }*/
+       
+            var newUser = new AddUserRequest()
+            {
+                fName = model.UserName,
+                lName = "",
+                UserPosition = "Library User",
+                UserPrivilage = "",
+            };
+            var justCreatedAccount = await _userManager.FindByNameAsync(model.UserName);
+            var justCreatedUser = await _userService.AddNewUser(newUser);
 
-            }
+            justCreatedUser.AppUserId = justCreatedAccount.Id;
+            await _userRepository.Update(justCreatedUser);
 
             return new AppUserResponse()
             {

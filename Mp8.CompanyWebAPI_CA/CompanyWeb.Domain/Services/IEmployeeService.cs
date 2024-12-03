@@ -18,12 +18,14 @@ namespace CompanyWeb.Domain.Services
     {
         Task<object> CreateEmployee(AddEmployeeRequest request);
         Task<List<object>> GetEmployees(int pageNumber, int perPage);
+        Task<List<object>> GetAllEmployees();
         Task<object> GetEmployee(int id);
+        Task<object> GetEmployeeByAppUserId(string id);
         Task<object> UpdateEmployee(int id, UpdateEmployeeRequest request);
         Task<object> DeleteEmployee(int id);
 
         // Search & Filter
-        Task<List<EmployeeSearchResponse>> SearchEmployee(SearchEmployeeQuery query, PageRequest pageRequest);
+        Task<object> SearchEmployee(SearchEmployeeQuery query, PageRequest pageRequest);
 
         // Deactive Employee
         Task<object> DeactivateEmployee(int id, DeactivateEmployeeRequest request);

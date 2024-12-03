@@ -51,6 +51,35 @@ namespace CompanyWeb.WebApi.Controllers
             return Ok(response);
         }
 
+        // NEW ======>
+        /// <summary>
+        /// Get all employees
+        /// </summary>
+
+        /// <remarks>
+        /// 
+        /// Sample request:
+        ///
+        ///     GET /Employees/all
+        ///     
+        /// </remarks>
+        /// <param name="request"></param>
+        /// <returns> return all employee data </returns>
+        // GET: api/Employees
+        [Authorize(Roles = "Administrator, HR Manager, Employee Supervisor, Department Manager, Employee")]
+        [HttpGet("all")]
+        [ProducesResponseType(typeof(Employee), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(Employee), StatusCodes.Status404NotFound)]
+        public async Task<IActionResult> GetAllEmployees()
+        {
+            var response = await _employeeService.GetAllEmployees();
+            if (response == null)
+            {
+                return null;
+            }
+            return Ok(response);
+        }
+
 
         /// <summary>
         /// Get employee data by ID
@@ -66,7 +95,7 @@ namespace CompanyWeb.WebApi.Controllers
         /// <param name="request"></param>
         /// <returns> return employee data by ID </returns>
         // GET: api/Employees/5
-        [Authorize(Roles = "Administrator, HR Manager, Employee, Department Manager, Employee Supervisor")]
+        [Authorize(Roles = "Administrator, HR Manager, Employee, Department Manager, Employee Supervisor, Employee")]
         [HttpGet("{id}")]
         [ProducesResponseType(typeof(Employee), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(Employee), StatusCodes.Status404NotFound)]
@@ -237,7 +266,7 @@ namespace CompanyWeb.WebApi.Controllers
         /// </remarks>
         /// <param name="request"></param>
         /// <returns> return employee data filtered by search parameters</returns>
-        [Authorize(Roles = "Administrator, HR Manager")]
+        [Authorize(Roles = "Administrator, HR Manager, Employee Supervisor")]
         [HttpPost("search")]
         [ProducesResponseType(typeof(Employee), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(Employee), StatusCodes.Status404NotFound)]

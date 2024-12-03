@@ -1,4 +1,7 @@
-﻿using System;
+﻿using CompanyWeb.Domain.Models.Auth;
+using CompanyWeb.Domain.Models.Entities;
+using CompanyWeb.Domain.Models.Responses.Employee;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -15,5 +18,10 @@ namespace CompanyWeb.Domain.Models.Responses
         public string? RefreshToken { get; set; }
         public DateTime? ExpiredOn { get; set; }
         public DateTime? RefreshTokenExpiredOn { get; set; }
+
+        //tambahan
+        public object? User { get; set; }
+        public string[]? Roles { get; set; }
+        public object? Employee { get; set; }
     }
 }

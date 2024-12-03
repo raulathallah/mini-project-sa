@@ -31,13 +31,15 @@ namespace CompanyWeb.WebApi.Controllers
         /// <param name="request"></param>
         /// <returns> return all work data </returns>
         // GET: api/Worksons
-        [Authorize(Roles = "Administrator")]
+        [Authorize(Roles = "Administrator, HR Manager, Employee Supervisor, Employee")]
         [HttpGet]
         [ProducesResponseType(typeof(Workson), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(Workson), StatusCodes.Status404NotFound)]
         public async Task<ActionResult<IEnumerable<object>>> GetWorksons([FromQuery] int pageNumber, int perPage)
         {
-            return await _worksOnService.GetWorksons(pageNumber, perPage);
+            var response = await _worksOnService.GetWorksons(pageNumber, perPage);
+
+            return response;
         }
 
         /// <summary>
@@ -56,7 +58,7 @@ namespace CompanyWeb.WebApi.Controllers
         /// <param name="request"></param>
         /// <returns> return work data by Project and Employee Number </returns>
         // GET: api/Worksons/5
-        [Authorize(Roles = "Administrator")]
+        [Authorize(Roles = "Administrator, Employee Supervisor, HR Manager")]
         [HttpGet("{projNo}/{empNo}")]
         [ProducesResponseType(typeof(Workson), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(Workson), StatusCodes.Status404NotFound)]
@@ -71,6 +73,20 @@ namespace CompanyWeb.WebApi.Controllers
             return Ok(workson);
         }
 
+        [Authorize(Roles = "Administrator, Employee Supervisor, HR Manager, Employee")]
+        [HttpGet("all")]
+        [ProducesResponseType(typeof(Workson), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(Workson), StatusCodes.Status404NotFound)]
+        [ProducesResponseType(typeof(Workson), StatusCodes.Status400BadRequest)]
+        public async Task<IActionResult> GetAllWorkson()
+        {
+            var workson = await _worksOnService.GetAllWorkson();
+            if (workson == null)
+            {
+                return NotFound();
+            }
+            return Ok(workson);
+        }
 
 
         /// <summary>

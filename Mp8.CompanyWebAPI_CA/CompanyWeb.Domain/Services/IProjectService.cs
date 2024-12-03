@@ -17,6 +17,7 @@ namespace CompanyWeb.Domain.Services
         Task<object> DeleteProject(int id);
         Task<List<ProjectResponse>> GetProjects(int pageNumber, int perPage);
         Task<object> GetProject(int id);
+        Task<List<object>> GetAllProject();
 
         // Report
         Task<byte[]> GenerateProjectReportPDF();

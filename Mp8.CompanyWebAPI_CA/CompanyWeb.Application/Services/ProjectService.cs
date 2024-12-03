@@ -20,6 +20,7 @@ using System.Threading.Tasks;
 using TheArtOfDev.HtmlRenderer.Core;
 using TheArtOfDev.HtmlRenderer.PdfSharp;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.EntityFrameworkCore;
 
 namespace CompanyWeb.Application.Services
 {
@@ -131,6 +132,13 @@ namespace CompanyWeb.Application.Services
         {
             var response = await _projectRepository.GetProject(id);
             return response.ToProjectResponse();
+        }
+
+
+        public async Task<List<object>> GetAllProject()
+        {
+            var response = await _projectRepository.GetAllProjects();
+            return response.ToList<object>();
         }
 
         // PROJECT REPORT JSON

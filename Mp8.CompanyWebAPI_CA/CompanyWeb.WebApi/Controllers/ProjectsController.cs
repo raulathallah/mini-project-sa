@@ -36,7 +36,7 @@ namespace CompanyWeb.WebApi.Controllers
         /// <param name="request"></param>
         /// <returns> return all project data </returns>
         // GET: api/Projects
-        [Authorize(Roles = "Administrator, HR Manager, Department Manager, Employee Supervisor")]
+        [Authorize(Roles = "Administrator, HR Manager, Department Manager, Employee Supervisor, Employee")]
         [HttpGet]
         [ProducesResponseType(typeof(Project), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(Project), StatusCodes.Status404NotFound)]
@@ -74,6 +74,20 @@ namespace CompanyWeb.WebApi.Controllers
             return Ok(project);
         }
 
+        [Authorize(Roles = "Administrator, HR Manager, Employee, Department Manager, Employee Supervisor")]
+        [HttpGet("all")]
+        [ProducesResponseType(typeof(Project), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(Project), StatusCodes.Status404NotFound)]
+        [ProducesResponseType(typeof(Project), StatusCodes.Status400BadRequest)]
+        public async Task<IActionResult> GetAllProject()
+        {
+            var project = await _projectService.GetAllProject();
+            if (project == null)
+            {
+                return NotFound();
+            }
+            return Ok(project);
+        }
         /// <summary>
         /// Update project by ID
         /// </summary>

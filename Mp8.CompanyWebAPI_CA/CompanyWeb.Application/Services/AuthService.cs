@@ -56,6 +56,8 @@ namespace CompanyWeb.Application.Services
         public async Task<AppUserResponse> Login(AppUserLogin model)
         {
             var user = await _userManager.FindByNameAsync(model.UserName);
+            var emp = await _employeeService.GetEmployeeByAppUserId(user.Id);
+            var roles = await _userManager.GetRolesAsync(user);
             if (user != null && await _userManager.CheckPasswordAsync(user, model.Password))
             {
 
@@ -73,6 +75,9 @@ namespace CompanyWeb.Application.Services
                     RefreshTokenExpiredOn = user.RefreshTokenExpiredOn,
                     ExpiredOn = tokens?.AccessToken?.ExpiredOn,
                     Status = true,
+                    User = user,
+                    Employee = emp,
+                    Roles = roles.ToArray(),
                     Message = "Login success!"
                 };
             }

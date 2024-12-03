@@ -303,6 +303,19 @@
              <param name="request"></param>
              <returns> return departement list with paging </returns>
         </member>
+        <member name="M:CompanyWeb.WebApi.Controllers.DepartementsController.GetAllDepartements">
+            <summary>
+            Get all departements
+            </summary>
+             <remarks>
+             Sample request:
+            
+                 GET /Departements/all
+                 
+             </remarks>
+             <param name="request"></param>
+             <returns> return departement list </returns>
+        </member>
         <member name="M:CompanyWeb.WebApi.Controllers.DepartementsController.GetDepartement(System.Int32)">
             <summary>
             Get departement by ID
@@ -374,6 +387,20 @@
              Sample request:
             
                  GET /Employees
+                 
+             </remarks>
+             <param name="request"></param>
+             <returns> return all employee data </returns>
+        </member>
+        <member name="M:CompanyWeb.WebApi.Controllers.EmployeesController.GetAllEmployees">
+            <summary>
+            Get all employees
+            </summary>
+             <remarks>
+             
+             Sample request:
+            
+                 GET /Employees/all
                  
              </remarks>
              <param name="request"></param>

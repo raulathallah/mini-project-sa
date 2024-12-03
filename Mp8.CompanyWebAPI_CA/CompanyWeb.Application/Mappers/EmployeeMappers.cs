@@ -22,16 +22,16 @@ namespace CompanyWeb.Application.Mappers
                 EmailAddress = model.EmailAddress,
                 PhoneNumber = model.PhoneNumber,
                 DeactivateReason = model.DeactivateReason,
+                DirectSupervisor = model.DirectSupervisor,
                 Dob = model.Dob,
                 Sex = model.Sex,
                 IsActive = model.IsActive,
-                EmpLevel = model.EmpLevel,
-                EmpType = model.EmpType,
                 Position = model.Position,
                 Deptno = model.Deptno,
                 Ssn = model.Ssn,
                 Salary = model.Salary,
-                DirectSupervisor = model.DirectSupervisor,
+                EmpType = model.EmpType,
+                EmpLevel = model.EmpLevel,
                 UpdateAt = model.UpdatedAt,
                 CreatedAt = model.CreatedAt,
                 EmpDependents = employeeDependents,
@@ -42,12 +42,14 @@ namespace CompanyWeb.Application.Mappers
         {
             return new EmployeeSearchResponse()
             {
+                Empno = model.Empno,
                 Name = model.Fname + " " + model.Lname,
                 Departement = deptName,
                 Position = model.Position,
                 EmpLevel = model.EmpLevel,
                 EmpType = model.EmpType,
-                UpdateAt = model.UpdatedAt
+                UpdateAt = model.UpdatedAt,
+                IsActive = model.IsActive
             };
         }
 
@@ -55,14 +57,23 @@ namespace CompanyWeb.Application.Mappers
         {
             return new EmployeeDetailResponse()
             {
-                Name = model.Fname + " " + model.Lname,
+                Empno = model.Empno,
+                Deptno = model.Deptno,
+                DeactivateReason = model.DeactivateReason,
+                Dob = model.Dob,
+                Sex = model.Sex,
+                IsActive = model.IsActive,
+                Ssn = model.Ssn,
+                Salary = model.Salary,
+                Fname = model.Fname,
+                Lname = model.Lname,
                 Position = model.Position,
                 EmpType = model.EmpType,
+                EmpLevel = model.EmpLevel,
                 Address = model.Address,
                 EmailAddress = model.EmailAddress,
                 PhoneNumber = model.PhoneNumber,
                 DirectSupervisor = model.DirectSupervisor,
-                EmpLevel = model.EmpLevel,
                 CreatedAt = model.CreatedAt,
                 UpdatedAt = model.UpdatedAt,
                 EmpDependents = employeeDependents,

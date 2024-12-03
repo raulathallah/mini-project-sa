@@ -1,9 +1,12 @@
-﻿using CompanyWeb.Domain.Models.Dtos;
+﻿using CompanyWeb.Domain.Models.Auth;
+using CompanyWeb.Domain.Models.Dtos;
 using CompanyWeb.Domain.Models.Entities;
 using CompanyWeb.Domain.Models.Requests;
 using CompanyWeb.Domain.Models.Requests.Add;
 using CompanyWeb.Domain.Repositories;
 using LMS.Infrastructure;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -16,9 +19,16 @@ namespace CompanyWeb.Infrastructure.Repositories
     public class WorksOnRepository : IWorksOnRepository 
     {
         private readonly CompanyDbContext Context;
-        public WorksOnRepository(CompanyDbContext context)
+        private readonly UserManager<AppUser> _userManager;
+        private readonly RoleManager<IdentityRole> _roleManager;
+        private readonly IHttpContextAccessor _httpContextAccessor;
+
+        public WorksOnRepository(CompanyDbContext context, UserManager<AppUser> userManager, RoleManager<IdentityRole> roleManager, IHttpContextAccessor httpContextAccessor)
         {
             Context = context;
+            _userManager = userManager;
+            _roleManager = roleManager;
+            _httpContextAccessor = httpContextAccessor;
         }
 
         public async Task<WorksOnDetailDto> Create(AddWorksOnRequest wo)
@@ -77,6 +87,26 @@ namespace CompanyWeb.Infrastructure.Repositories
 
         public async Task<List<Workson>> GetWorksons(int pageNumber, int perPage)
         {
+            var userName = _httpContextAccessor.HttpContext.User.Identity.Name;
+            var user = await _userManager.FindByNameAsync(userName);
+            var roles = await _userManager.GetRolesAsync(user);
+
+
+            var allEmp = Context.Employees;
+            var userRequest = allEmp.Where(w => w.AppUserId == user.Id).FirstOrDefault();
+
+
+            if (roles.Any(x => x == "Employee"))
+            {
+                return await Context.Worksons
+                .Where(w => w.Empno == userRequest.Empno)
+                .OrderBy(ob => ob.Projno)
+                .Skip((pageNumber - 1) * perPage)
+                .Take(perPage)
+                .ToListAsync<Workson>();
+
+            }
+
             return await Context.Worksons
             .OrderBy(ob => ob.Empno)
             .Skip((pageNumber - 1) * perPage)
