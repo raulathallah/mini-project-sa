@@ -35,5 +35,6 @@ namespace LibraryManagementSystem.Domain.Models.Entities
 
         [Column("processid")]
         public int ProcessId { get; set; }
+
     }
 }

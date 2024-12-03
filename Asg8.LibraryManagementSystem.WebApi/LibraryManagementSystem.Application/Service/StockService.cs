@@ -518,14 +518,24 @@ namespace LibraryManagementSystem.Application.Service
         //GET REQUEST BOOK LIST
         public async Task<List<object>> GetRequestBookList()
         {
+            var userName = _httpContextAccessor.HttpContext.User.Identity.Name;
+            var user = await _userManager.FindByNameAsync(userName);
+            var role = await _userManager.GetRolesAsync(user);
+
+            var roleId = _roleManager.Roles.Where(w => role.Contains(w.Name)).FirstOrDefault().Id;
+
             var bookRequest = await _workflowRepository.GetAllBookRequest();
             var process = await _workflowRepository.GetAllProcess();
             var workflowSequences = await _workflowRepository.GetAllWorkflowSequence();
             var users = await _userRepository.GetAll();
 
+
+
             var result = from value in process
+                 
                          join br in bookRequest on value.ProcessId equals br.ProcessId
                          join ws in workflowSequences on value.CurrentStepId equals ws.StepId
+                         where ws.RequiredRole == roleId || ws.RequiredRole == null
                          select new
                          {
                              BookRequestId = br.BookRequestId,
