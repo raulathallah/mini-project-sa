@@ -27,11 +27,9 @@ namespace LibraryManagementSystem.Domain.Models.Entities
         [Column("publisher")]
         public string? Publisher { get; set; }
 
-        [Column("locationid")]
-        public int LocationId { get; set; }
-
         [Column("startdate")]
         public DateOnly? StartDate { get; set; }
+
         [Column("enddate")]
         public DateOnly? EndDate { get; set; }
 

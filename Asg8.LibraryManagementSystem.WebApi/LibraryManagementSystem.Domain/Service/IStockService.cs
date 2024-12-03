@@ -22,6 +22,11 @@ namespace LibraryManagementSystem.Domain.Service
 
         Task<object> GetDashboard();
         Task<List<object>> GetWorkflowDashboard();
+
+
+        //REQUEST BOOK LIST & DETAIL
+        Task<List<object>> GetRequestBookList();
+        Task<object> GetRequestBookDetail(int id);
     }
     
 }

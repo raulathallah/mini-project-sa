@@ -206,7 +206,7 @@ namespace LibraryManagementSystem.Application.Service
                 Action = currAction,
                 ActionDate = DateTime.UtcNow,
                 ActorId = user.Id,
-                Comments = currAction,
+                Comments = request.Notes,
                 StepId = currStepId,
                 ProcessId = jc_process.ProcessId,
             };
@@ -219,8 +219,8 @@ namespace LibraryManagementSystem.Application.Service
                     request.Title,
                     request.Isbn,
                     request.Author,
-                    request.Publisher,
-                    request.LocationId
+                    request.Publisher
+                    //request.LocationId
                 );
 
             List<string> emailTo = new List<string>();
@@ -323,7 +323,7 @@ namespace LibraryManagementSystem.Application.Service
                 Action = currAction,
                 ActionDate = DateTime.UtcNow,
                 ActorId = user.Id,
-                Comments = currAction,
+                Comments = request.Notes,
                 StepId = currStepId,
                 ProcessId = ju_process.ProcessId,
             };
@@ -337,8 +337,8 @@ namespace LibraryManagementSystem.Application.Service
                     br.Title,
                     br.Isbn,
                     br.Author,
-                    br.Publisher,
-                    br.LocationId
+                    br.Publisher
+                    //br.LocationId
                 );
 
             List<string> emailTo = new List<string>();
@@ -485,7 +485,7 @@ namespace LibraryManagementSystem.Application.Service
                 var appRole = await _roleManager.FindByNameAsync(r);
                 roleId.Add(appRole.Id);
             }
-
+             
  
             var ns = await _workflowRepository.GetAllNextStepRules();
             var wf = await _workflowRepository.GetAllWorkflow();
@@ -513,6 +513,79 @@ namespace LibraryManagementSystem.Application.Service
             }
             return result;
         }
+
+
+        //GET REQUEST BOOK LIST
+        public async Task<List<object>> GetRequestBookList()
+        {
+            var bookRequest = await _workflowRepository.GetAllBookRequest();
+            var process = await _workflowRepository.GetAllProcess();
+            var workflowSequences = await _workflowRepository.GetAllWorkflowSequence();
+            var users = await _userRepository.GetAll();
+
+            var result = from value in process
+                         join br in bookRequest on value.ProcessId equals br.ProcessId
+                         join ws in workflowSequences on value.CurrentStepId equals ws.StepId
+                         select new
+                         {
+                             BookRequestId = br.BookRequestId,
+                             RequestDate = DateOnly.FromDateTime(value.RequestDate.GetValueOrDefault()),
+                             RequesterId = value.RequesterId,
+                             RequesterName = $"{users.Where(w => w.AppUserId == value.RequesterId).FirstOrDefault().FName} {users.Where(w => w.AppUserId == value.RequesterId).FirstOrDefault().LName}",
+                             Title = br.Title,
+                             Author = br.Author,
+                             Publisher = br.Publisher,
+                             Isbn = br.Isbn,
+                             Status = ws.StepName,
+                         };
+
+            return result.OrderBy(ob=>ob.BookRequestId).ToList<object>();
+        }
+
+        //GET REQUEST BOOK DETIAL
+        public async Task<object> GetRequestBookDetail(int id)
+        {
+
+            var bookRequest = await _workflowRepository.GetBookRequest(id);
+
+            if(bookRequest == null)
+            {
+                return null;
+            }
+
+            var process = await _workflowRepository.GetProcess(bookRequest.ProcessId);
+            var workflowSequences = await _workflowRepository.GetAllWorkflowSequence();
+            var workflowActions = await _workflowRepository.GetAllWorkflowAction();
+            var users = await _userRepository.GetAll();
+
+            var result = new
+            {
+                BookRequestId = bookRequest.BookRequestId,
+                ProcessId = process.ProcessId,
+                RequestDate = DateOnly.FromDateTime(process.RequestDate.GetValueOrDefault()),
+                RequesterId = process.RequesterId,
+                RequesterName = $"{users.Where(w => w.AppUserId == process.RequesterId).FirstOrDefault().FName} {users.Where(w => w.AppUserId == process.RequesterId).FirstOrDefault().LName}",
+                Title = bookRequest.Title,
+                Author = bookRequest.Author,
+                Publisher = bookRequest.Publisher,
+                Isbn = bookRequest.Isbn,
+                Status = workflowSequences.Where(w=>w.StepId == process.CurrentStepId).Select(s=>s.StepName).FirstOrDefault(),
+                RequestHistory = workflowActions.Where(w=>w.ProcessId == process.ProcessId).Select(s => new
+                {
+                    ActorId = s.ActorId,
+                    StepId = s.StepId,
+                    ProcessId = s.ProcessId,
+                    ActionDate = s.ActionDate,
+                    ActorName = $"{users.Where(w=>w.AppUserId == s.ActorId).FirstOrDefault().FName} {users.Where(w => w.AppUserId == s.ActorId).FirstOrDefault().LName}",
+                    Action = s.Action,
+                    Comments = s.Comments,
+                }),
+            };
+
+
+            return result;
+        }
+
 
     }
 }

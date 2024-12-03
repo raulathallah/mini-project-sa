@@ -88,7 +88,7 @@ namespace LibraryManagementSystem.Application.Service
         public async Task<IEnumerable<object>> GetAllBook()
         {
             var books = await _bookRepository.GetAll();
-            return books.Select(book => book.ToBookResponse());
+            return books.OrderBy(ob=>ob.BookId).Select(book => book.ToBookResponse());
         }
 
         public async Task<Book> GetBookById(int bookId)

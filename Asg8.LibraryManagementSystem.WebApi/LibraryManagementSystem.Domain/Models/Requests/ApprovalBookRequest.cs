@@ -10,5 +10,6 @@ namespace LibraryManagementSystem.Domain.Models.Requests
     {
         public int BookRequestId { get; set; }
         public string? Approval {  get; set; }
+        public string? Notes { get; set; }
     }
 }

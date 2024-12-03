@@ -130,6 +130,30 @@ namespace LibraryManagementSystem.WebApi.Controllers
             return Ok(response);
 
         }
+
+        [HttpGet("request/list")]
+        public async Task<IActionResult> GetRequestBookList()
+        {
+            var response = await _stockService.GetRequestBookList();
+            if (response == null)
+            {
+                return BadRequest();
+            }
+            return Ok(response);
+
+        }
+
+        [HttpGet("request/{id}")]
+        public async Task<IActionResult> GetRequestBookDetail(int id)
+        {
+            var response = await _stockService.GetRequestBookDetail(id);
+            if (response == null)
+            {
+                return BadRequest();
+            }
+            return Ok(response);
+
+        }
     }
 
 }

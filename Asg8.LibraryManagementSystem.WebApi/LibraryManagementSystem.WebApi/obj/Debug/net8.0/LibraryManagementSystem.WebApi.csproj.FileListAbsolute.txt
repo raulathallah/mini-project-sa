@@ -270,3 +270,4 @@ C:\Users\USER\source\repos\mini-project-sa\Asg8.LibraryManagementSystem.WebApi\L
 C:\Users\USER\source\repos\mini-project-sa\Asg8.LibraryManagementSystem.WebApi\LibraryManagementSystem.WebApi\obj\Debug\net8.0\LibraryManagementSystem.WebApi.pdb
 C:\Users\USER\source\repos\mini-project-sa\Asg8.LibraryManagementSystem.WebApi\LibraryManagementSystem.WebApi\obj\Debug\net8.0\LibraryManagementSystem.WebApi.genruntimeconfig.cache
 C:\Users\USER\source\repos\mini-project-sa\Asg8.LibraryManagementSystem.WebApi\LibraryManagementSystem.WebApi\obj\Debug\net8.0\ref\LibraryManagementSystem.WebApi.dll
+C:\Users\USER\source\repos\mini-project-sa\Asg8.LibraryManagementSystem.WebApi\LibraryManagementSystem.WebApi\bin\Debug\net8.0\LibraryManagementSystem.WebApi.staticwebassets.runtime.json

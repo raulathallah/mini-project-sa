@@ -103,7 +103,7 @@ namespace LibraryManagementSystem.Application.Service
                 authClaims.Add(new Claim(ClaimTypes.Role, userRole));
             }
             var authSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["JWT:SigningKey"]));
-            var expiredDate = DateTime.UtcNow.AddMinutes(1);
+            var expiredDate = DateTime.UtcNow.AddHours(8);
             var token = new JwtSecurityToken(
                 issuer: _configuration["JWT:Issuer"],
                 audience: _configuration["JWT:Audience"],

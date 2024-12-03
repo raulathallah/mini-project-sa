@@ -16,6 +16,7 @@ namespace LibraryManagementSystem.Domain.Repositories
         Task<BookRequest> AddBookRequest(BookRequest br);
         Task<BookRequest> UpdateBookRequest(BookRequest br);
         Task<BookRequest> GetBookRequest(int id);
+        Task<IQueryable<BookRequest>> GetAllBookRequest();
         Task<WorkflowAction> AddWorkflowAction(WorkflowAction wa);
         Task<IQueryable<WorkflowSequence>> GetAllWorkflowSequence();
         Task<IQueryable<NextStepRules>> GetAllNextStepRules();
