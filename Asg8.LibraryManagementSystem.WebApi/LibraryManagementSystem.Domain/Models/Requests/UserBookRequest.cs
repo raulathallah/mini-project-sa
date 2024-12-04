@@ -15,5 +15,6 @@ namespace LibraryManagementSystem.Domain.Models.Requests
         public DateOnly? StartDate { get; set; }
         public DateOnly? EndDate { get; set; }
         public int? LocationId { get; set; }
+        public string? Notes { get; set; }
     }
 }

@@ -82,6 +82,7 @@ namespace LibraryManagementSystem.Infrastructure.Repositories
         {
             return await Context.BookRequests.Where(w => w.BookRequestId == id).FirstOrDefaultAsync();
         }
+
         public async Task<Process> GetProcess(int id)
         {
             return await Context.Process.Where(w => w.ProcessId == id).FirstOrDefaultAsync();
@@ -109,6 +110,11 @@ namespace LibraryManagementSystem.Infrastructure.Repositories
         public async Task<IQueryable<Process>> GetAllProcess()
         {
             return Context.Process;
+        }
+
+        public async Task<IQueryable<BookRequest>> GetAllBookRequest()
+        {
+            return Context.BookRequests;
         }
     }
 }
