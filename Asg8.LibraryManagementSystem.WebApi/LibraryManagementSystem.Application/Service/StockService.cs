@@ -1,4 +1,5 @@
-﻿using LibraryManagementSystem.Application.Mappers;
+﻿using LibraryManagementSystem.Application.Helpers;
+using LibraryManagementSystem.Application.Mappers;
 using LibraryManagementSystem.Core.Models;
 using LibraryManagementSystem.Domain.Helpers;
 using LibraryManagementSystem.Domain.Models.Entities;
@@ -18,6 +19,7 @@ using System.Linq;
 using System.Net;
 using System.Text;
 using System.Threading.Tasks;
+using static System.Reflection.Metadata.BlobBuilder;
 
 namespace LibraryManagementSystem.Application.Service
 {
@@ -550,6 +552,98 @@ namespace LibraryManagementSystem.Application.Service
                          };
 
             return result.OrderBy(ob=>ob.BookRequestId).ToList<object>();
+        }
+
+        //GET REQUEST BOOK LIST
+        public async Task<object> GetRequestBookListPaged(SortRequestBookQuery query, PageRequest pageRequest)
+        {
+            var userName = _httpContextAccessor.HttpContext.User.Identity.Name;
+            var user = await _userManager.FindByNameAsync(userName);
+            var role = await _userManager.GetRolesAsync(user);
+
+            var roleId = _roleManager.Roles.Where(w => role.Contains(w.Name)).FirstOrDefault().Id;
+
+            var bookRequest = await _workflowRepository.GetAllBookRequest();
+            var process = await _workflowRepository.GetAllProcess();
+            var workflowSequences = await _workflowRepository.GetAllWorkflowSequence();
+            var users = await _userRepository.GetAll();
+
+
+
+            var result = from value in process
+                         join br in bookRequest on value.ProcessId equals br.ProcessId
+                         join ws in workflowSequences on value.CurrentStepId equals ws.StepId
+                         where ws.RequiredRole == roleId || ws.RequiredRole == null
+                        select new
+                          {
+                                BookRequestId = br.BookRequestId,
+                                RequestDate = DateOnly.FromDateTime(value.RequestDate.GetValueOrDefault()),
+                                RequesterId = value.RequesterId,
+                                RequesterName = $"{users.Where(w => w.AppUserId == value.RequesterId).FirstOrDefault().FName} {users.Where(w => w.AppUserId == value.RequesterId).FirstOrDefault().LName}",
+                                Title = br.Title,
+                                Author = br.Author,
+                                Publisher = br.Publisher,
+                                Isbn = br.Isbn,
+                                Status = ws.StepName,
+                          };
+
+            var total = result.Count();
+
+            if (!string.IsNullOrWhiteSpace(query.SortBy))
+            {
+                switch (query.SortBy)
+                {
+
+
+                    case "status":
+                        result = query.SortOrder.Equals("asc") ? result.OrderBy(s => s.Status) :
+                        result.OrderByDescending(s => s.Status);
+                        break;
+
+                    case "requester":
+                        result = query.SortOrder.Equals("asc") ? result.OrderBy(s => s.RequesterId) :
+                        result.OrderByDescending(s => s.RequesterId);
+                        break;
+
+                    case "title":
+                        result = query.SortOrder.Equals("asc") ? result.OrderBy(s => s.Title) :
+                        result.OrderByDescending(s => s.Title);
+                        break;
+
+                    case "author":
+                        result = query.SortOrder.Equals("asc") ? result.OrderBy(s => s.Author) :
+                        result.OrderByDescending(s => s.Author);
+                        break;
+
+                    case "publisher":
+                        result = query.SortOrder.Equals("asc") ? result.OrderBy(s => s.Publisher) :
+                        result.OrderByDescending(s => s.Publisher);
+                        break;
+
+                    case "isbn":
+                        result = query.SortOrder.Equals("asc") ? result.OrderBy(s => s.Isbn) :
+                        result.OrderByDescending(s => s.Isbn);
+                        break;
+                    default:
+
+                        result = query.SortOrder.Equals("asc") ? result.OrderBy(s => s.Title) :
+                        result.OrderByDescending(s => s.Title);
+                        break;
+                }
+            }
+
+
+            return new
+            {
+                Total = total,
+                Page = pageRequest.PageNumber,
+                Data = result
+                .Skip((pageRequest.PageNumber - 1) * pageRequest.PerPage)
+                .Take(pageRequest.PerPage)
+                .ToList()
+            };
+
+           
         }
 
         //GET REQUEST BOOK DETIAL

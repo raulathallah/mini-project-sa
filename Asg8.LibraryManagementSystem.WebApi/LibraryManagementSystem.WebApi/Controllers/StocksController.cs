@@ -1,4 +1,6 @@
-﻿using LibraryManagementSystem.Application.Service;
+﻿using LibraryManagementSystem.Application.Helpers;
+using LibraryManagementSystem.Application.Service;
+using LibraryManagementSystem.Domain.Helpers;
 using LibraryManagementSystem.Domain.Models.Requests;
 using LibraryManagementSystem.Domain.Models.Requests.CheckOuts;
 using LibraryManagementSystem.Domain.Models.Requests.Stocks;
@@ -135,6 +137,18 @@ namespace LibraryManagementSystem.WebApi.Controllers
         public async Task<IActionResult> GetRequestBookList()
         {
             var response = await _stockService.GetRequestBookList();
+            if (response == null)
+            {
+                return BadRequest();
+            }
+            return Ok(response);
+
+        }
+
+        [HttpPost("request/list")]
+        public async Task<IActionResult> GetRequestBookListPaged([FromQuery] SortRequestBookQuery query, [FromBody] PageRequest pageRequest)
+        {
+            var response = await _stockService.GetRequestBookListPaged(query, pageRequest);
             if (response == null)
             {
                 return BadRequest();

@@ -1,4 +1,5 @@
-﻿using LibraryManagementSystem.Domain.Models.Entities;
+﻿using LibraryManagementSystem.Domain.Helpers;
+using LibraryManagementSystem.Domain.Models.Entities;
 using LibraryManagementSystem.Domain.Models.Requests;
 using LibraryManagementSystem.Domain.Models.Requests.CheckOuts;
 using LibraryManagementSystem.Domain.Models.Requests.Stocks;
@@ -27,6 +28,7 @@ namespace LibraryManagementSystem.Domain.Service
         //REQUEST BOOK LIST & DETAIL
         Task<List<object>> GetRequestBookList();
         Task<object> GetRequestBookDetail(int id);
+        Task<object> GetRequestBookListPaged(SortRequestBookQuery query, PageRequest pageRequest);
     }
     
 }
