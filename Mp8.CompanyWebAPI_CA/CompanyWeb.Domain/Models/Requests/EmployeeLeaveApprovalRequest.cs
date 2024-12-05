@@ -10,5 +10,6 @@ namespace CompanyWeb.Domain.Models.Requests
     {
         public int LeaveRequestId { get; set; }
         public string? Approval {  get; set; }
+        public string? Notes {  get; set; }
     }
 }

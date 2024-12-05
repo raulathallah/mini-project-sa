@@ -250,8 +250,7 @@
               "ViewState": "AQIAAEoAAAAAAAAAAADwv1oAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-26T06:18:39.811Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -290,8 +289,7 @@
               "ViewState": "AQIAAB8AAAAAAAAAAAAAwCsAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-09T06:46:00.269Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -305,7 +303,7 @@
               "RelativeDocumentMoniker": "LibraryManagementSystem.Application\\Service\\StockService.cs",
               "ToolTip": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg8.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Application\\Service\\StockService.cs",
               "RelativeToolTip": "LibraryManagementSystem.Application\\Service\\StockService.cs",
-              "ViewState": "AQIAAEwCAAAAAAAAAAAAAGYCAABAAAAA",
+              "ViewState": "AQIAACgCAAAAAAAAAAAqwD8CAABTAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-22T03:07:12.938Z",
               "EditorCaption": ""
@@ -320,8 +318,7 @@
               "RelativeToolTip": "LibraryManagementSystem.Application\\Service\\BookService.cs",
               "ViewState": "AQIAAA8CAAAAAAAAAAAAABUCAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T09:26:24.339Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-20T09:26:24.339Z"
             },
             {
               "$type": "Document",
@@ -333,8 +330,7 @@
               "RelativeToolTip": "LibraryManagementSystem.Domain\\Helpers\\SortRequestBookQuery.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T03:50:51.29Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T03:50:51.29Z"
             },
             {
               "$type": "Document",
@@ -346,8 +342,7 @@
               "RelativeToolTip": "LibraryManagementSystem.Domain\\Repositories\\IWorkflowRepository.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAAkAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T04:05:53.677Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-05T04:05:53.677Z"
             },
             {
               "$type": "Document",

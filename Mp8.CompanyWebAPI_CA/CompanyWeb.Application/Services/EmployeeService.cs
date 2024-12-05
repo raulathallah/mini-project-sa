@@ -389,6 +389,74 @@ namespace CompanyWeb.Application.Services
             return await _workflowRepository.GetAllLeaveRequest();
         }
 
+        /// //////////////////////////////////////////////
+        public async Task<object> GetAllLeaveRequestPaged(SearchLeaveRequestQuery query, PageRequest pageRequest)
+        {
+                
+            var userName = _httpContextAccessor.HttpContext.User.Identity.Name;
+            var user = await _userManager.FindByNameAsync(userName);
+            var roles = await _userManager.GetRolesAsync(user);
+
+            var roleId = _roleManager.Roles.Where(w => roles.Contains(w.Name)).FirstOrDefault().Id;
+
+            var leaveRequests = await _workflowRepository.GetAllLeaveRequest();
+            var employees = await _employeeRepository.GetAllEmployees();
+            var process = await _workflowRepository.GetAllProcess();
+            var workflowSequence = await _workflowRepository.GetAllWorkflowSequence();
+
+            var joinLRE = from lr in leaveRequests
+                          join emp in employees on lr.Empno equals emp.Empno
+                          join p in process on lr.ProcessId equals p.ProcessId
+                          join wfs in workflowSequence on p.CurrentStepId equals wfs.StepId
+                          where wfs.RequiredRole == roleId || wfs.RequiredRole == null
+                          select new
+                          {
+                              LeaveRequestId = lr.LeaveRequestId,
+                              Empno = lr.Empno,
+                              EmployeeName = emp.Fname + " " + emp.Lname,
+                              StartDate = lr.StartDate,
+                              EndDate = lr.EndDate,
+                              TotalDays = (lr.EndDate.GetValueOrDefault().DayNumber - lr.StartDate.GetValueOrDefault().DayNumber),
+                              LeaveType = lr.LeaveType,
+                              Reason = lr.LeaveReason,
+                              File = "NULL",
+                              Status = wfs.StepName,
+                              RequestDate = p.RequestDate,
+                          };
+            //var userRequest = employees.Where(w => w.AppUserId == user.Id).FirstOrDefault();
+
+            //var total = employees.Count();
+
+            bool isKeyWord = !string.IsNullOrWhiteSpace(query.KeyWord);
+
+            if (isKeyWord)
+            {
+
+                joinLRE = joinLRE
+                        .Where(
+                            x =>
+                                x.EmployeeName.ToLower().Contains(query.KeyWord.ToLower()) ||
+                                x.TotalDays.ToString().Contains(query.KeyWord.ToLower()) ||
+                                x.LeaveType.ToLower().Contains(query.KeyWord.ToLower()) ||
+                                x.Reason.ToLower().Contains(query.KeyWord.ToLower()) ||
+                                x.Status.ToLower().Contains(query.KeyWord.ToLower())
+                        );
+               
+                
+
+            }
+
+            var total = joinLRE.Count();
+            return new
+            {
+                Total = total,
+                Data = joinLRE
+                .Skip((pageRequest.PageNumber - 1) * pageRequest.PerPage)
+                .Take(pageRequest.PerPage)
+                .ToList()
+            };
+        }
+
         public async Task<object> GetEmployee(int id)
         {
             var emp = await _employeeRepository.GetEmployee(id);
@@ -528,7 +596,7 @@ namespace CompanyWeb.Application.Services
                 Action = currAction,
                 ActionDate = DateTime.UtcNow,
                 ActorId = user.Id,
-                Comments = currAction,
+                Comments = request.Notes,
                 StepId = currStepId,
                 ProcessId = ju_process.ProcessId,
             };
@@ -714,6 +782,42 @@ namespace CompanyWeb.Application.Services
             return response;
         }
 
+        public async Task<object> GetLeaveRequestById(int id)
+        {
+            var leaveRequest = await _workflowRepository.GetLeaveRequest(id);
+            if(leaveRequest == null)
+            {
+                return null;
+            }
+            var employees = await _employeeRepository.GetEmployee(leaveRequest.Empno);
+            var allEmployees = await _employeeRepository.GetAllEmployees();
+            var process = await _workflowRepository.GetProcess(leaveRequest.ProcessId);
+            var wfa = await _workflowRepository.GetAllWorkflowAction();
+            var wfs = await _workflowRepository.GetAllWorkflowSequence();
+
+            return new
+            {
+                LeaveRequestId = leaveRequest.LeaveRequestId,
+                Empno = employees.Empno,
+                RequesterName = employees.Fname + " " + employees.Lname,
+                RequestDate = process.RequestDate,
+                LeaveType = leaveRequest.LeaveType,
+                LeaveReason = leaveRequest.LeaveReason,
+                StartDate = leaveRequest.StartDate,
+                EndDate = leaveRequest.EndDate,
+                TotalDays = (leaveRequest.EndDate.GetValueOrDefault().DayNumber - leaveRequest.StartDate.GetValueOrDefault().DayNumber),
+                ProcessId = leaveRequest.ProcessId,
+                Status = wfs.Where(w=>w.StepId == process.CurrentStepId).FirstOrDefault().StepName,
+                RequestHistory = wfa.Where(w=>w.ProcessId == leaveRequest.ProcessId).Select(s => new
+                {
+                    ActionDate = s.ActionDate,
+                    ActorId = s.ActorId,
+                    ActorName = allEmployees.Where(w=>w.AppUserId == s.ActorId).FirstOrDefault().Fname + " " + allEmployees.Where(w => w.AppUserId == s.ActorId).FirstOrDefault().Lname,
+                    Action = s.Action,
+                    Comments = s.Comments
+                }),
+            };
+        }
         public async Task<object> SearchEmployee(SearchEmployeeQuery query, PageRequest pageRequest)
         {
             var userName = _httpContextAccessor.HttpContext.User.Identity.Name;
@@ -915,7 +1019,6 @@ namespace CompanyWeb.Application.Services
             }
             return employees;
         }
-
 
     }
 }
