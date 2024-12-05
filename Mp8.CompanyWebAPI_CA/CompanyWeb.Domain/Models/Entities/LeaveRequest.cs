@@ -31,5 +31,8 @@ namespace CompanyWeb.Domain.Models.Entities
 
         [Column("processid")]
         public int ProcessId { get; set; }
+
+        [Column("filename")]
+        public string? FileName { get; set; }
     }
 }

@@ -10,7 +10,6 @@ namespace CompanyWeb.Domain.Models.Requests
     public class EmployeeLeaveRequest
     {
         public int Empno { get; set; }
-
         public DateOnly? StartDate { get; set; }
         public DateOnly? EndDate { get; set; }
         public string? LeaveType { get; set; }

@@ -29,6 +29,8 @@ using System.Threading.Tasks;
 using TheArtOfDev.HtmlRenderer.Core;
 using TheArtOfDev.HtmlRenderer.PdfSharp;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.Extensions.Hosting;
+using Microsoft.AspNetCore.Hosting;
 
 namespace CompanyWeb.Application.Services
 {
@@ -43,17 +45,19 @@ namespace CompanyWeb.Application.Services
         private readonly CompanyOptions _companyOptions;
         private readonly UserManager<AppUser> _userManager;
         private readonly RoleManager<IdentityRole> _roleManager;
+        private readonly IWebHostEnvironment _environment;
         private readonly IHttpContextAccessor _httpContextAccessor;
-        public EmployeeService(ICompanyService companyService, 
+        public EmployeeService(ICompanyService companyService,
             IDepartementRepository departementRepository,
-            IEmployeeRepository employeeRepository, 
-            IEmployeeDependentRepository employeeDependentRepository, 
+            IEmployeeRepository employeeRepository,
+            IEmployeeDependentRepository employeeDependentRepository,
             IOptions<CompanyOptions> companyOptions,
-            UserManager<AppUser> userManager, 
+            UserManager<AppUser> userManager,
             RoleManager<IdentityRole> roleManager,
             IHttpContextAccessor httpContextAccessor,
             IWorkflowRepository workflowRepository,
-            IEmailService emailService
+            IEmailService emailService,
+            IWebHostEnvironment environment
             )
         {
             _companyService = companyService;
@@ -66,6 +70,7 @@ namespace CompanyWeb.Application.Services
             _httpContextAccessor = httpContextAccessor;
             _workflowRepository = workflowRepository;
             _emailService = emailService;
+            _environment = environment;
         }
 
         public async Task<object> AssignEmployee(int id, int deptNo)
@@ -416,10 +421,10 @@ namespace CompanyWeb.Application.Services
                               EmployeeName = emp.Fname + " " + emp.Lname,
                               StartDate = lr.StartDate,
                               EndDate = lr.EndDate,
-                              TotalDays = (lr.EndDate.GetValueOrDefault().DayNumber - lr.StartDate.GetValueOrDefault().DayNumber),
+                              TotalDays = (lr.EndDate.GetValueOrDefault().DayNumber - lr.StartDate.GetValueOrDefault().DayNumber) + 1,
                               LeaveType = lr.LeaveType,
                               Reason = lr.LeaveReason,
-                              File = "NULL",
+                              File = lr.FileName,
                               Status = wfs.StepName,
                               RequestDate = p.RequestDate,
                           };
@@ -665,7 +670,7 @@ namespace CompanyWeb.Application.Services
             }; ;*/
         }
 
-        public async Task<object> LeaveRequest(EmployeeLeaveRequest request)
+        public async Task<object> LeaveRequest(EmployeeLeaveRequest request, IFormFile file)
         {
             var role_E = await _roleManager.FindByNameAsync("Employee");
             var allEmp = await _employeeRepository.GetAllEmployees();
@@ -707,6 +712,55 @@ namespace CompanyWeb.Application.Services
                 .Select(s => s.ConditionValue)
                 .FirstOrDefault();
 
+            string uniqueFileName = "";
+            try
+            {
+                long MaxFileSize = 2 * 1024 * 1024; // 2MB
+
+                string[] AllowedFileTypes = new[] {
+                    "application/pdf",
+                    "application/msword",
+                    "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+                    };
+
+                if (file == null || file.Length == 0)
+
+                    return "File is empty";
+
+                if (file.Length > MaxFileSize)
+
+                    return "File size exceeds 2MB limit";
+
+                if (!AllowedFileTypes.Contains(file.ContentType))
+
+                    return "Only PDF and Word documents are allowed";
+
+                string uploadsFolder = Path.Combine(_environment.WebRootPath, "uploads");
+
+                if (!Directory.Exists(uploadsFolder))
+
+                    Directory.CreateDirectory(uploadsFolder);
+
+                uniqueFileName = Guid.NewGuid().ToString() + "_" + file.FileName;
+
+                string filePath = Path.Combine(uploadsFolder, uniqueFileName);
+
+                // Save file to directory
+
+                using (var fileStream = new FileStream(filePath, FileMode.Create))
+                {
+                    await file.CopyToAsync(fileStream);
+                }
+
+
+                //return Ok("File uploaded succesfully");
+
+            }
+            catch (Exception ex)
+            {
+                return $"Internal server error: {ex.Message}";
+            }
+
             // add to process
             Process newProcess = new()
             {
@@ -731,6 +785,7 @@ namespace CompanyWeb.Application.Services
                 StartDate = request.StartDate,
                 EndDate = request.EndDate,
                 ProcessId = jc_process.ProcessId,
+                FileName = uniqueFileName
             };
             var jc_bookRequest = await _workflowRepository.AddLeaveRequest(newLeaveRequest);
             if (jc_bookRequest == null)
@@ -805,9 +860,10 @@ namespace CompanyWeb.Application.Services
                 LeaveReason = leaveRequest.LeaveReason,
                 StartDate = leaveRequest.StartDate,
                 EndDate = leaveRequest.EndDate,
-                TotalDays = (leaveRequest.EndDate.GetValueOrDefault().DayNumber - leaveRequest.StartDate.GetValueOrDefault().DayNumber),
+                TotalDays = (leaveRequest.EndDate.GetValueOrDefault().DayNumber - leaveRequest.StartDate.GetValueOrDefault().DayNumber) + 1,
                 ProcessId = leaveRequest.ProcessId,
                 Status = wfs.Where(w=>w.StepId == process.CurrentStepId).FirstOrDefault().StepName,
+                File = leaveRequest.FileName,
                 RequestHistory = wfa.Where(w=>w.ProcessId == leaveRequest.ProcessId).Select(s => new
                 {
                     ActionDate = s.ActionDate,

@@ -6,6 +6,7 @@ using CompanyWeb.Domain.Models.Requests;
 using CompanyWeb.Domain.Models.Requests.Add;
 using CompanyWeb.Domain.Models.Requests.Update;
 using CompanyWeb.Domain.Models.Responses.Employee;
+using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -33,7 +34,7 @@ namespace CompanyWeb.Domain.Services
 
 
         // Leave Request
-        Task<object> LeaveRequest(EmployeeLeaveRequest request);
+        Task<object> LeaveRequest(EmployeeLeaveRequest request, IFormFile file);
         Task<object> GetLeaveRequestById(int id);
         Task<object> LeaveApproval(EmployeeLeaveApprovalRequest request);
         Task<IEnumerable<LeaveRequest>> GetAllLeaveRequest();
