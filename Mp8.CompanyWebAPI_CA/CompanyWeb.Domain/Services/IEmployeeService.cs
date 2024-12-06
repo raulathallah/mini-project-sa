@@ -35,7 +35,6 @@ namespace CompanyWeb.Domain.Services
 
         // Leave Request
         Task<object> LeaveRequest(EmployeeLeaveRequest request);
-        Task<object> LeaveRequestUpload(int leaveRequestId, IFormFile file);
         Task<object> GetLeaveRequestById(int id);
         Task<object> LeaveApproval(EmployeeLeaveApprovalRequest request);
         Task<IEnumerable<LeaveRequest>> GetAllLeaveRequest();

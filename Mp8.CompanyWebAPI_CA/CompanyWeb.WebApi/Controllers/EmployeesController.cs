@@ -334,7 +334,7 @@ namespace CompanyWeb.WebApi.Controllers
         [ProducesResponseType(typeof(Employee), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(Employee), StatusCodes.Status404NotFound)]
         [ProducesResponseType(typeof(Employee), StatusCodes.Status400BadRequest)]
-        public async Task<IActionResult> LeaveRequest([FromBody] EmployeeLeaveRequest request)
+        public async Task<IActionResult> LeaveRequest([FromForm] EmployeeLeaveRequest request)
         {
             var response = await _employeeService.LeaveRequest(request); 
             if(response == null)
@@ -346,7 +346,7 @@ namespace CompanyWeb.WebApi.Controllers
 
         }
 
-
+/*
         [Authorize(Roles = "Employee")]
         [HttpPost("leave/upload")]
         [ProducesResponseType(typeof(Employee), StatusCodes.Status200OK)]
@@ -363,7 +363,7 @@ namespace CompanyWeb.WebApi.Controllers
             return Ok(response);
 
         }
-
+*/
         [Authorize(Roles = "Employee Supervisor, HR Manager")]
         [HttpPost("leave-approval")]
         [ProducesResponseType(typeof(Employee), StatusCodes.Status200OK)]
