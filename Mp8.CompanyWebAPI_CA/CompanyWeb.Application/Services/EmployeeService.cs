@@ -670,7 +670,7 @@ namespace CompanyWeb.Application.Services
             }; ;*/
         }
 
-        public async Task<object> LeaveRequest(EmployeeLeaveRequest request, IFormFile file)
+        public async Task<object> LeaveRequest(EmployeeLeaveRequest request)
         {
             var role_E = await _roleManager.FindByNameAsync("Employee");
             var allEmp = await _employeeRepository.GetAllEmployees();
@@ -712,54 +712,7 @@ namespace CompanyWeb.Application.Services
                 .Select(s => s.ConditionValue)
                 .FirstOrDefault();
 
-            string uniqueFileName = "";
-            try
-            {
-                long MaxFileSize = 2 * 1024 * 1024; // 2MB
-
-                string[] AllowedFileTypes = new[] {
-                    "application/pdf",
-                    "application/msword",
-                    "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
-                    };
-
-                if (file == null || file.Length == 0)
-
-                    return "File is empty";
-
-                if (file.Length > MaxFileSize)
-
-                    return "File size exceeds 2MB limit";
-
-                if (!AllowedFileTypes.Contains(file.ContentType))
-
-                    return "Only PDF and Word documents are allowed";
-
-                string uploadsFolder = Path.Combine(_environment.WebRootPath, "uploads");
-
-                if (!Directory.Exists(uploadsFolder))
-
-                    Directory.CreateDirectory(uploadsFolder);
-
-                uniqueFileName = Guid.NewGuid().ToString() + "_" + file.FileName;
-
-                string filePath = Path.Combine(uploadsFolder, uniqueFileName);
-
-                // Save file to directory
-
-                using (var fileStream = new FileStream(filePath, FileMode.Create))
-                {
-                    await file.CopyToAsync(fileStream);
-                }
-
-
-                //return Ok("File uploaded succesfully");
-
-            }
-            catch (Exception ex)
-            {
-                return $"Internal server error: {ex.Message}";
-            }
+         
 
             // add to process
             Process newProcess = new()
@@ -785,10 +738,10 @@ namespace CompanyWeb.Application.Services
                 StartDate = request.StartDate,
                 EndDate = request.EndDate,
                 ProcessId = jc_process.ProcessId,
-                FileName = uniqueFileName
+                FileName = null
             };
-            var jc_bookRequest = await _workflowRepository.AddLeaveRequest(newLeaveRequest);
-            if (jc_bookRequest == null)
+            var jc_leaveRequest = await _workflowRepository.AddLeaveRequest(newLeaveRequest);
+            if (jc_leaveRequest == null)
             {
                 return null;
             }
@@ -834,9 +787,69 @@ namespace CompanyWeb.Application.Services
                 Status = true,
                 Message = "Success submit leave request"
             };*/
-            return response;
+            return new
+            {
+                LeaveRequestId = jc_leaveRequest.LeaveRequestId,
+                Status = response,
+            };
         }
+        public async Task<object> LeaveRequestUpload(int leaveRequestId, IFormFile file)
+        {
+            try
+            {
+                long MaxFileSize = 2 * 1024 * 1024; // 2MB
 
+                string[] AllowedFileTypes = new[] {
+                    "application/pdf",
+                    "images/jpg"
+                    };
+
+                if (file == null || file.Length == 0)
+
+                    return "File is empty";
+
+                if (file.Length > MaxFileSize)
+
+                    return "File size exceeds 2MB limit";
+
+                if (!AllowedFileTypes.Contains(file.ContentType))
+
+                    return "Only PDF and Word documents are allowed";
+
+                string uploadsFolder = Path.Combine(_environment.WebRootPath, "uploads");
+
+                if (!Directory.Exists(uploadsFolder))
+
+                    Directory.CreateDirectory(uploadsFolder);
+
+                string uniqueFileName = Guid.NewGuid().ToString() + "_" + file.FileName;
+
+                string filePath = Path.Combine(uploadsFolder, uniqueFileName);
+
+                // Save file to directory
+
+                using (var fileStream = new FileStream(filePath, FileMode.Create))
+                {
+                    await file.CopyToAsync(fileStream);
+                }
+
+                //save file name
+                var lr = await _workflowRepository.GetLeaveRequest(leaveRequestId);
+
+                if (lr == null)
+                {
+                    return $"Leave Request with ID {leaveRequestId} not found!";
+                }
+                lr.FileName = uniqueFileName;
+                await _workflowRepository.UpdateLeaveRequest(lr);
+
+                return true;
+            }
+            catch (Exception ex)
+            {
+                return $"Internal server error: {ex.Message}";
+            }
+        }
         public async Task<object> GetLeaveRequestById(int id)
         {
             var leaveRequest = await _workflowRepository.GetLeaveRequest(id);

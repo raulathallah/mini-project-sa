@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "bOAAMiidYmCJR6HBsc5FN0X6ieR94SS8duMoju3AMiQ=",
+  "Hash": "qwhq97vL+d9fGiUvdtQiH7CkfMWeTm+sVaOgIzyJTYg=",
   "Source": "CompanyWeb.WebApi",
   "BasePath": "_content/CompanyWeb.WebApi",
   "Mode": "Default",
@@ -110,6 +110,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\7e4955c7-3c17-4d41-aecc-b37d6d5bc1d3_testpdf.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Mp8.CompanyWebAPI_CA\\CompanyWeb.WebApi\\wwwroot\\uploads\\819fcf33-56b7-4623-afb2-aae3b1c82524_testpdf.pdf",
+      "SourceId": "CompanyWeb.WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Mp8.CompanyWebAPI_CA\\CompanyWeb.WebApi\\wwwroot\\",
+      "BasePath": "_content/CompanyWeb.WebApi",
+      "RelativePath": "uploads/819fcf33-56b7-4623-afb2-aae3b1c82524_testpdf.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\819fcf33-56b7-4623-afb2-aae3b1c82524_testpdf.pdf"
     }
   ]
 }

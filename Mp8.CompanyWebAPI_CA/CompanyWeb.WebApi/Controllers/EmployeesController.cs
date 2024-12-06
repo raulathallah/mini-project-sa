@@ -334,16 +334,30 @@ namespace CompanyWeb.WebApi.Controllers
         [ProducesResponseType(typeof(Employee), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(Employee), StatusCodes.Status404NotFound)]
         [ProducesResponseType(typeof(Employee), StatusCodes.Status400BadRequest)]
-        public async Task<IActionResult> LeaveRequest([FromForm] EmployeeLeaveRequest request, IFormFile file)
+        public async Task<IActionResult> LeaveRequest([FromBody] EmployeeLeaveRequest request)
         {
-            var response = await _employeeService.LeaveRequest(request, file); 
-            if (response.GetType() == "".GetType())
-            {
-                return BadRequest(response);
-            }
+            var response = await _employeeService.LeaveRequest(request); 
             if(response == null)
             {
                 return BadRequest("RESPONSE NULL");
+            }
+
+            return Ok(response);
+
+        }
+
+
+        [Authorize(Roles = "Employee")]
+        [HttpPost("leave/upload")]
+        [ProducesResponseType(typeof(Employee), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(Employee), StatusCodes.Status404NotFound)]
+        [ProducesResponseType(typeof(Employee), StatusCodes.Status400BadRequest)]
+        public async Task<IActionResult> LeaveRequestUpload([FromForm]int leaveRequestId, IFormFile file)
+        {
+            var response = await _employeeService.LeaveRequestUpload(leaveRequestId, file);
+            if (response.GetType() == "".GetType())
+            {
+                return BadRequest(response);
             }
 
             return Ok(response);

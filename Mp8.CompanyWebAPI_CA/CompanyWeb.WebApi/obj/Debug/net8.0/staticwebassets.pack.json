@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\uploads\\7e4955c7-3c17-4d41-aecc-b37d6d5bc1d3_testpdf.pdf"
     },
     {
+      "Id": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Mp8.CompanyWebAPI_CA\\CompanyWeb.WebApi\\wwwroot\\uploads\\819fcf33-56b7-4623-afb2-aae3b1c82524_testpdf.pdf",
+      "PackagePath": "staticwebassets\\uploads\\819fcf33-56b7-4623-afb2-aae3b1c82524_testpdf.pdf"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CompanyWeb.WebApi.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
