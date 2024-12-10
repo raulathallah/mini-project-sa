@@ -3,6 +3,7 @@ using CompanyWeb.Domain.Models.Mail;
 using CompanyWeb.Domain.Models.Options;
 using CompanyWeb.Infrastructure;
 using LMS.Infrastructure;
+using Microsoft.Extensions.FileProviders;
 using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -38,8 +39,25 @@ builder.Services.AddApiVersioning(option =>
 //mail settings
 var mailSettings = builder.Configuration.GetSection("MailSettings").Get<MailSettings>();
 builder.Services.Configure<MailSettings>(builder.Configuration.GetSection("MailSettings"));
+builder.Services.AddDirectoryBrowser();
+
+var fileProvider = new PhysicalFileProvider(Path.Combine(builder.Environment.WebRootPath, "uploads"));
+var requestPath = "/file";
 
 var app = builder.Build();
+
+// Enable displaying browser links.
+app.UseStaticFiles(new StaticFileOptions
+{
+    FileProvider = fileProvider,
+    RequestPath = requestPath
+});
+
+app.UseDirectoryBrowser(new DirectoryBrowserOptions
+{
+    FileProvider = fileProvider,
+    RequestPath = requestPath
+});
 
 var serviceScope = app.Services.CreateScope();
 var dataContext = serviceScope.ServiceProvider.GetService<CompanyDbContext>();

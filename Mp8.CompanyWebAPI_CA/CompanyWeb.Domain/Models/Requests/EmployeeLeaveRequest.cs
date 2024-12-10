@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Http;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
@@ -10,11 +11,12 @@ namespace CompanyWeb.Domain.Models.Requests
     public class EmployeeLeaveRequest
     {
         public int Empno { get; set; }
-
         public DateOnly? StartDate { get; set; }
         public DateOnly? EndDate { get; set; }
         public string? LeaveType { get; set; }
         public string? LeaveReason { get; set; }
+
+        public IFormFile? File { get; set; }
 
     }
 }

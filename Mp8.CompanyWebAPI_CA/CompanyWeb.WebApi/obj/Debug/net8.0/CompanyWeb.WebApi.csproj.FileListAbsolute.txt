@@ -532,3 +532,4 @@ C:\Users\user\source\repos\mini-project-sa\Mp8.CompanyWebAPI_CA\CompanyWeb.WebAp
 C:\Users\user\source\repos\mini-project-sa\Mp8.CompanyWebAPI_CA\CompanyWeb.WebApi\obj\Debug\net8.0\CompanyWeb.WebApi.pdb
 C:\Users\user\source\repos\mini-project-sa\Mp8.CompanyWebAPI_CA\CompanyWeb.WebApi\obj\Debug\net8.0\CompanyWeb.WebApi.genruntimeconfig.cache
 C:\Users\user\source\repos\mini-project-sa\Mp8.CompanyWebAPI_CA\CompanyWeb.WebApi\obj\Debug\net8.0\ref\CompanyWeb.WebApi.dll
+C:\Users\user\source\repos\mini-project-sa\Mp8.CompanyWebAPI_CA\CompanyWeb.WebApi\bin\Debug\net8.0\CompanyWeb.WebApi.staticwebassets.runtime.json

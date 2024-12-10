@@ -29,6 +29,9 @@ using System.Threading.Tasks;
 using TheArtOfDev.HtmlRenderer.Core;
 using TheArtOfDev.HtmlRenderer.PdfSharp;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.Extensions.Hosting;
+using Microsoft.AspNetCore.Hosting;
+using Org.BouncyCastle.Asn1.Ocsp;
 
 namespace CompanyWeb.Application.Services
 {
@@ -43,17 +46,19 @@ namespace CompanyWeb.Application.Services
         private readonly CompanyOptions _companyOptions;
         private readonly UserManager<AppUser> _userManager;
         private readonly RoleManager<IdentityRole> _roleManager;
+        private readonly IWebHostEnvironment _environment;
         private readonly IHttpContextAccessor _httpContextAccessor;
-        public EmployeeService(ICompanyService companyService, 
+        public EmployeeService(ICompanyService companyService,
             IDepartementRepository departementRepository,
-            IEmployeeRepository employeeRepository, 
-            IEmployeeDependentRepository employeeDependentRepository, 
+            IEmployeeRepository employeeRepository,
+            IEmployeeDependentRepository employeeDependentRepository,
             IOptions<CompanyOptions> companyOptions,
-            UserManager<AppUser> userManager, 
+            UserManager<AppUser> userManager,
             RoleManager<IdentityRole> roleManager,
             IHttpContextAccessor httpContextAccessor,
             IWorkflowRepository workflowRepository,
-            IEmailService emailService
+            IEmailService emailService,
+            IWebHostEnvironment environment
             )
         {
             _companyService = companyService;
@@ -66,6 +71,7 @@ namespace CompanyWeb.Application.Services
             _httpContextAccessor = httpContextAccessor;
             _workflowRepository = workflowRepository;
             _emailService = emailService;
+            _environment = environment;
         }
 
         public async Task<object> AssignEmployee(int id, int deptNo)
@@ -388,6 +394,86 @@ namespace CompanyWeb.Application.Services
         {
             return await _workflowRepository.GetAllLeaveRequest();
         }
+        public async Task<object> GetAllLeaveRequestPaged(SearchLeaveRequestQuery query, PageRequest pageRequest)
+        {
+                
+            var userName = _httpContextAccessor.HttpContext.User.Identity.Name;
+            var user = await _userManager.FindByNameAsync(userName);
+            var roles = await _userManager.GetRolesAsync(user);
+
+            var roleId = _roleManager.Roles.Where(w => roles.Contains(w.Name)).FirstOrDefault().Id;
+
+            var leaveRequests = await _workflowRepository.GetAllLeaveRequest();
+            var employees = await _employeeRepository.GetAllEmployees();
+            var process = await _workflowRepository.GetAllProcess();
+            var workflowSequence = await _workflowRepository.GetAllWorkflowSequence();
+
+            var accessorEmp = employees.Where(w => w.AppUserId == user.Id).FirstOrDefault();
+
+            if (roles.Any(x => x == "Employee Supervisor"))
+            {
+                employees = employees.Where(w => w.DirectSupervisor == accessorEmp.Empno);
+                workflowSequence = workflowSequence.Where(w => w.RequiredRole == roleId || w.RequiredRole == null);
+            }
+            if (roles.Any(x => x == "Employee"))
+            {
+                employees = employees.Where(w => w.Empno == accessorEmp.Empno);
+            }
+
+            var joinLRE = from lr in leaveRequests
+                          join emp in employees on lr.Empno equals emp.Empno
+                          join p in process on lr.ProcessId equals p.ProcessId
+                          join wfs in workflowSequence on p.CurrentStepId equals wfs.StepId
+                          select new
+                          {
+                              LeaveRequestId = lr.LeaveRequestId,
+                              Empno = lr.Empno,
+                              EmployeeName = emp.Fname + " " + emp.Lname,
+                              StartDate = lr.StartDate,
+                              EndDate = lr.EndDate,
+                              TotalDays = (lr.EndDate.GetValueOrDefault().DayNumber - lr.StartDate.GetValueOrDefault().DayNumber) + 1,
+                              LeaveType = lr.LeaveType,
+                              Reason = lr.LeaveReason,
+                              File = lr.FileName,
+                              Status = wfs.StepName,
+                              RequestDate = p.RequestDate,
+                          };
+            //var userRequest = employees.Where(w => w.AppUserId == user.Id).FirstOrDefault();
+
+            //var total = employees.Count();
+
+  
+
+            bool isKeyWord = !string.IsNullOrWhiteSpace(query.KeyWord);
+
+            if (isKeyWord)
+            {
+
+                joinLRE = joinLRE
+                        .Where(
+                            x =>
+                                x.EmployeeName.ToLower().Contains(query.KeyWord.ToLower()) ||
+                                x.TotalDays.ToString().Contains(query.KeyWord.ToLower()) ||
+                                x.LeaveType.ToLower().Contains(query.KeyWord.ToLower()) ||
+                                x.Reason.ToLower().Contains(query.KeyWord.ToLower()) ||
+                                x.Status.ToLower().Contains(query.KeyWord.ToLower())
+                        );
+               
+                
+
+            }
+
+            var total = joinLRE.Count();
+            return new
+            {
+                Total = total,
+                Data = joinLRE
+                .OrderBy(ob=>ob.RequestDate)
+                .Skip((pageRequest.PageNumber - 1) * pageRequest.PerPage)
+                .Take(pageRequest.PerPage)
+                .ToList()
+            };
+        }
 
         public async Task<object> GetEmployee(int id)
         {
@@ -528,7 +614,7 @@ namespace CompanyWeb.Application.Services
                 Action = currAction,
                 ActionDate = DateTime.UtcNow,
                 ActorId = user.Id,
-                Comments = currAction,
+                Comments = request.Notes,
                 StepId = currStepId,
                 ProcessId = ju_process.ProcessId,
             };
@@ -639,6 +725,54 @@ namespace CompanyWeb.Application.Services
                 .Select(s => s.ConditionValue)
                 .FirstOrDefault();
 
+            string uniqueFileName = "";
+            try
+            {
+                long MaxFileSize = 2 * 1024 * 1024; // 2MB
+
+                string[] AllowedFileTypes = new[] {
+                    "application/pdf",
+                    "images/jpg"
+                    };
+
+                if(request.LeaveType == "Sick Leave")
+                {
+                    if (request.File == null || request.File.Length == 0)
+
+                        return "File is empty";
+
+                    if (request.File.Length > MaxFileSize)
+
+                        return "File size exceeds 2MB limit";
+
+                    if (!AllowedFileTypes.Contains(request.File.ContentType))
+
+                        return "Only .pdf, .jpg, .jpeg documents are allowed";
+                }
+               
+
+                string uploadsFolder = Path.Combine(_environment.WebRootPath, "uploads");
+
+                if (!Directory.Exists(uploadsFolder))
+
+                    Directory.CreateDirectory(uploadsFolder);
+
+                uniqueFileName = Guid.NewGuid().ToString() + "_" + request.File.FileName;
+
+                string filePath = Path.Combine(uploadsFolder, uniqueFileName);
+
+                // Save file to directory
+
+                using (var fileStream = new FileStream(filePath, FileMode.Create))
+                {
+                    await request.File.CopyToAsync(fileStream);
+                }
+            }
+            catch (Exception ex)
+            {
+                return $"Internal server error: {ex.Message}";
+            }
+
             // add to process
             Process newProcess = new()
             {
@@ -654,6 +788,7 @@ namespace CompanyWeb.Application.Services
             {
                 return null;
             }
+
             //add to leave request
             LeaveRequest newLeaveRequest = new()
             {
@@ -663,9 +798,10 @@ namespace CompanyWeb.Application.Services
                 StartDate = request.StartDate,
                 EndDate = request.EndDate,
                 ProcessId = jc_process.ProcessId,
+                FileName = uniqueFileName
             };
-            var jc_bookRequest = await _workflowRepository.AddLeaveRequest(newLeaveRequest);
-            if (jc_bookRequest == null)
+            var jc_leaveRequest = await _workflowRepository.AddLeaveRequest(newLeaveRequest);
+            if (jc_leaveRequest == null)
             {
                 return null;
             }
@@ -711,9 +847,49 @@ namespace CompanyWeb.Application.Services
                 Status = true,
                 Message = "Success submit leave request"
             };*/
-            return response;
+            return new
+            {
+                LeaveRequestId = jc_leaveRequest.LeaveRequestId,
+                Status = response,
+            };
         }
+        public async Task<object> GetLeaveRequestById(int id)
+        {
+            var leaveRequest = await _workflowRepository.GetLeaveRequest(id);
+            if(leaveRequest == null)
+            {
+                return null;
+            }
+            var employees = await _employeeRepository.GetEmployee(leaveRequest.Empno);
+            var allEmployees = await _employeeRepository.GetAllEmployees();
+            var process = await _workflowRepository.GetProcess(leaveRequest.ProcessId);
+            var wfa = await _workflowRepository.GetAllWorkflowAction();
+            var wfs = await _workflowRepository.GetAllWorkflowSequence();
 
+            return new
+            {
+                LeaveRequestId = leaveRequest.LeaveRequestId,
+                Empno = employees.Empno,
+                RequesterName = employees.Fname + " " + employees.Lname,
+                RequestDate = process.RequestDate,
+                LeaveType = leaveRequest.LeaveType,
+                LeaveReason = leaveRequest.LeaveReason,
+                StartDate = leaveRequest.StartDate,
+                EndDate = leaveRequest.EndDate,
+                TotalDays = (leaveRequest.EndDate.GetValueOrDefault().DayNumber - leaveRequest.StartDate.GetValueOrDefault().DayNumber) + 1,
+                ProcessId = leaveRequest.ProcessId,
+                Status = wfs.Where(w=>w.StepId == process.CurrentStepId).FirstOrDefault().StepName,
+                File = leaveRequest.FileName,
+                RequestHistory = wfa.Where(w=>w.ProcessId == leaveRequest.ProcessId).Select(s => new
+                {
+                    ActionDate = s.ActionDate,
+                    ActorId = s.ActorId,
+                    ActorName = allEmployees.Where(w=>w.AppUserId == s.ActorId).FirstOrDefault().Fname + " " + allEmployees.Where(w => w.AppUserId == s.ActorId).FirstOrDefault().Lname,
+                    Action = s.Action,
+                    Comments = s.Comments
+                }),
+            };
+        }
         public async Task<object> SearchEmployee(SearchEmployeeQuery query, PageRequest pageRequest)
         {
             var userName = _httpContextAccessor.HttpContext.User.Identity.Name;
@@ -915,7 +1091,6 @@ namespace CompanyWeb.Application.Services
             }
             return employees;
         }
-
 
     }
 }

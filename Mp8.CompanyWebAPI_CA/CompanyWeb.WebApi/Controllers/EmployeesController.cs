@@ -18,6 +18,7 @@ namespace CompanyWeb.WebApi.Controllers
     public class EmployeesController : BaseController
     {
         private readonly IEmployeeService _employeeService;
+
         public EmployeesController(IEmployeeService employeeService)
         {
             _employeeService = employeeService;
@@ -333,16 +334,36 @@ namespace CompanyWeb.WebApi.Controllers
         [ProducesResponseType(typeof(Employee), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(Employee), StatusCodes.Status404NotFound)]
         [ProducesResponseType(typeof(Employee), StatusCodes.Status400BadRequest)]
-        public async Task<IActionResult> LeaveRequest([FromBody] EmployeeLeaveRequest request)
+        public async Task<IActionResult> LeaveRequest([FromForm] EmployeeLeaveRequest request)
         {
-            var response = await _employeeService.LeaveRequest(request);
-            if (response == null)
+            var response = await _employeeService.LeaveRequest(request); 
+            if(response == null)
             {
-                return NotFound();
+                return BadRequest("RESPONSE NULL");
             }
+
             return Ok(response);
+
         }
 
+/*
+        [Authorize(Roles = "Employee")]
+        [HttpPost("leave/upload")]
+        [ProducesResponseType(typeof(Employee), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(Employee), StatusCodes.Status404NotFound)]
+        [ProducesResponseType(typeof(Employee), StatusCodes.Status400BadRequest)]
+        public async Task<IActionResult> LeaveRequestUpload([FromForm]int leaveRequestId, IFormFile file)
+        {
+            var response = await _employeeService.LeaveRequestUpload(leaveRequestId, file);
+            if (response.GetType() == "".GetType())
+            {
+                return BadRequest(response);
+            }
+
+            return Ok(response);
+
+        }
+*/
         [Authorize(Roles = "Employee Supervisor, HR Manager")]
         [HttpPost("leave-approval")]
         [ProducesResponseType(typeof(Employee), StatusCodes.Status200OK)]
@@ -358,7 +379,7 @@ namespace CompanyWeb.WebApi.Controllers
             return Ok(response);
         }
 
-        //[Authorize(Roles = "")]
+        [Authorize]
         [HttpGet("leave")]
         [ProducesResponseType(typeof(Employee), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(Employee), StatusCodes.Status404NotFound)]
@@ -366,6 +387,36 @@ namespace CompanyWeb.WebApi.Controllers
         public async Task<IActionResult> GetAllLeaveRequest()
         {
             var response = await _employeeService.GetAllLeaveRequest();
+            if (response == null)
+            {
+                return NotFound();
+            }
+            return Ok(response);
+        }
+
+        [Authorize]
+        [HttpPost("leave/list")]
+        [ProducesResponseType(typeof(Employee), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(Employee), StatusCodes.Status404NotFound)]
+        [ProducesResponseType(typeof(Employee), StatusCodes.Status400BadRequest)]
+        public async Task<IActionResult> GetAllLeaveRequestPaged([FromQuery]SearchLeaveRequestQuery query, [FromBody]PageRequest pageRequest)
+        {
+            var response = await _employeeService.GetAllLeaveRequestPaged(query, pageRequest);
+            if (response == null)
+            {
+                return NotFound();
+            }
+            return Ok(response);
+        }
+
+        [Authorize]
+        [HttpGet("leave/{id}")]
+        [ProducesResponseType(typeof(Employee), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(Employee), StatusCodes.Status404NotFound)]
+        [ProducesResponseType(typeof(Employee), StatusCodes.Status400BadRequest)]
+        public async Task<IActionResult> GetLeaveRequestById([FromRoute]int id)
+        {
+            var response = await _employeeService.GetLeaveRequestById(id);
             if (response == null)
             {
                 return NotFound();

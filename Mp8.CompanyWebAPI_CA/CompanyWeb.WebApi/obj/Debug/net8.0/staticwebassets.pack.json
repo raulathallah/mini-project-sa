@@ -1,0 +1,65 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Mp8.CompanyWebAPI_CA\\CompanyWeb.WebApi\\wwwroot\\uploads\\0a06a21e-0a32-47a3-a9a7-3c81470fbf7b_testpdf.pdf",
+      "PackagePath": "staticwebassets\\uploads\\0a06a21e-0a32-47a3-a9a7-3c81470fbf7b_testpdf.pdf"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Mp8.CompanyWebAPI_CA\\CompanyWeb.WebApi\\wwwroot\\uploads\\14832610-8162-474d-8cb0-b62e97c2fc2e_testpdf.pdf",
+      "PackagePath": "staticwebassets\\uploads\\14832610-8162-474d-8cb0-b62e97c2fc2e_testpdf.pdf"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Mp8.CompanyWebAPI_CA\\CompanyWeb.WebApi\\wwwroot\\uploads\\1fe0ffd4-c1ab-4e4e-b6b5-3015bdc9d0f6_testpdf.pdf",
+      "PackagePath": "staticwebassets\\uploads\\1fe0ffd4-c1ab-4e4e-b6b5-3015bdc9d0f6_testpdf.pdf"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Mp8.CompanyWebAPI_CA\\CompanyWeb.WebApi\\wwwroot\\uploads\\3abc5876-adf8-4933-a72a-4dd102aa204e_32376-79791-2-PB (1).pdf",
+      "PackagePath": "staticwebassets\\uploads\\3abc5876-adf8-4933-a72a-4dd102aa204e_32376-79791-2-PB (1).pdf"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Mp8.CompanyWebAPI_CA\\CompanyWeb.WebApi\\wwwroot\\uploads\\41c5d0f8-16d8-4f9f-873a-7c65c4ed5cc1_testpdf.pdf",
+      "PackagePath": "staticwebassets\\uploads\\41c5d0f8-16d8-4f9f-873a-7c65c4ed5cc1_testpdf.pdf"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Mp8.CompanyWebAPI_CA\\CompanyWeb.WebApi\\wwwroot\\uploads\\472000af-73d7-4fd2-bce9-375ce4c005c9_testpdf.pdf",
+      "PackagePath": "staticwebassets\\uploads\\472000af-73d7-4fd2-bce9-375ce4c005c9_testpdf.pdf"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Mp8.CompanyWebAPI_CA\\CompanyWeb.WebApi\\wwwroot\\uploads\\4b25a104-e1cd-4d2b-ac5d-78b887ec9592_testpdf.pdf",
+      "PackagePath": "staticwebassets\\uploads\\4b25a104-e1cd-4d2b-ac5d-78b887ec9592_testpdf.pdf"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Mp8.CompanyWebAPI_CA\\CompanyWeb.WebApi\\wwwroot\\uploads\\783396e5-f322-43a3-9064-1a1ca555b2b8_testpdf.pdf",
+      "PackagePath": "staticwebassets\\uploads\\783396e5-f322-43a3-9064-1a1ca555b2b8_testpdf.pdf"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Mp8.CompanyWebAPI_CA\\CompanyWeb.WebApi\\wwwroot\\uploads\\7e4955c7-3c17-4d41-aecc-b37d6d5bc1d3_testpdf.pdf",
+      "PackagePath": "staticwebassets\\uploads\\7e4955c7-3c17-4d41-aecc-b37d6d5bc1d3_testpdf.pdf"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Mp8.CompanyWebAPI_CA\\CompanyWeb.WebApi\\wwwroot\\uploads\\819fcf33-56b7-4623-afb2-aae3b1c82524_testpdf.pdf",
+      "PackagePath": "staticwebassets\\uploads\\819fcf33-56b7-4623-afb2-aae3b1c82524_testpdf.pdf"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Mp8.CompanyWebAPI_CA\\CompanyWeb.WebApi\\wwwroot\\uploads\\90972060-c416-457f-be67-b31d45c5d7d4_testpdf.pdf",
+      "PackagePath": "staticwebassets\\uploads\\90972060-c416-457f-be67-b31d45c5d7d4_testpdf.pdf"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CompanyWeb.WebApi.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.CompanyWeb.WebApi.props",
+      "PackagePath": "build\\CompanyWeb.WebApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.CompanyWeb.WebApi.props",
+      "PackagePath": "buildMultiTargeting\\CompanyWeb.WebApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.CompanyWeb.WebApi.props",
+      "PackagePath": "buildTransitive\\CompanyWeb.WebApi.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "DznxEMqmBiylkXJWOd7xtcCGEAYAX5Hyfc6CBHs6Lnw=",
+  "Hash": "t/jTFaXf0Xr18IhRs9nhVDZ14l+ODzsuY3NrECVPvf8=",
   "Source": "LibraryManagementSystem.WebApi",
   "BasePath": "_content/LibraryManagementSystem.WebApi",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "LibraryManagementSystem.WebApi\\wwwroot",
       "Source": "LibraryManagementSystem.WebApi",
-      "ContentRoot": "C:\\Users\\USER\\source\\repos\\mini-project-sa\\Asg8.LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg8.LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi\\wwwroot\\",
       "BasePath": "_content/LibraryManagementSystem.WebApi",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\USER\\source\\repos\\mini-project-sa\\Asg8.LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi\\wwwroot\\uploads\\11a5c4b4-a921-4fb4-901b-df58e10f8951_Test pdf.pdf",
+      "Identity": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg8.LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi\\wwwroot\\uploads\\11a5c4b4-a921-4fb4-901b-df58e10f8951_Test pdf.pdf",
       "SourceId": "LibraryManagementSystem.WebApi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\USER\\source\\repos\\mini-project-sa\\Asg8.LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg8.LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi\\wwwroot\\",
       "BasePath": "_content/LibraryManagementSystem.WebApi",
       "RelativePath": "uploads/11a5c4b4-a921-4fb4-901b-df58e10f8951_Test pdf.pdf",
       "AssetKind": "All",
@@ -36,10 +36,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\11a5c4b4-a921-4fb4-901b-df58e10f8951_Test pdf.pdf"
     },
     {
-      "Identity": "C:\\Users\\USER\\source\\repos\\mini-project-sa\\Asg8.LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi\\wwwroot\\uploads\\24c91db5-0176-403e-aed5-c36f0eb9b828_testpdf.pdf",
+      "Identity": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg8.LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi\\wwwroot\\uploads\\24c91db5-0176-403e-aed5-c36f0eb9b828_testpdf.pdf",
       "SourceId": "LibraryManagementSystem.WebApi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\USER\\source\\repos\\mini-project-sa\\Asg8.LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg8.LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi\\wwwroot\\",
       "BasePath": "_content/LibraryManagementSystem.WebApi",
       "RelativePath": "uploads/24c91db5-0176-403e-aed5-c36f0eb9b828_testpdf.pdf",
       "AssetKind": "All",
@@ -55,10 +55,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\24c91db5-0176-403e-aed5-c36f0eb9b828_testpdf.pdf"
     },
     {
-      "Identity": "C:\\Users\\USER\\source\\repos\\mini-project-sa\\Asg8.LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi\\wwwroot\\uploads\\3b807930-5449-463f-96c9-84d01ecd6a64_Test pdf.pdf",
+      "Identity": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg8.LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi\\wwwroot\\uploads\\3b807930-5449-463f-96c9-84d01ecd6a64_Test pdf.pdf",
       "SourceId": "LibraryManagementSystem.WebApi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\USER\\source\\repos\\mini-project-sa\\Asg8.LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg8.LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi\\wwwroot\\",
       "BasePath": "_content/LibraryManagementSystem.WebApi",
       "RelativePath": "uploads/3b807930-5449-463f-96c9-84d01ecd6a64_Test pdf.pdf",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\3b807930-5449-463f-96c9-84d01ecd6a64_Test pdf.pdf"
     },
     {
-      "Identity": "C:\\Users\\USER\\source\\repos\\mini-project-sa\\Asg8.LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi\\wwwroot\\uploads\\44c2b009-ad64-42a9-9e59-2f832aad1898_Test pdf.pdf",
+      "Identity": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg8.LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi\\wwwroot\\uploads\\44c2b009-ad64-42a9-9e59-2f832aad1898_Test pdf.pdf",
       "SourceId": "LibraryManagementSystem.WebApi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\USER\\source\\repos\\mini-project-sa\\Asg8.LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg8.LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi\\wwwroot\\",
       "BasePath": "_content/LibraryManagementSystem.WebApi",
       "RelativePath": "uploads/44c2b009-ad64-42a9-9e59-2f832aad1898_Test pdf.pdf",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\44c2b009-ad64-42a9-9e59-2f832aad1898_Test pdf.pdf"
     },
     {
-      "Identity": "C:\\Users\\USER\\source\\repos\\mini-project-sa\\Asg8.LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi\\wwwroot\\uploads\\606cf239-f618-4611-814f-e129bae8c509_Test pdf.pdf",
+      "Identity": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg8.LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi\\wwwroot\\uploads\\606cf239-f618-4611-814f-e129bae8c509_Test pdf.pdf",
       "SourceId": "LibraryManagementSystem.WebApi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\USER\\source\\repos\\mini-project-sa\\Asg8.LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg8.LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi\\wwwroot\\",
       "BasePath": "_content/LibraryManagementSystem.WebApi",
       "RelativePath": "uploads/606cf239-f618-4611-814f-e129bae8c509_Test pdf.pdf",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\606cf239-f618-4611-814f-e129bae8c509_Test pdf.pdf"
     },
     {
-      "Identity": "C:\\Users\\USER\\source\\repos\\mini-project-sa\\Asg8.LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi\\wwwroot\\uploads\\d0d55caa-fd37-4966-bd1f-e23ce5551b41_Test pdf.pdf",
+      "Identity": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg8.LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi\\wwwroot\\uploads\\d0d55caa-fd37-4966-bd1f-e23ce5551b41_Test pdf.pdf",
       "SourceId": "LibraryManagementSystem.WebApi",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\USER\\source\\repos\\mini-project-sa\\Asg8.LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\source\\repos\\mini-project-sa\\Asg8.LibraryManagementSystem.WebApi\\LibraryManagementSystem.WebApi\\wwwroot\\",
       "BasePath": "_content/LibraryManagementSystem.WebApi",
       "RelativePath": "uploads/d0d55caa-fd37-4966-bd1f-e23ce5551b41_Test pdf.pdf",
       "AssetKind": "All",
