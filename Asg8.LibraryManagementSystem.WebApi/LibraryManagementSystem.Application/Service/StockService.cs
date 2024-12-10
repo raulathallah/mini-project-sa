@@ -421,7 +421,7 @@ namespace LibraryManagementSystem.Application.Service
             foreach (var value in bookOverdue)
             {
                 var getUser = await _userRepository.Get(value.UserId);
-                var overdue = DateOnly.FromDateTime(DateTime.Now).Day - value.DueDate.Day;
+                var overdue = DateOnly.FromDateTime(DateTime.Now).DayNumber - value.DueDate.DayNumber;
                 //var penalty = overdue * _libraryOptions.PenaltyPerDay;
 
                 listBo.Add(new
@@ -450,19 +450,52 @@ namespace LibraryManagementSystem.Application.Service
             }
 
 
+         
+
             var userName = _httpContextAccessor.HttpContext.User.Identity.Name;
             var user = await _userManager.FindByNameAsync(userName);
             var role = await _userManager.GetRolesAsync(user);
+
+
+
+            var bookRequest = await _workflowRepository.GetAllBookRequest();
+            var process = await _workflowRepository.GetAllProcess();
+            var workflowSequences = await _workflowRepository.GetAllWorkflowSequence();
+            var users = await _userRepository.GetAll();
+
+           
+
             List<string> roleId = new();
             foreach (var r in role)
             {
                 var appRole = await _roleManager.FindByNameAsync(r);
                 roleId.Add(appRole.Id);
             }
-            var ws = await _workflowRepository.GetAllWorkflowSequence();
-            var userStepId = ws.Where(w => roleId.Any(a => a == w.RequiredRole)).Select(s => s.StepId).FirstOrDefault();
+
+
+            var result = from value in process
+                         join br in bookRequest on value.ProcessId equals br.ProcessId
+                         join ws in workflowSequences on value.CurrentStepId equals ws.StepId
+                         where roleId.Any(a => a == ws.RequiredRole) || ws.RequiredRole == null
+                         select new
+                         {
+                             BookRequestId = br.BookRequestId,
+                             RequestDate = DateOnly.FromDateTime(value.RequestDate.GetValueOrDefault()),
+                             RequesterId = value.RequesterId,
+                             RequesterName = $"{users.Where(w => w.AppUserId == value.RequesterId).FirstOrDefault().FName} {users.Where(w => w.AppUserId == value.RequesterId).FirstOrDefault().LName}",
+                             Title = br.Title,
+                             Author = br.Author,
+                             Publisher = br.Publisher,
+                             Isbn = br.Isbn,
+                             Status = ws.StepName,
+                             StepId = ws.StepId
+                         };
+
+
+            var userStepId = workflowSequences.Where(w => roleId.Any(a => a == w.RequiredRole)).Select(s => s.StepId).FirstOrDefault();
             var allProcess = await _workflowRepository.GetAllProcess();
             var userProcess = allProcess.Where(w => w.CurrentStepId == userStepId).ToList();
+
 
             return new
             {
@@ -470,7 +503,8 @@ namespace LibraryManagementSystem.Application.Service
                 MostActiveUsers = listMa,
                 OverdueBooks = listBo,
                 BooksPerCategory = bookCategoryCounts,
-               ProcessToFollowUp = userProcess.Count()
+                ProcessToFollowUp = userProcess.Count(),
+                ProccessToFollowUpData = result.Where(w=>w.StepId == userStepId).OrderBy(s => s.StepId).Take(5).ToList()
             };
         }
 
@@ -549,6 +583,7 @@ namespace LibraryManagementSystem.Application.Service
                              Publisher = br.Publisher,
                              Isbn = br.Isbn,
                              Status = ws.StepName,
+                             StepId = ws.StepId
                          };
 
             return result.OrderBy(ob=>ob.BookRequestId).ToList<object>();
@@ -585,6 +620,7 @@ namespace LibraryManagementSystem.Application.Service
                                 Publisher = br.Publisher,
                                 Isbn = br.Isbn,
                                 Status = ws.StepName,
+                                StepId = ws.StepId
                           };
 
             var total = result.Count();
@@ -594,10 +630,9 @@ namespace LibraryManagementSystem.Application.Service
                 switch (query.SortBy)
                 {
 
-
                     case "status":
-                        result = query.SortOrder.Equals("asc") ? result.OrderBy(s => s.Status) :
-                        result.OrderByDescending(s => s.Status);
+                        result = query.SortOrder.Equals("asc") ? result.OrderBy(s => s.StepId) :
+                        result.OrderByDescending(s => s.StepId);
                         break;
 
                     case "requester":
@@ -624,10 +659,10 @@ namespace LibraryManagementSystem.Application.Service
                         result = query.SortOrder.Equals("asc") ? result.OrderBy(s => s.Isbn) :
                         result.OrderByDescending(s => s.Isbn);
                         break;
-                    default:
 
-                        result = query.SortOrder.Equals("asc") ? result.OrderBy(s => s.Title) :
-                        result.OrderByDescending(s => s.Title);
+                    default:
+                        result = query.SortOrder.Equals("asc") ? result.OrderBy(s => s.StepId) :
+                        result.OrderByDescending(s => s.StepId);
                         break;
                 }
             }
