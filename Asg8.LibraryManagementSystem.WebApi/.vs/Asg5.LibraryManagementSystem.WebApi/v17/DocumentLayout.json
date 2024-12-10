@@ -279,7 +279,7 @@
               "RelativeDocumentMoniker": "LibraryManagementSystem.Application\\Service\\StockService.cs",
               "ToolTip": "C:\\Users\\USER\\source\\repos\\mini-project-sa\\Asg8.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Application\\Service\\StockService.cs",
               "RelativeToolTip": "LibraryManagementSystem.Application\\Service\\StockService.cs",
-              "ViewState": "AQIAAOMAAAAAAAAAAADwv/QAAAArAAAA",
+              "ViewState": "AQIAAOAAAAAAAAAAAADwv/EAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-22T03:07:12.938Z",
               "IsPinned": true,
@@ -296,8 +296,7 @@
               "ViewState": "AQIAAEcAAAAAAAAAAAAAwFIAAABPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-05T04:13:40.117Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -330,8 +329,7 @@
               "RelativeToolTip": "LibraryManagementSystem.Domain\\Models\\Entities\\WorkflowAction.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T08:44:49.431Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T08:44:49.431Z"
             },
             {
               "$type": "Document",
@@ -343,8 +341,7 @@
               "RelativeToolTip": "LibraryManagementSystem.Domain\\Models\\Entities\\WorkflowSequence.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T08:44:48.508Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T08:44:48.508Z"
             },
             {
               "$type": "Document",
@@ -356,8 +353,7 @@
               "RelativeToolTip": "LibraryManagementSystem.Domain\\Models\\Entities\\Workflow.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAAAQwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T08:34:14.979Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T08:34:14.979Z"
             },
             {
               "$type": "Document",
@@ -367,7 +363,7 @@
               "RelativeDocumentMoniker": "LibraryManagementSystem.Domain\\Models\\Entities\\BookRequest.cs",
               "ToolTip": "C:\\Users\\USER\\source\\repos\\mini-project-sa\\Asg8.LibraryManagementSystem.WebApi\\LibraryManagementSystem.Domain\\Models\\Entities\\BookRequest.cs",
               "RelativeToolTip": "LibraryManagementSystem.Domain\\Models\\Entities\\BookRequest.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAvwCUAAAAAAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAhwCUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-05T03:45:58.034Z",
               "EditorCaption": ""
@@ -394,8 +390,7 @@
               "RelativeToolTip": "LibraryManagementSystem.Infrastructure\\Repositories\\BookRepository.cs",
               "ViewState": "AQIAAB4AAAAAAAAAAAAowAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T03:07:29.401Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T03:07:29.401Z"
             },
             {
               "$type": "Document",
@@ -407,8 +402,7 @@
               "RelativeToolTip": "LibraryManagementSystem.Domain\\Models\\Entities\\Stock.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAAAAABcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T07:15:45.455Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-22T07:15:45.455Z"
             },
             {
               "$type": "Document",
@@ -420,8 +414,7 @@
               "RelativeToolTip": "LibraryManagementSystem.Domain\\Models\\Entities\\Location.cs",
               "ViewState": "AQIAABAAAAAAAAAAAAAQwBoAAAB/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T07:04:04.744Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-22T07:04:04.744Z"
             },
             {
               "$type": "Document",
@@ -445,8 +438,7 @@
               "RelativeToolTip": "LibraryManagementSystem.Domain\\Models\\Entities\\Process.cs",
               "ViewState": "AQIAABEAAAAAAAAAAAAgwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T03:41:16.447Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-05T03:41:16.447Z"
             },
             {
               "$type": "Document",
@@ -590,8 +582,7 @@
               "RelativeToolTip": "LibraryManagementSystem.WebApi\\Controllers\\AuthController.cs",
               "ViewState": "AQIAAI0AAAAAAAAAAAAgwKAAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T13:29:01.412Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-06T13:29:01.412Z"
             },
             {
               "$type": "Document",
