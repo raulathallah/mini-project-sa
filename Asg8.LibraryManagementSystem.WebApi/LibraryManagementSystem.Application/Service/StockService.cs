@@ -493,9 +493,7 @@ namespace LibraryManagementSystem.Application.Service
 
 
             var userStepId = workflowSequences.Where(w => roleId.Any(a => a == w.RequiredRole)).Select(s => s.StepId).FirstOrDefault();
-            var allProcess = await _workflowRepository.GetAllProcess();
-            var userProcess = allProcess.Where(w => w.CurrentStepId == userStepId).ToList();
-
+            var processToFollowUpData = result.Where(w => w.StepId == userStepId).OrderBy(s => s.StepId);
 
             return new
             {
@@ -503,8 +501,8 @@ namespace LibraryManagementSystem.Application.Service
                 MostActiveUsers = listMa,
                 OverdueBooks = listBo,
                 BooksPerCategory = bookCategoryCounts,
-                ProcessToFollowUp = userProcess.Count(),
-                ProccessToFollowUpData = result.Where(w=>w.StepId == userStepId).OrderBy(s => s.StepId).Take(5).ToList()
+                ProcessToFollowUp = processToFollowUpData.Count(),
+                ProccessToFollowUpData = processToFollowUpData.Take(5).ToList()
             };
         }
 
