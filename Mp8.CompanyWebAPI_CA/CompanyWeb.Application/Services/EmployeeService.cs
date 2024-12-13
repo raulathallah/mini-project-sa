@@ -212,7 +212,7 @@ namespace CompanyWeb.Application.Services
             var employeeFiltered = employees.Where(w => w.Deptno == deptNo);
             var totalPage = 0;
             var page = 1;
-            var perPage = 2;
+            var perPage = 20;
             if (employeeFiltered.Count() > perPage)
             {
                 totalPage = employeeFiltered.Count() / perPage;
@@ -262,7 +262,7 @@ namespace CompanyWeb.Application.Services
 
                     }
                     htmlcontent += "<td>" + status + "</td>";
-                    htmlcontent += "<td>" + value.Deptno + "</td>";
+                    htmlcontent += "<td>" + value.DeptnoNavigation.Deptname + "</td>";
                     htmlcontent += "</tr>";
                 }
                 htmlcontent += "</table>";
@@ -409,10 +409,16 @@ namespace CompanyWeb.Application.Services
             var workflowSequence = await _workflowRepository.GetAllWorkflowSequence();
 
             var accessorEmp = employees.Where(w => w.AppUserId == user.Id).FirstOrDefault();
+            employees = employees.Where(w => w.Deptno == accessorEmp.Deptno);
+
 
             if (roles.Any(x => x == "Employee Supervisor"))
             {
                 employees = employees.Where(w => w.DirectSupervisor == accessorEmp.Empno);
+                workflowSequence = workflowSequence.Where(w => w.RequiredRole == roleId || w.RequiredRole == null);
+            }
+            if (roles.Any(x => x == "HR Manager"))
+            {
                 workflowSequence = workflowSequence.Where(w => w.RequiredRole == roleId || w.RequiredRole == null);
             }
             if (roles.Any(x => x == "Employee"))

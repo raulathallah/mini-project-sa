@@ -1,6 +1,7 @@
 ﻿
 using CompanyWeb.Domain.Models.Auth;
 using CompanyWeb.Domain.Models.Entities;
+using CompanyWeb.Domain.Models.Helpers;
 using CompanyWeb.Domain.Models.Options;
 using CompanyWeb.Domain.Models.Requests;
 using CompanyWeb.Domain.Repositories;
@@ -419,6 +420,48 @@ namespace CompanyWeb.Application.Services
             var departments = await _departementRepository.GetAllDepartements();
             var workson = await _worksOnRepository.GetAllWorksons();
 
+            var userName = _httpContextAccessor.HttpContext.User.Identity.Name;
+            var user = await _userManager.FindByNameAsync(userName);
+            var roles = await _userManager.GetRolesAsync(user);
+
+            var roleId = _roleManager.Roles.Where(w => roles.Contains(w.Name)).FirstOrDefault().Id;
+
+            var leaveRequests = await _workflowRepository.GetAllLeaveRequest();
+            var process = await _workflowRepository.GetAllProcess();
+            var workflowSequence = await _workflowRepository.GetAllWorkflowSequence();
+
+            var accessorEmp = employees.Where(w => w.AppUserId == user.Id).FirstOrDefault();
+            var joinLRE = from lr in leaveRequests
+                          join emp in employees on lr.Empno equals emp.Empno
+                          join p in process on lr.ProcessId equals p.ProcessId
+                          join wfs in workflowSequence on p.CurrentStepId equals wfs.StepId
+                          where emp.Deptno == accessorEmp.Deptno
+                          select new
+                          {
+                              LeaveRequestId = lr.LeaveRequestId,
+                              Empno = lr.Empno,
+                              EmployeeName = emp.Fname + " " + emp.Lname,
+                              StartDate = lr.StartDate,
+                              EndDate = lr.EndDate,
+                              TotalDays = (lr.EndDate.GetValueOrDefault().DayNumber - lr.StartDate.GetValueOrDefault().DayNumber) + 1,
+                              LeaveType = lr.LeaveType,
+                              Reason = lr.LeaveReason,
+                              File = lr.FileName,
+                              Status = wfs.StepName,
+                              RequestDate = p.RequestDate,
+                              StepId = wfs.StepId,
+                          };
+
+            if (roles.Any(x => x == "Employee Supervisor"))
+            {
+                employees = employees.Where(w => w.DirectSupervisor == accessorEmp.Empno);
+                workflowSequence = workflowSequence.Where(w => w.RequiredRole == roleId || w.RequiredRole == null);
+            }
+            if (roles.Any(x => x == "Employee"))
+            {
+                employees = employees.Where(w => w.Empno == accessorEmp.Empno);
+            }
+
             var d = (from value in employees
                      join dept in departments on value.Deptno equals dept.Deptno
                      select value)
@@ -450,11 +493,17 @@ namespace CompanyWeb.Application.Services
                 .Take(5)
                 .ToList();
 
+
+            var userStepId = workflowSequence.Where(w => roleId== w.RequiredRole).Select(s => s.StepId).FirstOrDefault();
+            var processToFollowUpData = joinLRE.Where(w => w.StepId == userStepId).OrderBy(s => s.StepId);
+
             return new
             {
                 EmpDistribution = d,
                 DeptAvgSalary = avgSalary,
-                EmpTopPerformance = totalHoursByEmpDesc
+                EmpTopPerformance = totalHoursByEmpDesc,
+                ProcessToFollowUpTotal = processToFollowUpData.Count(),
+                ProcessToFollowUpData = processToFollowUpData.OrderBy(ob => ob.RequestDate).Take(5).ToList()
             };
         }
 

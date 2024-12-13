@@ -53,7 +53,7 @@ namespace CompanyWeb.Infrastructure.Repositories
         }
         public async Task<IQueryable<Employee>> GetAllEmployees()
         {
-            return Context.Employees;
+            return Context.Employees.Include(w=>w.DeptnoNavigation);
             
         }
         public async Task<Employee> Update(Employee employee)
