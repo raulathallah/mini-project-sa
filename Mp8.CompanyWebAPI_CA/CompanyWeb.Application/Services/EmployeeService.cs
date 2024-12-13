@@ -210,12 +210,13 @@ namespace CompanyWeb.Application.Services
 
             var employees = await _employeeRepository.GetAllEmployees();
             var employeeFiltered = employees.Where(w => w.Deptno == deptNo);
-            var totalPage = 0;
+            double totalPage = 0;
             var page = 1;
             var perPage = 20;
             if (employeeFiltered.Count() > perPage)
             {
-                totalPage = employeeFiltered.Count() / perPage;
+                double calc = (double)employeeFiltered.Count() / (double)perPage;
+                totalPage = Math.Ceiling(calc);
             }
             else
             {

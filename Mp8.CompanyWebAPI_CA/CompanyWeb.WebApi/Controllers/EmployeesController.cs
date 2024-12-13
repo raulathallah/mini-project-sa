@@ -96,7 +96,7 @@ namespace CompanyWeb.WebApi.Controllers
         /// <param name="request"></param>
         /// <returns> return employee data by ID </returns>
         // GET: api/Employees/5
-        [Authorize(Roles = "Administrator, HR Manager, Employee, Department Manager, Employee Supervisor, Employee")]
+        [Authorize(Roles = "Administrator, HR Manager, Department Manager, Employee Supervisor, Employee")]
         [HttpGet("{id}")]
         [ProducesResponseType(typeof(Employee), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(Employee), StatusCodes.Status404NotFound)]
